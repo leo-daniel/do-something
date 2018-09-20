@@ -5,20 +5,37 @@ const userSchema = new Schema({
   email: { 
     type: String,
     unique: true,
-    required: [true,'Email is required']
+    trim: true,
+    match: [/.+@.+\..+/, "Please enter a valid e-mail address"]
   },
   password: { 
-    type: String, 
+    type: String,
+    trim: true, 
     required: [true, 'Password is required'] 
   },
   name: {
-    first: String,
-    last: String
+    first: {
+      type: String,
+      trim: true
+    },
+    last: {
+      type: String,
+      trim: true
+    }
   },
   location: {
-    address: String,
-    city: String,
-    state: String
+    address: {
+      type: String,
+      trim: true
+    },
+    city: {
+      type: String,
+      trim: true
+    },
+    state: {
+      type: String,
+      trim: true
+    }
   },
   phoneNumber: {
     type: String,
@@ -29,7 +46,11 @@ const userSchema = new Schema({
       message: props => `${props.value} is not a valid phone number!`
     }
   },
-  volunteerRadius: String
+  volunteerRadius: String,
+  userCreated: {
+    type: Date,
+    default: Date.now
+  }
 });
 
 const User = mongoose.model("User", userSchema);
