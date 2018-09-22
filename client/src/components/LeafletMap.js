@@ -27,7 +27,7 @@ export default class LeafletMap extends Component {
         />
         <Marker position={position} icon={myIcon}>
           <Popup>
-            A pretty CSS3 popup. <br /> Easily customizable.
+            YOU BETTER VOLUNTEER HERE! <br /> Let's put event title ; date ; organizer ; time ; location ; contact?.
           </Popup>
         </Marker>
       </Map>
