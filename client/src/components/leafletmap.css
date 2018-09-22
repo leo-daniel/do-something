@@ -1,0 +1,13 @@
+/* body, html {
+    margin: 0px;
+    width: 100vw;
+    height: 50vh;
+  }
+  
+  #root {
+    height: 100vh;
+  } */
+
+  .map {
+    height: 50vh;
+  }
