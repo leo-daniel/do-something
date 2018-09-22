@@ -6,7 +6,7 @@ const userSchema = new Schema({
     type: String,
     unique: true,
     trim: true,
-    match: [[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}, 'Please enter a valid email address']
+    match: [/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/, 'Please enter a valid email address']
   },
   password: { 
     type: String,
