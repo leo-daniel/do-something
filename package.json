@@ -1,5 +1,5 @@
 {
-  "name": "supasquad",
+  "name": "do-something",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -15,15 +15,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leo-daniel/supasquad.git"
+    "url": "git+https://github.com/leo-daniel/do-something.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/leo-daniel/supasquad/issues"
+    "url": "https://github.com/leo-daniel/do-something/issues"
   },
-  "homepage": "https://github.com/leo-daniel/supasquad#readme",
+  "homepage": "https://github.com/leo-daniel/do-something#readme",
   "dependencies": {
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",

@@ -1,11 +1,11 @@
 import React, { Component, Fragment } from 'react';
 import './App.css';
-import Register from './pages/Register'
+import Main from './pages/Main';
 
 class App extends Component {
   render() {
     return <Fragment>
-      <Register />
+      <Main />
 
     </Fragment>
       
