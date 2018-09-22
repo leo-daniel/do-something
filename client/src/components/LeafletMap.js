@@ -19,6 +19,7 @@ export default class LeafletMap extends Component {
 
   render() {
     const position = [this.state.lat, this.state.lng]
+    //const eventMarkers = [] // GET CALL HERE
     return (
       <Map className='map' center={position} zoom={this.state.zoom}>
         <TileLayer
