@@ -32,8 +32,13 @@ dbConnect.once("open", function() {
   console.log("Mongoose connection successful.");
 });
 
-//test route User
+// Send every request to the React app
+// Define any API routes before this runs
+app.get("*", function(req, res) {
+  res.sendFile(path.join(__dirname, "./client/build/index.html"));
+});
 
+//test route User
 app.get("/", function(req, res) {
   User.find({}, function(error, data) {
     var hbsObject = {
