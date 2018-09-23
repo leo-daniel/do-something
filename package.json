@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/leo-daniel/do-something#readme",
   "dependencies": {
+    "auth0-js": "^9.7.3",
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
     "concurrently": "^4.0.1",
