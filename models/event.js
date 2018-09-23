@@ -15,26 +15,24 @@ const eventSchema = new Schema({
     type: Schema.Types.ObjectId,
     ref: "User"
   },
-  location: {
-    address: {
-      type: String,
-      trim: true
-    },
-    city: {
-      type: String,
-      trim: true
-    },
-    state: {
-      type: String,
-      trim: true
-    },
-    latitude: { 
-        type: String, 
-    },
-    longitude: {
-        type: String,
-    }
+  address: {
+    type: String,
+    trim: true
   },
+  city: {
+    type: String,
+    trim: true
+  },
+  state: {
+    type: String,
+    trim: true
+  },
+  latitude: { 
+    type: String, 
+  },
+  longitude: {
+      type: String,
+    },
   date: {
     type: Date,
     default: Date.now
