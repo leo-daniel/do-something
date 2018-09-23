@@ -12,7 +12,7 @@ const eventSchema = new Schema({
     trim: true, 
   },
   organizerID: { 
-    type: Schema.Types.OnjectId,
+    type: Schema.Types.ObjectId,
     ref: "User"
   },
   location: {
