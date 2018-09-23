@@ -4,7 +4,8 @@ const mongoose = require("mongoose");
 // const routes = require("./routes");
 const app = express();
 const PORT = process.env.PORT || 3001;
-var User = require("./models/User");
+var User = require("./models/user");
+var Event = require("./models/event");
 
 // Define middleware here
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -31,12 +32,22 @@ dbConnect.once("open", function() {
   console.log("Mongoose connection successful.");
 });
 
-//test route
+//test route User
 
 app.get("/", function(req, res) {
   User.find({}, function(error, data) {
     var hbsObject = {
       User: data
+    };
+    console.log(hbsObject);
+  });
+});
+
+//test route Event
+app.get("/", function(req, res) {
+  Event.find({}, function(error, data) {
+    var hbsObject = {
+      Event: data
     };
     console.log(hbsObject);
   });
