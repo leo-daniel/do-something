@@ -4,7 +4,8 @@ const mongoose = require("mongoose");
 // const routes = require("./routes");
 const app = express();
 const PORT = process.env.PORT || 3001;
-var User = require("./models/User");
+var User = require("./models/user");
+var Event = require("./models/event")
 
 // Define middleware here
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -31,8 +32,14 @@ dbConnect.once("open", function() {
   console.log("Mongoose connection successful.");
 });
 
-//test route
 
+// Send every request to the React app
+// Define any API routes before this runs
+app.get("*", function(req, res) {
+  res.sendFile(path.join(__dirname, "./client/build/index.html"));
+});
+
+//test route User
 app.get("/", function(req, res) {
   User.find({}, function(error, data) {
     var hbsObject = {
@@ -41,6 +48,17 @@ app.get("/", function(req, res) {
     console.log(hbsObject);
   });
 });
+
+//test route Event
+app.get("/", function(req, res) {
+  Event.find({}, function(error, data) {
+    var hbsObject = {
+      Event: data
+    };
+    console.log(hbsObject);
+  });
+});
+
 
 // Start the API server
 app.listen(PORT, function() {
