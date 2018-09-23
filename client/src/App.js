@@ -4,8 +4,8 @@ import Main from './pages/Main';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Register from "./pages/Register";
 import Profile from "./pages/Profile";
-// Should add a 'no match' page later.
-// import NoMatch from "./pages/NoMatch";
+import Events from './pages/Events';
+import NoMatch from "./pages/NoMatch";
 
 const App = () => (
   <Router>
@@ -14,7 +14,8 @@ const App = () => (
         <Route exact path="/" component={Main} />
         <Route exact path="/register" component={Register} />
         <Route exact path="/user/:id" component={Profile} />
-        {/* <Route component={NoMatch} /> */}
+        <Route exact path="/events" component={Events} />
+        <Route component={NoMatch} />
       </Switch>
     </div>
   </Router>
