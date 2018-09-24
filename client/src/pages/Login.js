@@ -67,7 +67,7 @@ render() {
           <CardContent>
             <form className={classes.container} noValidate autoComplete="off">
               <Typography variant="title" gutterBottom>
-                User Registration
+                User Login
           </Typography>
                 <Grid container justify="center" spacing={24}>
                   <Grid item xs={12}>
