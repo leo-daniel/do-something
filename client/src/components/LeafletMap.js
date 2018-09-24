@@ -3,11 +3,12 @@ import { Map, TileLayer, Marker, Popup } from 'react-leaflet';
 import './leafletmap.css';
 import L from 'leaflet';
 import defaultIconURL from './vol-icon.png';
+import API from '.././utils/API';
 
 const myIcon = L.icon({
   iconUrl: defaultIconURL,
-  iconSize: [40, 40],
-  popupAnchor:[5,-12]
+  iconSize: [20, 20],
+  popupAnchor:[0,-12]
 });
 
 export default class LeafletMap extends Component {
@@ -15,7 +16,20 @@ export default class LeafletMap extends Component {
     lat: 39.809860,
     lng: -98.555183,
     zoom: 4,
+    events: []
   }
+
+  componentDidMount() {
+    this.loadEvents();
+  }
+
+  loadEvents = () => {
+    API.getEvents()
+      .then(res =>
+          this.setState({ events: res.data})
+      )
+      .catch(err => console.log(err));
+  };
 
   render() {
     const position = [this.state.lat, this.state.lng]
@@ -26,15 +40,25 @@ export default class LeafletMap extends Component {
           attribution="&amp;copy <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        <Marker position={position} icon={myIcon}>
-          <Popup >
-            <div><h1><strong>Send Thots and Prayers</strong></h1> <hr/>
-            Gather in the center of the U.S. to volunteer. <br />
-             
-            (Let's put event title ; description; date ; organizer ; time ; location ; contact?. Use CSS to customize look and feel of this targeting .mypopup.leaflet-popup-content-wrapper)
-            </div>
-          </Popup>
+      {console.log(this.state.events)}
+      {this.state.events.map(event => 
+      
+        <Marker key={event._id} position={[event.latitude, event.longitude]} icon={myIcon}>
+        <Popup >
+          <div><h3><strong>{event.eventName}</strong></h3>
+          <p>{event.date}</p><hr/>
+          {event.description} <br />
+          Location: {event.street} <a>Get Directions</a> <br />
+          From {event.startTime} to {event.endTime} (local)<br />
+          Organizer: {}(Placeholder) <a>Contact</a> <br />
+          <button><strong>Sign Up</strong></button> <br/>
+          (class .mypopup.leaflet-popup-content-wrapper)
+          </div>
+        </Popup>
         </Marker>
+      
+      )}
+
       </Map>
     )
   }
