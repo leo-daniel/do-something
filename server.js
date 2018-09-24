@@ -1,10 +1,9 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
-// const routes = require("./routes");
+const routes = require("./routes");
 const app = express();
 const PORT = process.env.PORT || 3001;
-var User = require("./models/User");
 
 // Define middleware here
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -15,7 +14,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 // Add routes, both API and view
-// app.use(routes);
+app.use(routes);
 
 // Connect to the Mongo DB
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/dosomething");
@@ -31,6 +30,7 @@ dbConnect.once("open", function() {
   console.log("Mongoose connection successful.");
 });
 
+<<<<<<< HEAD
 //test route
 
 app.get("/callback", function(req, res) {
@@ -40,6 +40,12 @@ app.get("/callback", function(req, res) {
     };
     console.log(hbsObject);
   });
+=======
+// Send every request to the React app
+// Define any API routes before this runs
+app.get("*", function(req, res) {
+  res.sendFile(path.join(__dirname, "./client/build/index.html"));
+>>>>>>> origin/develop
 });
 
 // Start the API server
