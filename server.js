@@ -33,7 +33,7 @@ dbConnect.once("open", function() {
 
 //test route
 
-app.get("/", function(req, res) {
+app.get("/callback", function(req, res) {
   User.find({}, function(error, data) {
     var hbsObject = {
       User: data
