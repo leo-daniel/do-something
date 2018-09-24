@@ -14,7 +14,7 @@ export default {
     return axios.get("/api/users");
   },
   // Gets the user with the given id
-  getUser: function() {
+  getUser: function(id) {
     return axios.get("/api/users" + id);
   },
   // Create a new user
