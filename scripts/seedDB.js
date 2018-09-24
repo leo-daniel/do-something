@@ -30,8 +30,8 @@ const eventSeed = [
       "latitude": "32.1971433",
       "longitude": "-110.8220342",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Lake Worth, FL",
@@ -43,8 +43,8 @@ const eventSeed = [
       "latitude": "39.1711157",
       "longitude": "-85.9692117",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in New York City, NY",
@@ -56,8 +56,8 @@ const eventSeed = [
       "latitude": "39.9625984",
       "longitude": "-76.727745",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Spokane, WA",
@@ -69,8 +69,8 @@ const eventSeed = [
       "latitude": "47.6587802",
       "longitude": "-117.4260465",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Minneapolis, MN",
@@ -82,8 +82,8 @@ const eventSeed = [
       "latitude": "38.8026097",
       "longitude": "-116.419389",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in Memphis, TN",
@@ -95,8 +95,8 @@ const eventSeed = [
       "latitude": "39.62031",
       "longitude": "-104.332644",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in San Mateo, CA",
@@ -108,8 +108,8 @@ const eventSeed = [
       "latitude": "37.551047",
       "longitude": "-122.315056",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Cincinnati, OH",
@@ -121,8 +121,8 @@ const eventSeed = [
       "latitude": "39.1031182",
       "longitude": "-84.5120196",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Los Angeles, CA",
@@ -134,8 +134,8 @@ const eventSeed = [
       "latitude": "34.1365544",
       "longitude": "-118.2942",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Rochester, NY",
@@ -147,8 +147,8 @@ const eventSeed = [
       "latitude": "43.1619967",
       "longitude": "-77.5875728",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Wichita Falls, TX",
@@ -160,8 +160,8 @@ const eventSeed = [
       "latitude": "33.9137085",
       "longitude": "-98.4933873",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in Cheyenne, WY",
@@ -173,8 +173,8 @@ const eventSeed = [
       "latitude": "41.1798214",
       "longitude": "-104.8424427",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in Huntsville, TX",
@@ -186,8 +186,8 @@ const eventSeed = [
       "latitude": "35.5174913",
       "longitude": "-86.5804473",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Winston Salem, NC",
@@ -199,8 +199,8 @@ const eventSeed = [
       "latitude": "36.0918898",
       "longitude": "-80.3103502",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in Englewood, CO",
@@ -212,8 +212,8 @@ const eventSeed = [
       "latitude": "39.6477653",
       "longitude": "-104.9877597",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in Baton Rouge, LA",
@@ -225,8 +225,8 @@ const eventSeed = [
       "latitude": "30.4514677",
       "longitude": "-91.1871466",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Iowa City, IA",
@@ -238,8 +238,8 @@ const eventSeed = [
       "latitude": "40.6858857",
       "longitude": "-92.6771915",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Fort Pierce, FL",
@@ -251,8 +251,8 @@ const eventSeed = [
       "latitude": "27.520092",
       "longitude": "-80.407544",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in West Palm Beach, FL",
@@ -264,8 +264,8 @@ const eventSeed = [
       "latitude": "26.720779",
       "longitude": "-80.13136",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Marietta, GA",
@@ -277,8 +277,8 @@ const eventSeed = [
       "latitude": "34.5714827",
       "longitude": "-86.9373314",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Lancaster, PA",
@@ -290,8 +290,8 @@ const eventSeed = [
       "latitude": "43.1373398",
       "longitude": "-89.3036463",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in New York City, NY",
@@ -303,8 +303,8 @@ const eventSeed = [
       "latitude": "40.692286",
       "longitude": "-73.80082",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in Modesto, CA",
@@ -316,8 +316,8 @@ const eventSeed = [
       "latitude": "34.2597858",
       "longitude": "-118.819896",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Buffalo, NY",
@@ -329,8 +329,8 @@ const eventSeed = [
       "latitude": "42.9216614",
       "longitude": "-78.7991204",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Irvine, CA",
@@ -342,8 +342,8 @@ const eventSeed = [
       "latitude": "33.6845673",
       "longitude": "-117.8265049",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Houston, TX",
@@ -355,8 +355,8 @@ const eventSeed = [
       "latitude": "29.7604267",
       "longitude": "-95.3698028",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Springfield, IL",
@@ -368,8 +368,8 @@ const eventSeed = [
       "latitude": "39.7817213",
       "longitude": "-89.6501481",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Riverside, CA",
@@ -381,8 +381,8 @@ const eventSeed = [
       "latitude": "33.9806005",
       "longitude": "-117.3754942",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Santa Fe, NM",
@@ -394,8 +394,8 @@ const eventSeed = [
       "latitude": "35.6869752",
       "longitude": "-105.937799",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in Kent, WA",
@@ -407,8 +407,8 @@ const eventSeed = [
       "latitude": "27.197548",
       "longitude": "-80.2528257",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in Gatesville, TX",
@@ -420,8 +420,8 @@ const eventSeed = [
       "latitude": "31.4351645",
       "longitude": "-97.743911",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Suffolk, VA",
@@ -433,8 +433,8 @@ const eventSeed = [
       "latitude": "32.789525",
       "longitude": "-96.797745",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Naples, FL",
@@ -446,8 +446,8 @@ const eventSeed = [
       "latitude": "32.5007037",
       "longitude": "-94.7404891",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Louisville, KY",
@@ -459,8 +459,8 @@ const eventSeed = [
       "latitude": "38.2526647",
       "longitude": "-85.7584557",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Grand Forks, ND",
@@ -472,8 +472,8 @@ const eventSeed = [
       "latitude": "47.9252568",
       "longitude": "-97.0328547",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in Atlanta, GA",
@@ -485,8 +485,8 @@ const eventSeed = [
       "latitude": "33.7489954",
       "longitude": "-84.3879824",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in Tampa, FL",
@@ -498,8 +498,8 @@ const eventSeed = [
       "latitude": "36.6320062",
       "longitude": "-90.8268705",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Stockton, CA",
@@ -511,8 +511,8 @@ const eventSeed = [
       "latitude": "37.9126218",
       "longitude": "-121.2781254",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in Fort Lauderdale, FL",
@@ -524,8 +524,8 @@ const eventSeed = [
       "latitude": "44.8755183",
       "longitude": "-91.9193422",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in New York City, NY",
@@ -537,8 +537,8 @@ const eventSeed = [
       "latitude": "39.9625984",
       "longitude": "-76.727745",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Dallas, TX",
@@ -550,8 +550,8 @@ const eventSeed = [
       "latitude": "32.9015229",
       "longitude": "-96.8087424",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Philadelphia, PA",
@@ -563,8 +563,8 @@ const eventSeed = [
       "latitude": "40.0516105",
       "longitude": "-75.1825734",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Las Vegas, NV",
@@ -576,8 +576,8 @@ const eventSeed = [
       "latitude": "35.0476912",
       "longitude": "-90.0260493",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Alhambra, CA",
@@ -589,8 +589,8 @@ const eventSeed = [
       "latitude": "34.095287",
       "longitude": "-118.1270146",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Oklahoma City, OK",
@@ -602,8 +602,8 @@ const eventSeed = [
       "latitude": "35.61416",
       "longitude": "-97.452274",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in El Paso, TX",
@@ -615,8 +615,8 @@ const eventSeed = [
       "latitude": "31.7523228",
       "longitude": "-106.4833631",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in Columbus, OH",
@@ -628,8 +628,8 @@ const eventSeed = [
       "latitude": "40.0785281",
       "longitude": "-82.9530261",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Detroit, MI",
@@ -641,8 +641,8 @@ const eventSeed = [
       "latitude": "42.331427",
       "longitude": "-83.0457538",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Monroe, LA",
@@ -654,8 +654,8 @@ const eventSeed = [
       "latitude": "32.5434045",
       "longitude": "-92.1119116",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Asheville, NC",
@@ -667,8 +667,8 @@ const eventSeed = [
       "latitude": "35.6211177",
       "longitude": "-82.4517386",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Bakersfield, CA",
@@ -680,8 +680,8 @@ const eventSeed = [
       "latitude": "35.3821314",
       "longitude": "-118.9178264",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Alexandria, VA",
@@ -693,8 +693,8 @@ const eventSeed = [
       "latitude": "38.840635",
       "longitude": "-77.154689",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Nashville, TN",
@@ -706,8 +706,8 @@ const eventSeed = [
       "latitude": "36.0917112",
       "longitude": "-86.8530385",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in Waco, TX",
@@ -719,8 +719,8 @@ const eventSeed = [
       "latitude": "31.5402428",
       "longitude": "-97.1237723",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in Troy, MI",
@@ -732,8 +732,8 @@ const eventSeed = [
       "latitude": "42.6064095",
       "longitude": "-83.1497751",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Springfield, OH",
@@ -745,8 +745,8 @@ const eventSeed = [
       "latitude": "39.9242266",
       "longitude": "-83.8088171",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Pittsburgh, PA",
@@ -758,8 +758,8 @@ const eventSeed = [
       "latitude": "40.4406248",
       "longitude": "-79.9958864",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Lincoln, NE",
@@ -771,8 +771,8 @@ const eventSeed = [
       "latitude": "40.8058003",
       "longitude": "-96.6123449",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Juneau, AK",
@@ -784,8 +784,8 @@ const eventSeed = [
       "latitude": "38.5010649",
       "longitude": "-121.4439604",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in Winston Salem, NC",
@@ -797,8 +797,8 @@ const eventSeed = [
       "latitude": "36.083216",
       "longitude": "-80.222058",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in Philadelphia, PA",
@@ -810,8 +810,8 @@ const eventSeed = [
       "latitude": "39.9527018",
       "longitude": "-75.1423722",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Pittsburgh, PA",
@@ -823,8 +823,8 @@ const eventSeed = [
       "latitude": "40.448589",
       "longitude": "-80.0497666",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in Miami, FL",
@@ -836,8 +836,8 @@ const eventSeed = [
       "latitude": "25.7616798",
       "longitude": "-80.1917902",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in Athens, GA",
@@ -849,8 +849,8 @@ const eventSeed = [
       "latitude": "33.9190181",
       "longitude": "-83.3855495",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Miami, FL",
@@ -862,8 +862,8 @@ const eventSeed = [
       "latitude": "33.6744794",
       "longitude": "-111.9075351",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Des Moines, IA",
@@ -875,8 +875,8 @@ const eventSeed = [
       "latitude": "44.8755183",
       "longitude": "-91.9193422",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Jacksonville, FL",
@@ -888,8 +888,8 @@ const eventSeed = [
       "latitude": "30.3321838",
       "longitude": "-81.655651",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Rochester, NY",
@@ -901,8 +901,8 @@ const eventSeed = [
       "latitude": "43.1565779",
       "longitude": "-77.6088465",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Santa Barbara, CA",
@@ -914,8 +914,8 @@ const eventSeed = [
       "latitude": "34.4106086",
       "longitude": "-119.7226274",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in Grand Junction, CO",
@@ -927,8 +927,8 @@ const eventSeed = [
       "latitude": "39.0903724",
       "longitude": "-108.5627075",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in San Francisco, CA",
@@ -940,8 +940,8 @@ const eventSeed = [
       "latitude": "37.7749295",
       "longitude": "-122.4194155",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Roanoke, VA",
@@ -953,8 +953,8 @@ const eventSeed = [
       "latitude": "37.2571438",
       "longitude": "-79.9453298",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Washington, DC",
@@ -966,8 +966,8 @@ const eventSeed = [
       "latitude": "38.874402",
       "longitude": "-77.0271736",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Detroit, MI",
@@ -979,8 +979,8 @@ const eventSeed = [
       "latitude": "42.3519436",
       "longitude": "-83.1523542",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Charlotte, NC",
@@ -992,8 +992,8 @@ const eventSeed = [
       "latitude": "35.2364965",
       "longitude": "-80.852651",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Jersey City, NJ",
@@ -1005,8 +1005,8 @@ const eventSeed = [
       "latitude": "40.74037",
       "longitude": "-74.0419237",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Metairie, LA",
@@ -1018,8 +1018,8 @@ const eventSeed = [
       "latitude": "34.0966764",
       "longitude": "-117.7197785",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in North Hollywood, CA",
@@ -1031,8 +1031,8 @@ const eventSeed = [
       "latitude": "34.187044",
       "longitude": "-118.3812562",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in Washington, DC",
@@ -1044,8 +1044,8 @@ const eventSeed = [
       "latitude": "38.9071923",
       "longitude": "-77.0368707",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Charleston, WV",
@@ -1057,8 +1057,8 @@ const eventSeed = [
       "latitude": "38.346368",
       "longitude": "-81.638494",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Boise, ID",
@@ -1070,8 +1070,8 @@ const eventSeed = [
       "latitude": "43.6150186",
       "longitude": "-116.2023137",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Davenport, IA",
@@ -1083,8 +1083,8 @@ const eventSeed = [
       "latitude": "41.5236437",
       "longitude": "-90.5776367",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Washington, DC",
@@ -1096,8 +1096,8 @@ const eventSeed = [
       "latitude": "38.9071923",
       "longitude": "-77.0368707",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in Flint, MI",
@@ -1109,8 +1109,8 @@ const eventSeed = [
       "latitude": "43.068813",
       "longitude": "-83.582426",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in San Mateo, CA",
@@ -1122,8 +1122,8 @@ const eventSeed = [
       "latitude": "37.5872675",
       "longitude": "-122.3191011",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in El Paso, TX",
@@ -1135,8 +1135,8 @@ const eventSeed = [
       "latitude": "31.7591601",
       "longitude": "-106.4854209",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in Saint Louis, MO",
@@ -1148,8 +1148,8 @@ const eventSeed = [
       "latitude": "38.6270025",
       "longitude": "-90.1994042",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in Wichita, KS",
@@ -1161,8 +1161,8 @@ const eventSeed = [
       "latitude": "37.6898133",
       "longitude": "-97.4448118",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Colorado Springs, CO",
@@ -1174,8 +1174,8 @@ const eventSeed = [
       "latitude": "38.8563163",
       "longitude": "-104.874677",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Chicago, IL",
@@ -1187,8 +1187,8 @@ const eventSeed = [
       "latitude": "41.8781136",
       "longitude": "-87.6297982",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Minneapolis, MN",
@@ -1200,8 +1200,8 @@ const eventSeed = [
       "latitude": "44.977753",
       "longitude": "-93.2650108",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Syracuse, NY",
@@ -1213,8 +1213,8 @@ const eventSeed = [
       "latitude": "33.5839777",
       "longitude": "-111.9272838",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Los Angeles, CA",
@@ -1226,8 +1226,8 @@ const eventSeed = [
       "latitude": "34.0904028",
       "longitude": "-118.3091926",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in Greenville, SC",
@@ -1239,8 +1239,8 @@ const eventSeed = [
       "latitude": "34.872784",
       "longitude": "-82.452911",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in Brooklyn, NY",
@@ -1252,8 +1252,8 @@ const eventSeed = [
       "latitude": "35.120943",
       "longitude": "-89.7314395",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Pasadena, CA",
@@ -1265,8 +1265,8 @@ const eventSeed = [
       "latitude": "34.0489281",
       "longitude": "-111.0937311",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Sunnyvale, CA",
@@ -1278,8 +1278,8 @@ const eventSeed = [
       "latitude": "37.36883",
       "longitude": "-122.0363496",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Los Angeles, CA",
@@ -1291,8 +1291,8 @@ const eventSeed = [
       "latitude": "34.0522342",
       "longitude": "-118.2436849",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Saint Paul, MN",
@@ -1304,8 +1304,8 @@ const eventSeed = [
       "latitude": "44.8834533",
       "longitude": "-93.14449",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Salt Lake City, UT",
@@ -1317,8 +1317,8 @@ const eventSeed = [
       "latitude": "39.350833",
       "longitude": "-101.7101722",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in El Paso, TX",
@@ -1330,8 +1330,8 @@ const eventSeed = [
       "latitude": "31.723911",
       "longitude": "-106.3638149",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in Meridian, MS",
@@ -1343,8 +1343,8 @@ const eventSeed = [
       "latitude": "30.0992975",
       "longitude": "-90.705779",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in Nashville, TN",
@@ -1356,8 +1356,8 @@ const eventSeed = [
       "latitude": "36.1463664",
       "longitude": "-86.7578568",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Norwalk, CT",
@@ -1369,8 +1369,8 @@ const eventSeed = [
       "latitude": "41.1176791",
       "longitude": "-73.3968693",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Des Moines, IA",
@@ -1382,8 +1382,8 @@ const eventSeed = [
       "latitude": "41.5868353",
       "longitude": "-93.6249593",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Largo, FL",
@@ -1395,8 +1395,8 @@ const eventSeed = [
       "latitude": "39.4717184",
       "longitude": "-84.7524482",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Fresno, CA",
@@ -1408,8 +1408,8 @@ const eventSeed = [
       "latitude": "36.7972178",
       "longitude": "-119.8409214",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in Kansas City, MO",
@@ -1421,8 +1421,8 @@ const eventSeed = [
       "latitude": "28.0394654",
       "longitude": "-81.9498042",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in Dallas, TX",
@@ -1434,8 +1434,8 @@ const eventSeed = [
       "latitude": "39.0457549",
       "longitude": "-76.6412712",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Newark, NJ",
@@ -1447,8 +1447,8 @@ const eventSeed = [
       "latitude": "40.735657",
       "longitude": "-74.1723667",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in Las Vegas, NV",
@@ -1460,8 +1460,8 @@ const eventSeed = [
       "latitude": "36.1799549",
       "longitude": "-115.1387069",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in Vero Beach, FL",
@@ -1473,8 +1473,8 @@ const eventSeed = [
       "latitude": "27.5803121",
       "longitude": "-80.3867178",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Colorado Springs, CO",
@@ -1486,8 +1486,8 @@ const eventSeed = [
       "latitude": "38.8096811",
       "longitude": "-104.7755696",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Warren, OH",
@@ -1499,8 +1499,8 @@ const eventSeed = [
       "latitude": "41.216232",
       "longitude": "-80.768534",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Sacramento, CA",
@@ -1512,8 +1512,8 @@ const eventSeed = [
       "latitude": "38.5815719",
       "longitude": "-121.4943996",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Boston, MA",
@@ -1525,8 +1525,8 @@ const eventSeed = [
       "latitude": "42.3772194",
       "longitude": "-71.0619339",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Cleveland, OH",
@@ -1538,8 +1538,8 @@ const eventSeed = [
       "latitude": "33.6950452",
       "longitude": "-84.3861474",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in Aurora, CO",
@@ -1551,8 +1551,8 @@ const eventSeed = [
       "latitude": "39.613711",
       "longitude": "-104.7038149",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in Glendale, CA",
@@ -1564,8 +1564,8 @@ const eventSeed = [
       "latitude": "43.1164488",
       "longitude": "-89.2990792",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Jackson, MS",
@@ -1577,8 +1577,8 @@ const eventSeed = [
       "latitude": "32.2987573",
       "longitude": "-90.1848103",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Jackson, TN",
@@ -1590,8 +1590,8 @@ const eventSeed = [
       "latitude": "35.6145169",
       "longitude": "-88.8139469",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Reno, NV",
@@ -1603,8 +1603,8 @@ const eventSeed = [
       "latitude": "39.5147989",
       "longitude": "-119.8018307",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Evansville, IN",
@@ -1616,8 +1616,8 @@ const eventSeed = [
       "latitude": "37.9715592",
       "longitude": "-87.5710898",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Jacksonville, FL",
@@ -1629,8 +1629,8 @@ const eventSeed = [
       "latitude": "30.3321838",
       "longitude": "-81.655651",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Fort Wayne, IN",
@@ -1642,8 +1642,8 @@ const eventSeed = [
       "latitude": "41.079273",
       "longitude": "-85.1393513",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in West Palm Beach, FL",
@@ -1655,8 +1655,8 @@ const eventSeed = [
       "latitude": "26.725872",
       "longitude": "-80.050914",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in Simi Valley, CA",
@@ -1668,8 +1668,8 @@ const eventSeed = [
       "latitude": "34.0034136",
       "longitude": "-117.4311482",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Tallahassee, FL",
@@ -1681,8 +1681,8 @@ const eventSeed = [
       "latitude": "30.4382559",
       "longitude": "-84.2807329",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in San Antonio, TX",
@@ -1694,8 +1694,8 @@ const eventSeed = [
       "latitude": "29.4241219",
       "longitude": "-98.4936282",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Akron, OH",
@@ -1707,8 +1707,8 @@ const eventSeed = [
       "latitude": "53.800885",
       "longitude": "-1.041382",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Worcester, MA",
@@ -1720,8 +1720,8 @@ const eventSeed = [
       "latitude": "42.2625932",
       "longitude": "-71.8022934",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in Washington, DC",
@@ -1733,8 +1733,8 @@ const eventSeed = [
       "latitude": "38.9071923",
       "longitude": "-77.0368707",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in Worcester, MA",
@@ -1746,8 +1746,8 @@ const eventSeed = [
       "latitude": "42.268227",
       "longitude": "-71.829421",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in San Francisco, CA",
@@ -1759,8 +1759,8 @@ const eventSeed = [
       "latitude": "37.7804869",
       "longitude": "-122.4192507",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in Sunnyvale, CA",
@@ -1772,8 +1772,8 @@ const eventSeed = [
       "latitude": "37.3389037",
       "longitude": "-122.0259439",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in Dayton, OH",
@@ -1785,8 +1785,8 @@ const eventSeed = [
       "latitude": "41.8192126",
       "longitude": "-90.5068824",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Sacramento, CA",
@@ -1798,8 +1798,8 @@ const eventSeed = [
       "latitude": "38.4805538",
       "longitude": "-121.4541881",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Birmingham, AL",
@@ -1811,8 +1811,8 @@ const eventSeed = [
       "latitude": "33.5185892",
       "longitude": "-86.8103567",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Tampa, FL",
@@ -1824,8 +1824,8 @@ const eventSeed = [
       "latitude": "28.0352964",
       "longitude": "-82.3892596",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in San Diego, CA",
@@ -1837,8 +1837,8 @@ const eventSeed = [
       "latitude": "32.715738",
       "longitude": "-117.1610838",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Columbus, OH",
@@ -1850,8 +1850,8 @@ const eventSeed = [
       "latitude": "39.8888865",
       "longitude": "-82.8913107",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in Richmond, VA",
@@ -1863,8 +1863,8 @@ const eventSeed = [
       "latitude": "37.5407246",
       "longitude": "-77.4360481",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in Denver, CO",
@@ -1876,8 +1876,8 @@ const eventSeed = [
       "latitude": "39.7392358",
       "longitude": "-104.990251",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Dallas, TX",
@@ -1889,8 +1889,8 @@ const eventSeed = [
       "latitude": "32.7766642",
       "longitude": "-96.7969879",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Tampa, FL",
@@ -1902,8 +1902,8 @@ const eventSeed = [
       "latitude": "27.950575",
       "longitude": "-82.4571776",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Lexington, KY",
@@ -1915,8 +1915,8 @@ const eventSeed = [
       "latitude": "38.061337",
       "longitude": "-84.458292",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Chula Vista, CA",
@@ -1928,8 +1928,8 @@ const eventSeed = [
       "latitude": "32.625939",
       "longitude": "-117.102423",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Lincoln, NE",
@@ -1941,8 +1941,8 @@ const eventSeed = [
       "latitude": "40.813616",
       "longitude": "-96.7025955",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Louisville, KY",
@@ -1954,8 +1954,8 @@ const eventSeed = [
       "latitude": "38.2755457",
       "longitude": "-85.5072131",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in College Station, TX",
@@ -1967,8 +1967,8 @@ const eventSeed = [
       "latitude": "40.7148207",
       "longitude": "-73.8312597",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in Miami, FL",
@@ -1980,8 +1980,8 @@ const eventSeed = [
       "latitude": "25.7616798",
       "longitude": "-80.1917902",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Houston, TX",
@@ -1993,8 +1993,8 @@ const eventSeed = [
       "latitude": "29.7621814",
       "longitude": "-95.3479594",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Greensboro, NC",
@@ -2006,8 +2006,8 @@ const eventSeed = [
       "latitude": "43.1263",
       "longitude": "-89.3230587",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in New York City, NY",
@@ -2019,8 +2019,8 @@ const eventSeed = [
       "latitude": "39.9625984",
       "longitude": "-76.727745",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Miami, FL",
@@ -2032,8 +2032,8 @@ const eventSeed = [
       "latitude": "25.7616798",
       "longitude": "-80.1917902",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in Buffalo, NY",
@@ -2045,8 +2045,8 @@ const eventSeed = [
       "latitude": "42.7957435",
       "longitude": "-78.8494748",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in Phoenix, AZ",
@@ -2058,8 +2058,8 @@ const eventSeed = [
       "latitude": "33.4483771",
       "longitude": "-112.0740373",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Washington, DC",
@@ -2071,8 +2071,8 @@ const eventSeed = [
       "latitude": "38.9046078",
       "longitude": "-77.0398517",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in Wichita Falls, TX",
@@ -2084,8 +2084,8 @@ const eventSeed = [
       "latitude": "33.9161045",
       "longitude": "-98.487224",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in South Lake Tahoe, CA",
@@ -2097,8 +2097,8 @@ const eventSeed = [
       "latitude": "38.9510845",
       "longitude": "-119.9505261",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Springfield, IL",
@@ -2110,8 +2110,8 @@ const eventSeed = [
       "latitude": "39.7817213",
       "longitude": "-89.6501481",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Rochester, NY",
@@ -2123,8 +2123,8 @@ const eventSeed = [
       "latitude": "42.833014",
       "longitude": "-108.7306725",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Louisville, KY",
@@ -2136,8 +2136,8 @@ const eventSeed = [
       "latitude": "38.2526647",
       "longitude": "-85.7584557",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Newark, NJ",
@@ -2149,8 +2149,8 @@ const eventSeed = [
       "latitude": "40.735657",
       "longitude": "-74.1723667",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Albany, NY",
@@ -2162,8 +2162,8 @@ const eventSeed = [
       "latitude": "42.6525793",
       "longitude": "-73.7562317",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in Chicago, IL",
@@ -2175,8 +2175,8 @@ const eventSeed = [
       "latitude": "41.7373244",
       "longitude": "-87.6129318",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in Fairbanks, AK",
@@ -2188,8 +2188,8 @@ const eventSeed = [
       "latitude": "64.9079871",
       "longitude": "-147.5413322",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Fort Worth, TX",
@@ -2201,8 +2201,8 @@ const eventSeed = [
       "latitude": "32.7379198",
       "longitude": "-97.3259038",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in San Francisco, CA",
@@ -2214,8 +2214,8 @@ const eventSeed = [
       "latitude": "37.7847907",
       "longitude": "-122.4376589",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in New York City, NY",
@@ -2227,8 +2227,8 @@ const eventSeed = [
       "latitude": "39.9625984",
       "longitude": "-76.727745",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Cleveland, OH",
@@ -2240,8 +2240,8 @@ const eventSeed = [
       "latitude": "39.9472631",
       "longitude": "-83.2178304",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Tucson, AZ",
@@ -2253,8 +2253,8 @@ const eventSeed = [
       "latitude": "32.2258611",
       "longitude": "-110.7820989",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in San Jose, CA",
@@ -2266,8 +2266,8 @@ const eventSeed = [
       "latitude": "44.8755183",
       "longitude": "-91.9193422",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in Whittier, CA",
@@ -2279,8 +2279,8 @@ const eventSeed = [
       "latitude": "42.2722276",
       "longitude": "-71.0623588",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in Birmingham, AL",
@@ -2292,8 +2292,8 @@ const eventSeed = [
       "latitude": "33.5185892",
       "longitude": "-86.8103567",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Philadelphia, PA",
@@ -2305,8 +2305,8 @@ const eventSeed = [
       "latitude": "40.067984",
       "longitude": "-75.15447",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Jefferson City, MO",
@@ -2318,8 +2318,8 @@ const eventSeed = [
       "latitude": "42.5733812",
       "longitude": "-96.5231638",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Pueblo, CO",
@@ -2331,8 +2331,8 @@ const eventSeed = [
       "latitude": "43.1337924",
       "longitude": "-89.2994403",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Buffalo, NY",
@@ -2344,8 +2344,8 @@ const eventSeed = [
       "latitude": "42.8864468",
       "longitude": "-78.8783689",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in Detroit, MI",
@@ -2357,8 +2357,8 @@ const eventSeed = [
       "latitude": "42.3588019",
       "longitude": "-82.9324988",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in Idaho Falls, ID",
@@ -2370,8 +2370,8 @@ const eventSeed = [
       "latitude": "43.4926607",
       "longitude": "-112.0407584",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Austin, TX",
@@ -2383,8 +2383,8 @@ const eventSeed = [
       "latitude": "30.267153",
       "longitude": "-97.7430608",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in San Antonio, TX",
@@ -2396,8 +2396,8 @@ const eventSeed = [
       "latitude": "29.3013448",
       "longitude": "-98.4857824",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in Birmingham, AL",
@@ -2409,8 +2409,8 @@ const eventSeed = [
       "latitude": "33.493609",
       "longitude": "-86.759125",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Lexington, KY",
@@ -2422,8 +2422,8 @@ const eventSeed = [
       "latitude": "38.0405837",
       "longitude": "-84.5037164",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Charlotte, NC",
@@ -2435,8 +2435,8 @@ const eventSeed = [
       "latitude": "35.2244985",
       "longitude": "-80.8410402",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Seattle, WA",
@@ -2448,8 +2448,8 @@ const eventSeed = [
       "latitude": "47.6062095",
       "longitude": "-122.3320708",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Austin, TX",
@@ -2461,8 +2461,8 @@ const eventSeed = [
       "latitude": "35.141132",
       "longitude": "-90.040733",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Orlando, FL",
@@ -2474,8 +2474,8 @@ const eventSeed = [
       "latitude": "28.6001891",
       "longitude": "-81.2651495",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in El Paso, TX",
@@ -2487,8 +2487,8 @@ const eventSeed = [
       "latitude": "31.8241967",
       "longitude": "-106.574469",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in Alexandria, VA",
@@ -2500,8 +2500,8 @@ const eventSeed = [
       "latitude": "38.8048355",
       "longitude": "-77.0469214",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Chicago, IL",
@@ -2513,8 +2513,8 @@ const eventSeed = [
       "latitude": "41.8781136",
       "longitude": "-87.6297982",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Denver, CO",
@@ -2526,8 +2526,8 @@ const eventSeed = [
       "latitude": "37.5494178",
       "longitude": "-121.9862971",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Las Vegas, NV",
@@ -2539,8 +2539,8 @@ const eventSeed = [
       "latitude": "36.1459728",
       "longitude": "-115.1384818",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Pittsburgh, PA",
@@ -2552,8 +2552,8 @@ const eventSeed = [
       "latitude": "40.4406248",
       "longitude": "-79.9958864",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Akron, OH",
@@ -2565,8 +2565,8 @@ const eventSeed = [
       "latitude": "41.0814447",
       "longitude": "-81.5190053",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Staten Island, NY",
@@ -2578,8 +2578,8 @@ const eventSeed = [
       "latitude": "40.6377832",
       "longitude": "-74.1350296",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in Dallas, TX",
@@ -2591,8 +2591,8 @@ const eventSeed = [
       "latitude": "32.7766642",
       "longitude": "-96.7969879",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in Augusta, GA",
@@ -2604,8 +2604,8 @@ const eventSeed = [
       "latitude": "33.4353612",
       "longitude": "-82.0464488",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Erie, PA",
@@ -2617,8 +2617,8 @@ const eventSeed = [
       "latitude": "42.0822723",
       "longitude": "-80.1319928",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Tucson, AZ",
@@ -2630,8 +2630,8 @@ const eventSeed = [
       "latitude": "32.2226066",
       "longitude": "-110.9747108",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Metairie, LA",
@@ -2643,8 +2643,8 @@ const eventSeed = [
       "latitude": "29.9840922",
       "longitude": "-90.1528519",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Birmingham, AL",
@@ -2656,8 +2656,8 @@ const eventSeed = [
       "latitude": "33.4412171",
       "longitude": "-86.7671446",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in Phoenix, AZ",
@@ -2669,8 +2669,8 @@ const eventSeed = [
       "latitude": "33.4483771",
       "longitude": "-112.0740373",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in Albuquerque, NM",
@@ -2682,8 +2682,8 @@ const eventSeed = [
       "latitude": "35.1994019",
       "longitude": "-106.6309574",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Ogden, UT",
@@ -2695,8 +2695,8 @@ const eventSeed = [
       "latitude": "41.223",
       "longitude": "-111.9738304",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in Glendale, CA",
@@ -2708,8 +2708,8 @@ const eventSeed = [
       "latitude": "34.1425078",
       "longitude": "-118.255075",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in Abilene, TX",
@@ -2721,8 +2721,8 @@ const eventSeed = [
       "latitude": "32.4581937",
       "longitude": "-99.739963",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Columbus, GA",
@@ -2734,8 +2734,8 @@ const eventSeed = [
       "latitude": "32.460417",
       "longitude": "-84.904005",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Saint Louis, MO",
@@ -2747,8 +2747,8 @@ const eventSeed = [
       "latitude": "38.5054381",
       "longitude": "-90.2871483",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Dallas, TX",
@@ -2760,8 +2760,8 @@ const eventSeed = [
       "latitude": "32.7766642",
       "longitude": "-96.7969879",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Sioux Falls, SD",
@@ -2773,8 +2773,8 @@ const eventSeed = [
       "latitude": "43.5528781",
       "longitude": "-96.7271099",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Palo Alto, CA",
@@ -2786,8 +2786,8 @@ const eventSeed = [
       "latitude": "37.4418834",
       "longitude": "-122.1430195",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in Brooklyn, NY",
@@ -2799,8 +2799,8 @@ const eventSeed = [
       "latitude": "34.972741",
       "longitude": "-82.1604849",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in Albany, NY",
@@ -2812,8 +2812,8 @@ const eventSeed = [
       "latitude": "42.8651298",
       "longitude": "-71.3739272",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Portland, OR",
@@ -2825,8 +2825,8 @@ const eventSeed = [
       "latitude": "45.5331038",
       "longitude": "-122.8022391",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Tucson, AZ",
@@ -2838,8 +2838,8 @@ const eventSeed = [
       "latitude": "37.8098269",
       "longitude": "-94.7135575",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Tallahassee, FL",
@@ -2851,8 +2851,8 @@ const eventSeed = [
       "latitude": "39.3637392",
       "longitude": "-101.0538239",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Milwaukee, WI",
@@ -2864,8 +2864,8 @@ const eventSeed = [
       "latitude": "43.0367422",
       "longitude": "-87.9218662",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Phoenix, AZ",
@@ -2877,8 +2877,8 @@ const eventSeed = [
       "latitude": "33.5218721",
       "longitude": "-112.0562163",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Springfield, MO",
@@ -2890,8 +2890,8 @@ const eventSeed = [
       "latitude": "37.2089572",
       "longitude": "-93.2922989",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in Santa Barbara, CA",
@@ -2903,8 +2903,8 @@ const eventSeed = [
       "latitude": "34.4208305",
       "longitude": "-119.6981901",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in North Little Rock, AR",
@@ -2916,8 +2916,8 @@ const eventSeed = [
       "latitude": "34.5034394",
       "longitude": "-82.6501332",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Atlanta, GA",
@@ -2929,8 +2929,8 @@ const eventSeed = [
       "latitude": "33.7489954",
       "longitude": "-84.3879824",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in West Palm Beach, FL",
@@ -2942,8 +2942,8 @@ const eventSeed = [
       "latitude": "26.7153424",
       "longitude": "-80.0533746",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Brea, CA",
@@ -2955,8 +2955,8 @@ const eventSeed = [
       "latitude": "33.9221652",
       "longitude": "-117.8370192",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Sarasota, FL",
@@ -2968,8 +2968,8 @@ const eventSeed = [
       "latitude": "27.3364347",
       "longitude": "-82.5306527",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in Miami, FL",
@@ -2981,8 +2981,8 @@ const eventSeed = [
       "latitude": "25.7616798",
       "longitude": "-80.1917902",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in New Orleans, LA",
@@ -2994,8 +2994,8 @@ const eventSeed = [
       "latitude": "30.0351045",
       "longitude": "-89.9663702",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Knoxville, TN",
@@ -3007,8 +3007,8 @@ const eventSeed = [
       "latitude": "42.2392391",
       "longitude": "-71.8079608",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in Baltimore, MD",
@@ -3020,8 +3020,8 @@ const eventSeed = [
       "latitude": "39.4494578",
       "longitude": "-76.6429437",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in Pinellas Park, FL",
@@ -3033,8 +3033,8 @@ const eventSeed = [
       "latitude": "27.8428025",
       "longitude": "-82.6995443",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Portland, OR",
@@ -3046,8 +3046,8 @@ const eventSeed = [
       "latitude": "45.5122308",
       "longitude": "-122.6587185",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in El Paso, TX",
@@ -3059,8 +3059,8 @@ const eventSeed = [
       "latitude": "31.824264",
       "longitude": "-106.3360777",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Buffalo, NY",
@@ -3072,8 +3072,8 @@ const eventSeed = [
       "latitude": "33.6744794",
       "longitude": "-111.9075351",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Charleston, WV",
@@ -3085,8 +3085,8 @@ const eventSeed = [
       "latitude": "38.3509136",
       "longitude": "-81.6543503",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Las Vegas, NV",
@@ -3098,8 +3098,8 @@ const eventSeed = [
       "latitude": "36.1458993",
       "longitude": "-115.0608729",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in Saint Louis, MO",
@@ -3111,8 +3111,8 @@ const eventSeed = [
       "latitude": "38.6693048",
       "longitude": "-90.3571403",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in Chicago, IL",
@@ -3124,8 +3124,8 @@ const eventSeed = [
       "latitude": "41.8781136",
       "longitude": "-87.6297982",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Orlando, FL",
@@ -3137,8 +3137,8 @@ const eventSeed = [
       "latitude": "43.1124928",
       "longitude": "-89.2896993",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Jamaica, NY",
@@ -3150,8 +3150,8 @@ const eventSeed = [
       "latitude": "42.177646",
       "longitude": "-74.60158",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Miami, FL",
@@ -3163,8 +3163,8 @@ const eventSeed = [
       "latitude": "43.1382663",
       "longitude": "-89.3112732",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Humble, TX",
@@ -3176,8 +3176,8 @@ const eventSeed = [
       "latitude": "29.9988312",
       "longitude": "-95.2621553",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Syracuse, NY",
@@ -3189,8 +3189,8 @@ const eventSeed = [
       "latitude": "43.0481221",
       "longitude": "-76.1474244",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Green Bay, WI",
@@ -3202,8 +3202,8 @@ const eventSeed = [
       "latitude": "44.5133188",
       "longitude": "-88.0132958",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in Knoxville, TN",
@@ -3215,8 +3215,8 @@ const eventSeed = [
       "latitude": "35.9606384",
       "longitude": "-83.9207392",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in Annapolis, MD",
@@ -3228,8 +3228,8 @@ const eventSeed = [
       "latitude": "38.9784453",
       "longitude": "-76.4921829",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Youngstown, OH",
@@ -3241,8 +3241,8 @@ const eventSeed = [
       "latitude": "41.0997803",
       "longitude": "-80.6495194",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Dallas, TX",
@@ -3254,8 +3254,8 @@ const eventSeed = [
       "latitude": "32.7984267",
       "longitude": "-96.697659",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in El Paso, TX",
@@ -3267,8 +3267,8 @@ const eventSeed = [
       "latitude": "31.7618778",
       "longitude": "-106.4850217",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Los Angeles, CA",
@@ -3280,8 +3280,8 @@ const eventSeed = [
       "latitude": "34.0522342",
       "longitude": "-118.2436849",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in San Diego, CA",
@@ -3293,8 +3293,8 @@ const eventSeed = [
       "latitude": "32.715738",
       "longitude": "-117.1610838",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in El Paso, TX",
@@ -3306,8 +3306,8 @@ const eventSeed = [
       "latitude": "31.8404177",
       "longitude": "-106.4344913",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Saint Louis, MO",
@@ -3319,8 +3319,8 @@ const eventSeed = [
       "latitude": "38.6270025",
       "longitude": "-90.1994042",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in Washington, DC",
@@ -3332,8 +3332,8 @@ const eventSeed = [
       "latitude": "38.9195326",
       "longitude": "-77.0250474",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in Tuscaloosa, AL",
@@ -3345,8 +3345,8 @@ const eventSeed = [
       "latitude": "33.2098407",
       "longitude": "-87.5691735",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Cincinnati, OH",
@@ -3358,8 +3358,8 @@ const eventSeed = [
       "latitude": "39.2084383",
       "longitude": "-84.3846408",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Philadelphia, PA",
@@ -3371,8 +3371,8 @@ const eventSeed = [
       "latitude": "39.9271178",
       "longitude": "-75.1671383",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in San Antonio, TX",
@@ -3384,8 +3384,8 @@ const eventSeed = [
       "latitude": "29.4250609",
       "longitude": "-98.4673718",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Oklahoma City, OK",
@@ -3397,8 +3397,8 @@ const eventSeed = [
       "latitude": "35.4675602",
       "longitude": "-97.5164276",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Rochester, NY",
@@ -3410,8 +3410,8 @@ const eventSeed = [
       "latitude": "41.9203337",
       "longitude": "-79.6403287",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in El Paso, TX",
@@ -3423,8 +3423,8 @@ const eventSeed = [
       "latitude": "31.7618778",
       "longitude": "-106.4850217",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in Fort Smith, AR",
@@ -3436,8 +3436,8 @@ const eventSeed = [
       "latitude": "35.387235",
       "longitude": "-94.418638",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Fort Lauderdale, FL",
@@ -3449,8 +3449,8 @@ const eventSeed = [
       "latitude": "42.0564594",
       "longitude": "-87.675267",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Norfolk, VA",
@@ -3462,8 +3462,8 @@ const eventSeed = [
       "latitude": "36.9011059",
       "longitude": "-76.278647",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Oakland, CA",
@@ -3475,8 +3475,8 @@ const eventSeed = [
       "latitude": "37.8326002",
       "longitude": "-122.2704066",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Milwaukee, WI",
@@ -3488,8 +3488,8 @@ const eventSeed = [
       "latitude": "43.0389025",
       "longitude": "-87.9064736",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Shawnee Mission, KS",
@@ -3501,8 +3501,8 @@ const eventSeed = [
       "latitude": "39.0277832",
       "longitude": "-94.6557914",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in El Paso, TX",
@@ -3514,8 +3514,8 @@ const eventSeed = [
       "latitude": "31.7618778",
       "longitude": "-106.4850217",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in Charleston, WV",
@@ -3527,8 +3527,8 @@ const eventSeed = [
       "latitude": "38.3498195",
       "longitude": "-81.6326234",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in Lafayette, LA",
@@ -3540,8 +3540,8 @@ const eventSeed = [
       "latitude": "30.2754027",
       "longitude": "-92.0030262",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Carson City, NV",
@@ -3553,8 +3553,8 @@ const eventSeed = [
       "latitude": "39.1769",
       "longitude": "-119.742616",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Colorado Springs, CO",
@@ -3566,8 +3566,8 @@ const eventSeed = [
       "latitude": "38.8617345",
       "longitude": "-104.9192339",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Lansing, MI",
@@ -3579,8 +3579,8 @@ const eventSeed = [
       "latitude": "42.7523629",
       "longitude": "-84.6253483",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Virginia Beach, VA",
@@ -3592,8 +3592,8 @@ const eventSeed = [
       "latitude": "36.8529263",
       "longitude": "-75.977985",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in Dallas, TX",
@@ -3605,8 +3605,8 @@ const eventSeed = [
       "latitude": "32.7766642",
       "longitude": "-96.7969879",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in Memphis, TN",
@@ -3618,8 +3618,8 @@ const eventSeed = [
       "latitude": "35.107979",
       "longitude": "-89.9668349",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Indianapolis, IN",
@@ -3631,8 +3631,8 @@ const eventSeed = [
       "latitude": "46.8796822",
       "longitude": "-110.3625658",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in York, PA",
@@ -3644,8 +3644,8 @@ const eventSeed = [
       "latitude": "39.9625984",
       "longitude": "-76.727745",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in Cincinnati, OH",
@@ -3657,8 +3657,8 @@ const eventSeed = [
       "latitude": "39.1031182",
       "longitude": "-84.5120196",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Boca Raton, FL",
@@ -3670,8 +3670,8 @@ const eventSeed = [
       "latitude": "26.3683064",
       "longitude": "-80.1289321",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Richmond, VA",
@@ -3683,8 +3683,8 @@ const eventSeed = [
       "latitude": "37.5407246",
       "longitude": "-77.4360481",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Chicago, IL",
@@ -3696,8 +3696,8 @@ const eventSeed = [
       "latitude": "41.7149354",
       "longitude": "-85.56121",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Amarillo, TX",
@@ -3709,8 +3709,8 @@ const eventSeed = [
       "latitude": "35.1450108",
       "longitude": "-101.9488409",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Boulder, CO",
@@ -3722,8 +3722,8 @@ const eventSeed = [
       "latitude": "40.032631",
       "longitude": "-105.236749",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in Lubbock, TX",
@@ -3735,8 +3735,8 @@ const eventSeed = [
       "latitude": "33.5945982",
       "longitude": "-101.7793947",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in Little Rock, AR",
@@ -3748,8 +3748,8 @@ const eventSeed = [
       "latitude": "39.163768",
       "longitude": "-77.175277",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Knoxville, TN",
@@ -3761,8 +3761,8 @@ const eventSeed = [
       "latitude": "35.9386568",
       "longitude": "-84.0660844",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Minneapolis, MN",
@@ -3774,8 +3774,8 @@ const eventSeed = [
       "latitude": "44.9513408",
       "longitude": "-93.3381781",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Salt Lake City, UT",
@@ -3787,8 +3787,8 @@ const eventSeed = [
       "latitude": "40.700013",
       "longitude": "-111.856121",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Berkeley, CA",
@@ -3800,8 +3800,8 @@ const eventSeed = [
       "latitude": "37.8715926",
       "longitude": "-122.272747",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Phoenix, AZ",
@@ -3813,8 +3813,8 @@ const eventSeed = [
       "latitude": "33.4483771",
       "longitude": "-112.0740373",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Lubbock, TX",
@@ -3826,8 +3826,8 @@ const eventSeed = [
       "latitude": "33.605522",
       "longitude": "-101.918129",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in Fort Worth, TX",
@@ -3839,8 +3839,8 @@ const eventSeed = [
       "latitude": "32.6617202",
       "longitude": "-97.4986405",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in Anaheim, CA",
@@ -3852,8 +3852,8 @@ const eventSeed = [
       "latitude": "36.6889682",
       "longitude": "-94.1309067",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Orange, CA",
@@ -3865,8 +3865,8 @@ const eventSeed = [
       "latitude": "33.7879139",
       "longitude": "-117.8531007",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Fredericksburg, VA",
@@ -3878,8 +3878,8 @@ const eventSeed = [
       "latitude": "38.3068998",
       "longitude": "-77.4918927",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Salt Lake City, UT",
@@ -3891,8 +3891,8 @@ const eventSeed = [
       "latitude": "40.7383534",
       "longitude": "-111.8160032",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Santa Rosa, CA",
@@ -3904,8 +3904,8 @@ const eventSeed = [
       "latitude": "32.9376679",
       "longitude": "-97.2067913",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in Fort Wayne, IN",
@@ -3917,8 +3917,8 @@ const eventSeed = [
       "latitude": "41.079273",
       "longitude": "-85.1393513",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in Corpus Christi, TX",
@@ -3930,8 +3930,8 @@ const eventSeed = [
       "latitude": "27.8005828",
       "longitude": "-97.396381",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Miami, FL",
@@ -3943,8 +3943,8 @@ const eventSeed = [
       "latitude": "25.7318521",
       "longitude": "-80.2395445",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in Washington, DC",
@@ -3956,8 +3956,8 @@ const eventSeed = [
       "latitude": "38.8527297",
       "longitude": "-77.0484533",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in Phoenix, AZ",
@@ -3969,8 +3969,8 @@ const eventSeed = [
       "latitude": "33.4483771",
       "longitude": "-112.0740373",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Seattle, WA",
@@ -3982,8 +3982,8 @@ const eventSeed = [
       "latitude": "47.6062095",
       "longitude": "-122.3320708",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Richmond, VA",
@@ -3995,8 +3995,8 @@ const eventSeed = [
       "latitude": "37.4866959",
       "longitude": "-77.5051513",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Carol Stream, IL",
@@ -4008,8 +4008,8 @@ const eventSeed = [
       "latitude": "41.9125286",
       "longitude": "-88.1347927",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Huntington, WV",
@@ -4021,8 +4021,8 @@ const eventSeed = [
       "latitude": "38.4192496",
       "longitude": "-82.445154",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Albuquerque, NM",
@@ -4034,8 +4034,8 @@ const eventSeed = [
       "latitude": "35.0843859",
       "longitude": "-106.650422",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in Washington, DC",
@@ -4047,8 +4047,8 @@ const eventSeed = [
       "latitude": "38.9071923",
       "longitude": "-77.0368707",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in Reno, NV",
@@ -4060,8 +4060,8 @@ const eventSeed = [
       "latitude": "39.5296329",
       "longitude": "-119.8138027",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in San Antonio, TX",
@@ -4073,8 +4073,8 @@ const eventSeed = [
       "latitude": "29.4984137",
       "longitude": "-98.562692",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Mesa, AZ",
@@ -4086,8 +4086,8 @@ const eventSeed = [
       "latitude": "43.0979812",
       "longitude": "-89.3640897",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Bradenton, FL",
@@ -4099,8 +4099,8 @@ const eventSeed = [
       "latitude": "27.7801809",
       "longitude": "-82.6266024",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in North Hollywood, CA",
@@ -4112,8 +4112,8 @@ const eventSeed = [
       "latitude": "34.1627428",
       "longitude": "-118.3730909",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Denver, CO",
@@ -4125,8 +4125,8 @@ const eventSeed = [
       "latitude": "37.8098269",
       "longitude": "-94.7135575",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Fort Smith, AR",
@@ -4138,8 +4138,8 @@ const eventSeed = [
       "latitude": "35.3859242",
       "longitude": "-94.3985475",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in Staten Island, NY",
@@ -4151,8 +4151,8 @@ const eventSeed = [
       "latitude": "40.5795317",
       "longitude": "-74.1502007",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in Dayton, OH",
@@ -4164,8 +4164,8 @@ const eventSeed = [
       "latitude": "39.7182608",
       "longitude": "-84.1393227",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in San Antonio, TX",
@@ -4177,8 +4177,8 @@ const eventSeed = [
       "latitude": "29.5010373",
       "longitude": "-98.448264",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Bethesda, MD",
@@ -4190,8 +4190,8 @@ const eventSeed = [
       "latitude": "38.984652",
       "longitude": "-77.0947092",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Jackson, MS",
@@ -4203,8 +4203,8 @@ const eventSeed = [
       "latitude": "32.2987573",
       "longitude": "-90.1848103",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Muncie, IN",
@@ -4216,8 +4216,8 @@ const eventSeed = [
       "latitude": "40.1933767",
       "longitude": "-85.3863599",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in Washington, DC",
@@ -4229,8 +4229,8 @@ const eventSeed = [
       "latitude": "38.941416",
       "longitude": "-77.072418",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in Denver, CO",
@@ -4242,8 +4242,8 @@ const eventSeed = [
       "latitude": "39.7392358",
       "longitude": "-104.990251",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Dallas, TX",
@@ -4255,8 +4255,8 @@ const eventSeed = [
       "latitude": "32.7791827",
       "longitude": "-96.7630835",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in Torrance, CA",
@@ -4268,8 +4268,8 @@ const eventSeed = [
       "latitude": "33.811866",
       "longitude": "-118.349329",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in Monticello, MN",
@@ -4281,8 +4281,8 @@ const eventSeed = [
       "latitude": "45.3055201",
       "longitude": "-93.7941378",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Concord, CA",
@@ -4294,8 +4294,8 @@ const eventSeed = [
       "latitude": "37.9779776",
       "longitude": "-122.0310733",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Virginia Beach, VA",
@@ -4307,8 +4307,8 @@ const eventSeed = [
       "latitude": "36.8653158",
       "longitude": "-76.177749",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Huntsville, AL",
@@ -4320,8 +4320,8 @@ const eventSeed = [
       "latitude": "44.8041322",
       "longitude": "-93.1668858",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Orlando, FL",
@@ -4333,8 +4333,8 @@ const eventSeed = [
       "latitude": "28.5433774",
       "longitude": "-81.4485728",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in San Diego, CA",
@@ -4346,8 +4346,8 @@ const eventSeed = [
       "latitude": "32.7105902",
       "longitude": "-117.1606675",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in Roanoke, VA",
@@ -4359,8 +4359,8 @@ const eventSeed = [
       "latitude": "37.2358923",
       "longitude": "-79.9510573",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in Canton, OH",
@@ -4372,8 +4372,8 @@ const eventSeed = [
       "latitude": "40.7989473",
       "longitude": "-81.378447",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Dallas, TX",
@@ -4385,8 +4385,8 @@ const eventSeed = [
       "latitude": "32.7766642",
       "longitude": "-96.7969879",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Raleigh, NC",
@@ -4398,8 +4398,8 @@ const eventSeed = [
       "latitude": "33.6744794",
       "longitude": "-111.9075351",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Louisville, KY",
@@ -4411,8 +4411,8 @@ const eventSeed = [
       "latitude": "38.1720483",
       "longitude": "-85.8368291",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Lexington, KY",
@@ -4424,8 +4424,8 @@ const eventSeed = [
       "latitude": "38.0405837",
       "longitude": "-84.5037164",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Virginia Beach, VA",
@@ -4437,8 +4437,8 @@ const eventSeed = [
       "latitude": "44.259822",
       "longitude": "-121.262889",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Suffolk, VA",
@@ -4450,8 +4450,8 @@ const eventSeed = [
       "latitude": "36.7282054",
       "longitude": "-76.5835621",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in Evansville, IN",
@@ -4463,8 +4463,8 @@ const eventSeed = [
       "latitude": "42.4742061",
       "longitude": "-83.0700272",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in San Bernardino, CA",
@@ -4476,8 +4476,8 @@ const eventSeed = [
       "latitude": "40.7329291",
       "longitude": "-74.0027905",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Whittier, CA",
@@ -4489,8 +4489,8 @@ const eventSeed = [
       "latitude": "36.9011059",
       "longitude": "-76.278647",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Sacramento, CA",
@@ -4502,8 +4502,8 @@ const eventSeed = [
       "latitude": "38.6038704",
       "longitude": "-121.4015542",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Sioux City, IA",
@@ -4515,8 +4515,8 @@ const eventSeed = [
       "latitude": "42.4963416",
       "longitude": "-96.4049408",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Rochester, NY",
@@ -4528,8 +4528,8 @@ const eventSeed = [
       "latitude": "43.1565779",
       "longitude": "-77.6088465",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in Columbus, OH",
@@ -4541,8 +4541,8 @@ const eventSeed = [
       "latitude": "39.889576",
       "longitude": "-82.891215",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in Savannah, GA",
@@ -4554,8 +4554,8 @@ const eventSeed = [
       "latitude": "32.0383663",
       "longitude": "-81.0894317",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Milwaukee, WI",
@@ -4567,8 +4567,8 @@ const eventSeed = [
       "latitude": "43.0389025",
       "longitude": "-87.9064736",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in Saint Louis, MO",
@@ -4580,8 +4580,8 @@ const eventSeed = [
       "latitude": "33.4821032",
       "longitude": "-111.9249427",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in Chattanooga, TN",
@@ -4593,8 +4593,8 @@ const eventSeed = [
       "latitude": "35.0084871",
       "longitude": "-85.2558219",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Sacramento, CA",
@@ -4606,8 +4606,8 @@ const eventSeed = [
       "latitude": "38.5815719",
       "longitude": "-121.4943996",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in North Hollywood, CA",
@@ -4619,8 +4619,8 @@ const eventSeed = [
       "latitude": "34.0928092",
       "longitude": "-118.3286614",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Oklahoma City, OK",
@@ -4632,8 +4632,8 @@ const eventSeed = [
       "latitude": "35.5221957",
       "longitude": "-97.545348",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Salt Lake City, UT",
@@ -4645,8 +4645,8 @@ const eventSeed = [
       "latitude": "40.7607793",
       "longitude": "-111.8910474",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Miami, FL",
@@ -4658,8 +4658,8 @@ const eventSeed = [
       "latitude": "25.7616798",
       "longitude": "-80.1917902",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in Little Rock, AR",
@@ -4671,8 +4671,8 @@ const eventSeed = [
       "latitude": "34.7187302",
       "longitude": "-92.2848729",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in San Francisco, CA",
@@ -4684,8 +4684,8 @@ const eventSeed = [
       "latitude": "37.7749295",
       "longitude": "-122.4194155",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Houston, TX",
@@ -4697,8 +4697,8 @@ const eventSeed = [
       "latitude": "29.781173",
       "longitude": "-95.306309",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Marietta, GA",
@@ -4710,8 +4710,8 @@ const eventSeed = [
       "latitude": "33.8976601",
       "longitude": "-84.5930167",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Santa Barbara, CA",
@@ -4723,8 +4723,8 @@ const eventSeed = [
       "latitude": "34.4208305",
       "longitude": "-119.6981901",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Sacramento, CA",
@@ -4736,8 +4736,8 @@ const eventSeed = [
       "latitude": "43.0610823",
       "longitude": "-70.7108995",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in New Haven, CT",
@@ -4749,8 +4749,8 @@ const eventSeed = [
       "latitude": "41.3296405",
       "longitude": "-72.9046296",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Monroe, LA",
@@ -4762,8 +4762,8 @@ const eventSeed = [
       "latitude": "44.5588028",
       "longitude": "-72.5778415",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in Stamford, CT",
@@ -4775,8 +4775,8 @@ const eventSeed = [
       "latitude": "41.0534302",
       "longitude": "-73.5387341",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in Erie, PA",
@@ -4788,8 +4788,8 @@ const eventSeed = [
       "latitude": "42.1292241",
       "longitude": "-80.085059",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Seattle, WA",
@@ -4801,8 +4801,8 @@ const eventSeed = [
       "latitude": "32.6502803",
       "longitude": "-97.3408535",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Portland, OR",
@@ -4814,8 +4814,8 @@ const eventSeed = [
       "latitude": "41.1501104",
       "longitude": "-73.7256278",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in New Orleans, LA",
@@ -4827,8 +4827,8 @@ const eventSeed = [
       "latitude": "29.9510658",
       "longitude": "-90.0715323",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Flint, MI",
@@ -4840,8 +4840,8 @@ const eventSeed = [
       "latitude": "43.0056657",
       "longitude": "-83.6737322",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in Peoria, IL",
@@ -4853,8 +4853,8 @@ const eventSeed = [
       "latitude": "40.6936488",
       "longitude": "-89.5889864",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in Sacramento, CA",
@@ -4866,8 +4866,8 @@ const eventSeed = [
       "latitude": "43.1180326",
       "longitude": "-89.3290037",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Wilmington, DE",
@@ -4879,8 +4879,8 @@ const eventSeed = [
       "latitude": "39.744655",
       "longitude": "-75.5483909",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in New York City, NY",
@@ -4892,8 +4892,8 @@ const eventSeed = [
       "latitude": "55.8566841",
       "longitude": "-4.2240796",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in Albuquerque, NM",
@@ -4905,8 +4905,8 @@ const eventSeed = [
       "latitude": "35.0843859",
       "longitude": "-106.650422",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Colorado Springs, CO",
@@ -4918,8 +4918,8 @@ const eventSeed = [
       "latitude": "38.8457184",
       "longitude": "-104.8523931",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Omaha, NE",
@@ -4931,8 +4931,8 @@ const eventSeed = [
       "latitude": "41.2984704",
       "longitude": "-96.0130255",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Farmington, MI",
@@ -4944,8 +4944,8 @@ const eventSeed = [
       "latitude": "42.4644795",
       "longitude": "-83.3763218",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Miami, FL",
@@ -4957,8 +4957,8 @@ const eventSeed = [
       "latitude": "36.1159332",
       "longitude": "-95.9089453",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in White Plains, NY",
@@ -4970,8 +4970,8 @@ const eventSeed = [
       "latitude": "41.0339862",
       "longitude": "-73.7629097",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in Memphis, TN",
@@ -4983,8 +4983,8 @@ const eventSeed = [
       "latitude": "35.1495343",
       "longitude": "-90.0489801",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in Albany, NY",
@@ -4996,8 +4996,8 @@ const eventSeed = [
       "latitude": "42.668524",
       "longitude": "-73.768966",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Kissimmee, FL",
@@ -5009,8 +5009,8 @@ const eventSeed = [
       "latitude": "28.287264",
       "longitude": "-81.4556826",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Mesa, AZ",
@@ -5022,8 +5022,8 @@ const eventSeed = [
       "latitude": "33.4621469",
       "longitude": "-111.8310735",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Arlington, TX",
@@ -5035,8 +5035,8 @@ const eventSeed = [
       "latitude": "32.735687",
       "longitude": "-97.1080656",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Glendale, CA",
@@ -5048,8 +5048,8 @@ const eventSeed = [
       "latitude": "34.1425078",
       "longitude": "-118.255075",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Sacramento, CA",
@@ -5061,8 +5061,8 @@ const eventSeed = [
       "latitude": "38.5815719",
       "longitude": "-121.4943996",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Louisville, KY",
@@ -5074,8 +5074,8 @@ const eventSeed = [
       "latitude": "38.0785459",
       "longitude": "-85.870103",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in Palm Bay, FL",
@@ -5087,8 +5087,8 @@ const eventSeed = [
       "latitude": "28.0245997",
       "longitude": "-80.7281832",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in Washington, DC",
@@ -5100,8 +5100,8 @@ const eventSeed = [
       "latitude": "38.9380912",
       "longitude": "-77.0449327",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Houston, TX",
@@ -5113,8 +5113,8 @@ const eventSeed = [
       "latitude": "29.6722161",
       "longitude": "-95.2673177",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Richmond, VA",
@@ -5126,8 +5126,8 @@ const eventSeed = [
       "latitude": "37.5407246",
       "longitude": "-77.4360481",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Charleston, WV",
@@ -5139,8 +5139,8 @@ const eventSeed = [
       "latitude": "38.3498195",
       "longitude": "-81.6326234",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Athens, GA",
@@ -5152,8 +5152,8 @@ const eventSeed = [
       "latitude": "33.9519347",
       "longitude": "-83.357567",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in West Palm Beach, FL",
@@ -5165,8 +5165,8 @@ const eventSeed = [
       "latitude": "26.7153424",
       "longitude": "-80.0533746",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in Dallas, TX",
@@ -5178,8 +5178,8 @@ const eventSeed = [
       "latitude": "32.7766642",
       "longitude": "-96.7969879",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Philadelphia, PA",
@@ -5191,8 +5191,8 @@ const eventSeed = [
       "latitude": "39.9067956",
       "longitude": "-75.2423499",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in Daytona Beach, FL",
@@ -5204,8 +5204,8 @@ const eventSeed = [
       "latitude": "29.2108147",
       "longitude": "-81.0228331",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in Charleston, WV",
@@ -5217,8 +5217,8 @@ const eventSeed = [
       "latitude": "34.7501814",
       "longitude": "-92.2955939",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Albany, NY",
@@ -5230,8 +5230,8 @@ const eventSeed = [
       "latitude": "38.8422178",
       "longitude": "-106.1311288",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Cape Coral, FL",
@@ -5243,8 +5243,8 @@ const eventSeed = [
       "latitude": "26.5628537",
       "longitude": "-81.9495331",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Jacksonville, FL",
@@ -5256,8 +5256,8 @@ const eventSeed = [
       "latitude": "30.3723539",
       "longitude": "-81.5017184",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Raleigh, NC",
@@ -5269,8 +5269,8 @@ const eventSeed = [
       "latitude": "35.771219",
       "longitude": "-78.6395764",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Los Angeles, CA",
@@ -5282,8 +5282,8 @@ const eventSeed = [
       "latitude": "34.0522342",
       "longitude": "-118.2436849",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in Fort Worth, TX",
@@ -5295,8 +5295,8 @@ const eventSeed = [
       "latitude": "32.6090759",
       "longitude": "-97.5568992",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in Cleveland, OH",
@@ -5308,8 +5308,8 @@ const eventSeed = [
       "latitude": "41.4648434",
       "longitude": "-81.7943641",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Seattle, WA",
@@ -5321,8 +5321,8 @@ const eventSeed = [
       "latitude": "33.4821032",
       "longitude": "-111.9249427",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Baltimore, MD",
@@ -5334,8 +5334,8 @@ const eventSeed = [
       "latitude": "42.4435583",
       "longitude": "-71.3272654",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Mesa, AZ",
@@ -5347,8 +5347,8 @@ const eventSeed = [
       "latitude": "33.4151843",
       "longitude": "-111.8314724",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Honolulu, HI",
@@ -5360,8 +5360,8 @@ const eventSeed = [
       "latitude": "21.3069444",
       "longitude": "-157.8583333",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Washington, DC",
@@ -5373,8 +5373,8 @@ const eventSeed = [
       "latitude": "38.9008141",
       "longitude": "-76.9829467",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Buffalo, NY",
@@ -5386,8 +5386,8 @@ const eventSeed = [
       "latitude": "42.8864468",
       "longitude": "-78.8783689",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in Morgantown, WV",
@@ -5399,8 +5399,8 @@ const eventSeed = [
       "latitude": "48.993723",
       "longitude": "-122.7471191",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in Birmingham, AL",
@@ -5412,8 +5412,8 @@ const eventSeed = [
       "latitude": "33.5960876",
       "longitude": "-86.6673041",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Charleston, WV",
@@ -5425,8 +5425,8 @@ const eventSeed = [
       "latitude": "38.3498195",
       "longitude": "-81.6326234",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in El Paso, TX",
@@ -5438,8 +5438,8 @@ const eventSeed = [
       "latitude": "31.7618778",
       "longitude": "-106.4850217",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Montgomery, AL",
@@ -5451,8 +5451,8 @@ const eventSeed = [
       "latitude": "32.3715739",
       "longitude": "-86.2149045",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Pasadena, CA",
@@ -5464,8 +5464,8 @@ const eventSeed = [
       "latitude": "34.1477849",
       "longitude": "-118.1445155",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in Houston, TX",
@@ -5477,8 +5477,8 @@ const eventSeed = [
       "latitude": "29.7381468",
       "longitude": "-95.6063796",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in Topeka, KS",
@@ -5490,8 +5490,8 @@ const eventSeed = [
       "latitude": "39.7791786",
       "longitude": "-98.7850749",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Tempe, AZ",
@@ -5503,8 +5503,8 @@ const eventSeed = [
       "latitude": "33.4255104",
       "longitude": "-111.9400054",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in Saint Petersburg, FL",
@@ -5516,8 +5516,8 @@ const eventSeed = [
       "latitude": "27.7928033",
       "longitude": "-82.6521722",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in Saint Paul, MN",
@@ -5529,8 +5529,8 @@ const eventSeed = [
       "latitude": "33.4821032",
       "longitude": "-111.9249427",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Irving, TX",
@@ -5542,8 +5542,8 @@ const eventSeed = [
       "latitude": "32.5713924",
       "longitude": "-96.8565449",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Flushing, NY",
@@ -5555,8 +5555,8 @@ const eventSeed = [
       "latitude": "40.7925934",
       "longitude": "-73.8435487",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Kansas City, KS",
@@ -5568,8 +5568,8 @@ const eventSeed = [
       "latitude": "38.5697594",
       "longitude": "-122.6895533",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in New York City, NY",
@@ -5581,8 +5581,8 @@ const eventSeed = [
       "latitude": "40.5869157",
       "longitude": "-73.9258096",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Saint Paul, MN",
@@ -5594,8 +5594,8 @@ const eventSeed = [
       "latitude": "44.9503572",
       "longitude": "-93.0959503",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in New York City, NY",
@@ -5607,8 +5607,8 @@ const eventSeed = [
       "latitude": "55.8566841",
       "longitude": "-4.2240796",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in Newark, NJ",
@@ -5620,8 +5620,8 @@ const eventSeed = [
       "latitude": "40.735657",
       "longitude": "-74.1723667",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Jamaica, NY",
@@ -5633,8 +5633,8 @@ const eventSeed = [
       "latitude": "40.702677",
       "longitude": "-73.7889689",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Tampa, FL",
@@ -5646,8 +5646,8 @@ const eventSeed = [
       "latitude": "27.950575",
       "longitude": "-82.4571776",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Cincinnati, OH",
@@ -5659,8 +5659,8 @@ const eventSeed = [
       "latitude": "39.1031182",
       "longitude": "-84.5120196",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Oklahoma City, OK",
@@ -5672,8 +5672,8 @@ const eventSeed = [
       "latitude": "35.3681254",
       "longitude": "-97.5157608",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Philadelphia, PA",
@@ -5685,8 +5685,8 @@ const eventSeed = [
       "latitude": "39.9590409",
       "longitude": "-75.1721926",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Louisville, KY",
@@ -5698,8 +5698,8 @@ const eventSeed = [
       "latitude": "38.2260746",
       "longitude": "-85.8188931",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in Montgomery, AL",
@@ -5711,8 +5711,8 @@ const eventSeed = [
       "latitude": "34.1160529",
       "longitude": "-97.633113",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in Sacramento, CA",
@@ -5724,8 +5724,8 @@ const eventSeed = [
       "latitude": "48.993723",
       "longitude": "-122.7471191",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in El Paso, TX",
@@ -5737,8 +5737,8 @@ const eventSeed = [
       "latitude": "31.873667",
       "longitude": "-106.431492",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Detroit, MI",
@@ -5750,8 +5750,8 @@ const eventSeed = [
       "latitude": "42.331427",
       "longitude": "-83.0457538",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Honolulu, HI",
@@ -5763,8 +5763,8 @@ const eventSeed = [
       "latitude": "21.3069444",
       "longitude": "-157.8583333",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Loretto, MN",
@@ -5776,8 +5776,8 @@ const eventSeed = [
       "latitude": "45.0546855",
       "longitude": "-93.6355165",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in San Antonio, TX",
@@ -5789,8 +5789,8 @@ const eventSeed = [
       "latitude": "29.4521883",
       "longitude": "-98.5342292",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in Chattanooga, TN",
@@ -5802,8 +5802,8 @@ const eventSeed = [
       "latitude": "35.0197919",
       "longitude": "-85.1673051",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Moreno Valley, CA",
@@ -5815,8 +5815,8 @@ const eventSeed = [
       "latitude": "33.9424658",
       "longitude": "-117.2296717",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in New York City, NY",
@@ -5828,8 +5828,8 @@ const eventSeed = [
       "latitude": "40.6148498",
       "longitude": "-74.1357038",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in Spokane, WA",
@@ -5841,8 +5841,8 @@ const eventSeed = [
       "latitude": "44.259822",
       "longitude": "-121.262889",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in El Paso, TX",
@@ -5854,8 +5854,8 @@ const eventSeed = [
       "latitude": "31.837477",
       "longitude": "-106.455066",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Lancaster, PA",
@@ -5867,8 +5867,8 @@ const eventSeed = [
       "latitude": "40.0378755",
       "longitude": "-76.3055144",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Boston, MA",
@@ -5880,8 +5880,8 @@ const eventSeed = [
       "latitude": "42.3523779",
       "longitude": "-71.0733677",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Fresno, CA",
@@ -5893,8 +5893,8 @@ const eventSeed = [
       "latitude": "36.7612988",
       "longitude": "-119.8023034",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Santa Clara, CA",
@@ -5906,8 +5906,8 @@ const eventSeed = [
       "latitude": "34.0489281",
       "longitude": "-111.0937311",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in Arlington, TX",
@@ -5919,8 +5919,8 @@ const eventSeed = [
       "latitude": "32.7329253",
       "longitude": "-97.0925176",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in El Paso, TX",
@@ -5932,8 +5932,8 @@ const eventSeed = [
       "latitude": "31.7618778",
       "longitude": "-106.4850217",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Sioux Falls, SD",
@@ -5945,8 +5945,8 @@ const eventSeed = [
       "latitude": "43.53811",
       "longitude": "-96.635855",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Minneapolis, MN",
@@ -5958,8 +5958,8 @@ const eventSeed = [
       "latitude": "44.977753",
       "longitude": "-93.2650108",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Dallas, TX",
@@ -5971,8 +5971,8 @@ const eventSeed = [
       "latitude": "32.8659639",
       "longitude": "-96.8888225",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Albuquerque, NM",
@@ -5984,8 +5984,8 @@ const eventSeed = [
       "latitude": "35.1198119",
       "longitude": "-106.5205115",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Fresno, CA",
@@ -5997,8 +5997,8 @@ const eventSeed = [
       "latitude": "36.7377981",
       "longitude": "-119.7871247",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Augusta, GA",
@@ -6010,8 +6010,8 @@ const eventSeed = [
       "latitude": "33.4501476",
       "longitude": "-82.0139276",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in Rochester, NY",
@@ -6023,8 +6023,8 @@ const eventSeed = [
       "latitude": "43.1565779",
       "longitude": "-77.6088465",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in Chicago, IL",
@@ -6036,8 +6036,8 @@ const eventSeed = [
       "latitude": "41.8781136",
       "longitude": "-87.6297982",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Columbus, OH",
@@ -6049,8 +6049,8 @@ const eventSeed = [
       "latitude": "39.8968883",
       "longitude": "-82.92262",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Trenton, NJ",
@@ -6062,8 +6062,8 @@ const eventSeed = [
       "latitude": "40.2205824",
       "longitude": "-74.759717",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Fresno, CA",
@@ -6075,8 +6075,8 @@ const eventSeed = [
       "latitude": "36.8085388",
       "longitude": "-119.8841854",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Louisville, KY",
@@ -6088,8 +6088,8 @@ const eventSeed = [
       "latitude": "39.350833",
       "longitude": "-101.7101722",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in Harrisburg, PA",
@@ -6101,8 +6101,8 @@ const eventSeed = [
       "latitude": "40.1802599",
       "longitude": "-76.935366",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in Wilmington, NC",
@@ -6114,8 +6114,8 @@ const eventSeed = [
       "latitude": "43.6554945",
       "longitude": "-79.7671045",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Jacksonville, FL",
@@ -6127,8 +6127,8 @@ const eventSeed = [
       "latitude": "30.342983",
       "longitude": "-81.418646",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in Chicago, IL",
@@ -6140,8 +6140,8 @@ const eventSeed = [
       "latitude": "41.8781136",
       "longitude": "-87.6297982",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in Jamaica, NY",
@@ -6153,8 +6153,8 @@ const eventSeed = [
       "latitude": "33.9320139",
       "longitude": "-117.3492321",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Oklahoma City, OK",
@@ -6166,8 +6166,8 @@ const eventSeed = [
       "latitude": "35.5771348",
       "longitude": "-97.4200609",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Atlanta, GA",
@@ -6179,8 +6179,8 @@ const eventSeed = [
       "latitude": "33.7489954",
       "longitude": "-84.3879824",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Santa Barbara, CA",
@@ -6192,8 +6192,8 @@ const eventSeed = [
       "latitude": "34.9167895",
       "longitude": "-120.4563869",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Los Angeles, CA",
@@ -6205,8 +6205,8 @@ const eventSeed = [
       "latitude": "34.0631937",
       "longitude": "-118.2299446",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Aurora, CO",
@@ -6218,8 +6218,8 @@ const eventSeed = [
       "latitude": "39.632731",
       "longitude": "-104.795654",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in Albany, NY",
@@ -6231,8 +6231,8 @@ const eventSeed = [
       "latitude": "37.09024",
       "longitude": "-95.712891",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in Lexington, KY",
@@ -6244,8 +6244,8 @@ const eventSeed = [
       "latitude": "38.0405837",
       "longitude": "-84.5037164",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Bradenton, FL",
@@ -6257,8 +6257,8 @@ const eventSeed = [
       "latitude": "27.4989278",
       "longitude": "-82.5748194",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Atlanta, GA",
@@ -6270,8 +6270,8 @@ const eventSeed = [
       "latitude": "33.7497233",
       "longitude": "-84.3911933",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Buffalo, NY",
@@ -6283,8 +6283,8 @@ const eventSeed = [
       "latitude": "44.7930232",
       "longitude": "-89.7031784",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Gadsden, AL",
@@ -6296,8 +6296,8 @@ const eventSeed = [
       "latitude": "33.5114334",
       "longitude": "-112.0685027",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Savannah, GA",
@@ -6309,8 +6309,8 @@ const eventSeed = [
       "latitude": "32.0808989",
       "longitude": "-81.091203",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Saint Louis, MO",
@@ -6322,8 +6322,8 @@ const eventSeed = [
       "latitude": "38.6270025",
       "longitude": "-90.1994042",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in Sacramento, CA",
@@ -6335,8 +6335,8 @@ const eventSeed = [
       "latitude": "38.527268",
       "longitude": "-121.430348",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in Kansas City, MO",
@@ -6348,8 +6348,8 @@ const eventSeed = [
       "latitude": "43.1173545",
       "longitude": "-89.3573306",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Indianapolis, IN",
@@ -6361,8 +6361,8 @@ const eventSeed = [
       "latitude": "39.768403",
       "longitude": "-86.158068",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Denton, TX",
@@ -6374,8 +6374,8 @@ const eventSeed = [
       "latitude": "33.2148412",
       "longitude": "-97.1330683",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Portland, OR",
@@ -6387,8 +6387,8 @@ const eventSeed = [
       "latitude": "45.5122308",
       "longitude": "-122.6587185",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Hollywood, FL",
@@ -6400,8 +6400,8 @@ const eventSeed = [
       "latitude": "26.0112014",
       "longitude": "-80.1494901",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in Los Angeles, CA",
@@ -6413,8 +6413,8 @@ const eventSeed = [
       "latitude": "42.2334527",
       "longitude": "-70.8042141",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in Yakima, WA",
@@ -6426,8 +6426,8 @@ const eventSeed = [
       "latitude": "43.1263",
       "longitude": "-89.3230587",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Ocala, FL",
@@ -6439,8 +6439,8 @@ const eventSeed = [
       "latitude": "29.1871986",
       "longitude": "-82.1400923",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in Peoria, IL",
@@ -6452,8 +6452,8 @@ const eventSeed = [
       "latitude": "40.7049226",
       "longitude": "-89.6145378",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in Fort Wayne, IN",
@@ -6465,8 +6465,8 @@ const eventSeed = [
       "latitude": "41.079273",
       "longitude": "-85.1393513",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Saint Paul, MN",
@@ -6478,8 +6478,8 @@ const eventSeed = [
       "latitude": "39.2866135",
       "longitude": "-76.647047",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Sacramento, CA",
@@ -6491,8 +6491,8 @@ const eventSeed = [
       "latitude": "38.5815719",
       "longitude": "-121.4943996",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Greensboro, NC",
@@ -6504,8 +6504,8 @@ const eventSeed = [
       "latitude": "36.0532057",
       "longitude": "-79.774668",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Portland, OR",
@@ -6517,8 +6517,8 @@ const eventSeed = [
       "latitude": "45.5424358",
       "longitude": "-122.7872111",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Omaha, NE",
@@ -6530,8 +6530,8 @@ const eventSeed = [
       "latitude": "41.2159048",
       "longitude": "-96.0356889",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in Atlanta, GA",
@@ -6543,8 +6543,8 @@ const eventSeed = [
       "latitude": "33.8381634",
       "longitude": "-84.2631299",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in Orlando, FL",
@@ -6556,8 +6556,8 @@ const eventSeed = [
       "latitude": "28.578713",
       "longitude": "-81.4661644",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Memphis, TN",
@@ -6569,8 +6569,8 @@ const eventSeed = [
       "latitude": "35.1495343",
       "longitude": "-90.0489801",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Bismarck, ND",
@@ -6582,8 +6582,8 @@ const eventSeed = [
       "latitude": "36.1688268",
       "longitude": "-115.1518086",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Louisville, KY",
@@ -6595,8 +6595,8 @@ const eventSeed = [
       "latitude": "29.6338457",
       "longitude": "-95.6563119",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Washington, DC",
@@ -6608,8 +6608,8 @@ const eventSeed = [
       "latitude": "38.9071923",
       "longitude": "-77.0368707",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Santa Rosa, CA",
@@ -6621,8 +6621,8 @@ const eventSeed = [
       "latitude": "38.4408981",
       "longitude": "-122.7127974",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Albany, NY",
@@ -6634,8 +6634,8 @@ const eventSeed = [
       "latitude": "42.720895",
       "longitude": "-73.81619",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in New York City, NY",
@@ -6647,8 +6647,8 @@ const eventSeed = [
       "latitude": "40.7127753",
       "longitude": "-74.0059728",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in Stockton, CA",
@@ -6660,8 +6660,8 @@ const eventSeed = [
       "latitude": "29.7328256",
       "longitude": "-95.5431657",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Saint Louis, MO",
@@ -6673,8 +6673,8 @@ const eventSeed = [
       "latitude": "38.6270025",
       "longitude": "-90.1994042",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Orange, CA",
@@ -6686,8 +6686,8 @@ const eventSeed = [
       "latitude": "33.7879139",
       "longitude": "-117.8531007",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Pueblo, CO",
@@ -6699,8 +6699,8 @@ const eventSeed = [
       "latitude": "38.2544472",
       "longitude": "-104.6091409",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Macon, GA",
@@ -6712,8 +6712,8 @@ const eventSeed = [
       "latitude": "32.8406946",
       "longitude": "-83.6324022",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in Chicago, IL",
@@ -6725,8 +6725,8 @@ const eventSeed = [
       "latitude": "41.8781136",
       "longitude": "-87.6297982",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in El Paso, TX",
@@ -6738,8 +6738,8 @@ const eventSeed = [
       "latitude": "31.7618778",
       "longitude": "-106.4850217",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Milwaukee, WI",
@@ -6751,8 +6751,8 @@ const eventSeed = [
       "latitude": "43.0389025",
       "longitude": "-87.9064736",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in El Paso, TX",
@@ -6764,8 +6764,8 @@ const eventSeed = [
       "latitude": "31.9043627",
       "longitude": "-106.5763524",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in Los Angeles, CA",
@@ -6777,8 +6777,8 @@ const eventSeed = [
       "latitude": "34.0522342",
       "longitude": "-118.2436849",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Columbia, SC",
@@ -6790,8 +6790,8 @@ const eventSeed = [
       "latitude": "34.031882",
       "longitude": "-80.9997713",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Port Charlotte, FL",
@@ -6803,8 +6803,8 @@ const eventSeed = [
       "latitude": "26.9761707",
       "longitude": "-82.0906448",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Lakeland, FL",
@@ -6816,8 +6816,8 @@ const eventSeed = [
       "latitude": "28.0394654",
       "longitude": "-81.9498042",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Independence, MO",
@@ -6829,8 +6829,8 @@ const eventSeed = [
       "latitude": "39.0462185",
       "longitude": "-94.4184176",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Littleton, CO",
@@ -6842,8 +6842,8 @@ const eventSeed = [
       "latitude": "39.613321",
       "longitude": "-105.0166498",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in Washington, DC",
@@ -6855,8 +6855,8 @@ const eventSeed = [
       "latitude": "38.9071923",
       "longitude": "-77.0368707",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in Amarillo, TX",
@@ -6868,8 +6868,8 @@ const eventSeed = [
       "latitude": "43.1362228",
       "longitude": "-89.3850873",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Charlotte, NC",
@@ -6881,8 +6881,8 @@ const eventSeed = [
       "latitude": "35.2863439",
       "longitude": "-80.8324543",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Sacramento, CA",
@@ -6894,8 +6894,8 @@ const eventSeed = [
       "latitude": "38.7400777",
       "longitude": "-121.2956474",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Conroe, TX",
@@ -6907,8 +6907,8 @@ const eventSeed = [
       "latitude": "43.1505055",
       "longitude": "-89.4099062",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Little Rock, AR",
@@ -6920,8 +6920,8 @@ const eventSeed = [
       "latitude": "39.350833",
       "longitude": "-101.7101722",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Anchorage, AK",
@@ -6933,8 +6933,8 @@ const eventSeed = [
       "latitude": "61.2165722",
       "longitude": "-149.7652066",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Atlanta, GA",
@@ -6946,8 +6946,8 @@ const eventSeed = [
       "latitude": "33.7649116",
       "longitude": "-84.3443651",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in Fayetteville, NC",
@@ -6959,8 +6959,8 @@ const eventSeed = [
       "latitude": "35.0526641",
       "longitude": "-78.8783585",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in Philadelphia, PA",
@@ -6972,8 +6972,8 @@ const eventSeed = [
       "latitude": "39.9525839",
       "longitude": "-75.1652215",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Pueblo, CO",
@@ -6985,8 +6985,8 @@ const eventSeed = [
       "latitude": "38.2544472",
       "longitude": "-104.6091409",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Akron, OH",
@@ -6998,8 +6998,8 @@ const eventSeed = [
       "latitude": "41.0814447",
       "longitude": "-81.5190053",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Lexington, KY",
@@ -7011,8 +7011,8 @@ const eventSeed = [
       "latitude": "38.036752",
       "longitude": "-84.4928489",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Maple Plain, MN",
@@ -7024,8 +7024,8 @@ const eventSeed = [
       "latitude": "45.0067822",
       "longitude": "-93.6555315",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in El Paso, TX",
@@ -7037,8 +7037,8 @@ const eventSeed = [
       "latitude": "31.7618778",
       "longitude": "-106.4850217",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in Charlotte, NC",
@@ -7050,8 +7050,8 @@ const eventSeed = [
       "latitude": "35.2270869",
       "longitude": "-80.8431267",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Garland, TX",
@@ -7063,8 +7063,8 @@ const eventSeed = [
       "latitude": "35.9676207",
       "longitude": "-77.8488507",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in Miami, FL",
@@ -7076,8 +7076,8 @@ const eventSeed = [
       "latitude": "25.7616798",
       "longitude": "-80.1917902",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in Trenton, NJ",
@@ -7089,8 +7089,8 @@ const eventSeed = [
       "latitude": "40.1870828",
       "longitude": "-74.7117477",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Des Moines, IA",
@@ -7102,8 +7102,8 @@ const eventSeed = [
       "latitude": "41.6220945",
       "longitude": "-93.6743688",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Hollywood, FL",
@@ -7115,8 +7115,8 @@ const eventSeed = [
       "latitude": "35.8961653",
       "longitude": "-86.8525276",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Newark, DE",
@@ -7128,8 +7128,8 @@ const eventSeed = [
       "latitude": "40.2883189",
       "longitude": "-74.9412063",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Fort Worth, TX",
@@ -7141,8 +7141,8 @@ const eventSeed = [
       "latitude": "33.0363203",
       "longitude": "-97.0050987",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Alexandria, VA",
@@ -7154,8 +7154,8 @@ const eventSeed = [
       "latitude": "38.8048355",
       "longitude": "-77.0469214",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in El Paso, TX",
@@ -7167,8 +7167,8 @@ const eventSeed = [
       "latitude": "31.7582637",
       "longitude": "-106.4841176",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in El Paso, TX",
@@ -7180,8 +7180,8 @@ const eventSeed = [
       "latitude": "31.7618778",
       "longitude": "-106.4850217",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Charleston, WV",
@@ -7193,8 +7193,8 @@ const eventSeed = [
       "latitude": "38.3498195",
       "longitude": "-81.6326234",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Austin, TX",
@@ -7206,8 +7206,8 @@ const eventSeed = [
       "latitude": "30.2829012",
       "longitude": "-97.7448744",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Jacksonville, FL",
@@ -7219,8 +7219,8 @@ const eventSeed = [
       "latitude": "30.3321838",
       "longitude": "-81.655651",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Manassas, VA",
@@ -7232,8 +7232,8 @@ const eventSeed = [
       "latitude": "38.7509488",
       "longitude": "-77.4752667",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Boston, MA",
@@ -7245,8 +7245,8 @@ const eventSeed = [
       "latitude": "42.3600825",
       "longitude": "-71.0588801",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in San Jose, CA",
@@ -7258,8 +7258,8 @@ const eventSeed = [
       "latitude": "37.3036893",
       "longitude": "-121.8448127",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in Springfield, IL",
@@ -7271,8 +7271,8 @@ const eventSeed = [
       "latitude": "39.7940161",
       "longitude": "-89.6498021",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in El Paso, TX",
@@ -7284,8 +7284,8 @@ const eventSeed = [
       "latitude": "35.0476912",
       "longitude": "-90.0260493",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Jamaica, NY",
@@ -7297,8 +7297,8 @@ const eventSeed = [
       "latitude": "40.702677",
       "longitude": "-73.7889689",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Philadelphia, PA",
@@ -7310,8 +7310,8 @@ const eventSeed = [
       "latitude": "40.150033",
       "longitude": "-75.029871",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Salinas, CA",
@@ -7323,8 +7323,8 @@ const eventSeed = [
       "latitude": "36.6370062",
       "longitude": "-121.6679939",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Lafayette, LA",
@@ -7336,8 +7336,8 @@ const eventSeed = [
       "latitude": "30.2240897",
       "longitude": "-92.0198427",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in Brooklyn, NY",
@@ -7349,8 +7349,8 @@ const eventSeed = [
       "latitude": "40.6781784",
       "longitude": "-73.9441579",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in Rochester, MN",
@@ -7362,8 +7362,8 @@ const eventSeed = [
       "latitude": "44.0121221",
       "longitude": "-92.4801989",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Indianapolis, IN",
@@ -7375,8 +7375,8 @@ const eventSeed = [
       "latitude": "39.9131222",
       "longitude": "-86.2098243",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in Largo, FL",
@@ -7388,8 +7388,8 @@ const eventSeed = [
       "latitude": "27.9094665",
       "longitude": "-82.7873244",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in Ogden, UT",
@@ -7401,8 +7401,8 @@ const eventSeed = [
       "latitude": "41.1601566",
       "longitude": "-111.9337669",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Newton, MA",
@@ -7414,8 +7414,8 @@ const eventSeed = [
       "latitude": "42.3354052",
       "longitude": "-71.2146399",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Houston, TX",
@@ -7427,8 +7427,8 @@ const eventSeed = [
       "latitude": "29.7217342",
       "longitude": "-95.4007117",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Norfolk, VA",
@@ -7440,8 +7440,8 @@ const eventSeed = [
       "latitude": "36.8973828",
       "longitude": "-76.3083238",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Tallahassee, FL",
@@ -7453,8 +7453,8 @@ const eventSeed = [
       "latitude": "37.8102522",
       "longitude": "-122.2658041",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Huntington, WV",
@@ -7466,8 +7466,8 @@ const eventSeed = [
       "latitude": "38.4192496",
       "longitude": "-82.445154",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in Stockton, CA",
@@ -7479,8 +7479,8 @@ const eventSeed = [
       "latitude": "37.9577016",
       "longitude": "-121.2907796",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in Hagerstown, MD",
@@ -7492,8 +7492,8 @@ const eventSeed = [
       "latitude": "39.6417629",
       "longitude": "-77.7199932",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Cleveland, OH",
@@ -7505,8 +7505,8 @@ const eventSeed = [
       "latitude": "41.49932",
       "longitude": "-81.6943605",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Scranton, PA",
@@ -7518,8 +7518,8 @@ const eventSeed = [
       "latitude": "38.9018089",
       "longitude": "-94.7223842",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Kansas City, MO",
@@ -7531,8 +7531,8 @@ const eventSeed = [
       "latitude": "39.261237",
       "longitude": "-94.6467879",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Phoenix, AZ",
@@ -7544,8 +7544,8 @@ const eventSeed = [
       "latitude": "33.3999746",
       "longitude": "-111.5996806",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Fort Myers, FL",
@@ -7557,8 +7557,8 @@ const eventSeed = [
       "latitude": "26.5806612",
       "longitude": "-81.8765141",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Saint Paul, MN",
@@ -7570,8 +7570,8 @@ const eventSeed = [
       "latitude": "44.9537029",
       "longitude": "-93.0899578",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in Sterling, VA",
@@ -7583,8 +7583,8 @@ const eventSeed = [
       "latitude": "38.9829976",
       "longitude": "-77.4027559",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in Shreveport, LA",
@@ -7596,8 +7596,8 @@ const eventSeed = [
       "latitude": "32.5251516",
       "longitude": "-93.7501789",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Pasadena, CA",
@@ -7609,8 +7609,8 @@ const eventSeed = [
       "latitude": "39.0457549",
       "longitude": "-76.6412712",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in San Antonio, TX",
@@ -7622,8 +7622,8 @@ const eventSeed = [
       "latitude": "29.424719",
       "longitude": "-98.5059238",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Erie, PA",
@@ -7635,8 +7635,8 @@ const eventSeed = [
       "latitude": "42.1292241",
       "longitude": "-80.085059",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Scranton, PA",
@@ -7648,8 +7648,8 @@ const eventSeed = [
       "latitude": "40.0125459",
       "longitude": "-86.0728777",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in Fort Wayne, IN",
@@ -7661,8 +7661,8 @@ const eventSeed = [
       "latitude": "41.0771326",
       "longitude": "-85.1582075",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in Escondido, CA",
@@ -7674,8 +7674,8 @@ const eventSeed = [
       "latitude": "42.4069886",
       "longitude": "-88.0607565",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Tallahassee, FL",
@@ -7687,8 +7687,8 @@ const eventSeed = [
       "latitude": "30.4382559",
       "longitude": "-84.2807329",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in Newark, DE",
@@ -7700,8 +7700,8 @@ const eventSeed = [
       "latitude": "41.2033216",
       "longitude": "-77.1945247",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in Arlington, VA",
@@ -7713,8 +7713,8 @@ const eventSeed = [
       "latitude": "31.9685988",
       "longitude": "-99.9018131",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Englewood, CO",
@@ -7726,8 +7726,8 @@ const eventSeed = [
       "latitude": "30.4513542",
       "longitude": "-97.7970413",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Fort Lauderdale, FL",
@@ -7739,8 +7739,8 @@ const eventSeed = [
       "latitude": "26.1224386",
       "longitude": "-80.1373174",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Montgomery, AL",
@@ -7752,8 +7752,8 @@ const eventSeed = [
       "latitude": "32.4162602",
       "longitude": "-86.2802517",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Alexandria, VA",
@@ -7765,8 +7765,8 @@ const eventSeed = [
       "latitude": "38.8186224",
       "longitude": "-77.044911",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Arlington, TX",
@@ -7778,8 +7778,8 @@ const eventSeed = [
       "latitude": "32.735687",
       "longitude": "-97.1080656",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in Mobile, AL",
@@ -7791,8 +7791,8 @@ const eventSeed = [
       "latitude": "30.647651",
       "longitude": "-88.072678",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in Chattanooga, TN",
@@ -7804,8 +7804,8 @@ const eventSeed = [
       "latitude": "35.1270892",
       "longitude": "-85.2428077",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Austin, TX",
@@ -7817,8 +7817,8 @@ const eventSeed = [
       "latitude": "30.267153",
       "longitude": "-97.7430608",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Winter Haven, FL",
@@ -7830,8 +7830,8 @@ const eventSeed = [
       "latitude": "28.0664856",
       "longitude": "-81.7657495",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Harrisburg, PA",
@@ -7843,8 +7843,8 @@ const eventSeed = [
       "latitude": "40.2731911",
       "longitude": "-76.8867008",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Richmond, VA",
@@ -7856,8 +7856,8 @@ const eventSeed = [
       "latitude": "37.5407246",
       "longitude": "-77.4360481",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Waterloo, IA",
@@ -7869,8 +7869,8 @@ const eventSeed = [
       "latitude": "42.5850454",
       "longitude": "-92.337627",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Orlando, FL",
@@ -7882,8 +7882,8 @@ const eventSeed = [
       "latitude": "28.5383355",
       "longitude": "-81.3792365",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in Norfolk, VA",
@@ -7895,8 +7895,8 @@ const eventSeed = [
       "latitude": "36.8558559",
       "longitude": "-76.2937216",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in Wilmington, DE",
@@ -7908,8 +7908,8 @@ const eventSeed = [
       "latitude": "39.744655",
       "longitude": "-75.5483909",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Salt Lake City, UT",
@@ -7921,8 +7921,8 @@ const eventSeed = [
       "latitude": "42.8651298",
       "longitude": "-71.3739272",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Portland, OR",
@@ -7934,8 +7934,8 @@ const eventSeed = [
       "latitude": "41.0158099",
       "longitude": "-74.1389666",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Tampa, FL",
@@ -7947,8 +7947,8 @@ const eventSeed = [
       "latitude": "41.7670166",
       "longitude": "-88.1372597",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Miami, FL",
@@ -7960,8 +7960,8 @@ const eventSeed = [
       "latitude": "25.7616798",
       "longitude": "-80.1917902",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in Houston, TX",
@@ -7973,8 +7973,8 @@ const eventSeed = [
       "latitude": "43.1107521",
       "longitude": "-89.3463527",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in Fort Worth, TX",
@@ -7986,8 +7986,8 @@ const eventSeed = [
       "latitude": "32.6695166",
       "longitude": "-97.4174051",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Billings, MT",
@@ -7999,8 +7999,8 @@ const eventSeed = [
       "latitude": "45.7782937",
       "longitude": "-108.511056",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in Monticello, MN",
@@ -8012,8 +8012,8 @@ const eventSeed = [
       "latitude": "45.3056188",
       "longitude": "-93.8013792",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in Atlanta, GA",
@@ -8025,8 +8025,8 @@ const eventSeed = [
       "latitude": "33.7166638",
       "longitude": "-84.335057",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Denver, CO",
@@ -8038,8 +8038,8 @@ const eventSeed = [
       "latitude": "39.7436675",
       "longitude": "-105.0070305",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Saint Louis, MO",
@@ -8051,8 +8051,8 @@ const eventSeed = [
       "latitude": "38.6233445",
       "longitude": "-90.5203907",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Pinellas Park, FL",
@@ -8064,8 +8064,8 @@ const eventSeed = [
       "latitude": "27.8428025",
       "longitude": "-82.6995443",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Bridgeport, CT",
@@ -8077,8 +8077,8 @@ const eventSeed = [
       "latitude": "41.1792258",
       "longitude": "-73.1894384",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Savannah, GA",
@@ -8090,8 +8090,8 @@ const eventSeed = [
       "latitude": "32.0505339",
       "longitude": "-81.0537478",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in Palm Bay, FL",
@@ -8103,8 +8103,8 @@ const eventSeed = [
       "latitude": "28.0344621",
       "longitude": "-80.5886646",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in Birmingham, AL",
@@ -8116,8 +8116,8 @@ const eventSeed = [
       "latitude": "33.5185892",
       "longitude": "-86.8103567",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Reston, VA",
@@ -8129,8 +8129,8 @@ const eventSeed = [
       "latitude": "38.9586307",
       "longitude": "-77.3570028",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Lawrenceville, GA",
@@ -8142,8 +8142,8 @@ const eventSeed = [
       "latitude": "33.9562149",
       "longitude": "-83.9879625",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Jersey City, NJ",
@@ -8155,8 +8155,8 @@ const eventSeed = [
       "latitude": "40.7118479",
       "longitude": "-74.1066238",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Greensboro, NC",
@@ -8168,8 +8168,8 @@ const eventSeed = [
       "latitude": "36.0726354",
       "longitude": "-79.7919754",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in El Paso, TX",
@@ -8181,8 +8181,8 @@ const eventSeed = [
       "latitude": "42.1292241",
       "longitude": "-80.085059",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Cedar Rapids, IA",
@@ -8194,8 +8194,8 @@ const eventSeed = [
       "latitude": "41.9914543",
       "longitude": "-91.661167",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in Philadelphia, PA",
@@ -8207,8 +8207,8 @@ const eventSeed = [
       "latitude": "40.0551772",
       "longitude": "-75.133267",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in Fort Lauderdale, FL",
@@ -8220,8 +8220,8 @@ const eventSeed = [
       "latitude": "26.1169578",
       "longitude": "-80.1984318",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Syracuse, NY",
@@ -8233,8 +8233,8 @@ const eventSeed = [
       "latitude": "43.0493026",
       "longitude": "-76.108251",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Baton Rouge, LA",
@@ -8246,8 +8246,8 @@ const eventSeed = [
       "latitude": "30.4514677",
       "longitude": "-91.1871466",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Miami, FL",
@@ -8259,8 +8259,8 @@ const eventSeed = [
       "latitude": "25.7616798",
       "longitude": "-80.1917902",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Philadelphia, PA",
@@ -8272,8 +8272,8 @@ const eventSeed = [
       "latitude": "40.1062193",
       "longitude": "-75.0067371",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in Duluth, MN",
@@ -8285,8 +8285,8 @@ const eventSeed = [
       "latitude": "41.6293606",
       "longitude": "-87.5763301",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in Portland, OR",
@@ -8298,8 +8298,8 @@ const eventSeed = [
       "latitude": "45.5122308",
       "longitude": "-122.6587185",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Brooklyn, NY",
@@ -8311,8 +8311,8 @@ const eventSeed = [
       "latitude": "40.6892003",
       "longitude": "-74.0131043",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in Seattle, WA",
@@ -8324,8 +8324,8 @@ const eventSeed = [
       "latitude": "47.653099",
       "longitude": "-122.354136",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in San Jose, CA",
@@ -8337,8 +8337,8 @@ const eventSeed = [
       "latitude": "37.3382082",
       "longitude": "-121.8863286",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in New Orleans, LA",
@@ -8350,8 +8350,8 @@ const eventSeed = [
       "latitude": "29.9728843",
       "longitude": "-90.0698184",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Washington, DC",
@@ -8363,8 +8363,8 @@ const eventSeed = [
       "latitude": "38.9728873",
       "longitude": "-77.0137514",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Washington, DC",
@@ -8376,8 +8376,8 @@ const eventSeed = [
       "latitude": "38.8900833",
       "longitude": "-76.9319904",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Apache Junction, AZ",
@@ -8389,8 +8389,8 @@ const eventSeed = [
       "latitude": "33.4103354",
       "longitude": "-111.5508737",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Irving, TX",
@@ -8402,8 +8402,8 @@ const eventSeed = [
       "latitude": "32.8890027",
       "longitude": "-97.0394063",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in Seattle, WA",
@@ -8415,8 +8415,8 @@ const eventSeed = [
       "latitude": "34.2381251",
       "longitude": "-118.530123",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in Amarillo, TX",
@@ -8428,8 +8428,8 @@ const eventSeed = [
       "latitude": "35.2219971",
       "longitude": "-101.8312969",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Columbus, GA",
@@ -8441,8 +8441,8 @@ const eventSeed = [
       "latitude": "32.4609764",
       "longitude": "-84.9877094",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in San Diego, CA",
@@ -8454,8 +8454,8 @@ const eventSeed = [
       "latitude": "32.715738",
       "longitude": "-117.1610838",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Irvine, CA",
@@ -8467,8 +8467,8 @@ const eventSeed = [
       "latitude": "39.350833",
       "longitude": "-101.7101722",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Buffalo, NY",
@@ -8480,8 +8480,8 @@ const eventSeed = [
       "latitude": "44.6088884",
       "longitude": "-87.4325891",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Austin, TX",
@@ -8493,8 +8493,8 @@ const eventSeed = [
       "latitude": "30.2754095",
       "longitude": "-97.7028754",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Canton, OH",
@@ -8506,8 +8506,8 @@ const eventSeed = [
       "latitude": "41.7034319",
       "longitude": "-81.3250971",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in Brooklyn, NY",
@@ -8519,8 +8519,8 @@ const eventSeed = [
       "latitude": "40.6781784",
       "longitude": "-73.9441579",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in Winston Salem, NC",
@@ -8532,8 +8532,8 @@ const eventSeed = [
       "latitude": "36.053989",
       "longitude": "-80.046905",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Orlando, FL",
@@ -8545,8 +8545,8 @@ const eventSeed = [
       "latitude": "28.5414571",
       "longitude": "-81.3778828",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Chicago, IL",
@@ -8558,8 +8558,8 @@ const eventSeed = [
       "latitude": "41.8781136",
       "longitude": "-87.6297982",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Boston, MA",
@@ -8571,8 +8571,8 @@ const eventSeed = [
       "latitude": "42.3322842",
       "longitude": "-71.0358329",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Topeka, KS",
@@ -8584,8 +8584,8 @@ const eventSeed = [
       "latitude": "38.9108325",
       "longitude": "-75.5276699",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in Atlanta, GA",
@@ -8597,8 +8597,8 @@ const eventSeed = [
       "latitude": "33.7489954",
       "longitude": "-84.3879824",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in Suffolk, VA",
@@ -8610,8 +8610,8 @@ const eventSeed = [
       "latitude": "43.1263",
       "longitude": "-89.3230587",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Jersey City, NJ",
@@ -8623,8 +8623,8 @@ const eventSeed = [
       "latitude": "40.7234164",
       "longitude": "-73.9892703",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in Wichita, KS",
@@ -8636,8 +8636,8 @@ const eventSeed = [
       "latitude": "37.6578286",
       "longitude": "-97.2391617",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in San Diego, CA",
@@ -8649,8 +8649,8 @@ const eventSeed = [
       "latitude": "32.816101",
       "longitude": "-117.261223",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Toledo, OH",
@@ -8662,8 +8662,8 @@ const eventSeed = [
       "latitude": "41.6528052",
       "longitude": "-83.5378674",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Madison, WI",
@@ -8675,8 +8675,8 @@ const eventSeed = [
       "latitude": "43.071194",
       "longitude": "-89.384094",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Columbia, SC",
@@ -8688,8 +8688,8 @@ const eventSeed = [
       "latitude": "34.0007104",
       "longitude": "-81.0348144",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Fresno, CA",
@@ -8701,8 +8701,8 @@ const eventSeed = [
       "latitude": "36.7377981",
       "longitude": "-119.7871247",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Chicago, IL",
@@ -8714,8 +8714,8 @@ const eventSeed = [
       "latitude": "41.8781136",
       "longitude": "-87.6297982",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in Rochester, NY",
@@ -8727,8 +8727,8 @@ const eventSeed = [
       "latitude": "43.1565779",
       "longitude": "-77.6088465",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in Knoxville, TN",
@@ -8740,8 +8740,8 @@ const eventSeed = [
       "latitude": "36.0558584",
       "longitude": "-83.9533725",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Irving, TX",
@@ -8753,8 +8753,8 @@ const eventSeed = [
       "latitude": "32.8140177",
       "longitude": "-96.9488945",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Frederick, MD",
@@ -8766,8 +8766,8 @@ const eventSeed = [
       "latitude": "39.4142688",
       "longitude": "-77.4105409",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Peoria, IL",
@@ -8779,8 +8779,8 @@ const eventSeed = [
       "latitude": "40.7416511",
       "longitude": "-89.6107535",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Jeffersonville, IN",
@@ -8792,8 +8792,8 @@ const eventSeed = [
       "latitude": "33.9866807",
       "longitude": "-118.185349",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Charlotte, NC",
@@ -8805,8 +8805,8 @@ const eventSeed = [
       "latitude": "35.1547217",
       "longitude": "-80.9462176",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Ocala, FL",
@@ -8818,8 +8818,8 @@ const eventSeed = [
       "latitude": "29.0978862",
       "longitude": "-82.0111503",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in Louisville, KY",
@@ -8831,8 +8831,8 @@ const eventSeed = [
       "latitude": "38.2526647",
       "longitude": "-85.7584557",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in San Diego, CA",
@@ -8844,8 +8844,8 @@ const eventSeed = [
       "latitude": "32.7234062",
       "longitude": "-117.1360933",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Buffalo, NY",
@@ -8857,8 +8857,8 @@ const eventSeed = [
       "latitude": "42.9196106",
       "longitude": "-78.8136777",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Richmond, VA",
@@ -8870,8 +8870,8 @@ const eventSeed = [
       "latitude": "37.557312",
       "longitude": "-77.488677",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in North Hollywood, CA",
@@ -8883,8 +8883,8 @@ const eventSeed = [
       "latitude": "34.1689206",
       "longitude": "-118.3613254",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Chicago, IL",
@@ -8896,8 +8896,8 @@ const eventSeed = [
       "latitude": "41.8781136",
       "longitude": "-87.6297982",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in Saint Louis, MO",
@@ -8909,8 +8909,8 @@ const eventSeed = [
       "latitude": "38.7040061",
       "longitude": "-90.2760849",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in Winston Salem, NC",
@@ -8922,8 +8922,8 @@ const eventSeed = [
       "latitude": "36.0725028",
       "longitude": "-80.2808149",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Lima, OH",
@@ -8935,8 +8935,8 @@ const eventSeed = [
       "latitude": "40.7712787",
       "longitude": "-84.19451",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in Jamaica, NY",
@@ -8948,8 +8948,8 @@ const eventSeed = [
       "latitude": "40.702677",
       "longitude": "-73.7889689",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in Amarillo, TX",
@@ -8961,8 +8961,8 @@ const eventSeed = [
       "latitude": "35.1605003",
       "longitude": "-101.817448",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Atlanta, GA",
@@ -8974,8 +8974,8 @@ const eventSeed = [
       "latitude": "33.7388921",
       "longitude": "-84.4191336",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Louisville, KY",
@@ -8987,8 +8987,8 @@ const eventSeed = [
       "latitude": "38.1424146",
       "longitude": "-85.890827",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Chicago, IL",
@@ -9000,8 +9000,8 @@ const eventSeed = [
       "latitude": "41.8781136",
       "longitude": "-87.6297982",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Anderson, SC",
@@ -9013,8 +9013,8 @@ const eventSeed = [
       "latitude": "39.7589478",
       "longitude": "-84.1916069",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Charlotte, NC",
@@ -9026,8 +9026,8 @@ const eventSeed = [
       "latitude": "33.6744794",
       "longitude": "-111.9075351",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in Pittsburgh, PA",
@@ -9039,8 +9039,8 @@ const eventSeed = [
       "latitude": "40.4454101",
       "longitude": "-79.9958004",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in Memphis, TN",
@@ -9052,8 +9052,8 @@ const eventSeed = [
       "latitude": "35.1495343",
       "longitude": "-90.0489801",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Madison, WI",
@@ -9065,8 +9065,8 @@ const eventSeed = [
       "latitude": "43.1416974",
       "longitude": "-89.3029555",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Albuquerque, NM",
@@ -9078,8 +9078,8 @@ const eventSeed = [
       "latitude": "35.0843859",
       "longitude": "-106.650422",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Shawnee Mission, KS",
@@ -9091,8 +9091,8 @@ const eventSeed = [
       "latitude": "39.0228485",
       "longitude": "-94.7151865",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Erie, PA",
@@ -9104,8 +9104,8 @@ const eventSeed = [
       "latitude": "42.1292241",
       "longitude": "-80.085059",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Fort Lauderdale, FL",
@@ -9117,8 +9117,8 @@ const eventSeed = [
       "latitude": "26.1224386",
       "longitude": "-80.1373174",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in New York City, NY",
@@ -9130,8 +9130,8 @@ const eventSeed = [
       "latitude": "40.7187376",
       "longitude": "-73.9999475",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in Stamford, CT",
@@ -9143,8 +9143,8 @@ const eventSeed = [
       "latitude": "33.090285",
       "longitude": "-117.0499859",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in Minneapolis, MN",
@@ -9156,8 +9156,8 @@ const eventSeed = [
       "latitude": "44.977753",
       "longitude": "-93.2650108",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Houston, TX",
@@ -9169,8 +9169,8 @@ const eventSeed = [
       "latitude": "43.1382663",
       "longitude": "-89.3112732",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Dallas, TX",
@@ -9182,8 +9182,8 @@ const eventSeed = [
       "latitude": "32.7349252",
       "longitude": "-96.86029",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in San Jose, CA",
@@ -9195,8 +9195,8 @@ const eventSeed = [
       "latitude": "35.0476912",
       "longitude": "-90.0260493",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Phoenix, AZ",
@@ -9208,8 +9208,8 @@ const eventSeed = [
       "latitude": "33.4483771",
       "longitude": "-112.0740373",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in Charlotte, NC",
@@ -9221,8 +9221,8 @@ const eventSeed = [
       "latitude": "31.9685988",
       "longitude": "-99.9018131",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in Salt Lake City, UT",
@@ -9234,8 +9234,8 @@ const eventSeed = [
       "latitude": "40.7607793",
       "longitude": "-111.8910474",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Portland, OR",
@@ -9247,8 +9247,8 @@ const eventSeed = [
       "latitude": "45.5122308",
       "longitude": "-122.6587185",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in Pittsburgh, PA",
@@ -9260,8 +9260,8 @@ const eventSeed = [
       "latitude": "40.4290378",
       "longitude": "-79.9898",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in Lubbock, TX",
@@ -9273,8 +9273,8 @@ const eventSeed = [
       "latitude": "33.5133997",
       "longitude": "-101.9066496",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Richmond, VA",
@@ -9286,8 +9286,8 @@ const eventSeed = [
       "latitude": "37.5407246",
       "longitude": "-77.4360481",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Hicksville, NY",
@@ -9299,8 +9299,8 @@ const eventSeed = [
       "latitude": "41.2059587",
       "longitude": "-96.1929229",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Memphis, TN",
@@ -9312,8 +9312,8 @@ const eventSeed = [
       "latitude": "35.1297703",
       "longitude": "-90.0621835",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Washington, DC",
@@ -9325,8 +9325,8 @@ const eventSeed = [
       "latitude": "38.9071923",
       "longitude": "-77.0368707",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Memphis, TN",
@@ -9338,8 +9338,8 @@ const eventSeed = [
       "latitude": "35.1495343",
       "longitude": "-90.0489801",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in Orlando, FL",
@@ -9351,8 +9351,8 @@ const eventSeed = [
       "latitude": "44.554141",
       "longitude": "-88.068204",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in Seminole, FL",
@@ -9364,8 +9364,8 @@ const eventSeed = [
       "latitude": "27.8682658",
       "longitude": "-82.8394976",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Albuquerque, NM",
@@ -9377,8 +9377,8 @@ const eventSeed = [
       "latitude": "35.0843859",
       "longitude": "-106.650422",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Mobile, AL",
@@ -9390,8 +9390,8 @@ const eventSeed = [
       "latitude": "30.6953657",
       "longitude": "-88.0398912",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Topeka, KS",
@@ -9403,8 +9403,8 @@ const eventSeed = [
       "latitude": "43.2889245",
       "longitude": "-78.8042828",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Springfield, VA",
@@ -9416,8 +9416,8 @@ const eventSeed = [
       "latitude": "37.049222",
       "longitude": "-93.3694509",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Philadelphia, PA",
@@ -9429,8 +9429,8 @@ const eventSeed = [
       "latitude": "40.131524",
       "longitude": "-75.3605128",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Pocatello, ID",
@@ -9442,8 +9442,8 @@ const eventSeed = [
       "latitude": "42.8621042",
       "longitude": "-112.4506191",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in Washington, DC",
@@ -9455,8 +9455,8 @@ const eventSeed = [
       "latitude": "38.9071923",
       "longitude": "-77.0368707",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in Milwaukee, WI",
@@ -9468,8 +9468,8 @@ const eventSeed = [
       "latitude": "42.9658183",
       "longitude": "-87.9420736",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Minneapolis, MN",
@@ -9481,8 +9481,8 @@ const eventSeed = [
       "latitude": "41.5067003",
       "longitude": "-90.5151342",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Colorado Springs, CO",
@@ -9494,8 +9494,8 @@ const eventSeed = [
       "latitude": "38.8087297",
       "longitude": "-104.7510913",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Knoxville, TN",
@@ -9507,8 +9507,8 @@ const eventSeed = [
       "latitude": "35.9606384",
       "longitude": "-83.9207392",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Brockton, MA",
@@ -9520,8 +9520,8 @@ const eventSeed = [
       "latitude": "41.2638014",
       "longitude": "-70.0746204",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in Brea, CA",
@@ -9533,8 +9533,8 @@ const eventSeed = [
       "latitude": "37.1032526",
       "longitude": "-85.3058462",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in Dallas, TX",
@@ -9546,8 +9546,8 @@ const eventSeed = [
       "latitude": "32.8800017",
       "longitude": "-96.8717783",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Fort Lauderdale, FL",
@@ -9559,8 +9559,8 @@ const eventSeed = [
       "latitude": "26.1224386",
       "longitude": "-80.1373174",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in San Francisco, CA",
@@ -9572,8 +9572,8 @@ const eventSeed = [
       "latitude": "37.7749295",
       "longitude": "-122.4194155",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in Portland, OR",
@@ -9585,8 +9585,8 @@ const eventSeed = [
       "latitude": "45.5122308",
       "longitude": "-122.6587185",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Staten Island, NY",
@@ -9598,8 +9598,8 @@ const eventSeed = [
       "latitude": "43.0216283",
       "longitude": "-78.9657302",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Tampa, FL",
@@ -9611,8 +9611,8 @@ const eventSeed = [
       "latitude": "27.950575",
       "longitude": "-82.4571776",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Anaheim, CA",
@@ -9624,8 +9624,8 @@ const eventSeed = [
       "latitude": "33.830115",
       "longitude": "-117.870988",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Fort Wayne, IN",
@@ -9637,8 +9637,8 @@ const eventSeed = [
       "latitude": "41.079273",
       "longitude": "-85.1393513",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Saint Paul, MN",
@@ -9650,8 +9650,8 @@ const eventSeed = [
       "latitude": "44.9537029",
       "longitude": "-93.0899578",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in Washington, DC",
@@ -9663,8 +9663,8 @@ const eventSeed = [
       "latitude": "38.9016587",
       "longitude": "-76.9247053",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in Sacramento, CA",
@@ -9676,8 +9676,8 @@ const eventSeed = [
       "latitude": "38.6023289",
       "longitude": "-121.3320741",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Toledo, OH",
@@ -9689,8 +9689,8 @@ const eventSeed = [
       "latitude": "41.6528052",
       "longitude": "-83.5378674",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Shreveport, LA",
@@ -9702,8 +9702,8 @@ const eventSeed = [
       "latitude": "32.5251516",
       "longitude": "-93.7501789",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Dayton, OH",
@@ -9715,8 +9715,8 @@ const eventSeed = [
       "latitude": "39.723074",
       "longitude": "-84.175676",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in San Antonio, TX",
@@ -9728,8 +9728,8 @@ const eventSeed = [
       "latitude": "29.5297939",
       "longitude": "-98.6383588",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Sacramento, CA",
@@ -9741,8 +9741,8 @@ const eventSeed = [
       "latitude": "38.5765725",
       "longitude": "-121.4980548",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Los Angeles, CA",
@@ -9754,8 +9754,8 @@ const eventSeed = [
       "latitude": "34.0522342",
       "longitude": "-118.2436849",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in Chicago, IL",
@@ -9767,8 +9767,8 @@ const eventSeed = [
       "latitude": "40.6331249",
       "longitude": "-89.3985283",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in Zephyrhills, FL",
@@ -9780,8 +9780,8 @@ const eventSeed = [
       "latitude": "47.9789848",
       "longitude": "-122.2020795",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Buffalo, NY",
@@ -9793,8 +9793,8 @@ const eventSeed = [
       "latitude": "42.8864468",
       "longitude": "-78.8783689",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Indianapolis, IN",
@@ -9806,8 +9806,8 @@ const eventSeed = [
       "latitude": "39.8975538",
       "longitude": "-86.0251583",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Dayton, OH",
@@ -9819,8 +9819,8 @@ const eventSeed = [
       "latitude": "39.7824591",
       "longitude": "-84.2658998",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Los Angeles, CA",
@@ -9832,8 +9832,8 @@ const eventSeed = [
       "latitude": "48.091229",
       "longitude": "-114.659468",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in Tulsa, OK",
@@ -9845,8 +9845,8 @@ const eventSeed = [
       "latitude": "36.1319247",
       "longitude": "-95.9736606",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in Dallas, TX",
@@ -9858,8 +9858,8 @@ const eventSeed = [
       "latitude": "33.0580568",
       "longitude": "-96.8391675",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Monticello, MN",
@@ -9871,8 +9871,8 @@ const eventSeed = [
       "latitude": "45.3055201",
       "longitude": "-93.7941378",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in Paterson, NJ",
@@ -9884,8 +9884,8 @@ const eventSeed = [
       "latitude": "40.9167654",
       "longitude": "-74.171811",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in Richmond, VA",
@@ -9897,8 +9897,8 @@ const eventSeed = [
       "latitude": "37.5407246",
       "longitude": "-77.4360481",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Scranton, PA",
@@ -9910,8 +9910,8 @@ const eventSeed = [
       "latitude": "41.2033216",
       "longitude": "-77.1945247",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in San Antonio, TX",
@@ -9923,8 +9923,8 @@ const eventSeed = [
       "latitude": "29.3815103",
       "longitude": "-98.3922564",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Huntington, WV",
@@ -9936,8 +9936,8 @@ const eventSeed = [
       "latitude": "45.1981805",
       "longitude": "-93.8187961",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Eugene, OR",
@@ -9949,8 +9949,8 @@ const eventSeed = [
       "latitude": "44.0520691",
       "longitude": "-123.0867536",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Providence, RI",
@@ -9962,8 +9962,8 @@ const eventSeed = [
       "latitude": "41.8239891",
       "longitude": "-71.4128343",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in Albany, NY",
@@ -9975,8 +9975,8 @@ const eventSeed = [
       "latitude": "42.6525793",
       "longitude": "-73.7562317",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in Houston, TX",
@@ -9988,8 +9988,8 @@ const eventSeed = [
       "latitude": "29.6788339",
       "longitude": "-95.260369",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Washington, DC",
@@ -10001,8 +10001,8 @@ const eventSeed = [
       "latitude": "38.9071923",
       "longitude": "-77.0368707",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Chicago, IL",
@@ -10014,8 +10014,8 @@ const eventSeed = [
       "latitude": "41.8781136",
       "longitude": "-87.6297982",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Mobile, AL",
@@ -10027,8 +10027,8 @@ const eventSeed = [
       "latitude": "40.9761479",
       "longitude": "-75.3136503",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Pittsburgh, PA",
@@ -10040,8 +10040,8 @@ const eventSeed = [
       "latitude": "40.4734035",
       "longitude": "-80.0134929",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Raleigh, NC",
@@ -10053,8 +10053,8 @@ const eventSeed = [
       "latitude": "35.7795897",
       "longitude": "-78.6381787",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Columbia, SC",
@@ -10066,8 +10066,8 @@ const eventSeed = [
       "latitude": "34.0007104",
       "longitude": "-81.0348144",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in Philadelphia, PA",
@@ -10079,8 +10079,8 @@ const eventSeed = [
       "latitude": "40.001254",
       "longitude": "-75.073269",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in Las Vegas, NV",
@@ -10092,8 +10092,8 @@ const eventSeed = [
       "latitude": "36.0850628",
       "longitude": "-115.2693483",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Hayward, CA",
@@ -10105,8 +10105,8 @@ const eventSeed = [
       "latitude": "37.6688205",
       "longitude": "-122.0807964",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Chicago, IL",
@@ -10118,8 +10118,8 @@ const eventSeed = [
       "latitude": "41.8781136",
       "longitude": "-87.6297982",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Philadelphia, PA",
@@ -10131,8 +10131,8 @@ const eventSeed = [
       "latitude": "39.9987987",
       "longitude": "-75.2082144",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Young America, MN",
@@ -10144,8 +10144,8 @@ const eventSeed = [
       "latitude": "37.09024",
       "longitude": "-95.712891",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in Lynchburg, VA",
@@ -10157,8 +10157,8 @@ const eventSeed = [
       "latitude": "37.4137536",
       "longitude": "-79.1422464",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in Charlotte, NC",
@@ -10170,8 +10170,8 @@ const eventSeed = [
       "latitude": "35.885272",
       "longitude": "-78.9182222",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in San Francisco, CA",
@@ -10183,8 +10183,8 @@ const eventSeed = [
       "latitude": "40.72706",
       "longitude": "-73.9444539",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in Albany, NY",
@@ -10196,8 +10196,8 @@ const eventSeed = [
       "latitude": "27.9648296",
       "longitude": "-82.5381987",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in Rockford, IL",
@@ -10209,8 +10209,8 @@ const eventSeed = [
       "latitude": "42.2711311",
       "longitude": "-89.0939952",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Albuquerque, NM",
@@ -10222,8 +10222,8 @@ const eventSeed = [
       "latitude": "35.096739",
       "longitude": "-106.6662035",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Chicago, IL",
@@ -10235,8 +10235,8 @@ const eventSeed = [
       "latitude": "41.8781136",
       "longitude": "-87.6297982",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Worcester, MA",
@@ -10248,8 +10248,8 @@ const eventSeed = [
       "latitude": "42.255718",
       "longitude": "-71.850829",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Greenville, SC",
@@ -10261,8 +10261,8 @@ const eventSeed = [
       "latitude": "37.7983479",
       "longitude": "-87.7614789",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Chico, CA",
@@ -10274,8 +10274,8 @@ const eventSeed = [
       "latitude": "34.1553357",
       "longitude": "-118.6404716",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in Sacramento, CA",
@@ -10287,8 +10287,8 @@ const eventSeed = [
       "latitude": "38.4805538",
       "longitude": "-121.4541881",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in Houston, TX",
@@ -10300,8 +10300,8 @@ const eventSeed = [
       "latitude": "40.815519",
       "longitude": "-73.8086335",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Lincoln, NE",
@@ -10313,8 +10313,8 @@ const eventSeed = [
       "latitude": "43.123832",
       "longitude": "-89.3224239",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Salt Lake City, UT",
@@ -10326,8 +10326,8 @@ const eventSeed = [
       "latitude": "41.2033216",
       "longitude": "-77.1945247",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Honolulu, HI",
@@ -10339,8 +10339,8 @@ const eventSeed = [
       "latitude": "21.3069444",
       "longitude": "-157.8583333",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Ogden, UT",
@@ -10352,8 +10352,8 @@ const eventSeed = [
       "latitude": "41.223",
       "longitude": "-111.9738304",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Torrance, CA",
@@ -10365,8 +10365,8 @@ const eventSeed = [
       "latitude": "40.4172871",
       "longitude": "-82.907123",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Sacramento, CA",
@@ -10378,8 +10378,8 @@ const eventSeed = [
       "latitude": "38.6553427",
       "longitude": "-121.474624",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in New Orleans, LA",
@@ -10391,8 +10391,8 @@ const eventSeed = [
       "latitude": "30.0327375",
       "longitude": "-89.9942547",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in Baltimore, MD",
@@ -10404,8 +10404,8 @@ const eventSeed = [
       "latitude": "39.290656",
       "longitude": "-76.5539471",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Berkeley, CA",
@@ -10417,8 +10417,8 @@ const eventSeed = [
       "latitude": "37.8715926",
       "longitude": "-122.272747",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Tampa, FL",
@@ -10430,8 +10430,8 @@ const eventSeed = [
       "latitude": "27.9775318",
       "longitude": "-82.4246388",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Fort Worth, TX",
@@ -10443,8 +10443,8 @@ const eventSeed = [
       "latitude": "32.8982128",
       "longitude": "-97.3016272",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Boston, MA",
@@ -10456,8 +10456,8 @@ const eventSeed = [
       "latitude": "42.3600825",
       "longitude": "-71.0588801",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in Farmington, MI",
@@ -10469,8 +10469,8 @@ const eventSeed = [
       "latitude": "42.4644795",
       "longitude": "-83.3763218",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in North Little Rock, AR",
@@ -10482,8 +10482,8 @@ const eventSeed = [
       "latitude": "34.7464809",
       "longitude": "-92.2895948",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Phoenix, AZ",
@@ -10495,8 +10495,8 @@ const eventSeed = [
       "latitude": "33.6460114",
       "longitude": "-112.1060699",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in Seattle, WA",
@@ -10508,8 +10508,8 @@ const eventSeed = [
       "latitude": "47.6062095",
       "longitude": "-122.3320708",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in Tacoma, WA",
@@ -10521,8 +10521,8 @@ const eventSeed = [
       "latitude": "47.2528768",
       "longitude": "-122.4442906",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Austin, TX",
@@ -10534,8 +10534,8 @@ const eventSeed = [
       "latitude": "30.2827507",
       "longitude": "-97.7543483",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Austin, TX",
@@ -10547,8 +10547,8 @@ const eventSeed = [
       "latitude": "30.2561141",
       "longitude": "-97.571629",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in San Jose, CA",
@@ -10560,8 +10560,8 @@ const eventSeed = [
       "latitude": "41.0604513",
       "longitude": "28.9691541",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Saint Petersburg, FL",
@@ -10573,8 +10573,8 @@ const eventSeed = [
       "latitude": "27.728528",
       "longitude": "-82.6522684",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Philadelphia, PA",
@@ -10586,8 +10586,8 @@ const eventSeed = [
       "latitude": "39.9525839",
       "longitude": "-75.1652215",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in Richmond, VA",
@@ -10599,8 +10599,8 @@ const eventSeed = [
       "latitude": "37.5765629",
       "longitude": "-77.552403",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in Burbank, CA",
@@ -10612,8 +10612,8 @@ const eventSeed = [
       "latitude": "34.2008618",
       "longitude": "-118.3269421",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Dayton, OH",
@@ -10625,8 +10625,8 @@ const eventSeed = [
       "latitude": "39.8446002",
       "longitude": "-84.277207",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Dallas, TX",
@@ -10638,8 +10638,8 @@ const eventSeed = [
       "latitude": "32.9342715",
       "longitude": "-96.8875011",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Pasadena, CA",
@@ -10651,8 +10651,8 @@ const eventSeed = [
       "latitude": "34.1477849",
       "longitude": "-118.1445155",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Cedar Rapids, IA",
@@ -10664,8 +10664,8 @@ const eventSeed = [
       "latitude": "41.9621584",
       "longitude": "-91.7489606",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Dayton, OH",
@@ -10677,8 +10677,8 @@ const eventSeed = [
       "latitude": "39.659283",
       "longitude": "-84.116661",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Providence, RI",
@@ -10690,8 +10690,8 @@ const eventSeed = [
       "latitude": "41.8252295",
       "longitude": "-71.419146",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in Evansville, IN",
@@ -10703,8 +10703,8 @@ const eventSeed = [
       "latitude": "37.9715592",
       "longitude": "-87.5710898",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in Raleigh, NC",
@@ -10716,8 +10716,8 @@ const eventSeed = [
       "latitude": "35.7654004",
       "longitude": "-78.7026516",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Roanoke, VA",
@@ -10729,8 +10729,8 @@ const eventSeed = [
       "latitude": "42.4232158",
       "longitude": "-71.1537637",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Tampa, FL",
@@ -10742,8 +10742,8 @@ const eventSeed = [
       "latitude": "28.180631",
       "longitude": "-82.2833169",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Washington, DC",
@@ -10755,8 +10755,8 @@ const eventSeed = [
       "latitude": "38.8988694",
       "longitude": "-77.0141486",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Charlotte, NC",
@@ -10768,8 +10768,8 @@ const eventSeed = [
       "latitude": "35.2270869",
       "longitude": "-80.8431267",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in Tucson, AZ",
@@ -10781,8 +10781,8 @@ const eventSeed = [
       "latitude": "41.2890398",
       "longitude": "-95.9814109",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in Chicago, IL",
@@ -10794,8 +10794,8 @@ const eventSeed = [
       "latitude": "41.9406825",
       "longitude": "-87.7439672",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in New York City, NY",
@@ -10807,8 +10807,8 @@ const eventSeed = [
       "latitude": "39.9625984",
       "longitude": "-76.727745",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in Pittsburgh, PA",
@@ -10820,8 +10820,8 @@ const eventSeed = [
       "latitude": "29.7260266",
       "longitude": "-95.3481641",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in San Francisco, CA",
@@ -10833,8 +10833,8 @@ const eventSeed = [
       "latitude": "37.7749295",
       "longitude": "-122.4194155",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Cincinnati, OH",
@@ -10846,8 +10846,8 @@ const eventSeed = [
       "latitude": "39.1031182",
       "longitude": "-84.5120196",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in San Jose, CA",
@@ -10859,8 +10859,8 @@ const eventSeed = [
       "latitude": "37.3321474",
       "longitude": "-121.8899246",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Cedar Rapids, IA",
@@ -10872,8 +10872,8 @@ const eventSeed = [
       "latitude": "41.9778795",
       "longitude": "-91.6656232",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Boston, MA",
@@ -10885,8 +10885,8 @@ const eventSeed = [
       "latitude": "51.4796953",
       "longitude": "-0.1663472",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Lawrenceville, GA",
@@ -10898,8 +10898,8 @@ const eventSeed = [
       "latitude": "33.8958404",
       "longitude": "-84.0648528",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in Syracuse, NY",
@@ -10911,8 +10911,8 @@ const eventSeed = [
       "latitude": "43.08718",
       "longitude": "-76.16681",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in Boca Raton, FL",
@@ -10924,8 +10924,8 @@ const eventSeed = [
       "latitude": "26.3683064",
       "longitude": "-80.1289321",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Washington, DC",
@@ -10937,8 +10937,8 @@ const eventSeed = [
       "latitude": "41.640723",
       "longitude": "-70.337347",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Los Angeles, CA",
@@ -10950,8 +10950,8 @@ const eventSeed = [
       "latitude": "34.0522342",
       "longitude": "-118.2436849",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Baton Rouge, LA",
@@ -10963,8 +10963,8 @@ const eventSeed = [
       "latitude": "30.3269814",
       "longitude": "-91.123569",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Tampa, FL",
@@ -10976,8 +10976,8 @@ const eventSeed = [
       "latitude": "27.985141",
       "longitude": "-82.4455216",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in San Jose, CA",
@@ -10989,8 +10989,8 @@ const eventSeed = [
       "latitude": "37.3524231",
       "longitude": "-121.8870692",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Garden Grove, CA",
@@ -11002,8 +11002,8 @@ const eventSeed = [
       "latitude": "43.100607",
       "longitude": "-89.3375237",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in Anniston, AL",
@@ -11015,8 +11015,8 @@ const eventSeed = [
       "latitude": "33.6598257",
       "longitude": "-85.8316318",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in San Mateo, CA",
@@ -11028,8 +11028,8 @@ const eventSeed = [
       "latitude": "37.5629917",
       "longitude": "-122.3255254",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Plano, TX",
@@ -11041,8 +11041,8 @@ const eventSeed = [
       "latitude": "33.008409",
       "longitude": "-96.741928",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Seattle, WA",
@@ -11054,8 +11054,8 @@ const eventSeed = [
       "latitude": "47.6062095",
       "longitude": "-122.3320708",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Salt Lake City, UT",
@@ -11067,8 +11067,8 @@ const eventSeed = [
       "latitude": "40.8021055",
       "longitude": "-111.9151981",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Norfolk, VA",
@@ -11080,8 +11080,8 @@ const eventSeed = [
       "latitude": "36.9286598",
       "longitude": "-76.3126676",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in New York City, NY",
@@ -11093,8 +11093,8 @@ const eventSeed = [
       "latitude": "40.5732346",
       "longitude": "-74.1674608",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in Columbia, SC",
@@ -11106,8 +11106,8 @@ const eventSeed = [
       "latitude": "34.0007104",
       "longitude": "-81.0348144",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Oklahoma City, OK",
@@ -11119,8 +11119,8 @@ const eventSeed = [
       "latitude": "35.5684086",
       "longitude": "-97.3308132",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in Riverside, CA",
@@ -11132,8 +11132,8 @@ const eventSeed = [
       "latitude": "33.9806005",
       "longitude": "-117.3754942",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in Frankfort, KY",
@@ -11145,8 +11145,8 @@ const eventSeed = [
       "latitude": "38.2009055",
       "longitude": "-84.8732835",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Pomona, CA",
@@ -11158,8 +11158,8 @@ const eventSeed = [
       "latitude": "34.055103",
       "longitude": "-117.7499909",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Sioux City, IA",
@@ -11171,8 +11171,8 @@ const eventSeed = [
       "latitude": "40.8824374",
       "longitude": "-72.5035593",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Las Vegas, NV",
@@ -11184,8 +11184,8 @@ const eventSeed = [
       "latitude": "36.133052",
       "longitude": "-115.0849016",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Chattanooga, TN",
@@ -11197,8 +11197,8 @@ const eventSeed = [
       "latitude": "35.0456297",
       "longitude": "-85.3096801",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Lake Charles, LA",
@@ -11210,8 +11210,8 @@ const eventSeed = [
       "latitude": "30.2265949",
       "longitude": "-93.2173758",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in Virginia Beach, VA",
@@ -11223,8 +11223,8 @@ const eventSeed = [
       "latitude": "37.7343004",
       "longitude": "-79.3539238",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in Tallahassee, FL",
@@ -11236,8 +11236,8 @@ const eventSeed = [
       "latitude": "34.4614628",
       "longitude": "-80.3881333",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Oklahoma City, OK",
@@ -11249,8 +11249,8 @@ const eventSeed = [
       "latitude": "35.5457947",
       "longitude": "-97.6551693",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in New York City, NY",
@@ -11262,8 +11262,8 @@ const eventSeed = [
       "latitude": "40.6740196",
       "longitude": "-74.0002279",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Oxnard, CA",
@@ -11275,8 +11275,8 @@ const eventSeed = [
       "latitude": "34.1975048",
       "longitude": "-119.1770516",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Roanoke, VA",
@@ -11288,8 +11288,8 @@ const eventSeed = [
       "latitude": "37.27389",
       "longitude": "-79.941",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Boise, ID",
@@ -11301,8 +11301,8 @@ const eventSeed = [
       "latitude": "36.6002378",
       "longitude": "-121.8946761",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Baltimore, MD",
@@ -11314,8 +11314,8 @@ const eventSeed = [
       "latitude": "39.2903848",
       "longitude": "-76.6121893",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in Wilmington, NC",
@@ -11327,8 +11327,8 @@ const eventSeed = [
       "latitude": "43.0126063",
       "longitude": "-89.317951",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in Greenville, SC",
@@ -11340,8 +11340,8 @@ const eventSeed = [
       "latitude": "43.1337924",
       "longitude": "-89.2994403",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Toledo, OH",
@@ -11353,8 +11353,8 @@ const eventSeed = [
       "latitude": "41.685241",
       "longitude": "-83.602593",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Peoria, IL",
@@ -11366,8 +11366,8 @@ const eventSeed = [
       "latitude": "40.6936488",
       "longitude": "-89.5889864",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Columbus, OH",
@@ -11379,8 +11379,8 @@ const eventSeed = [
       "latitude": "35.20105",
       "longitude": "-91.8318334",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Sacramento, CA",
@@ -11392,8 +11392,8 @@ const eventSeed = [
       "latitude": "38.6043889",
       "longitude": "-121.408116",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in Delray Beach, FL",
@@ -11405,8 +11405,8 @@ const eventSeed = [
       "latitude": "44.5588028",
       "longitude": "-72.5778415",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in Arlington, VA",
@@ -11418,8 +11418,8 @@ const eventSeed = [
       "latitude": "38.873654",
       "longitude": "-77.1043064",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in El Paso, TX",
@@ -11431,8 +11431,8 @@ const eventSeed = [
       "latitude": "31.692257",
       "longitude": "-106.270635",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in Columbia, SC",
@@ -11444,8 +11444,8 @@ const eventSeed = [
       "latitude": "34.0007104",
       "longitude": "-81.0348144",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in Charlotte, NC",
@@ -11457,8 +11457,8 @@ const eventSeed = [
       "latitude": "35.2270869",
       "longitude": "-80.8431267",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Corpus Christi, TX",
@@ -11470,8 +11470,8 @@ const eventSeed = [
       "latitude": "35.120943",
       "longitude": "-89.7314395",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Des Moines, IA",
@@ -11483,8 +11483,8 @@ const eventSeed = [
       "latitude": "41.6",
       "longitude": "-93.61",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Salt Lake City, UT",
@@ -11496,8 +11496,8 @@ const eventSeed = [
       "latitude": "40.7607793",
       "longitude": "-111.8910474",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Greensboro, NC",
@@ -11509,8 +11509,8 @@ const eventSeed = [
       "latitude": "36.0726354",
       "longitude": "-79.7919754",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Hartford, CT",
@@ -11522,8 +11522,8 @@ const eventSeed = [
       "latitude": "44.2192901",
       "longitude": "-123.2056484",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in Clearwater, FL",
@@ -11535,8 +11535,8 @@ const eventSeed = [
       "latitude": "27.8397907",
       "longitude": "-82.7286555",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in Hollywood, FL",
@@ -11548,8 +11548,8 @@ const eventSeed = [
       "latitude": "26.0112014",
       "longitude": "-80.1494901",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Tallahassee, FL",
@@ -11561,8 +11561,8 @@ const eventSeed = [
       "latitude": "30.4283041",
       "longitude": "-84.3306664",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Nashville, TN",
@@ -11574,8 +11574,8 @@ const eventSeed = [
       "latitude": "36.3005388",
       "longitude": "-86.7799845",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Dearborn, MI",
@@ -11587,8 +11587,8 @@ const eventSeed = [
       "latitude": "42.2961817",
       "longitude": "-83.2894274",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Flushing, NY",
@@ -11600,8 +11600,8 @@ const eventSeed = [
       "latitude": "40.7674987",
       "longitude": "-73.833079",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Louisville, KY",
@@ -11613,8 +11613,8 @@ const eventSeed = [
       "latitude": "38.2526647",
       "longitude": "-85.7584557",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Flint, MI",
@@ -11626,8 +11626,8 @@ const eventSeed = [
       "latitude": "43.0421785",
       "longitude": "-83.7210284",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in West Palm Beach, FL",
@@ -11639,8 +11639,8 @@ const eventSeed = [
       "latitude": "26.7153424",
       "longitude": "-80.0533746",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in Akron, OH",
@@ -11652,8 +11652,8 @@ const eventSeed = [
       "latitude": "41.0814447",
       "longitude": "-81.5190053",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Rochester, NY",
@@ -11665,8 +11665,8 @@ const eventSeed = [
       "latitude": "43.1565779",
       "longitude": "-77.6088465",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Glendale, CA",
@@ -11678,8 +11678,8 @@ const eventSeed = [
       "latitude": "34.1463409",
       "longitude": "-118.2455902",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Virginia Beach, VA",
@@ -11691,8 +11691,8 @@ const eventSeed = [
       "latitude": "36.8529263",
       "longitude": "-75.977985",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Long Beach, CA",
@@ -11704,8 +11704,8 @@ const eventSeed = [
       "latitude": "33.7700504",
       "longitude": "-118.1937395",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in Columbia, MO",
@@ -11717,8 +11717,8 @@ const eventSeed = [
       "latitude": "38.8908078",
       "longitude": "-92.3454227",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in Denver, CO",
@@ -11730,8 +11730,8 @@ const eventSeed = [
       "latitude": "39.7392358",
       "longitude": "-104.990251",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Tulsa, OK",
@@ -11743,8 +11743,8 @@ const eventSeed = [
       "latitude": "36.1539816",
       "longitude": "-95.992775",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in Oklahoma City, OK",
@@ -11756,8 +11756,8 @@ const eventSeed = [
       "latitude": "35.4675602",
       "longitude": "-97.5164276",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in Fresno, CA",
@@ -11769,8 +11769,8 @@ const eventSeed = [
       "latitude": "36.7377981",
       "longitude": "-119.7871247",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in El Paso, TX",
@@ -11782,8 +11782,8 @@ const eventSeed = [
       "latitude": "31.87239",
       "longitude": "-106.558211",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Minneapolis, MN",
@@ -11795,8 +11795,8 @@ const eventSeed = [
       "latitude": "44.9660512",
       "longitude": "-93.2650348",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Odessa, TX",
@@ -11808,8 +11808,8 @@ const eventSeed = [
       "latitude": "31.8456816",
       "longitude": "-102.3676431",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Flint, MI",
@@ -11821,8 +11821,8 @@ const eventSeed = [
       "latitude": "43.0142082",
       "longitude": "-83.6900669",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Dallas, TX",
@@ -11834,8 +11834,8 @@ const eventSeed = [
       "latitude": "32.7766642",
       "longitude": "-96.7969879",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in Cape Coral, FL",
@@ -11847,8 +11847,8 @@ const eventSeed = [
       "latitude": "26.5628537",
       "longitude": "-81.9495331",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in Fort Wayne, IN",
@@ -11860,8 +11860,8 @@ const eventSeed = [
       "latitude": "28.15943",
       "longitude": "-82.688489",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Denver, CO",
@@ -11873,8 +11873,8 @@ const eventSeed = [
       "latitude": "41.766419",
       "longitude": "-72.704736",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Fresno, CA",
@@ -11886,8 +11886,8 @@ const eventSeed = [
       "latitude": "52.6350501",
       "longitude": "-1.1285401",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Mountain View, CA",
@@ -11899,8 +11899,8 @@ const eventSeed = [
       "latitude": "37.3772928",
       "longitude": "-122.0766888",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Houston, TX",
@@ -11912,8 +11912,8 @@ const eventSeed = [
       "latitude": "29.7604267",
       "longitude": "-95.3698028",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Kansas City, MO",
@@ -11925,8 +11925,8 @@ const eventSeed = [
       "latitude": "39.0839175",
       "longitude": "-94.577101",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Santa Monica, CA",
@@ -11938,8 +11938,8 @@ const eventSeed = [
       "latitude": "34.0001965",
       "longitude": "-118.4814561",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in Denver, CO",
@@ -11951,8 +11951,8 @@ const eventSeed = [
       "latitude": "39.723729",
       "longitude": "-104.987131",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in Oklahoma City, OK",
@@ -11964,8 +11964,8 @@ const eventSeed = [
       "latitude": "35.4878436",
       "longitude": "-97.4568634",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Norfolk, VA",
@@ -11977,8 +11977,8 @@ const eventSeed = [
       "latitude": "36.8507689",
       "longitude": "-76.2858726",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Omaha, NE",
@@ -11990,8 +11990,8 @@ const eventSeed = [
       "latitude": "41.2565369",
       "longitude": "-95.9345034",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Las Vegas, NV",
@@ -12003,8 +12003,8 @@ const eventSeed = [
       "latitude": "30.4293458",
       "longitude": "-97.6970533",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Chicago, IL",
@@ -12016,8 +12016,8 @@ const eventSeed = [
       "latitude": "41.9587501",
       "longitude": "-87.6615134",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in El Paso, TX",
@@ -12029,8 +12029,8 @@ const eventSeed = [
       "latitude": "40.8401293",
       "longitude": "-73.4016528",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in Peoria, IL",
@@ -12042,8 +12042,8 @@ const eventSeed = [
       "latitude": "40.6969191",
       "longitude": "-89.5136418",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Tyler, TX",
@@ -12055,8 +12055,8 @@ const eventSeed = [
       "latitude": "32.3512601",
       "longitude": "-95.3010624",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in Dayton, OH",
@@ -12068,8 +12068,8 @@ const eventSeed = [
       "latitude": "39.7653684",
       "longitude": "-84.2243562",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in Dayton, OH",
@@ -12081,8 +12081,8 @@ const eventSeed = [
       "latitude": "39.7729653",
       "longitude": "-84.1935203",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in Kalamazoo, MI",
@@ -12094,8 +12094,8 @@ const eventSeed = [
       "latitude": "42.304354",
       "longitude": "-85.559576",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Colorado Springs, CO",
@@ -12107,8 +12107,8 @@ const eventSeed = [
       "latitude": "38.8283163",
       "longitude": "-104.7527005",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in Trenton, NJ",
@@ -12120,8 +12120,8 @@ const eventSeed = [
       "latitude": "40.209156",
       "longitude": "-74.740653",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Saint Louis, MO",
@@ -12133,8 +12133,8 @@ const eventSeed = [
       "latitude": "38.6263847",
       "longitude": "-90.1869408",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Kansas City, MO",
@@ -12146,8 +12146,8 @@ const eventSeed = [
       "latitude": "39.041983",
       "longitude": "-94.5919928",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in Trenton, NJ",
@@ -12159,8 +12159,8 @@ const eventSeed = [
       "latitude": "40.2205824",
       "longitude": "-74.759717",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in Spring Hill, FL",
@@ -12172,8 +12172,8 @@ const eventSeed = [
       "latitude": "28.4347866",
       "longitude": "-82.535611",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Manchester, NH",
@@ -12185,8 +12185,8 @@ const eventSeed = [
       "latitude": "42.930233",
       "longitude": "-71.4523465",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in San Jose, CA",
@@ -12198,8 +12198,8 @@ const eventSeed = [
       "latitude": "41.2033216",
       "longitude": "-77.1945247",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Baton Rouge, LA",
@@ -12211,8 +12211,8 @@ const eventSeed = [
       "latitude": "30.4954049",
       "longitude": "-91.0584918",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Cleveland, OH",
@@ -12224,8 +12224,8 @@ const eventSeed = [
       "latitude": "41.49932",
       "longitude": "-81.6943605",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Macon, GA",
@@ -12237,8 +12237,8 @@ const eventSeed = [
       "latitude": "32.5007037",
       "longitude": "-94.7404891",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Oklahoma City, OK",
@@ -12250,8 +12250,8 @@ const eventSeed = [
       "latitude": "35.4675602",
       "longitude": "-97.5164276",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in Littleton, CO",
@@ -12263,8 +12263,8 @@ const eventSeed = [
       "latitude": "39.613321",
       "longitude": "-105.0166498",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in Dallas, TX",
@@ -12276,8 +12276,8 @@ const eventSeed = [
       "latitude": "32.7766642",
       "longitude": "-96.7969879",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Los Angeles, CA",
@@ -12289,8 +12289,8 @@ const eventSeed = [
       "latitude": "34.7575247",
       "longitude": "-92.4079016",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Wilmington, NC",
@@ -12302,8 +12302,8 @@ const eventSeed = [
       "latitude": "34.2103894",
       "longitude": "-77.8868117",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Pueblo, CO",
@@ -12315,8 +12315,8 @@ const eventSeed = [
       "latitude": "38.2544472",
       "longitude": "-104.6091409",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Buffalo, NY",
@@ -12328,8 +12328,8 @@ const eventSeed = [
       "latitude": "42.8605933",
       "longitude": "-78.8163552",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in Corpus Christi, TX",
@@ -12341,8 +12341,8 @@ const eventSeed = [
       "latitude": "43.1263",
       "longitude": "-89.3230587",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in Saint Paul, MN",
@@ -12354,8 +12354,8 @@ const eventSeed = [
       "latitude": "44.9537029",
       "longitude": "-93.0899578",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Jefferson City, MO",
@@ -12367,8 +12367,8 @@ const eventSeed = [
       "latitude": "38.5767017",
       "longitude": "-92.1735164",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     },
     {
       "eventName": "Volunteer in Portland, OR",
@@ -12380,8 +12380,8 @@ const eventSeed = [
       "latitude": "45.5122308",
       "longitude": "-122.6587185",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 AM",
+      "endTime": "7:00 AM"
     },
     {
       "eventName": "Volunteer in Arlington, VA",
@@ -12393,8 +12393,8 @@ const eventSeed = [
       "latitude": "42.2392391",
       "longitude": "-71.8079608",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 AM",
+      "endTime": "8:00 AM"
     },
     {
       "eventName": "Volunteer in El Paso, TX",
@@ -12406,8 +12406,8 @@ const eventSeed = [
       "latitude": "31.7658338",
       "longitude": "-106.4770233",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 AM",
+      "endTime": "9:00 AM"
     },
     {
       "eventName": "Volunteer in Knoxville, TN",
@@ -12419,8 +12419,8 @@ const eventSeed = [
       "latitude": "35.9562509",
       "longitude": "-83.9967684",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 AM",
+      "endTime": "10:00 AM"
     },
     {
       "eventName": "Volunteer in San Antonio, TX",
@@ -12432,8 +12432,8 @@ const eventSeed = [
       "latitude": "52.4886558",
       "longitude": "-1.8912956",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 AM",
+      "endTime": "11:00 AM"
     },
     {
       "eventName": "Volunteer in Syracuse, NY",
@@ -12445,8 +12445,8 @@ const eventSeed = [
       "latitude": "44.637647",
       "longitude": "-88.7686382",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 AM",
+      "endTime": "12:00 PM"
     },
     {
       "eventName": "Volunteer in Port Charlotte, FL",
@@ -12458,8 +12458,8 @@ const eventSeed = [
       "latitude": "26.891429",
       "longitude": "-82.1929551",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 AM",
+      "endTime": "1:00 PM"
     },
     {
       "eventName": "Volunteer in Los Angeles, CA",
@@ -12471,8 +12471,8 @@ const eventSeed = [
       "latitude": "47.146154",
       "longitude": "-122.536935",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 AM",
+      "endTime": "2:00 PM"
     },
     {
       "eventName": "Volunteer in San Jose, CA",
@@ -12484,8 +12484,8 @@ const eventSeed = [
       "latitude": "37.3959481",
       "longitude": "-121.8513409",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 AM",
+      "endTime": "3:00 PM"
     },
     {
       "eventName": "Volunteer in Greenville, SC",
@@ -12497,8 +12497,8 @@ const eventSeed = [
       "latitude": "34.8235324",
       "longitude": "-82.3026493",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 AM",
+      "endTime": "4:00 PM"
     },
     {
       "eventName": "Volunteer in Idaho Falls, ID",
@@ -12510,8 +12510,8 @@ const eventSeed = [
       "latitude": "43.4926607",
       "longitude": "-112.0407584",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 AM",
+      "endTime": "5:00 PM"
     },
     {
       "eventName": "Volunteer in Washington, DC",
@@ -12523,8 +12523,8 @@ const eventSeed = [
       "latitude": "38.9071923",
       "longitude": "-77.0368707",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 PM",
+      "endTime": "6:00 PM"
     },
     {
       "eventName": "Volunteer in Jamaica, NY",
@@ -12536,8 +12536,8 @@ const eventSeed = [
       "latitude": "40.702677",
       "longitude": "-73.7889689",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "1:00 PM",
+      "endTime": "7:00 PM"
     },
     {
       "eventName": "Volunteer in Orlando, FL",
@@ -12549,8 +12549,8 @@ const eventSeed = [
       "latitude": "28.4287361",
       "longitude": "-81.363641",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "2:00 PM",
+      "endTime": "8:00 PM"
     },
     {
       "eventName": "Volunteer in Honolulu, HI",
@@ -12562,8 +12562,8 @@ const eventSeed = [
       "latitude": "21.3069444",
       "longitude": "-157.8583333",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "3:00 PM",
+      "endTime": "9:00 PM"
     },
     {
       "eventName": "Volunteer in Grand Forks, ND",
@@ -12575,8 +12575,8 @@ const eventSeed = [
       "latitude": "47.925579",
       "longitude": "-97.0317929",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "4:00 PM",
+      "endTime": "10:00 PM"
     },
     {
       "eventName": "Volunteer in Austin, TX",
@@ -12588,8 +12588,8 @@ const eventSeed = [
       "latitude": "43.2468927",
       "longitude": "-88.2916367",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "5:00 PM",
+      "endTime": "11:00 PM"
     },
     {
       "eventName": "Volunteer in Miami, FL",
@@ -12601,8 +12601,8 @@ const eventSeed = [
       "latitude": "25.6870696",
       "longitude": "-80.1716703",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "6:00 PM",
+      "endTime": "12:00 AM"
     },
     {
       "eventName": "Volunteer in Phoenix, AZ",
@@ -12614,8 +12614,8 @@ const eventSeed = [
       "latitude": "33.4483771",
       "longitude": "-112.0740373",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "7:00 PM",
+      "endTime": "1:00 AM"
     },
     {
       "eventName": "Volunteer in Tampa, FL",
@@ -12627,8 +12627,8 @@ const eventSeed = [
       "latitude": "27.950575",
       "longitude": "-82.4571776",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "8:00 PM",
+      "endTime": "2:00 AM"
     },
     {
       "eventName": "Volunteer in Sioux City, IA",
@@ -12640,8 +12640,8 @@ const eventSeed = [
       "latitude": "42.4756182",
       "longitude": "-96.360581",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "9:00 PM",
+      "endTime": "3:00 AM"
     },
     {
       "eventName": "Volunteer in Charlotte, NC",
@@ -12653,8 +12653,8 @@ const eventSeed = [
       "latitude": "35.2270869",
       "longitude": "-80.8431267",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "10:00 PM",
+      "endTime": "4:00 AM"
     },
     {
       "eventName": "Volunteer in New Orleans, LA",
@@ -12666,8 +12666,8 @@ const eventSeed = [
       "latitude": "30.0172818",
       "longitude": "-90.0563769",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "11:00 PM",
+      "endTime": "5:00 AM"
     },
     {
       "eventName": "Volunteer in Pensacola, FL",
@@ -12679,8 +12679,8 @@ const eventSeed = [
       "latitude": "38.9018089",
       "longitude": "-94.7223842",
       "date": new Date(Date.now()),
-      "startTime": "",
-      "endTime": ""
+      "startTime": "12:00 AM",
+      "endTime": "6:00 AM"
     }
    ];
 
