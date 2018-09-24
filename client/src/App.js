@@ -6,12 +6,14 @@ import Register from "./pages/Register";
 import Profile from "./pages/Profile";
 // Should add a 'no match' page later.
 // import NoMatch from "./pages/NoMatch";
+import Login from "./pages/Login";
 
 const App = () => (
   <Router>
     <div>
       <Switch>
-        <Route exact path="/" component={Main} />
+        <Route exact path="/" component={Login} />
+        <Route exact path="/login" component={Login} />
         <Route exact path="/register" component={Register} />
         <Route exact path="/user/:id" component={Profile} />
         {/* <Route component={NoMatch} /> */}
