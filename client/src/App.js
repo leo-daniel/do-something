@@ -8,6 +8,9 @@ import Profile from "./pages/Profile";
 // import NoMatch from "./pages/NoMatch";
 import Login from "./pages/Login";
 
+// To access map for now use localhost:3000/map
+import Map from "./pages/Map";
+
 const App = () => (
   <Router>
     <div>
@@ -16,6 +19,8 @@ const App = () => (
         <Route exact path="/login" component={Login} />
         <Route exact path="/register" component={Register} />
         <Route exact path="/user/:id" component={Profile} />
+        {/* Route to test map */}
+        <Route exact path="/map" component={Map} />
         {/* <Route component={NoMatch} /> */}
       </Switch>
     </div>
