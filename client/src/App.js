@@ -1,23 +1,12 @@
 import React, { Component, Fragment } from 'react';
 import './App.css';
-<<<<<<< HEAD
-import Main from './pages/Main'
-class App extends Component {
-  render() {
-    return <Fragment>
-      <Main />
-
-    </Fragment>
-  }
-}
-=======
 import Main from './pages/Main';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Register from "./pages/Register";
-import Profile from "./pages/Profile";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Register from './pages/Register';
+import Profile from './pages/Profile';
 // Should add a 'no match' page later.
 // import NoMatch from "./pages/NoMatch";
-import Login from "./pages/Login";
+import Login from './pages/Login';
 
 const App = () => (
   <Router>
@@ -32,6 +21,5 @@ const App = () => (
     </div>
   </Router>
 );
->>>>>>> origin/develop
 
 export default App;

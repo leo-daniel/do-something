@@ -1,14 +1,12 @@
 import auth0 from 'auth0-js';
 
-
 class Auth {
   constructor() {
     this.auth0 = new auth0.WebAuth({
-      // the following three lines MUST be updated
-      domain: '<YOUR_AUTH0_DOMAIN>',
-      audience: 'https://<YOUR_AUTH0_DOMAIN>/userinfo',
-      clientID: '<YOUR_AUTH0_CLIENT_ID>',
-      redirectUri: 'http://localhost:3000/callback',
+      domain: 'do-something.auth0.com',
+      audience: 'do-something.auth0.com/userinfo',
+      clientID: '-vHKK6h6XsthS7xKi6SZnMA0M_9A6UNT',
+      redirectUri: 'http://localhost:3000/login',
       responseType: 'token id_token',
       scope: 'openid profile',
     });
@@ -37,7 +35,7 @@ class Auth {
         }
         this.idToken = authResult.idToken;
         this.profile = authResult.idTokenPayload;
-        // set the time that the id token will expire at
+        // time for token ID to expire
         this.expiresAt = authResult.expiresIn * 1000 + new Date().getTime();
         resolve();
       });
