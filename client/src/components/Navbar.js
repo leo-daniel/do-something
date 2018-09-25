@@ -32,7 +32,7 @@ function ButtonAppBar(props) {
             <MenuIcon />
           </IconButton> */}
           <Typography variant="title" color="inherit" className={classes.grow}>
-            DO something BETCH
+            DO SOMETHING
           </Typography>
           <Button color="inherit" href="/login" className={classes.button}> 
               Sign In
