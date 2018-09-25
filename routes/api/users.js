@@ -9,6 +9,6 @@ router.route("/")
 // Endpoints for "api/users/:id"
 router.route("/:id")
   .get(usersController.findById)
-  .put(usersController.eventRegister);
+  .put(usersController.update);
 
 module.exports = router;

@@ -9,6 +9,10 @@ export default {
   getEvent: function(id) {
     return axios.get("/api/events/" + id);
   },
+  // Update the event with the given id
+  updateEvent: function(id) {
+    return axios.put("/api/events" + id);
+  },
   // Gets all users
   getUsers: function() {
     return axios.get("/api/users");
@@ -20,5 +24,9 @@ export default {
   // Create a new user
   createUser: function(userData) {
     return axios.post("/api/users", userData);
+  },
+  // Update the user with the given id
+  updateUser: function(id) {
+    return axios.put("/api/users" + id);
   }
 };
