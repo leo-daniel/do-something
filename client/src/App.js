@@ -7,7 +7,7 @@ import Profile from './pages/Profile';
 // Should add a 'no match' page later.
 // import NoMatch from "./pages/NoMatch";
 import Login from './pages/Login';
-import Auth from './Auth/Auth.js';
+import Auth from './components/Auth/Auth.js';
 
 const App = () => (
   <Router>
