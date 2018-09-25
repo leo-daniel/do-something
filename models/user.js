@@ -50,7 +50,11 @@ const userSchema = new Schema({
   userCreated: {
     type: Date,
     default: Date.now
-  }
+  },
+  registeredEvents: [{
+    type: Schema.Types.ObjectId,
+    ref: "Event"
+  }]
 });
 
 const User = mongoose.model("User", userSchema);
