@@ -18,12 +18,6 @@ const styles = theme => ({
     marginRight: theme.spacing.unit,
     marginBottom: 3
   },
-  dense: {
-    marginTop: 16
-  },
-  menu: {
-    width: 200
-  },
   button: {
     marginTop: theme.spacing.unit * 2,
     marginLeft: theme.spacing.unit
@@ -72,7 +66,7 @@ class OutlinedTextFields extends React.Component {
       <main className={classes.layout}>
         <Paper className={classes.paper}>
           <form className={classes.container} noValidate autoComplete="off">
-            <Typography variant="title" gutterBottom>
+            <Typography variant="display1" gutterBottom>
               User Registration
             </Typography>
             <Grid container justify="center" spacing={16}>
