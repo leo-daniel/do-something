@@ -1,5 +1,8 @@
 const express = require("express");
 const bodyParser = require("body-parser");
+const session = require("express-session");
+const passport = require("passport");
+const mongoStore = require("connect-mongo")(session)
 const mongoose = require("mongoose");
 const routes = require("./routes");
 const app = express();
@@ -17,9 +20,8 @@ if (process.env.NODE_ENV === "production") {
 app.use(routes);
 
 // Connect to the Mongo DB
+mongoose.Promise = global.Promise;
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/dosomething");
-
-mongoose.Promise = Promise;
 const dbConnect = mongoose.connection;
 
 dbConnect.on("error", function(err) {
