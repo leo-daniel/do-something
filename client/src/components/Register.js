@@ -14,12 +14,13 @@ const styles = theme => ({
     marginRight: theme.spacing.unit,
     marginBottom: 3
   },
-  dense: {
-    marginTop: 16
-  },
-  menu: {
-    width: 200
-  },
+  // TODO: these styles are never used, and can likely be removed
+  // dense: {
+  //   marginTop: 16
+  // },
+  // menu: {
+  //   width: 200
+  // },
   button: {
     marginTop: theme.spacing.unit * 2,
     marginLeft: theme.spacing.unit
@@ -48,15 +49,21 @@ const styles = theme => ({
 
 class OutlinedTextFields extends React.Component {
   state = {
-    // State information was copied in from material-ui example; will need to edit later or remove.
-    // email: 'john.doe@gmail.com',
-    // age: '',
-    // multiline: 'Controlled',
-    // currency: 'EUR',
+    // TODO: add the state information for the UserReg component
+    // email: '',
+    // password: '',
+    // firstname: '',
+    // lastname: '',
+    // street: '',
+    // city: '',
+    // stateUSA: '',
+    // phone: '',
+    // radius: '',
   };
 
   handleChange = name => event => {
     this.setState({
+      // TODO: I believe this function will need something for every form field
       [name]: event.target.value
     });
   };
@@ -187,6 +194,7 @@ class OutlinedTextFields extends React.Component {
                 <Button
                   variant="contained"
                   color="primary"
+                  // FIXME: this button has an onClick, but no function or prop is defined
                   onClick={this.handleNext}
                   className={classes.button}
                 >
