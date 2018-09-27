@@ -14,16 +14,17 @@ const styles = theme => ({
     marginRight: theme.spacing.unit,
     marginBottom: 3
   },
-  dense: {
-    marginTop: 16
-  },
-  menu: {
-    width: 200
-  },
-  button: {
-    marginTop: theme.spacing.unit * 2,
-    marginLeft: theme.spacing.unit
-  },
+  // TODO: these styles aren't used at the momemt, so you may be able to remove them
+  // dense: {
+  //   marginTop: 16
+  // },
+  // menu: {
+  //   width: 200
+  // },
+  // button: {
+  //   marginTop: theme.spacing.unit * 2,
+  //   marginLeft: theme.spacing.unit
+  // },
   layout: {
     width: "auto",
     marginLeft: theme.spacing.unit * 2,
