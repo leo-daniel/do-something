@@ -2,11 +2,11 @@
 // that will prob need to have the old create method removed
 
 const router = require('express').Router();
-const usersController = require('../../controllers/usersController');
+const authController = require('../../controllers/authController');
 const passport = require('passport');
 
 // Endpoints for 'api/users'
-router.route('/').get(usersController.findAll);
+router.route('/').get(authController.findAll);
 
 // Endpoints for '/api/users/signup' AKA Signup for Account
 router.route('/signup').post(passport.authenticate('signup'), (req, res) => {
@@ -18,7 +18,7 @@ router.route('/signup').post(passport.authenticate('signup'), (req, res) => {
 });
 
 // Endpoints for 'api/users/:id' aka Get User ID
-router.route('/:id').get(usersController.findById);
+router.route('/:id').get(authController.findById);
 
 // Endpoints for  '/api/users/login' aka Sign-In
 router.route('/login').post((req, res, next) => {
