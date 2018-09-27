@@ -1,11 +1,7 @@
 import React from "react";
-import Grid from "@material-ui/core/Grid";
-import Typography from "@material-ui/core/Typography";
 import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
-import TextField from "@material-ui/core/TextField";
-import Button from "@material-ui/core/Button";
-import Paper from "@material-ui/core/Paper";
+import { Button, Grid, Paper, TextField, Typography } from "@material-ui/core";
 
 const styles = theme => ({
   container: {
@@ -52,11 +48,9 @@ const styles = theme => ({
 
 class OutlinedTextFields extends React.Component {
   state = {
-    // State information was copied in from material-ui example; will need to edit later or remove.
-    // email: 'john.doe@gmail.com',
-    // age: '',
-    // multiline: 'Controlled',
-    // currency: 'EUR',
+    // TODO: add states to the TextField components
+    // email: '',
+    // password: '',
   };
 
   handleChange = name => event => {
