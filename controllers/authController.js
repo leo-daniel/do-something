@@ -1,21 +1,21 @@
 const db = require("../models");
 const passport = require("../config/passport");
-
-module.exports = {
   
   // find all users
-  findAll: function(req, res) {
-    db.User.find({})
-      .then(dbResponse => res.json(dbResponse))
-      .catch(err => res.status(422).json(err));
-  },
-
-  // get the user's data
-  userData: function(req, res) {
-    db.User.findById(req.params.id)
-      .then(dbResponse => res.json(dbResponse))
-      .catch(err => res.status(422).json(err));
-  },
+  module.exports = {
+    findAll: function(req, res) {
+      db.User
+        .find(req.query)
+        .sort({ userCreated: -1 })
+        .then(dbModel => res.json(dbModel))
+        .catch(err => res.status(422).json(err));
+    },
+    findById: function(req, res) {
+      db.User
+        .findById(req.params.id)
+        .then(dbModel => res.json(dbModel))
+        .catch(err => res.status(422).json(err));
+    },
 
   // user status is checked for setting the App.js state
   status: function(req, res) {
