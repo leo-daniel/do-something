@@ -107,6 +107,7 @@ class OutlinedTextFields extends React.Component {
                 <Button
                   variant="contained"
                   color="primary"
+                  // FIXME: this button has an onClick, but there's no handleNext function
                   onClick={this.handleNext}
                   className={classes.button}
                 >
