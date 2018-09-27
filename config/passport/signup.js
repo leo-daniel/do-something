@@ -19,6 +19,7 @@ module.exports = function (passport) {
       (req, username, password, done) => {
         findOrCreateUser = () => {
           User.findOne({ username: username }, (err, user) => {
+            console.log(req.body);
             if (err) {
               console.log("Error in Signup: " + err);
               return done(err);
@@ -37,6 +38,12 @@ module.exports = function (passport) {
               // add the data to the newUser object
               newUser.username = username;
               newUser.password = hashPassword;
+              newUser.firstName = req.body.firstName;
+              newUser.lastName = req.body.lastNamename;
+              newUser.address = req.body.address;
+              newUser.city = req.body.city;
+              newUser.state = req.body.state;
+              newUser.phoneNumber = req.body.phoneNumber;
 
               // create new User account in database
               newUser.save(err => {
