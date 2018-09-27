@@ -1,52 +1,52 @@
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const eventSchema = new Schema({
-  eventName: { 
+  eventName: {
     type: String,
     trim: true,
-    required: [true, 'Event must have a name']
+    required: [true, 'Event must have a name'],
   },
-  description: { 
+  description: {
     type: String,
-    trim: true, 
+    trim: true,
   },
-  organizerID: { 
+  organizerID: {
     type: Schema.Types.ObjectId,
-    ref: "User"
+    ref: 'User',
   },
   address: {
     type: String,
-    trim: true
+    trim: true,
   },
   city: {
     type: String,
-    trim: true
+    trim: true,
   },
   state: {
     type: String,
-    trim: true
+    trim: true,
   },
-  latitude: { 
-    type: String, 
+  latitude: {
+    type: String,
   },
   longitude: {
     type: String,
   },
   date: {
     type: Date,
-    default: Date.now
+    default: Date.now,
   },
   startTime: {
-      type: String,
-      trim: true
+    type: String,
+    trim: true,
   },
   endTime: {
-      type: String,
-      trim: true
-  }
+    type: String,
+    trim: true,
+  },
 });
 
-const Event = mongoose.model("Event", eventSchema);
+const Event = mongoose.model('Event', eventSchema);
 
 module.exports = Event;
