@@ -22,19 +22,17 @@ const userSchema = new Schema({
     trim: true
 
   },
-  location: {
-    address: {
-      type: String,
-      trim: true
-    },
-    city: {
-      type: String,
-      trim: true
-    },
-    state: {
-      type: String,
-      trim: true
-    }
+  address: {
+    type: String,
+    trim: true
+  },
+  city: {
+    type: String,
+    trim: true
+  },
+  state: {
+    type: String,
+    trim: true
   },
   phoneNumber: {
     type: String,
