@@ -27,11 +27,13 @@
   "homepage": "https://github.com/leo-daniel/do-something#readme",
   "dependencies": {
     "axios": "^0.18.0",
+    "babel-eslint": "^10.0.0",
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.18.3",
     "concurrently": "^4.0.1",
     "connect-mongo": "^2.0.1",
     "cors": "^2.8.4",
+    "eslint": "^5.6.0",
     "express": "^4.16.3",
     "express-session": "^1.15.6",
     "if-env": "^1.0.4",
