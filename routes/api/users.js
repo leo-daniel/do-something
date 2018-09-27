@@ -62,8 +62,8 @@ router.route('/logout').get(authController.logout);
 // Endpoint for User Status -- '/api/users/status'
 router.route('/status').get(authController.status);
 
-// Endpoint for UserID -- '/api/users/data/:id'
-router.route('/data/:id').get(authController.userData);
+// Endpoint for UserID -- '/api/users/:id'
+router.route('/users/:id').get(authController.findById);
 
 // Endpoint for Session Cookie -- '/api/users/cookie'
 router.route('/cookie').get(authController.cookie);
