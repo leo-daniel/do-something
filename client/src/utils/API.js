@@ -3,18 +3,15 @@ import axios from "axios";
 export default {
   // Create a new user
   createUser: function (userData) {
-    // return axios.post("/api/users/signup", userData);
-    return console.log("success");
+    return axios.post("/api/users/signup", userData);
   },
   // Login the user
   loginUser: function (userData) {
-    // return axios.post("/api/users/login", userData);
-    return console.log("success");
+    return axios.post("/api/users/login", userData);
   },
   // Determines if the user is logged in or not
   getUserStatus: function () {
-    // return axios.get(`/api/users/status`);
-    return console.log("success");
+    return axios.get(`/api/users/status`);
   },
   // Logout the user
   logout: function () {
@@ -35,5 +32,8 @@ export default {
   // Gets the user with the given id
   getUser: function (id) {
     return axios.get("/api/users" + id);
+  },
+  setCookie: function() {
+    return axios.get("/api/users/cookie")
   }
 };
