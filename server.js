@@ -1,11 +1,14 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const mongoose = require("mongoose");
-// const routes = require("./routes");
+const session = require("express-session");
+const passport = require("passport");
+const mongoStore = require("connect-mongo")(session);
+const dbConnection = require("./database");
+const routes = require("./routes");
+const cors = require("cors");
+
 const app = express();
 const PORT = process.env.PORT || 3001;
-var User = require("./models/user");
-var Event = require("./models/event");
 
 // Define middleware here
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -15,47 +18,31 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
 
+// Passport initialization & setup
+app.use(cors());
+app.use(
+  session({
+    secret: "gregnate",
+    store: new mongoStore({ mongooseConnection: dbConnection }),
+    resave: true,
+    saveUninitialized: true
+  })
+);
+
+app.use(passport.initialize());
+app.use(passport.session());
+
 // Add routes, both API and view
-// app.use(routes);
+app.use(routes);
 
-// Connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/dosomething");
 
-mongoose.Promise = Promise;
-const dbConnect = mongoose.connection;
-
-dbConnect.on("error", function(err) {
-  console.log("Mongoose Error: ", err);
-});
-
-dbConnect.once("open", function() {
-  console.log("Mongoose connection successful.");
-});
+// Initialize Passport 
+require("./config/passport")(passport);
 
 // Send every request to the React app
 // Define any API routes before this runs
 app.get("*", function(req, res) {
   res.sendFile(path.join(__dirname, "./client/build/index.html"));
-});
-
-//test route User
-app.get("/", function(req, res) {
-  User.find({}, function(error, data) {
-    var hbsObject = {
-      User: data
-    };
-    console.log(hbsObject);
-  });
-});
-
-//test route Event
-app.get("/", function(req, res) {
-  Event.find({}, function(error, data) {
-    var hbsObject = {
-      Event: data
-    };
-    console.log(hbsObject);
-  });
 });
 
 // Start the API server

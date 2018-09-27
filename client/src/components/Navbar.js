@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
@@ -31,11 +32,13 @@ function ButtonAppBar(props) {
             <MenuIcon />
           </IconButton> */}
           <Typography variant="title" color="inherit" className={classes.grow}>
-            DO something BETCH
+            DO SOMETHING
           </Typography>
-          <Button color="inherit">Sign In</Button>
-          <Button color="inherit">Create Account</Button>
-          <Button color="inherit">FAQs</Button>
+          <Button color="inherit" href="/" className={classes.button}> 
+              Sign In
+            </Button>
+          <Button color="inherit" href="/signup" className={classes.button}>Create Account</Button>
+          <Button color="inherit" href="/" className={classes.button}>FAQs</Button>
         </Toolbar>
       </AppBar>
     </div>

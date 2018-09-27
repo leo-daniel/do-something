@@ -1,24 +1,64 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import './App.css';
-import Main from './pages/Main';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Register from "./pages/Register";
+import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
+import Registration from "./pages/Registration";
 import Profile from "./pages/Profile";
 import Events from './pages/Events';
 import NoMatch from "./pages/NoMatch";
+// To access map for now use localhost:3000/map
+import Map from "./pages/Map";
+import API from "./utils/API";
+import Landing from './pages/Landing';
 
-const App = () => (
-  <Router>
-    <div>
-      <Switch>
-        <Route exact path="/" component={Main} />
-        <Route exact path="/register" component={Register} />
-        <Route exact path="/user/:id" component={Profile} />
-        <Route exact path="/events" component={Events} />
-        <Route component={NoMatch} />
-      </Switch>
-    </div>
-  </Router>
-);
 
+class App extends Component {
+
+  state = {
+    loggedIn: null,
+    userId: null
+  }
+
+  componentDidMount = () => {
+    // this.getUser();
+  }
+
+  updateUser = (userObject) => {
+    console.log(userObject);
+    this.setState(userObject);
+  };
+
+  getUser = () => {
+    API.getUserStatus()
+      .then(res => {
+        console.log(res);
+        this.setState({
+          loggedIn: res.data.loggedIn,
+          userId: res.data.userId
+        });
+      })
+      .catch(err => console.log(err));
+  }
+
+  render() {
+
+    return (
+      <Router>
+        <div>
+          <Switch>
+            <Route exact path="/" render={() => (
+              <Landing updateUser={this.updateUser} />
+            )} />
+            <Route exact path="/signup" render={() => (
+              <Registration updateUser={this.updateUser} />
+            )} />
+            <Route exact path="/user/:id" component={Profile} />
+            {/* Route to test map */}
+            <Route exact path="/map" component={Map} />
+            {/* <Route component={NoMatch} /> */}
+          </Switch>
+        </div>
+      </Router>
+    )
+  };
+}
 export default App;

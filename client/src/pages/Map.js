@@ -1,11 +1,9 @@
 import React, { Component, Fragment } from 'react';
 import Navbar from '../components/Navbar';
-// import LeafletMap from '../components/LeafletMap';
-import Login from './Landing';
-import Landing from './Landing';
+import LeafletMap from '../components/LeafletMap';
 
 export default props =>
     <div>
         <Navbar />
-        <Landing />
+        <LeafletMap />
     </div>
