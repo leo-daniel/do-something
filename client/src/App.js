@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
-import Signup from "./components/Signup";
 import Registration from "./pages/Registration";
 import Profile from "./pages/Profile";
 // Should add a 'no match' page later.
 // import NoMatch from "./pages/NoMatch";
-import Login from "./pages/Landing";
-
 // To access map for now use localhost:3000/map
 import Map from "./pages/Map";
 import API from "./utils/API";
@@ -52,7 +49,7 @@ class App extends Component {
               <Landing updateUser={this.updateUser} />
             )} />
             <Route exact path="/signup" render={() => (
-              <Signup updateUser={this.updateUser} />
+              <Registration updateUser={this.updateUser} />
             )} />
             <Route exact path="/user/:id" component={Profile} />
             {/* Route to test map */}
