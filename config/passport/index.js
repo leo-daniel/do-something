@@ -1,6 +1,6 @@
 const login = require("./login");
 const signup = require("./signup");
-const User = require("../../models/user");
+const User = require("../../models/User");
 
 // Passport Export
 module.exports = function(passport) {
