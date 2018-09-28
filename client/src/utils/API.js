@@ -35,5 +35,24 @@ export default {
   },
   setCookie: function() {
     return axios.get("/api/users/cookie")
+  },
+  getLocation: function() {
+    return new Promise((resolve) => {
+      navigator.geolocation.getCurrentPosition((position) => {
+        resolve({
+          lat: position.coords.latitude,
+          lng: position.coords.longitude
+        });
+      }, () => {      
+        resolve(fetch('https://ipapi.co/json')
+          .then(res => res.json())
+          .then(location => {
+            return {
+              lat: location.latitude,
+              lng: location.longitude
+            };
+          }));
+      });
+    });
   }
 };
