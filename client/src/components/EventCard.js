@@ -1,31 +1,37 @@
-import React, { Fragment } from "react";
+import React, { Fragment, Card, CardContent, CardActions, Button } from "react";
 import { withStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import { PlaceTwoTone, CalendarTodayTwoTone } from "@material-ui/icons";
 
-const styles = theme => ({
-  card: {
-    height: "100%",
-    display: "flex",
-    flexDirection: "column",
-    maxWidth: 496
-  },
-  cardContent: {
-    flexGrow: 1
-  },
-  icon: {
-    fontSize: "1rem",
-    marginRight: ".5rem"
-  }
-});
+// const styles = theme => ({
+//   card: {
+//     height: "100%",
+//     display: "flex",
+//     flexDirection: "column",
+//     maxWidth: 496
+//   },
+//   cardContent: {
+//     flexGrow: 1
+//   },
+//   icon: {
+//     fontSize: "1rem",
+//     marginRight: ".5rem"
+//   }
+// });
 
-function Event(props) {
-  const { classes } = props;
+function EventCard() {
+  // data props passed from Events.js
+  // const { classes, data } = props;
 
   return (
     <Fragment>
-      <Card className={classes.card}>
-        <CardContent className={classes.cardContent}>
+      <Card >
+      <CardContent>
+        sdkjghncslkfasflkasreisfxudkshfnsdhfklnsdjfcxlasfdcsmndfcx
+        nacralsfisafasemrcfhxhsadhfnxlasfacilsfuiasfliafaesilcfuxr
+        dfhgcnsfosifmhseoifhc
+      </CardContent>
+        {/* <CardContent className={classes.cardContent}>
           <Typography variant="headline" component="h2">
             {props.title}
           </Typography>
@@ -43,10 +49,11 @@ function Event(props) {
           <Button size="small" color="primary">
             <a href={`/${props.eventId}`}>Learn More</a>
           </Button>
-        </CardActions>
+        </CardActions> */}
       </Card>
     </Fragment>
   );
 }
 
-export default withStyles(styles)(Event);
+// export default withStyles(styles)(EventCard);
+export default EventCard;
