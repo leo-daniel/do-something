@@ -6,6 +6,8 @@ const userSchema = new Schema({
     type: String,
     unique: true,
     trim: true,
+    required: [true, "Email is required"],
+    lowercase: true,
     match: [/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/, 'Please enter a valid email address']
   },
   password: {
@@ -38,9 +40,15 @@ const userSchema = new Schema({
   },
   phoneNumber: {
     type: String,
+    required: false,
     validate: {
       validator: function (v) {
-        return /\d{3}-\d{3}-\d{4}/.test(v);
+        const reg = /\d{3}-\d{3}-\d{4}/
+        if (v === "" ) {
+          return true
+        } else {
+          return reg.test(v);
+        }
       },
       message: props => `${props.value} is not a valid phone number!`
     }
