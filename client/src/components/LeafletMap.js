@@ -14,7 +14,7 @@ const myIcon = L.icon({
 
 const locationIcon = L.icon({
   iconUrl: locationIconURL,
-  iconSize: [50 , 50]
+  iconSize: [100 , 100]
 });
 
 export default class LeafletMap extends Component {
