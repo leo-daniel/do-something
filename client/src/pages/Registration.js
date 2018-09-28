@@ -1,9 +1,9 @@
 import React, { Component, Fragment } from 'react';
 import Navbar from '../components/Navbar'
-import Register from '../components/Register'
+import Signup from '../components/Signup'
 
 export default props =>
     <div>
         <Navbar />
-        <Register />
+        <Signup />
     </div>

@@ -34,10 +34,10 @@ function ButtonAppBar(props) {
           <Typography variant="title" color="inherit" className={classes.grow}>
             DO SOMETHING
           </Typography>
-          <Button color="inherit" href="/login" className={classes.button}> 
+          <Button color="inherit" href="/" className={classes.button}> 
               Sign In
             </Button>
-          <Button color="inherit" href="/register" className={classes.button}>Create Account</Button>
+          <Button color="inherit" href="/signup" className={classes.button}>Create Account</Button>
           <Button color="inherit" href="/" className={classes.button}>FAQs</Button>
         </Toolbar>
       </AppBar>
