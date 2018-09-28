@@ -50,6 +50,12 @@ class Registered extends Component {
   state = {
     username: "",
     password: "",
+    fname: "",
+    lname: "",
+    address: "",
+    city: "",
+    state: "",
+    phone: "",
     redirectTo: null
   };
 
@@ -65,7 +71,13 @@ class Registered extends Component {
     if (this.state.username && this.state.password) {
       API.createUser({
         username: this.state.username,
-        password: this.state.password
+        password: this.state.password,
+        firstName: this.state.fname,
+        lastName: this.state.lname,
+        address: this.state.address,
+        city: this.state.city,
+        state: this.state.state,
+        phoneNumber: this.state.phone
       })
         .then(res => {
           this.setState({ redirectTo: "/map" });
@@ -124,8 +136,9 @@ class Registered extends Component {
                     id="outlined-fname"
                     label="First Name"
                     className={classes.textField}
-                    // value={this.state.fname}
-                    // onChange={this.handleChange("fname")}
+                    name="fname"
+                    value={this.state.fname}
+                    onChange={this.handleInputChange}
                     margin="normal"
                     variant="outlined"
                     fullWidth
@@ -136,8 +149,9 @@ class Registered extends Component {
                     id="outlined-lname"
                     label="Last Name"
                     className={classes.textField}
-                    // value={this.state.lname}
-                    // onChange={this.handleChange("lname")}
+                    name="lname"
+                    value={this.state.lname}
+                    onChange={this.handleInputChange}
                     margin="normal"
                     variant="outlined"
                     fullWidth
@@ -148,8 +162,9 @@ class Registered extends Component {
                     id="outlined-address"
                     label="Street Address"
                     className={classes.textField}
-                    // value={this.state.address}
-                    // onChange={this.handleChange("address")}
+                    name="address"
+                    value={this.state.address}
+                    onChange={this.handleInputChange}
                     margin="normal"
                     variant="outlined"
                     fullWidth
@@ -160,8 +175,9 @@ class Registered extends Component {
                     id="outlined-city"
                     label="City"
                     className={classes.textField}
-                    // value={this.state.city}
-                    // onChange={this.handleChange("city")}
+                    name="city"
+                    value={this.state.city}
+                    onChange={this.handleInputChange}
                     margin="normal"
                     variant="outlined"
                     fullWidth
@@ -172,8 +188,9 @@ class Registered extends Component {
                     id="outlined-state"
                     label="State"
                     className={classes.textField}
-                    // value={this.state.state}
-                    // onChange={this.handleChange("state")}
+                    name="state"
+                    value={this.state.state}
+                    onChange={this.handleInputChange}
                     margin="normal"
                     variant="outlined"
                     fullWidth
@@ -184,8 +201,9 @@ class Registered extends Component {
                     id="outlined-phone"
                     label="Phone"
                     className={classes.textField}
-                    // value={this.state.phone}
-                    // onChange={this.handleChange("phone")}
+                    name="phone"
+                    value={this.state.phone}
+                    onChange={this.handleInputChange}
                     margin="normal"
                     variant="outlined"
                     fullWidth
