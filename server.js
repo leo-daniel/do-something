@@ -15,16 +15,6 @@ const PORT = process.env.PORT || 3001;
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-// Serve up static assets (usually on heroku)
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static("client/build"));
-
-  // Send every request to the React app
-  // Define any API routes before this runs
-  app.get("*", function(req, res) {
-    res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
-  });
-}
 
 // Passport initialization & setup
 app.use(cors());
@@ -45,6 +35,17 @@ app.use(routes);
 
 // Initialize Passport
 require("./config/passport")(passport);
+
+// Serve up static assets (usually on heroku)
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+
+  // Send every request to the React app
+  // Define any API routes before this runs
+  app.get(/^\/(?!api).*/, (req, res) => { // don't serve api routes to react app
+    res.sendFile(path.join(__dirname, './client/build/index.html'));
+  });
+}
 
 // Start the API server
 app.listen(PORT, function() {
