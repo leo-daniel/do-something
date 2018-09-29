@@ -3,10 +3,12 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Toolbar from '@material-ui/core/Toolbar';
-import IconButton from '@material-ui/core/IconButton';
-import SearchIcon from '@material-ui/icons/Search';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
+
+// Items not currently being used
+// import IconButton from '@material-ui/core/IconButton';
+// import SearchIcon from '@material-ui/icons/Search';
 
 const styles = theme => ({
   layout: {
@@ -45,7 +47,7 @@ function NavbarNew(props) {
       <CssBaseline />
       <div className={classes.layout}>
         <Toolbar className={classes.toolbarMain}>
-          <Button size="small">Subscribe</Button>
+          <Button variant="outlined" size="small" href="/">FAQs</Button>
           <Typography
             variant="headline"
             color="inherit"
@@ -55,10 +57,11 @@ function NavbarNew(props) {
           >
             Do Something
           </Typography>
-          <IconButton>
-            <SearchIcon />
-          </IconButton>
-          <Button variant="outlined" size="small">
+          {/* <IconButton> */}
+            {/* Commented out search until functionality can be added later if needed  */}
+            {/* <SearchIcon /> */}
+          {/* </IconButton> */}
+          <Button variant="outlined" size="small" href="/signup">
             Sign up
           </Button>
         </Toolbar>
