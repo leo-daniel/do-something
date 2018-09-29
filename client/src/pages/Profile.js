@@ -1,6 +1,6 @@
-import React, { Component, Fragment } from 'react';
-import Navbar from '../components/Navbar'
-import Profile from '../components/Profile'
+import React from 'react';
+import Profile from '../components/Profile';
+import Navbar from '../components/Navbar';
 
 export default props =>
     <div>

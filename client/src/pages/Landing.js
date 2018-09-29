@@ -1,12 +1,33 @@
 import React, { Component } from "react";
 import { Redirect } from "react-router-dom";
+import { withStyles } from "@material-ui/core/styles";
 import API from "../utils/API";
 import Hero from "../components/Hero/Hero";
-import Nav from "../components/Navbar";
-import Container from "../components/Container/Container";
-import Row from "../components/Row";
-import Col from "../components/Col";
 import Login from "../components/Login";
+import Navbar from "../components/Navbar";
+
+const styles = theme => ({
+  layout: {
+    width: "auto",
+    marginLeft: theme.spacing.unit * 2,
+    marginRight: theme.spacing.unit * 2,
+    [theme.breakpoints.up(600 + theme.spacing.unit * 2 * 2)]: {
+      width: 600,
+      marginLeft: "auto",
+      marginRight: "auto"
+    }
+  },
+  paper: {
+    marginTop: theme.spacing.unit * 3,
+    marginBottom: theme.spacing.unit * 3,
+    padding: theme.spacing.unit * 2,
+    [theme.breakpoints.up(600 + theme.spacing.unit * 3 * 2)]: {
+      marginTop: theme.spacing.unit * 6,
+      marginBottom: theme.spacing.unit * 6,
+      padding: theme.spacing.unit * 3
+    }
+  }
+});
 
 class Landing extends Component {
   state = {
@@ -26,38 +47,22 @@ class Landing extends Component {
       .catch(err => console.log(err));
   };
 
-render() {
-  if (this.state.loggedIn) {
-    return <Redirect to="/map" />;
+  render() {
+    const { classes } = this.props;
+
+    if (this.state.loggedIn) {
+      return <Redirect to="/map" />;
+    }
+
+    return (
+      <div>
+        {/* <Nav /> */}
+        <Navbar />
+        <Hero />
+        <Login />
+      </div>
+    );
   }
-
-  return (
-    <div>
-      <Nav />
-      <Hero />
-      <Container style={{ marginTop: 30 }}>
-        <Row>
-          <Col size="md-12">
-            <h1>
-              Let's Do Something!</h1>
-          </Col>
-        </Row>
-        <Row>
-          <Col size="md-12">
-            <p>
-              Welcome to Do Something where we believe the world is a better place when people lend their help and talents to opportunities in need.  Already a member?  Great!  Login and do something great.
-            </p>
-            <p>
-              New to the site?  Great!  Join up to find opportunities to do great things in your community.
-            </p>
-          </Col>
-        </Row>
-          <Login />
-      </Container>
-    </div>
-  );
 }
-};
 
-
-export default Landing;
+export default withStyles(styles)(Landing);

@@ -5,8 +5,7 @@ import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
 import CssBaseline from "@material-ui/core/CssBaseline";
-// Would like to make a background image, but sizing needs to be solved
-// import Image from "./rawpixel-675364-unsplash.jpg";
+import drill from "./drill.jpg";
 
 const styles = theme => ({
   layout: {
@@ -20,11 +19,13 @@ const styles = theme => ({
     }
   },
   mainFeaturedPost: {
-    backgroundColor: theme.palette.grey[800],
+    // backgroundColor: theme.palette.grey[800],
     color: theme.palette.common.white,
-    marginBottom: theme.spacing.unit * 4
-    // Uncomment once background image sizing is solved
-    // backgroundImage: `url(${Image})`
+    marginBottom: theme.spacing.unit * 4,
+    backgroundImage: `url(${drill})`,
+    backgroundSize: "cover",
+    marginBottom: "0%",
+    paddingBottom: "7rem"
   },
   mainFeaturedPostContent: {
     padding: `${theme.spacing.unit * 6}px`,
@@ -47,20 +48,14 @@ function Hero(props) {
             <Grid container>
               <Grid item md={6}>
                 <div className={classes.mainFeaturedPostContent}>
-                  <Typography variant="display3" color="inherit" gutterBottom>
-                    Welcome to Do Something
+                  <Typography variant="display2" color="inherit" gutterBottom>
+                    Give Back
                   </Typography>
-                  <Typography variant="display1" color="inherit" paragraph>
-                    The world is a better place when people lend their help and
-                    talents to opportunities in need.
+                  <Typography variant="headline" color="inherit" paragraph>
+                    Volunteer in your community,<br/>and help make the world better.
                   </Typography>
-                  <Typography variant="title" color="inherit">
-                    Already a member? Login and do something great.
-                  </Typography>
-                  <br></br>
-                  <Typography variant="title" color="inherit">
-                    New to the site? Join up to find opportunities to do
-                    great things in your community.
+                  <Typography variant="subheading" color="inherit">
+                    Log in or sign up to start.
                   </Typography>
                 </div>
               </Grid>
