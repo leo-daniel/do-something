@@ -1,4 +1,4 @@
-  const router = require("express").Router();
+const router = require("express").Router();
 const eventsController = require("../../controllers/eventsController");
 
 // Endpoints for "api/events"
@@ -9,5 +9,13 @@ router.route("/")
 router.route("/:id")
   .get(eventsController.findById)
   .put(eventsController.update);
+
+// Endpoint for "api/events/:id/register"
+router.route('/:id/register')
+.patch(eventsController.register);  
+
+// Endpoint for "api/events/:id/unregister"
+router.route('/:id/unregister')
+.patch(eventsController.unregister);  
 
 module.exports = router;
