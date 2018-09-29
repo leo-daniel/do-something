@@ -43,7 +43,7 @@ export default {
           lat: position.coords.latitude,
           lng: position.coords.longitude
         });
-      }, () => {      
+      }, () => {
         resolve(fetch('https://ipapi.co/json')
           .then(res => res.json())
           .then(location => {
