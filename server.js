@@ -7,6 +7,7 @@ const dbConnection = require("./database");
 const routes = require("./routes");
 const cors = require("cors");
 const path = require("path");
+const flash = require("connect-flash")
 
 const app = express();
 // tell the server which port to listen on
@@ -30,6 +31,16 @@ app.use(
     saveUninitialized: true,
   })
 );
+app.use(flash());
+
+app.all('/', function (req, res) {
+  req.flash('test', 'it worked');
+  res.redirect('/test')
+});
+
+app.all('/test', function (req, res) {
+  res.send(JSON.stringify(req.flash('test')));
+});
 
 app.use(passport.initialize());
 app.use(passport.session());
