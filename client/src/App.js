@@ -13,7 +13,7 @@ import NoMatch from "./pages/NoMatch";
 import Map from "./pages/Map";
 import API from "./utils/API";
 import Landing from "./pages/Landing";
-import EventFeed from "./pages/Events";
+import Events from "./pages/Events";
 
 class App extends Component {
   state = {
@@ -60,7 +60,7 @@ class App extends Component {
             <Route exact path="/user/:id" component={Profile} />
             {/* Route to test map */}
             <Route exact path="/map" component={Map} />
-            <Route exact path="/events" component={EventFeed} />
+            <Route exact path="/events" component={Events} />
             <Route component={NoMatch} />
           </Switch>
         </div>
