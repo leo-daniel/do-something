@@ -37,7 +37,7 @@ app.use(routes);
 require("./config/passport")(passport);
 
 // Serve up static assets (usually on heroku)
-// if (process.env.NODE_ENV === "production") {
+if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "client", "build")));
 
   // Send every request to the React app
@@ -45,7 +45,7 @@ require("./config/passport")(passport);
   app.get("*", function(req, res) {
     res.sendFile(path.join(__dirname, "./client/build/index.html"));
   });
-// }
+}
 
 // Start the API server
 app.listen(PORT, function() {
