@@ -1,38 +1,38 @@
-import React, { Component } from "react";
-import { Redirect } from "react-router-dom";
-import Grid from "@material-ui/core/Grid";
-import Typography from "@material-ui/core/Typography";
-import PropTypes from "prop-types";
-import { withStyles } from "@material-ui/core/styles";
-import TextField from "@material-ui/core/TextField";
-import Button from "@material-ui/core/Button";
-import Paper from "@material-ui/core/Paper";
-import API from "../utils/API";
+import React, { Component } from 'react';
+import { Redirect } from 'react-router-dom';
+import Grid from '@material-ui/core/Grid';
+import Typography from '@material-ui/core/Typography';
+import PropTypes from 'prop-types';
+import { withStyles } from '@material-ui/core/styles';
+import TextField from '@material-ui/core/TextField';
+import Button from '@material-ui/core/Button';
+import Paper from '@material-ui/core/Paper';
+import API from '../utils/API';
 
 const styles = theme => ({
   container: {
-    display: "flex",
-    flexWrap: "wrap"
+    display: 'flex',
+    flexWrap: 'wrap',
   },
   textField: {
     marginTop: 3,
     marginLeft: theme.spacing.unit,
     marginRight: theme.spacing.unit,
-    marginBottom: 3
+    marginBottom: 3,
   },
   button: {
     marginTop: theme.spacing.unit * 2,
-    marginLeft: theme.spacing.unit
+    marginLeft: theme.spacing.unit,
   },
   layout: {
-    width: "auto",
+    width: 'auto',
     marginLeft: theme.spacing.unit * 2,
     marginRight: theme.spacing.unit * 2,
     [theme.breakpoints.up(600 + theme.spacing.unit * 2 * 2)]: {
       width: 600,
-      marginLeft: "auto",
-      marginRight: "auto"
-    }
+      marginLeft: 'auto',
+      marginRight: 'auto',
+    },
   },
   paper: {
     marginTop: theme.spacing.unit * 3,
@@ -41,28 +41,28 @@ const styles = theme => ({
     [theme.breakpoints.up(600 + theme.spacing.unit * 3 * 2)]: {
       marginTop: theme.spacing.unit * 6,
       marginBottom: theme.spacing.unit * 6,
-      padding: theme.spacing.unit * 3
-    }
-  }
+      padding: theme.spacing.unit * 3,
+    },
+  },
 });
 
 class Registered extends Component {
   state = {
-    username: "",
-    password: "",
-    fname: "",
-    lname: "",
-    address: "",
-    city: "",
-    state: "",
-    phone: "",
-    redirectTo: null
+    username: '',
+    password: '',
+    fname: '',
+    lname: '',
+    address: '',
+    city: '',
+    state: '',
+    phone: '',
+    redirectTo: null,
   };
 
   handleInputChange = event => {
     const { name, value } = event.target;
     this.setState({
-      [name]: value
+      [name]: value,
     });
   };
 
@@ -77,10 +77,10 @@ class Registered extends Component {
         address: this.state.address,
         city: this.state.city,
         state: this.state.state,
-        phoneNumber: this.state.phone
+        phoneNumber: this.state.phone,
       })
         .then(res => {
-          this.setState({ redirectTo: "/map" });
+          this.setState({ redirectTo: '/map' });
         })
         .catch(err => console.log(err));
     }
@@ -89,7 +89,7 @@ class Registered extends Component {
   render() {
     const { classes } = this.props;
     if (this.state.redirectTo) {
-      return <Redirect to={this.state.redirectTo} />
+      return <Redirect to={this.state.redirectTo} />;
     } else {
       return (
         <main className={classes.layout}>
@@ -97,7 +97,7 @@ class Registered extends Component {
             <form className={classes.container} noValidate autoComplete="off">
               <Typography variant="display1" gutterBottom>
                 User Registration
-            </Typography>
+              </Typography>
               <Grid container justify="center" spacing={16}>
                 <Grid item xs={12}>
                   <TextField
@@ -215,10 +215,9 @@ class Registered extends Component {
                     color="primary"
                     disabled={!(this.state.username && this.state.password)}
                     onClick={this.handleFormSubmit}
-                    className={classes.button}
-                  >
+                    className={classes.button}>
                     Submit
-                </Button>
+                  </Button>
                 </Grid>
               </Grid>
             </form>
@@ -229,7 +228,7 @@ class Registered extends Component {
   }
 }
 Registered.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
 };
 
 export default withStyles(styles)(Registered);

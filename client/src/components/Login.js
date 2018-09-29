@@ -1,37 +1,37 @@
 // stateful login component
-import React, { Component } from "react";
-import { Redirect } from "react-router-dom";
-import API from "../utils/API";
-import Typography from "@material-ui/core/Typography";
-import Button from "@material-ui/core/Button";
-import { withStyles } from "@material-ui/core/styles";
-import PropTypes from "prop-types";
-import Grid from "@material-ui/core/Grid";
-import TextField from "@material-ui/core/TextField";
-import Paper from "@material-ui/core/Paper";
+import React, { Component } from 'react';
+import { Redirect } from 'react-router-dom';
+import API from '../utils/API';
+import Typography from '@material-ui/core/Typography';
+import Button from '@material-ui/core/Button';
+import { withStyles } from '@material-ui/core/styles';
+import PropTypes from 'prop-types';
+import Grid from '@material-ui/core/Grid';
+import TextField from '@material-ui/core/TextField';
+import Paper from '@material-ui/core/Paper';
 
 const styles = theme => ({
   media: {
-    // ⚠️ object-fit is not supported by IE11.
-    objectFit: "cover"
+    // object-fit is not supported by IE11.
+    objectFit: 'cover',
   },
   submit: {
     margin: 100,
-    padding: 250
+    padding: 250,
   },
   button: {
     marginTop: theme.spacing.unit * 3,
-    marginLeft: theme.spacing.unit
+    marginLeft: theme.spacing.unit,
   },
   layout: {
-    width: "auto",
+    width: 'auto',
     marginLeft: theme.spacing.unit * 2,
     marginRight: theme.spacing.unit * 2,
     [theme.breakpoints.up(600 + theme.spacing.unit * 2 * 2)]: {
       width: 600,
-      marginLeft: "auto",
-      marginRight: "auto"
-    }
+      marginLeft: 'auto',
+      marginRight: 'auto',
+    },
   },
   paper: {
     marginTop: theme.spacing.unit * 3,
@@ -40,22 +40,22 @@ const styles = theme => ({
     [theme.breakpoints.up(600 + theme.spacing.unit * 3 * 2)]: {
       marginTop: theme.spacing.unit * 6,
       marginBottom: theme.spacing.unit * 6,
-      padding: theme.spacing.unit * 3
-    }
-  }
+      padding: theme.spacing.unit * 3,
+    },
+  },
 });
 
 class Login extends Component {
   state = {
-    username: "",
-    password: "",
-    redirectTo: null
+    username: '',
+    password: '',
+    redirectTo: null,
   };
 
   handleInputChange = event => {
     const { name, value } = event.target;
     this.setState({
-      [name]: value
+      [name]: value,
     });
   };
 
@@ -64,10 +64,10 @@ class Login extends Component {
     if (this.state.username && this.state.password) {
       API.loginUser({
         username: this.state.username,
-        password: this.state.password
+        password: this.state.password,
       })
         .then(res => {
-          this.setState({ redirectTo: "/map" });
+          this.setState({ redirectTo: '/map' });
         })
         .catch(err => console.log(err));
     }
@@ -124,8 +124,7 @@ class Login extends Component {
                     color="primary"
                     className={classes.button}
                     disabled={!(this.state.username && this.state.password)}
-                    onClick={this.handleFormSubmit}
-                  >
+                    onClick={this.handleFormSubmit}>
                     Sign in
                   </Button>
                 </Grid>
@@ -139,7 +138,7 @@ class Login extends Component {
 }
 
 Login.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
 };
 
 export default withStyles(styles)(Login);

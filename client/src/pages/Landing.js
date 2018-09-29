@@ -1,21 +1,21 @@
-import React, { Component } from "react";
-import { Redirect } from "react-router-dom";
-import { withStyles } from "@material-ui/core/styles";
-import API from "../utils/API";
-import Hero from "../components/Hero/Hero";
-import Login from "../components/Login";
-import Navbar from "../components/Navbar";
+import React, { Component } from 'react';
+import { Redirect } from 'react-router-dom';
+import { withStyles } from '@material-ui/core/styles';
+import API from '../utils/API';
+import Hero from '../components/Hero/Hero';
+import Login from '../components/Login';
+import Navbar from '../components/Navbar';
 
 const styles = theme => ({
   layout: {
-    width: "auto",
+    width: 'auto',
     marginLeft: theme.spacing.unit * 2,
     marginRight: theme.spacing.unit * 2,
     [theme.breakpoints.up(600 + theme.spacing.unit * 2 * 2)]: {
       width: 600,
-      marginLeft: "auto",
-      marginRight: "auto"
-    }
+      marginLeft: 'auto',
+      marginRight: 'auto',
+    },
   },
   paper: {
     marginTop: theme.spacing.unit * 3,
@@ -24,15 +24,15 @@ const styles = theme => ({
     [theme.breakpoints.up(600 + theme.spacing.unit * 3 * 2)]: {
       marginTop: theme.spacing.unit * 6,
       marginBottom: theme.spacing.unit * 6,
-      padding: theme.spacing.unit * 3
-    }
-  }
+      padding: theme.spacing.unit * 3,
+    },
+  },
 });
 
 class Landing extends Component {
   state = {
     loggedIn: null,
-    userId: null
+    userId: null,
   };
 
   getUser = () => {
@@ -41,7 +41,7 @@ class Landing extends Component {
         console.log(res);
         this.setState({
           loggedIn: res.data.loggedIn,
-          userId: res.data.userId
+          userId: res.data.userId,
         });
       })
       .catch(err => console.log(err));
