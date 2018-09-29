@@ -1,10 +1,11 @@
-import React, { Component } from 'react';
-import { Redirect } from 'react-router-dom';
-import { withStyles } from '@material-ui/core/styles';
-import API from '../utils/API';
-import Hero from '../components/Hero/Hero';
-import Login from '../components/Login';
-import Navbar from '../components/Navbar';
+import React, { Component } from "react";
+import { Redirect } from "react-router-dom";
+import { withStyles } from "@material-ui/core/styles";
+import API from "../utils/API";
+import Hero from "../components/Hero/Hero";
+import Login from "../components/Login";
+import Navbar from "../components/Navbar";
+import PageFooter from "../components/PageFooter";
 
 const styles = theme => ({
   layout: {
@@ -60,6 +61,7 @@ class Landing extends Component {
         <Navbar />
         <Hero />
         <Login />
+        <PageFooter />
       </div>
     );
   }
