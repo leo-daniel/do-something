@@ -5,6 +5,7 @@ import {
   Card,
   CardActions,
   CardContent,
+  Grid,
   Typography
 } from "@material-ui/core";
 import { PlaceTwoTone, CalendarTodayTwoTone } from "@material-ui/icons";
@@ -14,7 +15,8 @@ const styles = theme => ({
     height: "100%",
     display: "flex",
     flexDirection: "column",
-    maxWidth: 496
+    maxWidth: 512,
+    maxHeight: 1024
   },
   cardContent: {
     flexGrow: 1
@@ -22,6 +24,9 @@ const styles = theme => ({
   icon: {
     fontSize: "1rem",
     marginRight: ".5rem"
+  },
+  link: {
+    textDecoration: "none"
   }
 });
 
@@ -31,7 +36,8 @@ function EventCard(props) {
 
   return (
     <Fragment>
-      <Card className={classes.card}>
+      <Grid item xs={12}>
+      <Card className={classes.card} >
         <CardContent className={classes.cardContent}>
           <Typography variant="headline" component="h2">
             {props.title}
@@ -48,10 +54,11 @@ function EventCard(props) {
         </CardContent>
         <CardActions>
           <Button size="small" color="primary">
-            <a href={`events/${props.id}`}>Learn More</a>
+            <a href={`events/${props.id}`} className={classes.link}>Learn More</a>
           </Button>
         </CardActions>
       </Card>
+      </Grid>
     </Fragment>
   );
 }
