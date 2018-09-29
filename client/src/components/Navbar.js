@@ -1,52 +1,91 @@
-import React from 'react';
-import { Link } from "react-router-dom";
-import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
+import React from "react";
+import PropTypes from "prop-types";
+import { withStyles } from "@material-ui/core/styles";
+import { Button, CssBaseline, Toolbar, Typography } from "@material-ui/core";
 
-const styles = {
-  root: {
-    flexGrow: 1,
-  },
-  grow: {
-    flexGrow: 1,
-  },
-  menuButton: {
-    marginLeft: -12,
-    marginRight: 20,
-  },
-};
+// Items not currently being used
+// import IconButton from '@material-ui/core/IconButton';
+// import SearchIcon from '@material-ui/icons/Search';
 
-function ButtonAppBar(props) {
+const styles = theme => ({
+  layout: {
+    width: "auto",
+    marginLeft: theme.spacing.unit * 3,
+    marginRight: theme.spacing.unit * 3,
+    [theme.breakpoints.up(1100 + theme.spacing.unit * 3 * 2)]: {
+      width: 1100,
+      marginLeft: "auto",
+      marginRight: "auto"
+    }
+  },
+  toolbarMain: {
+    borderBottom: `1px solid ${theme.palette.grey[300]}`
+  },
+  toolbarTitle: {
+    flex: 1
+  },
+  toolbarSecondary: {
+    justifyContent: "space-between"
+  },
+  home: {
+    textDecoration: "none",
+    color: "#000",
+  }
+});
+
+// TODD: turn these into links to other routes/pages
+const sections = [
+  "Resources",
+  "Get Involved",
+  "Opportunities",
+  "About",
+  "Blog"
+];
+
+function Navbar(props) {
   const { classes } = props;
+
   return (
-    <div className={classes.root}>
-      <AppBar position="static">
-        <Toolbar>
-          {/* <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
-            <MenuIcon />
-          </IconButton> */}
-          <Typography variant="title" color="inherit" className={classes.grow}>
-            DO SOMETHING
+    <React.Fragment>
+      <CssBaseline />
+      <div className={classes.layout}>
+        <Toolbar className={classes.toolbarMain}>
+          <Button variant="outlined" size="small" href="/">
+            FAQs
+          </Button>
+          <Typography
+            variant="headline"
+            color="inherit"
+            align="center"
+            noWrap
+            className={classes.toolbarTitle}
+          >
+            <a href={"/"} className={classes.home}>
+              Do Something
+            </a>
           </Typography>
-          <Button color="inherit" href="/" className={classes.button}> 
-              Sign In
-            </Button>
-          <Button color="inherit" href="/signup" className={classes.button}>Create Account</Button>
-          <Button color="inherit" href="/" className={classes.button}>FAQs</Button>
+          {/* <IconButton> */}
+          {/* Commented out search until functionality can be added later if needed  */}
+          {/* <SearchIcon /> */}
+          {/* </IconButton> */}
+          <Button variant="outlined" size="small" href="/signup">
+            Sign up
+          </Button>
         </Toolbar>
-      </AppBar>
-    </div>
+        <Toolbar variant="dense" className={classes.toolbarSecondary}>
+          {sections.map(section => (
+            <Typography color="inherit" noWrap key={section}>
+              {section}
+            </Typography>
+          ))}
+        </Toolbar>
+      </div>
+    </React.Fragment>
   );
 }
 
-ButtonAppBar.propTypes = {
-  classes: PropTypes.object.isRequired,
+Navbar.propTypes = {
+  classes: PropTypes.object.isRequired
 };
 
-export default withStyles(styles)(ButtonAppBar);
+export default withStyles(styles)(Navbar);

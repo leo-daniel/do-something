@@ -67,9 +67,16 @@ module.exports = {
   logout: function (req, res) {
     console.log("### Log out intiated ###")
     if (req.user) {
-      let userId = req.user._id;
+      // let userId = req.user._id;     
       req.logout();
-      res.json({ message: "logging out", userId: userId });
+      req.session.destroy(function (err) {
+        if (!err) {
+          res.status(200).clearCookie("connect.sid", { path: "/" }).json({status: "Success"});
+        } else {
+          res.send({ message: "no session to destroy" });
+        }
+      })
+      // res.json({ message: "logging out" , userId : userId });
     } else {
       res.send({ message: "no user to log out" });
     }
