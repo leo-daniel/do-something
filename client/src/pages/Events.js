@@ -6,7 +6,7 @@ import EventFeed from "../components/EventFeed";
 export default props => (
   <div>
     <Navbar />
-    {/* <LeafletMap /> */}
+    <LeafletMap />
     <EventFeed />
   </div>
 );
