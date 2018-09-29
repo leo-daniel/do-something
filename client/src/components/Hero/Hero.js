@@ -1,10 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
-import Paper from "@material-ui/core/Paper";
-import Typography from "@material-ui/core/Typography";
-import Grid from "@material-ui/core/Grid";
-import CssBaseline from "@material-ui/core/CssBaseline";
+import { CssBaseline, Grid, Paper, Typography } from "@material-ui/core";
 import drill from "./drill.jpg";
 
 const styles = theme => ({
@@ -18,7 +15,7 @@ const styles = theme => ({
       marginRight: "auto"
     }
   },
-  mainFeaturedPost: {
+  heroContainer: {
     // backgroundColor: theme.palette.grey[800],
     color: theme.palette.common.white,
     marginBottom: theme.spacing.unit * 4,
@@ -27,9 +24,9 @@ const styles = theme => ({
     marginBottom: "0%",
     paddingBottom: "7rem"
   },
-  mainFeaturedPostContent: {
+  heroContent: {
     padding: `${theme.spacing.unit * 6}px`,
-    [theme.breakpoints.up("md")]: {
+    [theme.breakpoints.up("sm")]: {
       paddingRight: 0
     }
   }
@@ -44,15 +41,17 @@ function Hero(props) {
       <div className={classes.layout}>
         <main>
           {/* Main featured post */}
-          <Paper className={classes.mainFeaturedPost}>
+          <Paper className={classes.heroContainer}>
             <Grid container>
               <Grid item md={6}>
-                <div className={classes.mainFeaturedPostContent}>
+                <div className={classes.heroContent}>
                   <Typography variant="display2" color="inherit" gutterBottom>
                     Give Back
                   </Typography>
                   <Typography variant="headline" color="inherit" paragraph>
-                    Volunteer in your community,<br/>and help make the world better.
+                    Volunteer in your community,
+                    <br />
+                    and help make the world better.
                   </Typography>
                   <Typography variant="subheading" color="inherit">
                     Log in or sign up to start.
