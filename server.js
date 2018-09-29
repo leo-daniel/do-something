@@ -6,7 +6,6 @@ const mongoStore = require('connect-mongo')(session);
 const dbConnection = require('./database');
 const routes = require('./routes');
 const cors = require('cors');
-const flash = require('connect-flash');
 
 const app = express();
 const PORT = process.env.PORT || 3001;

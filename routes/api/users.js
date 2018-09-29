@@ -21,7 +21,8 @@ router.route('/signup').post(passport.authenticate('signup'), (req, res) => {
 router.route('/:id').get(authController.findById);
 
 // Endpoints for  '/api/users/login' aka Sign-In
-router.route('/login').post((req, res, next) => {
+router.route('/login').post(
+  (req, res, next) => {
     console.log('userAPI File, req.body');
     console.log(req.body);
     next();
