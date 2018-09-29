@@ -1,12 +1,10 @@
 import React, { Component } from "react";
 import { Redirect } from "react-router-dom";
+import { withStyles } from "@material-ui/core/styles";
 import API from "../utils/API";
 import Hero from "../components/Hero/Hero";
-// Commenting out original Navbar component
-// import Nav from "../components/Navbar";
 import Login from "../components/Login";
-import { withStyles } from "@material-ui/core/styles";
-import NavbarNew from "../components/NavbarNew";
+import Navbar from "../components/Navbar";
 
 const styles = theme => ({
   layout: {
@@ -59,7 +57,7 @@ class Landing extends Component {
     return (
       <div>
         {/* <Nav /> */}
-        <NavbarNew />
+        <Navbar />
         <Hero />
         <Login />
       </div>
