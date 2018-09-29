@@ -1,12 +1,9 @@
-import React, { Component, Fragment } from 'react';
-// Commenting out original Navbar component
-// import Navbar from '../components/Navbar'
-import Profile from '../components/Profile'
-import NavbarNew from '../components/NavbarNew';
+import React from 'react';
+import Profile from '../components/Profile';
+import Navbar from '../components/Navbar';
 
 export default props =>
     <div>
-        {/* <Navbar /> */}
-        <NavbarNew />
+        <Navbar />
         <Profile />
     </div>

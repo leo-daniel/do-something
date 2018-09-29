@@ -1,12 +1,10 @@
-import React, { Component, Fragment } from 'react';
-// Commenting out original Navbar component
-// import Navbar from '../components/Navbar';
+import React from 'react';
 import LeafletMap from '../components/LeafletMap';
-import NavbarNew from '../components/NavbarNew';
+import Navbar from '../components/Navbar';
 
 export default props =>
     <div>
         {/* <Navbar /> */}
-        <NavbarNew />
+        <Navbar />
         <LeafletMap />
     </div>
