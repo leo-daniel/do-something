@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "proxy": "http://do-something-better.herokuapp.com:3001",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "concurrently \"react-scripts start\" \"PORT=3001 node server.js\"",
