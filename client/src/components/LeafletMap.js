@@ -3,7 +3,7 @@ import { Map, TileLayer, Marker, Popup } from 'react-leaflet';
 import './leafletmap.css';
 import L from 'leaflet';
 import defaultIconURL from './vol-icon.svg';
-import locationIconURL from './user-location.png';
+import locationIconURL from './user-location.svg';
 import API from '.././utils/API';
 
 const myIcon = L.icon({
