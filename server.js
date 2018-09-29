@@ -1,16 +1,13 @@
-// npm modules
-const express = require('express');
-const bodyParser = require('body-parser');
-const session = require('express-session');
-const passport = require('passport');
-const mongoStore = require('connect-mongo')(session);
-const cors = require('cors');
-// database
-const dbConnection = require('./database');
-// routes
-const routes = require('./routes');
+const express = require("express");
+const bodyParser = require("body-parser");
+const session = require("express-session");
+const passport = require("passport");
+const mongoStore = require("connect-mongo")(session);
+const dbConnection = require("./database");
+const routes = require("./routes");
+const cors = require("cors");
+const path = require("path");
 
-// create the server
 const app = express();
 // tell the server which port to listen on
 const PORT = process.env.PORT || 3001;

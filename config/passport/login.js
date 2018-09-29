@@ -1,6 +1,6 @@
-const bCrypt = require('bcrypt-nodejs');
-const LocalStrategy = require('passport-local').Strategy;
-const User = require('../../models/User');
+const bCrypt = require("bcrypt-nodejs");
+const LocalStrategy = require("passport-local").Strategy;
+const User = require("../../models/user");
 
 module.exports = function(passport) {
   const isValidPassword = function(user, password) {

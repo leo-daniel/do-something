@@ -8,12 +8,12 @@ import {
 } from 'react-router-dom';
 import Registration from './pages/Registration';
 import Profile from './pages/Profile';
-// TODO: Should add a 'no match' page later.
-// TODO: import NoMatch from "./pages/NoMatch";
+import NoMatch from './pages/NoMatch';
 // To access map for now use localhost:3000/map
 import Map from './pages/Map';
 import API from './utils/API';
 import Landing from './pages/Landing';
+import Events from './pages/Events';
 
 class App extends Component {
   state = {
@@ -60,7 +60,9 @@ class App extends Component {
             <Route exact path="/user/:id" component={Profile} />
             {/* TODO: Route to test map */}
             <Route exact path="/map" component={Map} />
-            {/* TODO: <Route component={NoMatch} /> */}
+            <Route exact path="/events" component={Events} />
+            // TODO: Not sure if this needs an exact path?
+            <Route component={NoMatch} />
           </Switch>
         </div>
       </Router>
