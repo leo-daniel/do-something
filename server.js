@@ -14,7 +14,10 @@ const PORT = process.env.PORT || 3001;
 // Define middleware here
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-
+// Serve up static assets (usually on heroku)
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+}
 
 // Passport initialization & setup
 app.use(cors());
@@ -33,20 +36,15 @@ app.use(passport.session());
 // Add routes, both API and view
 app.use(routes);
 
-// Initialize Passport
-require("./config/passport")(passport);
 
-// Serve up static assets (usually on heroku)
-if (process.env.NODE_ENV === "production") {
-  app.use('/static', express.static(path.join(__dirname, 'client/build')));
-}
+// Initialize Passport 
+require("./config/passport")(passport);
 
 // Send every request to the React app
 // Define any API routes before this runs
 app.get("*", function(req, res) {
   res.sendFile(path.join(__dirname, "./client/build/index.html"));
 });
-
 
 // Start the API server
 app.listen(PORT, function() {
