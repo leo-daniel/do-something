@@ -1,10 +1,9 @@
 import React, { Component, Fragment } from "react";
-import classNames from 'classnames';
+import classNames from "classnames";
 import { withStyles } from "@material-ui/core/styles";
 import { CssBaseline, Grid } from "@material-ui/core";
 import API from "../utils/API";
 import EventCard from "./EventCard";
-
 
 const styles = theme => ({
   layout: {
@@ -36,11 +35,9 @@ const styles = theme => ({
   },
   icon: {
     fontSize: "1rem",
-    marginRight: ".5rem",
+    marginRight: ".5rem"
   }
 });
-
-
 
 // stateful component
 class EventFeed extends Component {
@@ -50,7 +47,7 @@ class EventFeed extends Component {
       events: []
     };
   }
-  
+
   componentWillMount() {
     API.getEvents()
       .then(res => {
@@ -62,23 +59,24 @@ class EventFeed extends Component {
   render() {
     return (
       <Fragment>
-      <CssBaseline />
-      <main>
-      {/* <div className={classNames(classes.layout, classes.cardGrid)}> */}
-        <Grid container justify="center" spacing={16}>
-        {this.state.events.map((event) => 
-        <EventCard
-            key={event._id}
-            title={event.eventName}
-            city={event.city}
-            usstate={event.state}
-            // date={event.date} TODO: need to convert UTC to readable date
-            time={event.startTime}
-            description={event.description}
-            id={event._id}
-        />)}
-        </Grid>
-        {/* </div> */}
+        <CssBaseline />
+        <main>
+          {/* <div className={classNames(classes.layout, classes.cardGrid)}> */}
+          <Grid container justify="center" spacing={16}>
+            {this.state.events.map(event => (
+              <EventCard
+                key={event._id}
+                title={event.eventName}
+                city={event.city}
+                usstate={event.state}
+                // date={event.date} TODO: need to convert UTC to readable date
+                time={event.startTime}
+                description={event.description}
+                id={event._id}
+              />
+            ))}
+          </Grid>
+          {/* </div> */}
         </main>
       </Fragment>
     );
