@@ -11,7 +11,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Chicago, IL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "237 Loeprich Circle",
       "city": "Chicago",
       "state": "IL",
@@ -25,7 +25,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Tucson, AZ",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1 Colorado Road",
       "city": "Tucson",
       "state": "AZ",
@@ -39,7 +39,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Lake Worth, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7265 Valley Edge Terrace",
       "city": "Lake Worth",
       "state": "FL",
@@ -53,7 +53,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in New York City, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "52 Talmadge Pass",
       "city": "New York City",
       "state": "NY",
@@ -67,7 +67,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Spokane, WA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "75191 La Follette Place",
       "city": "Spokane",
       "state": "WA",
@@ -81,7 +81,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Minneapolis, MN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1 Nevada Trail",
       "city": "Minneapolis",
       "state": "MN",
@@ -95,7 +95,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Memphis, TN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2438 Arapahoe Plaza",
       "city": "Memphis",
       "state": "TN",
@@ -109,7 +109,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Mateo, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0 Express Road",
       "city": "San Mateo",
       "state": "CA",
@@ -123,7 +123,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Cincinnati, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "14 Melvin Trail",
       "city": "Cincinnati",
       "state": "OH",
@@ -137,7 +137,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Los Angeles, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5 Nova Trail",
       "city": "Los Angeles",
       "state": "CA",
@@ -151,7 +151,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Rochester, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "924 Main Parkway",
       "city": "Rochester",
       "state": "NY",
@@ -165,7 +165,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Wichita Falls, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "634 Magdeline Circle",
       "city": "Wichita Falls",
       "state": "TX",
@@ -179,7 +179,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Cheyenne, WY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "055 Evergreen Place",
       "city": "Cheyenne",
       "state": "WY",
@@ -193,7 +193,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Huntsville, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "67758 Tennessee Circle",
       "city": "Huntsville",
       "state": "TX",
@@ -207,7 +207,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Winston Salem, NC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "83 Harper Avenue",
       "city": "Winston Salem",
       "state": "NC",
@@ -221,7 +221,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Englewood, CO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9134 Hallows Parkway",
       "city": "Englewood",
       "state": "CO",
@@ -235,7 +235,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Baton Rouge, LA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "3122 Cordelia Plaza",
       "city": "Baton Rouge",
       "state": "LA",
@@ -249,7 +249,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Iowa City, IA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "3993 Moulton Center",
       "city": "Iowa City",
       "state": "IA",
@@ -263,7 +263,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Fort Pierce, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0703 Springview Crossing",
       "city": "Fort Pierce",
       "state": "FL",
@@ -277,7 +277,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in West Palm Beach, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2116 Cambridge Way",
       "city": "West Palm Beach",
       "state": "FL",
@@ -291,7 +291,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Marietta, GA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "81807 Mallard Park",
       "city": "Marietta",
       "state": "GA",
@@ -305,7 +305,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Lancaster, PA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0062 Forest Run Road",
       "city": "Lancaster",
       "state": "PA",
@@ -319,7 +319,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in New York City, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "34 Lakewood Parkway",
       "city": "New York City",
       "state": "NY",
@@ -333,7 +333,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Modesto, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "60 Ronald Regan Alley",
       "city": "Modesto",
       "state": "CA",
@@ -347,7 +347,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Buffalo, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2 Atwood Trail",
       "city": "Buffalo",
       "state": "NY",
@@ -361,7 +361,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Irvine, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5089 Karstens Crossing",
       "city": "Irvine",
       "state": "CA",
@@ -375,7 +375,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Houston, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "63 Corscot Pass",
       "city": "Houston",
       "state": "TX",
@@ -389,7 +389,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Springfield, IL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "75197 Hauk Parkway",
       "city": "Springfield",
       "state": "IL",
@@ -403,7 +403,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Riverside, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "138 Eastlawn Plaza",
       "city": "Riverside",
       "state": "CA",
@@ -417,7 +417,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Santa Fe, NM",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "747 Knutson Lane",
       "city": "Santa Fe",
       "state": "NM",
@@ -431,7 +431,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Kent, WA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "438 Stuart Street",
       "city": "Kent",
       "state": "WA",
@@ -445,7 +445,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Gatesville, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "87897 Lunder Lane",
       "city": "Gatesville",
       "state": "TX",
@@ -459,7 +459,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Suffolk, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0795 Artisan Terrace",
       "city": "Suffolk",
       "state": "VA",
@@ -473,7 +473,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Naples, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9 Longview Plaza",
       "city": "Naples",
       "state": "FL",
@@ -487,7 +487,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Louisville, KY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "61 Schlimgen Pass",
       "city": "Louisville",
       "state": "KY",
@@ -501,7 +501,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Grand Forks, ND",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "03169 Oriole Way",
       "city": "Grand Forks",
       "state": "ND",
@@ -515,7 +515,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Atlanta, GA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "859 Acker Court",
       "city": "Atlanta",
       "state": "GA",
@@ -529,7 +529,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Tampa, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2 Shopko Way",
       "city": "Tampa",
       "state": "FL",
@@ -543,7 +543,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Stockton, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "96 Havey Trail",
       "city": "Stockton",
       "state": "CA",
@@ -557,7 +557,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Fort Lauderdale, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0 Menomonie Avenue",
       "city": "Fort Lauderdale",
       "state": "FL",
@@ -571,7 +571,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in New York City, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5 Chinook Parkway",
       "city": "New York City",
       "state": "NY",
@@ -585,7 +585,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Dallas, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9598 Northland Lane",
       "city": "Dallas",
       "state": "TX",
@@ -599,7 +599,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Philadelphia, PA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "90 Montana Street",
       "city": "Philadelphia",
       "state": "PA",
@@ -613,7 +613,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Las Vegas, NV",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "23528 Graceland Drive",
       "city": "Las Vegas",
       "state": "NV",
@@ -627,7 +627,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Alhambra, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "42 Old Shore Place",
       "city": "Alhambra",
       "state": "CA",
@@ -641,7 +641,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Oklahoma City, OK",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8 Oxford Pass",
       "city": "Oklahoma City",
       "state": "OK",
@@ -655,7 +655,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in El Paso, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "418 6th Plaza",
       "city": "El Paso",
       "state": "TX",
@@ -669,7 +669,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Columbus, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5 Mallard Terrace",
       "city": "Columbus",
       "state": "OH",
@@ -683,7 +683,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Detroit, MI",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7 Randy Pass",
       "city": "Detroit",
       "state": "MI",
@@ -697,7 +697,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Monroe, LA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1 Victoria Drive",
       "city": "Monroe",
       "state": "LA",
@@ -711,7 +711,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Asheville, NC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "6062 Larry Drive",
       "city": "Asheville",
       "state": "NC",
@@ -725,7 +725,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Bakersfield, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "36 Ryan Terrace",
       "city": "Bakersfield",
       "state": "CA",
@@ -739,7 +739,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Alexandria, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "15935 Lakewood Street",
       "city": "Alexandria",
       "state": "VA",
@@ -753,7 +753,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Nashville, TN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "84940 Warner Crossing",
       "city": "Nashville",
       "state": "TN",
@@ -767,7 +767,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Waco, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0 Helena Point",
       "city": "Waco",
       "state": "TX",
@@ -781,7 +781,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Troy, MI",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "79 Hazelcrest Drive",
       "city": "Troy",
       "state": "MI",
@@ -795,7 +795,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Springfield, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "31 Susan Pass",
       "city": "Springfield",
       "state": "OH",
@@ -809,7 +809,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Pittsburgh, PA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "032 Hoepker Street",
       "city": "Pittsburgh",
       "state": "PA",
@@ -823,7 +823,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Lincoln, NE",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "23405 Cottonwood Pass",
       "city": "Lincoln",
       "state": "NE",
@@ -837,7 +837,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Juneau, AK",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4276 5th Parkway",
       "city": "Juneau",
       "state": "AK",
@@ -851,7 +851,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Winston Salem, NC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "81 Bowman Terrace",
       "city": "Winston Salem",
       "state": "NC",
@@ -865,7 +865,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Philadelphia, PA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "549 Knutson Alley",
       "city": "Philadelphia",
       "state": "PA",
@@ -879,7 +879,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Pittsburgh, PA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "628 School Center",
       "city": "Pittsburgh",
       "state": "PA",
@@ -893,7 +893,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Miami, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "42 Helena Pass",
       "city": "Miami",
       "state": "FL",
@@ -907,7 +907,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Athens, GA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "60 Doe Crossing Alley",
       "city": "Athens",
       "state": "GA",
@@ -921,7 +921,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Miami, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "42 Grayhawk Hill",
       "city": "Miami",
       "state": "FL",
@@ -935,7 +935,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Des Moines, IA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "477 Menomonie Avenue",
       "city": "Des Moines",
       "state": "IA",
@@ -949,7 +949,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Jacksonville, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "47 Derek Court",
       "city": "Jacksonville",
       "state": "FL",
@@ -963,7 +963,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Rochester, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "319 Eliot Center",
       "city": "Rochester",
       "state": "NY",
@@ -977,7 +977,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Santa Barbara, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0 Kenwood Avenue",
       "city": "Santa Barbara",
       "state": "CA",
@@ -991,7 +991,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Grand Junction, CO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "871 Jana Center",
       "city": "Grand Junction",
       "state": "CO",
@@ -1005,7 +1005,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Francisco, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2036 Kings Terrace",
       "city": "San Francisco",
       "state": "CA",
@@ -1019,7 +1019,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Roanoke, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "31 Riverside Hill",
       "city": "Roanoke",
       "state": "VA",
@@ -1033,7 +1033,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Washington, DC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "07878 Golf Lane",
       "city": "Washington",
       "state": "DC",
@@ -1047,7 +1047,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Detroit, MI",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5586 Ohio Pass",
       "city": "Detroit",
       "state": "MI",
@@ -1061,7 +1061,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Charlotte, NC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5317 Sycamore Way",
       "city": "Charlotte",
       "state": "NC",
@@ -1075,7 +1075,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Jersey City, NJ",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "725 2nd Place",
       "city": "Jersey City",
       "state": "NJ",
@@ -1089,7 +1089,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Metairie, LA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "761 Claremont Pass",
       "city": "Metairie",
       "state": "LA",
@@ -1103,7 +1103,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in North Hollywood, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "086 Mcbride Junction",
       "city": "North Hollywood",
       "state": "CA",
@@ -1117,7 +1117,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Washington, DC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "19580 Sunbrook Point",
       "city": "Washington",
       "state": "DC",
@@ -1131,7 +1131,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Charleston, WV",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "31 Trailsway Place",
       "city": "Charleston",
       "state": "WV",
@@ -1145,7 +1145,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Boise, ID",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "21489 Judy Center",
       "city": "Boise",
       "state": "ID",
@@ -1159,7 +1159,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Davenport, IA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "16 Tennyson Drive",
       "city": "Davenport",
       "state": "IA",
@@ -1173,7 +1173,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Washington, DC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "12007 Troy Drive",
       "city": "Washington",
       "state": "DC",
@@ -1187,7 +1187,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Flint, MI",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "72220 Bobwhite Road",
       "city": "Flint",
       "state": "MI",
@@ -1201,7 +1201,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Mateo, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "07644 Florence Point",
       "city": "San Mateo",
       "state": "CA",
@@ -1215,7 +1215,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in El Paso, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "61160 Superior Way",
       "city": "El Paso",
       "state": "TX",
@@ -1229,7 +1229,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Saint Louis, MO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "6652 Dahle Circle",
       "city": "Saint Louis",
       "state": "MO",
@@ -1243,7 +1243,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Wichita, KS",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0 Vidon Trail",
       "city": "Wichita",
       "state": "KS",
@@ -1257,7 +1257,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Colorado Springs, CO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "799 Ryan Alley",
       "city": "Colorado Springs",
       "state": "CO",
@@ -1271,7 +1271,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Chicago, IL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "34 Mifflin Drive",
       "city": "Chicago",
       "state": "IL",
@@ -1285,7 +1285,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Minneapolis, MN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "39302 Helena Trail",
       "city": "Minneapolis",
       "state": "MN",
@@ -1299,7 +1299,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Syracuse, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7632 Sundown Plaza",
       "city": "Syracuse",
       "state": "NY",
@@ -1313,7 +1313,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Los Angeles, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "6 Northwestern Street",
       "city": "Los Angeles",
       "state": "CA",
@@ -1327,7 +1327,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Greenville, SC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "21 Glacier Hill Parkway",
       "city": "Greenville",
       "state": "SC",
@@ -1341,7 +1341,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Brooklyn, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "61 Briar Crest Parkway",
       "city": "Brooklyn",
       "state": "NY",
@@ -1355,7 +1355,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Pasadena, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "695 Arizona Circle",
       "city": "Pasadena",
       "state": "CA",
@@ -1369,7 +1369,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Sunnyvale, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "910 Thackeray Junction",
       "city": "Sunnyvale",
       "state": "CA",
@@ -1383,7 +1383,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Los Angeles, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "63 Park Meadow Point",
       "city": "Los Angeles",
       "state": "CA",
@@ -1397,7 +1397,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Saint Paul, MN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2 Dakota Park",
       "city": "Saint Paul",
       "state": "MN",
@@ -1411,7 +1411,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Salt Lake City, UT",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1 Goodland Circle",
       "city": "Salt Lake City",
       "state": "UT",
@@ -1425,7 +1425,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in El Paso, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9284 Riverside Way",
       "city": "El Paso",
       "state": "TX",
@@ -1439,7 +1439,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Meridian, MS",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "70052 Harbort Avenue",
       "city": "Meridian",
       "state": "MS",
@@ -1453,7 +1453,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Nashville, TN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9 Fairfield Court",
       "city": "Nashville",
       "state": "TN",
@@ -1467,7 +1467,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Norwalk, CT",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "87 Katie Street",
       "city": "Norwalk",
       "state": "CT",
@@ -1481,7 +1481,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Des Moines, IA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2 Aberg Center",
       "city": "Des Moines",
       "state": "IA",
@@ -1495,7 +1495,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Largo, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "45056 Wayridge Lane",
       "city": "Largo",
       "state": "FL",
@@ -1509,7 +1509,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Fresno, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "3 Shoshone Alley",
       "city": "Fresno",
       "state": "CA",
@@ -1523,7 +1523,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Kansas City, MO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "32 Lakeland Pass",
       "city": "Kansas City",
       "state": "MO",
@@ -1537,7 +1537,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Dallas, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "541 Maryland Junction",
       "city": "Dallas",
       "state": "TX",
@@ -1551,7 +1551,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Newark, NJ",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0287 Sunnyside Plaza",
       "city": "Newark",
       "state": "NJ",
@@ -1565,7 +1565,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Las Vegas, NV",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "99 Melrose Road",
       "city": "Las Vegas",
       "state": "NV",
@@ -1579,7 +1579,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Vero Beach, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "23 Ridge Oak Center",
       "city": "Vero Beach",
       "state": "FL",
@@ -1593,7 +1593,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Colorado Springs, CO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0 Glacier Hill Drive",
       "city": "Colorado Springs",
       "state": "CO",
@@ -1607,7 +1607,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Warren, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "18 Memorial Park",
       "city": "Warren",
       "state": "OH",
@@ -1621,7 +1621,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Sacramento, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "30999 Anzinger Circle",
       "city": "Sacramento",
       "state": "CA",
@@ -1635,7 +1635,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Boston, MA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "08 Bartelt Avenue",
       "city": "Boston",
       "state": "MA",
@@ -1649,7 +1649,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Cleveland, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7 Swallow Circle",
       "city": "Cleveland",
       "state": "OH",
@@ -1663,7 +1663,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Aurora, CO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "66 Almo Plaza",
       "city": "Aurora",
       "state": "CO",
@@ -1677,7 +1677,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Glendale, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "91635 Wayridge Parkway",
       "city": "Glendale",
       "state": "CA",
@@ -1691,7 +1691,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Jackson, MS",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "12387 Prairieview Drive",
       "city": "Jackson",
       "state": "MS",
@@ -1705,7 +1705,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Jackson, TN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "94 Dovetail Way",
       "city": "Jackson",
       "state": "TN",
@@ -1719,7 +1719,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Reno, NV",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7197 Claremont Court",
       "city": "Reno",
       "state": "NV",
@@ -1733,7 +1733,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Evansville, IN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7472 Victoria Hill",
       "city": "Evansville",
       "state": "IN",
@@ -1747,7 +1747,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Jacksonville, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "309 Sunfield Place",
       "city": "Jacksonville",
       "state": "FL",
@@ -1761,7 +1761,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Fort Wayne, IN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "00630 Shelley Parkway",
       "city": "Fort Wayne",
       "state": "IN",
@@ -1775,7 +1775,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in West Palm Beach, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "6 Larry Drive",
       "city": "West Palm Beach",
       "state": "FL",
@@ -1789,7 +1789,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Simi Valley, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "04245 Sundown Drive",
       "city": "Simi Valley",
       "state": "CA",
@@ -1803,7 +1803,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Tallahassee, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "906 Debra Plaza",
       "city": "Tallahassee",
       "state": "FL",
@@ -1817,7 +1817,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Antonio, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "6148 Sachtjen Center",
       "city": "San Antonio",
       "state": "TX",
@@ -1831,7 +1831,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Akron, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8 Barby Junction",
       "city": "Akron",
       "state": "OH",
@@ -1845,7 +1845,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Worcester, MA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2005 Luster Drive",
       "city": "Worcester",
       "state": "MA",
@@ -1859,7 +1859,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Washington, DC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4359 Hollow Ridge Crossing",
       "city": "Washington",
       "state": "DC",
@@ -1873,7 +1873,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Worcester, MA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "98638 Nevada Lane",
       "city": "Worcester",
       "state": "MA",
@@ -1887,7 +1887,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Francisco, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4604 Grim Court",
       "city": "San Francisco",
       "state": "CA",
@@ -1901,7 +1901,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Sunnyvale, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "09625 Eagle Crest Trail",
       "city": "Sunnyvale",
       "state": "CA",
@@ -1915,7 +1915,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Dayton, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "52742 Corry Point",
       "city": "Dayton",
       "state": "OH",
@@ -1929,7 +1929,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Sacramento, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0632 Dawn Parkway",
       "city": "Sacramento",
       "state": "CA",
@@ -1943,7 +1943,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Birmingham, AL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "68 Luster Center",
       "city": "Birmingham",
       "state": "AL",
@@ -1957,7 +1957,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Tampa, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1 Eastlawn Terrace",
       "city": "Tampa",
       "state": "FL",
@@ -1971,7 +1971,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Diego, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8133 Macpherson Parkway",
       "city": "San Diego",
       "state": "CA",
@@ -1985,7 +1985,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Columbus, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7722 Colorado Pass",
       "city": "Columbus",
       "state": "OH",
@@ -1999,7 +1999,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Richmond, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "588 Elka Junction",
       "city": "Richmond",
       "state": "VA",
@@ -2013,7 +2013,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Denver, CO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "6313 Gulseth Circle",
       "city": "Denver",
       "state": "CO",
@@ -2027,7 +2027,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Dallas, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "01 Shoshone Street",
       "city": "Dallas",
       "state": "TX",
@@ -2041,7 +2041,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Tampa, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "22081 Reindahl Hill",
       "city": "Tampa",
       "state": "FL",
@@ -2055,7 +2055,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Lexington, KY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7 Northview Way",
       "city": "Lexington",
       "state": "KY",
@@ -2069,7 +2069,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Chula Vista, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "78992 Huxley Parkway",
       "city": "Chula Vista",
       "state": "CA",
@@ -2083,7 +2083,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Lincoln, NE",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "809 Oriole Court",
       "city": "Lincoln",
       "state": "NE",
@@ -2097,7 +2097,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Louisville, KY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "696 Nelson Way",
       "city": "Louisville",
       "state": "KY",
@@ -2111,7 +2111,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in College Station, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "34 Northport Plaza",
       "city": "College Station",
       "state": "TX",
@@ -2125,7 +2125,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Miami, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "02 Swallow Park",
       "city": "Miami",
       "state": "FL",
@@ -2139,7 +2139,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Houston, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0345 East Way",
       "city": "Houston",
       "state": "TX",
@@ -2153,7 +2153,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Greensboro, NC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "21 Bartillon Crossing",
       "city": "Greensboro",
       "state": "NC",
@@ -2167,7 +2167,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in New York City, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "30128 Ruskin Court",
       "city": "New York City",
       "state": "NY",
@@ -2181,7 +2181,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Miami, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "875 Stephen Hill",
       "city": "Miami",
       "state": "FL",
@@ -2195,7 +2195,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Buffalo, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "94758 5th Street",
       "city": "Buffalo",
       "state": "NY",
@@ -2209,7 +2209,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Phoenix, AZ",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "40 Canary Court",
       "city": "Phoenix",
       "state": "AZ",
@@ -2223,7 +2223,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Washington, DC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1 Golf Pass",
       "city": "Washington",
       "state": "DC",
@@ -2237,7 +2237,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Wichita Falls, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "60 Lighthouse Bay Center",
       "city": "Wichita Falls",
       "state": "TX",
@@ -2251,7 +2251,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in South Lake Tahoe, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8 Acker Pass",
       "city": "South Lake Tahoe",
       "state": "CA",
@@ -2265,7 +2265,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Springfield, IL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "6 Mallard Plaza",
       "city": "Springfield",
       "state": "IL",
@@ -2279,7 +2279,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Rochester, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "615 Lunder Trail",
       "city": "Rochester",
       "state": "NY",
@@ -2293,7 +2293,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Louisville, KY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "081 Memorial Junction",
       "city": "Louisville",
       "state": "KY",
@@ -2307,7 +2307,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Newark, NJ",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "337 Toban Park",
       "city": "Newark",
       "state": "NJ",
@@ -2321,7 +2321,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Albany, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "58 Shopko Court",
       "city": "Albany",
       "state": "NY",
@@ -2335,7 +2335,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Chicago, IL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "26304 Vernon Court",
       "city": "Chicago",
       "state": "IL",
@@ -2349,7 +2349,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Fairbanks, AK",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "20 Eastwood Alley",
       "city": "Fairbanks",
       "state": "AK",
@@ -2363,7 +2363,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Fort Worth, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2 Pennsylvania Parkway",
       "city": "Fort Worth",
       "state": "TX",
@@ -2377,7 +2377,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Francisco, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "58319 Kropf Plaza",
       "city": "San Francisco",
       "state": "CA",
@@ -2391,7 +2391,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in New York City, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "53 Clyde Gallagher Pass",
       "city": "New York City",
       "state": "NY",
@@ -2405,7 +2405,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Cleveland, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "045 Barby Park",
       "city": "Cleveland",
       "state": "OH",
@@ -2419,7 +2419,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Tucson, AZ",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "3145 Bunker Hill Way",
       "city": "Tucson",
       "state": "AZ",
@@ -2433,7 +2433,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Jose, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2997 Menomonie Point",
       "city": "San Jose",
       "state": "CA",
@@ -2447,7 +2447,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Whittier, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "68 Buhler Street",
       "city": "Whittier",
       "state": "CA",
@@ -2461,7 +2461,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Birmingham, AL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9 Waxwing Road",
       "city": "Birmingham",
       "state": "AL",
@@ -2475,7 +2475,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Philadelphia, PA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "32452 Briar Crest Circle",
       "city": "Philadelphia",
       "state": "PA",
@@ -2489,7 +2489,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Jefferson City, MO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "123 Parkside Park",
       "city": "Jefferson City",
       "state": "MO",
@@ -2503,7 +2503,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Pueblo, CO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "68177 Annamark Way",
       "city": "Pueblo",
       "state": "CO",
@@ -2517,7 +2517,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Buffalo, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "960 Troy Pass",
       "city": "Buffalo",
       "state": "NY",
@@ -2531,7 +2531,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Detroit, MI",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "00838 Lakewood Park",
       "city": "Detroit",
       "state": "MI",
@@ -2545,7 +2545,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Idaho Falls, ID",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "42455 Buell Place",
       "city": "Idaho Falls",
       "state": "ID",
@@ -2559,7 +2559,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Austin, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "300 Barnett Crossing",
       "city": "Austin",
       "state": "TX",
@@ -2573,7 +2573,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Antonio, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7 Boyd Circle",
       "city": "San Antonio",
       "state": "TX",
@@ -2587,7 +2587,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Birmingham, AL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8 Clarendon Center",
       "city": "Birmingham",
       "state": "AL",
@@ -2601,7 +2601,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Lexington, KY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "202 Huxley Crossing",
       "city": "Lexington",
       "state": "KY",
@@ -2615,7 +2615,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Charlotte, NC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7 Bay Center",
       "city": "Charlotte",
       "state": "NC",
@@ -2629,7 +2629,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Seattle, WA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "88613 Mendota Terrace",
       "city": "Seattle",
       "state": "WA",
@@ -2643,7 +2643,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Austin, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "57 Valley Edge Alley",
       "city": "Austin",
       "state": "TX",
@@ -2657,7 +2657,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Orlando, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "923 Butternut Trail",
       "city": "Orlando",
       "state": "FL",
@@ -2671,7 +2671,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in El Paso, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5768 Warbler Terrace",
       "city": "El Paso",
       "state": "TX",
@@ -2685,7 +2685,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Alexandria, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "33840 Vahlen Center",
       "city": "Alexandria",
       "state": "VA",
@@ -2699,7 +2699,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Chicago, IL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "86 Tony Pass",
       "city": "Chicago",
       "state": "IL",
@@ -2713,7 +2713,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Denver, CO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "68204 Fremont Plaza",
       "city": "Denver",
       "state": "CO",
@@ -2727,7 +2727,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Las Vegas, NV",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "25 Magdeline Center",
       "city": "Las Vegas",
       "state": "NV",
@@ -2741,7 +2741,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Pittsburgh, PA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5 Corben Circle",
       "city": "Pittsburgh",
       "state": "PA",
@@ -2755,7 +2755,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Akron, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2058 Chive Way",
       "city": "Akron",
       "state": "OH",
@@ -2769,7 +2769,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Staten Island, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "94 Maple Plaza",
       "city": "Staten Island",
       "state": "NY",
@@ -2783,7 +2783,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Dallas, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "971 Lerdahl Plaza",
       "city": "Dallas",
       "state": "TX",
@@ -2797,7 +2797,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Augusta, GA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "88 Waywood Way",
       "city": "Augusta",
       "state": "GA",
@@ -2811,7 +2811,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Erie, PA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "55 Debra Plaza",
       "city": "Erie",
       "state": "PA",
@@ -2825,7 +2825,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Tucson, AZ",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0 Mandrake Plaza",
       "city": "Tucson",
       "state": "AZ",
@@ -2839,7 +2839,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Metairie, LA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "50409 Harbort Alley",
       "city": "Metairie",
       "state": "LA",
@@ -2853,7 +2853,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Birmingham, AL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8243 Forest Road",
       "city": "Birmingham",
       "state": "AL",
@@ -2867,7 +2867,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Phoenix, AZ",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "6149 Hagan Terrace",
       "city": "Phoenix",
       "state": "AZ",
@@ -2881,7 +2881,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Albuquerque, NM",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "18 Forest Street",
       "city": "Albuquerque",
       "state": "NM",
@@ -2895,7 +2895,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Ogden, UT",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "190 Vernon Way",
       "city": "Ogden",
       "state": "UT",
@@ -2909,7 +2909,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Glendale, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "31 Emmet Crossing",
       "city": "Glendale",
       "state": "CA",
@@ -2923,7 +2923,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Abilene, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "75701 Browning Park",
       "city": "Abilene",
       "state": "TX",
@@ -2937,7 +2937,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Columbus, GA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "523 Mccormick Trail",
       "city": "Columbus",
       "state": "GA",
@@ -2951,7 +2951,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Saint Louis, MO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "031 Buell Way",
       "city": "Saint Louis",
       "state": "MO",
@@ -2965,7 +2965,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Dallas, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "759 Rieder Place",
       "city": "Dallas",
       "state": "TX",
@@ -2979,7 +2979,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Sioux Falls, SD",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2 5th Pass",
       "city": "Sioux Falls",
       "state": "SD",
@@ -2993,7 +2993,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Palo Alto, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "66993 Luster Drive",
       "city": "Palo Alto",
       "state": "CA",
@@ -3007,7 +3007,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Brooklyn, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "29365 Algoma Road",
       "city": "Brooklyn",
       "state": "NY",
@@ -3021,7 +3021,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Albany, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "87894 Londonderry Circle",
       "city": "Albany",
       "state": "NY",
@@ -3035,7 +3035,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Portland, OR",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1 Coleman Lane",
       "city": "Portland",
       "state": "OR",
@@ -3049,7 +3049,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Tucson, AZ",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "219 Golf Course Circle",
       "city": "Tucson",
       "state": "AZ",
@@ -3063,7 +3063,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Tallahassee, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "59369 Goodland Junction",
       "city": "Tallahassee",
       "state": "FL",
@@ -3077,7 +3077,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Milwaukee, WI",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "154 8th Road",
       "city": "Milwaukee",
       "state": "WI",
@@ -3091,7 +3091,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Phoenix, AZ",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "12 Talisman Point",
       "city": "Phoenix",
       "state": "AZ",
@@ -3105,7 +3105,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Springfield, MO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "777 Superior Terrace",
       "city": "Springfield",
       "state": "MO",
@@ -3119,7 +3119,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Santa Barbara, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0 Rieder Plaza",
       "city": "Santa Barbara",
       "state": "CA",
@@ -3133,7 +3133,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in North Little Rock, AR",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "584 Anderson Court",
       "city": "North Little Rock",
       "state": "AR",
@@ -3147,7 +3147,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Atlanta, GA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "00129 Beilfuss Trail",
       "city": "Atlanta",
       "state": "GA",
@@ -3161,7 +3161,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in West Palm Beach, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "40590 Carioca Court",
       "city": "West Palm Beach",
       "state": "FL",
@@ -3175,7 +3175,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Brea, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "51133 Almo Park",
       "city": "Brea",
       "state": "CA",
@@ -3189,7 +3189,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Sarasota, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "93886 Hollow Ridge Alley",
       "city": "Sarasota",
       "state": "FL",
@@ -3203,7 +3203,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Miami, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "758 Browning Crossing",
       "city": "Miami",
       "state": "FL",
@@ -3217,7 +3217,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in New Orleans, LA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "115 Kensington Place",
       "city": "New Orleans",
       "state": "LA",
@@ -3231,7 +3231,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Knoxville, TN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7563 Holy Cross Park",
       "city": "Knoxville",
       "state": "TN",
@@ -3245,7 +3245,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Baltimore, MD",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "767 Rutledge Road",
       "city": "Baltimore",
       "state": "MD",
@@ -3259,7 +3259,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Pinellas Park, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0313 Union Parkway",
       "city": "Pinellas Park",
       "state": "FL",
@@ -3273,7 +3273,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Portland, OR",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2236 Magdeline Lane",
       "city": "Portland",
       "state": "OR",
@@ -3287,7 +3287,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in El Paso, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "3378 Boyd Trail",
       "city": "El Paso",
       "state": "TX",
@@ -3301,7 +3301,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Buffalo, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "41 Grayhawk Avenue",
       "city": "Buffalo",
       "state": "NY",
@@ -3315,7 +3315,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Charleston, WV",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "32 Sheridan Center",
       "city": "Charleston",
       "state": "WV",
@@ -3329,7 +3329,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Las Vegas, NV",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "573 Cascade Way",
       "city": "Las Vegas",
       "state": "NV",
@@ -3343,7 +3343,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Saint Louis, MO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "037 Rowland Terrace",
       "city": "Saint Louis",
       "state": "MO",
@@ -3357,7 +3357,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Chicago, IL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "50 Oneill Point",
       "city": "Chicago",
       "state": "IL",
@@ -3371,7 +3371,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Orlando, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "763 Glacier Hill Center",
       "city": "Orlando",
       "state": "FL",
@@ -3385,7 +3385,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Jamaica, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9 Mcguire Parkway",
       "city": "Jamaica",
       "state": "NY",
@@ -3399,7 +3399,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Miami, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "319 Lotheville Lane",
       "city": "Miami",
       "state": "FL",
@@ -3413,7 +3413,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Humble, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4 Fallview Terrace",
       "city": "Humble",
       "state": "TX",
@@ -3427,7 +3427,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Syracuse, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "85 Northland Hill",
       "city": "Syracuse",
       "state": "NY",
@@ -3441,7 +3441,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Green Bay, WI",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "03035 Dawn Alley",
       "city": "Green Bay",
       "state": "WI",
@@ -3455,7 +3455,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Knoxville, TN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "74 Moulton Junction",
       "city": "Knoxville",
       "state": "TN",
@@ -3469,7 +3469,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Annapolis, MD",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0393 Heath Street",
       "city": "Annapolis",
       "state": "MD",
@@ -3483,7 +3483,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Youngstown, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "29591 Lake View Parkway",
       "city": "Youngstown",
       "state": "OH",
@@ -3497,7 +3497,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Dallas, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7443 Londonderry Way",
       "city": "Dallas",
       "state": "TX",
@@ -3511,7 +3511,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in El Paso, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "25 Mifflin Hill",
       "city": "El Paso",
       "state": "TX",
@@ -3525,7 +3525,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Los Angeles, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9102 Hooker Circle",
       "city": "Los Angeles",
       "state": "CA",
@@ -3539,7 +3539,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Diego, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "29841 Spohn Court",
       "city": "San Diego",
       "state": "CA",
@@ -3553,7 +3553,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in El Paso, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "92 Logan Avenue",
       "city": "El Paso",
       "state": "TX",
@@ -3567,7 +3567,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Saint Louis, MO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "6056 Talmadge Court",
       "city": "Saint Louis",
       "state": "MO",
@@ -3581,7 +3581,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Washington, DC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1531 Sherman Parkway",
       "city": "Washington",
       "state": "DC",
@@ -3595,7 +3595,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Tuscaloosa, AL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "67587 Hoepker Crossing",
       "city": "Tuscaloosa",
       "state": "AL",
@@ -3609,7 +3609,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Cincinnati, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "49947 Bultman Crossing",
       "city": "Cincinnati",
       "state": "OH",
@@ -3623,7 +3623,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Philadelphia, PA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "56 Mockingbird Trail",
       "city": "Philadelphia",
       "state": "PA",
@@ -3637,7 +3637,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Antonio, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "20 Florence Alley",
       "city": "San Antonio",
       "state": "TX",
@@ -3651,7 +3651,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Oklahoma City, OK",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0 Dwight Plaza",
       "city": "Oklahoma City",
       "state": "OK",
@@ -3665,7 +3665,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Rochester, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7 Corry Parkway",
       "city": "Rochester",
       "state": "NY",
@@ -3679,7 +3679,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in El Paso, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "134 Hermina Circle",
       "city": "El Paso",
       "state": "TX",
@@ -3693,7 +3693,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Fort Smith, AR",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "59 Towne Point",
       "city": "Fort Smith",
       "state": "AR",
@@ -3707,7 +3707,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Fort Lauderdale, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "14 Northwestern Junction",
       "city": "Fort Lauderdale",
       "state": "FL",
@@ -3721,7 +3721,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Norfolk, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2 Granby Place",
       "city": "Norfolk",
       "state": "VA",
@@ -3735,7 +3735,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Oakland, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "43 Ryan Circle",
       "city": "Oakland",
       "state": "CA",
@@ -3749,7 +3749,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Milwaukee, WI",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7 Banding Junction",
       "city": "Milwaukee",
       "state": "WI",
@@ -3763,7 +3763,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Shawnee Mission, KS",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1 Lerdahl Point",
       "city": "Shawnee Mission",
       "state": "KS",
@@ -3777,7 +3777,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in El Paso, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "271 Mallard Drive",
       "city": "El Paso",
       "state": "TX",
@@ -3791,7 +3791,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Charleston, WV",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1 Express Parkway",
       "city": "Charleston",
       "state": "WV",
@@ -3805,7 +3805,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Lafayette, LA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "83646 Summit Drive",
       "city": "Lafayette",
       "state": "LA",
@@ -3819,7 +3819,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Carson City, NV",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0 Russell Point",
       "city": "Carson City",
       "state": "NV",
@@ -3833,7 +3833,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Colorado Springs, CO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "378 Spenser Avenue",
       "city": "Colorado Springs",
       "state": "CO",
@@ -3847,7 +3847,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Lansing, MI",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "877 Parkside Center",
       "city": "Lansing",
       "state": "MI",
@@ -3861,7 +3861,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Virginia Beach, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "73 Bartelt Parkway",
       "city": "Virginia Beach",
       "state": "VA",
@@ -3875,7 +3875,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Dallas, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "32585 Anthes Avenue",
       "city": "Dallas",
       "state": "TX",
@@ -3889,7 +3889,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Memphis, TN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "43 Waywood Circle",
       "city": "Memphis",
       "state": "TN",
@@ -3903,7 +3903,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Indianapolis, IN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0 Montana Parkway",
       "city": "Indianapolis",
       "state": "IN",
@@ -3917,7 +3917,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in York, PA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "58 La Follette Crossing",
       "city": "York",
       "state": "PA",
@@ -3931,7 +3931,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Cincinnati, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "42756 Anthes Place",
       "city": "Cincinnati",
       "state": "OH",
@@ -3945,7 +3945,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Boca Raton, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "333 Farwell Lane",
       "city": "Boca Raton",
       "state": "FL",
@@ -3959,7 +3959,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Richmond, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "301 Elka Way",
       "city": "Richmond",
       "state": "VA",
@@ -3973,7 +3973,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Chicago, IL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "46565 Shasta Alley",
       "city": "Chicago",
       "state": "IL",
@@ -3987,7 +3987,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Amarillo, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0892 Nancy Crossing",
       "city": "Amarillo",
       "state": "TX",
@@ -4001,7 +4001,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Boulder, CO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "59535 Independence Circle",
       "city": "Boulder",
       "state": "CO",
@@ -4015,7 +4015,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Lubbock, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "3247 Anderson Place",
       "city": "Lubbock",
       "state": "TX",
@@ -4029,7 +4029,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Little Rock, AR",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "42470 Calypso Place",
       "city": "Little Rock",
       "state": "AR",
@@ -4043,7 +4043,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Knoxville, TN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4 Ruskin Plaza",
       "city": "Knoxville",
       "state": "TN",
@@ -4057,7 +4057,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Minneapolis, MN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "63 Monterey Parkway",
       "city": "Minneapolis",
       "state": "MN",
@@ -4071,7 +4071,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Salt Lake City, UT",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "97 Dunning Junction",
       "city": "Salt Lake City",
       "state": "UT",
@@ -4085,7 +4085,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Berkeley, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1 Barby Circle",
       "city": "Berkeley",
       "state": "CA",
@@ -4099,7 +4099,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Phoenix, AZ",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "49852 Hudson Way",
       "city": "Phoenix",
       "state": "AZ",
@@ -4113,7 +4113,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Lubbock, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "61 Cambridge Plaza",
       "city": "Lubbock",
       "state": "TX",
@@ -4127,7 +4127,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Fort Worth, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0742 Bunker Hill Way",
       "city": "Fort Worth",
       "state": "TX",
@@ -4141,7 +4141,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Anaheim, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "64861 Barby Terrace",
       "city": "Anaheim",
       "state": "CA",
@@ -4155,7 +4155,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Orange, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "59 Dryden Drive",
       "city": "Orange",
       "state": "CA",
@@ -4169,7 +4169,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Fredericksburg, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "55 Arapahoe Avenue",
       "city": "Fredericksburg",
       "state": "VA",
@@ -4183,7 +4183,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Salt Lake City, UT",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "3270 Kensington Court",
       "city": "Salt Lake City",
       "state": "UT",
@@ -4197,7 +4197,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Santa Rosa, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "14806 Pearson Crossing",
       "city": "Santa Rosa",
       "state": "CA",
@@ -4211,7 +4211,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Fort Wayne, IN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1269 Bunker Hill Center",
       "city": "Fort Wayne",
       "state": "IN",
@@ -4225,7 +4225,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Corpus Christi, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "65007 Chinook Street",
       "city": "Corpus Christi",
       "state": "TX",
@@ -4239,7 +4239,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Miami, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7622 Merry Street",
       "city": "Miami",
       "state": "FL",
@@ -4253,7 +4253,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Washington, DC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "42 5th Center",
       "city": "Washington",
       "state": "DC",
@@ -4267,7 +4267,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Phoenix, AZ",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "52864 Troy Plaza",
       "city": "Phoenix",
       "state": "AZ",
@@ -4281,7 +4281,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Seattle, WA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1 Little Fleur Road",
       "city": "Seattle",
       "state": "WA",
@@ -4295,7 +4295,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Richmond, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "88 Tennyson Lane",
       "city": "Richmond",
       "state": "VA",
@@ -4309,7 +4309,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Carol Stream, IL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "61 Di Loreto Avenue",
       "city": "Carol Stream",
       "state": "IL",
@@ -4323,7 +4323,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Huntington, WV",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "76929 John Wall Circle",
       "city": "Huntington",
       "state": "WV",
@@ -4337,7 +4337,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Albuquerque, NM",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "13767 Hooker Circle",
       "city": "Albuquerque",
       "state": "NM",
@@ -4351,7 +4351,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Washington, DC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "09131 Sachs Point",
       "city": "Washington",
       "state": "DC",
@@ -4365,7 +4365,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Reno, NV",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9 Scoville Crossing",
       "city": "Reno",
       "state": "NV",
@@ -4379,7 +4379,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Antonio, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "153 Oakridge Circle",
       "city": "San Antonio",
       "state": "TX",
@@ -4393,7 +4393,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Mesa, AZ",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "3 Fordem Street",
       "city": "Mesa",
       "state": "AZ",
@@ -4407,7 +4407,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Bradenton, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8 Old Shore Park",
       "city": "Bradenton",
       "state": "FL",
@@ -4421,7 +4421,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in North Hollywood, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "612 Reindahl Alley",
       "city": "North Hollywood",
       "state": "CA",
@@ -4435,7 +4435,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Denver, CO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "90359 Golf Course Alley",
       "city": "Denver",
       "state": "CO",
@@ -4449,7 +4449,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Fort Smith, AR",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1664 Larry Drive",
       "city": "Fort Smith",
       "state": "AR",
@@ -4463,7 +4463,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Staten Island, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "98 Springs Parkway",
       "city": "Staten Island",
       "state": "NY",
@@ -4477,7 +4477,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Dayton, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "77 Lakewood Gardens Street",
       "city": "Dayton",
       "state": "OH",
@@ -4491,7 +4491,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Antonio, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "30414 Northridge Trail",
       "city": "San Antonio",
       "state": "TX",
@@ -4505,7 +4505,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Bethesda, MD",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8787 Mockingbird Plaza",
       "city": "Bethesda",
       "state": "MD",
@@ -4519,7 +4519,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Jackson, MS",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2214 Sunfield Park",
       "city": "Jackson",
       "state": "MS",
@@ -4533,7 +4533,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Muncie, IN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "310 Haas Junction",
       "city": "Muncie",
       "state": "IN",
@@ -4547,7 +4547,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Washington, DC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "37 Bashford Way",
       "city": "Washington",
       "state": "DC",
@@ -4561,7 +4561,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Denver, CO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "51 Hollow Ridge Trail",
       "city": "Denver",
       "state": "CO",
@@ -4575,7 +4575,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Dallas, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "15256 1st Road",
       "city": "Dallas",
       "state": "TX",
@@ -4589,7 +4589,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Torrance, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "99149 Nancy Parkway",
       "city": "Torrance",
       "state": "CA",
@@ -4603,7 +4603,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Monticello, MN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "96 Declaration Road",
       "city": "Monticello",
       "state": "MN",
@@ -4617,7 +4617,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Concord, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "40 Ridgeway Point",
       "city": "Concord",
       "state": "CA",
@@ -4631,7 +4631,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Virginia Beach, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "51 Londonderry Drive",
       "city": "Virginia Beach",
       "state": "VA",
@@ -4645,7 +4645,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Huntsville, AL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "6 Eagan Way",
       "city": "Huntsville",
       "state": "AL",
@@ -4659,7 +4659,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Orlando, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4 Mandrake Hill",
       "city": "Orlando",
       "state": "FL",
@@ -4673,7 +4673,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Diego, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "28545 David Trail",
       "city": "San Diego",
       "state": "CA",
@@ -4687,7 +4687,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Roanoke, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "63 Fordem Lane",
       "city": "Roanoke",
       "state": "VA",
@@ -4701,7 +4701,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Canton, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "19472 Rusk Alley",
       "city": "Canton",
       "state": "OH",
@@ -4715,7 +4715,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Dallas, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "3608 Reindahl Plaza",
       "city": "Dallas",
       "state": "TX",
@@ -4729,7 +4729,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Raleigh, NC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "857 Grayhawk Parkway",
       "city": "Raleigh",
       "state": "NC",
@@ -4743,7 +4743,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Louisville, KY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "93378 Dexter Alley",
       "city": "Louisville",
       "state": "KY",
@@ -4757,7 +4757,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Lexington, KY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5 Ruskin Plaza",
       "city": "Lexington",
       "state": "KY",
@@ -4771,7 +4771,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Virginia Beach, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "53611 Eagle Crest Point",
       "city": "Virginia Beach",
       "state": "VA",
@@ -4785,7 +4785,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Suffolk, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4 Memorial Junction",
       "city": "Suffolk",
       "state": "VA",
@@ -4799,7 +4799,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Evansville, IN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "3832 Esch Drive",
       "city": "Evansville",
       "state": "IN",
@@ -4813,7 +4813,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Bernardino, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "3 Sheridan Plaza",
       "city": "San Bernardino",
       "state": "CA",
@@ -4827,7 +4827,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Whittier, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "078 Granby Street",
       "city": "Whittier",
       "state": "CA",
@@ -4841,7 +4841,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Sacramento, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "54 Fulton Road",
       "city": "Sacramento",
       "state": "CA",
@@ -4855,7 +4855,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Sioux City, IA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "49 Green Ridge Circle",
       "city": "Sioux City",
       "state": "IA",
@@ -4869,7 +4869,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Rochester, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "661 Bunting Place",
       "city": "Rochester",
       "state": "NY",
@@ -4883,7 +4883,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Columbus, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "20 Colorado Plaza",
       "city": "Columbus",
       "state": "OH",
@@ -4897,7 +4897,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Savannah, GA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "56 Welch Terrace",
       "city": "Savannah",
       "state": "GA",
@@ -4911,7 +4911,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Milwaukee, WI",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "622 Holmberg Plaza",
       "city": "Milwaukee",
       "state": "WI",
@@ -4925,7 +4925,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Saint Louis, MO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "83 Tomscot Hill",
       "city": "Saint Louis",
       "state": "MO",
@@ -4939,7 +4939,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Chattanooga, TN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "046 Claremont Circle",
       "city": "Chattanooga",
       "state": "TN",
@@ -4953,7 +4953,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Sacramento, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5469 Kropf Alley",
       "city": "Sacramento",
       "state": "CA",
@@ -4967,7 +4967,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in North Hollywood, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "59 International Terrace",
       "city": "North Hollywood",
       "state": "CA",
@@ -4981,7 +4981,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Oklahoma City, OK",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9634 Straubel Circle",
       "city": "Oklahoma City",
       "state": "OK",
@@ -4995,7 +4995,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Salt Lake City, UT",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "47 New Castle Street",
       "city": "Salt Lake City",
       "state": "UT",
@@ -5009,7 +5009,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Miami, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "16708 Farwell Lane",
       "city": "Miami",
       "state": "FL",
@@ -5023,7 +5023,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Little Rock, AR",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "909 Walton Lane",
       "city": "Little Rock",
       "state": "AR",
@@ -5037,7 +5037,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Francisco, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "70 Charing Cross Circle",
       "city": "San Francisco",
       "state": "CA",
@@ -5051,7 +5051,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Houston, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8 Eliot Street",
       "city": "Houston",
       "state": "TX",
@@ -5065,7 +5065,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Marietta, GA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2 Green Ridge Junction",
       "city": "Marietta",
       "state": "GA",
@@ -5079,7 +5079,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Santa Barbara, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "11212 Forest Run Crossing",
       "city": "Santa Barbara",
       "state": "CA",
@@ -5093,7 +5093,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Sacramento, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "03854 Hooker Street",
       "city": "Sacramento",
       "state": "CA",
@@ -5107,7 +5107,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in New Haven, CT",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8561 Morningstar Park",
       "city": "New Haven",
       "state": "CT",
@@ -5121,7 +5121,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Monroe, LA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8 Vermont Hill",
       "city": "Monroe",
       "state": "LA",
@@ -5135,7 +5135,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Stamford, CT",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "895 Superior Hill",
       "city": "Stamford",
       "state": "CT",
@@ -5149,7 +5149,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Erie, PA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "260 Magdeline Road",
       "city": "Erie",
       "state": "PA",
@@ -5163,7 +5163,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Seattle, WA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "76134 Emmet Crossing",
       "city": "Seattle",
       "state": "WA",
@@ -5177,7 +5177,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Portland, OR",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2 Hollow Ridge Avenue",
       "city": "Portland",
       "state": "OR",
@@ -5191,7 +5191,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in New Orleans, LA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9 Luster Parkway",
       "city": "New Orleans",
       "state": "LA",
@@ -5205,7 +5205,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Flint, MI",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1112 Warner Terrace",
       "city": "Flint",
       "state": "MI",
@@ -5219,7 +5219,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Peoria, IL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8488 Burrows Street",
       "city": "Peoria",
       "state": "IL",
@@ -5233,7 +5233,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Sacramento, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "09411 Straubel Court",
       "city": "Sacramento",
       "state": "CA",
@@ -5247,7 +5247,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Wilmington, DE",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "41656 Kropf Parkway",
       "city": "Wilmington",
       "state": "DE",
@@ -5261,7 +5261,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in New York City, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "008 Bellgrove Way",
       "city": "New York City",
       "state": "NY",
@@ -5275,7 +5275,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Albuquerque, NM",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "49 Steensland Court",
       "city": "Albuquerque",
       "state": "NM",
@@ -5289,7 +5289,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Colorado Springs, CO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "20 Thackeray Parkway",
       "city": "Colorado Springs",
       "state": "CO",
@@ -5303,7 +5303,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Omaha, NE",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4 Boyd Drive",
       "city": "Omaha",
       "state": "NE",
@@ -5317,7 +5317,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Farmington, MI",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2047 Old Shore Parkway",
       "city": "Farmington",
       "state": "MI",
@@ -5331,7 +5331,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Miami, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "6 Lakewood Gardens Trail",
       "city": "Miami",
       "state": "FL",
@@ -5345,7 +5345,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in White Plains, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5 Bluestem Trail",
       "city": "White Plains",
       "state": "NY",
@@ -5359,7 +5359,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Memphis, TN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "41901 Burning Wood Center",
       "city": "Memphis",
       "state": "TN",
@@ -5373,7 +5373,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Albany, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "3 David Junction",
       "city": "Albany",
       "state": "NY",
@@ -5387,7 +5387,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Kissimmee, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "169 Bayside Trail",
       "city": "Kissimmee",
       "state": "FL",
@@ -5401,7 +5401,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Mesa, AZ",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "86775 Onsgard Center",
       "city": "Mesa",
       "state": "AZ",
@@ -5415,7 +5415,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Arlington, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7598 Dwight Street",
       "city": "Arlington",
       "state": "TX",
@@ -5429,7 +5429,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Glendale, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "858 Kings Court",
       "city": "Glendale",
       "state": "CA",
@@ -5443,7 +5443,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Sacramento, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "459 Lotheville Court",
       "city": "Sacramento",
       "state": "CA",
@@ -5457,7 +5457,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Louisville, KY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "91 Pleasure Trail",
       "city": "Louisville",
       "state": "KY",
@@ -5471,7 +5471,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Palm Bay, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "077 Alpine Terrace",
       "city": "Palm Bay",
       "state": "FL",
@@ -5485,7 +5485,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Washington, DC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2876 Northwestern Road",
       "city": "Washington",
       "state": "DC",
@@ -5499,7 +5499,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Houston, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "931 Stone Corner Avenue",
       "city": "Houston",
       "state": "TX",
@@ -5513,7 +5513,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Richmond, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "383 Darwin Way",
       "city": "Richmond",
       "state": "VA",
@@ -5527,7 +5527,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Charleston, WV",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "16012 Moose Crossing",
       "city": "Charleston",
       "state": "WV",
@@ -5541,7 +5541,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Athens, GA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8 Anniversary Trail",
       "city": "Athens",
       "state": "GA",
@@ -5555,7 +5555,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in West Palm Beach, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9 Sheridan Court",
       "city": "West Palm Beach",
       "state": "FL",
@@ -5569,7 +5569,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Dallas, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0 Helena Point",
       "city": "Dallas",
       "state": "TX",
@@ -5583,7 +5583,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Philadelphia, PA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1015 Raven Hill",
       "city": "Philadelphia",
       "state": "PA",
@@ -5597,7 +5597,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Daytona Beach, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "82577 Sachtjen Pass",
       "city": "Daytona Beach",
       "state": "FL",
@@ -5611,7 +5611,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Charleston, WV",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "110 Schiller Terrace",
       "city": "Charleston",
       "state": "WV",
@@ -5625,7 +5625,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Albany, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "83777 Buena Vista Way",
       "city": "Albany",
       "state": "NY",
@@ -5639,7 +5639,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Cape Coral, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "346 Hoffman Drive",
       "city": "Cape Coral",
       "state": "FL",
@@ -5653,7 +5653,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Jacksonville, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "42607 Golf Hill",
       "city": "Jacksonville",
       "state": "FL",
@@ -5667,7 +5667,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Raleigh, NC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "09867 Duke Center",
       "city": "Raleigh",
       "state": "NC",
@@ -5681,7 +5681,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Los Angeles, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "074 Delladonna Parkway",
       "city": "Los Angeles",
       "state": "CA",
@@ -5695,7 +5695,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Fort Worth, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "001 Fairfield Center",
       "city": "Fort Worth",
       "state": "TX",
@@ -5709,7 +5709,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Cleveland, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7 Birchwood Alley",
       "city": "Cleveland",
       "state": "OH",
@@ -5723,7 +5723,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Seattle, WA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "598 Tomscot Lane",
       "city": "Seattle",
       "state": "WA",
@@ -5737,7 +5737,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Baltimore, MD",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "79 Autumn Leaf Point",
       "city": "Baltimore",
       "state": "MD",
@@ -5751,7 +5751,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Mesa, AZ",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0561 Kipling Street",
       "city": "Mesa",
       "state": "AZ",
@@ -5765,7 +5765,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Honolulu, HI",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "6114 Oak Trail",
       "city": "Honolulu",
       "state": "HI",
@@ -5779,7 +5779,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Washington, DC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1839 Moose Avenue",
       "city": "Washington",
       "state": "DC",
@@ -5793,7 +5793,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Buffalo, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "6404 Lotheville Lane",
       "city": "Buffalo",
       "state": "NY",
@@ -5807,7 +5807,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Morgantown, WV",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "49 Blaine Lane",
       "city": "Morgantown",
       "state": "WV",
@@ -5821,7 +5821,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Birmingham, AL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1 Sommers Trail",
       "city": "Birmingham",
       "state": "AL",
@@ -5835,7 +5835,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Charleston, WV",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "28 Ronald Regan Park",
       "city": "Charleston",
       "state": "WV",
@@ -5849,7 +5849,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in El Paso, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "38 Chive Street",
       "city": "El Paso",
       "state": "TX",
@@ -5863,7 +5863,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Montgomery, AL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "6 Victoria Way",
       "city": "Montgomery",
       "state": "AL",
@@ -5877,7 +5877,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Pasadena, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4453 Fuller Lane",
       "city": "Pasadena",
       "state": "CA",
@@ -5891,7 +5891,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Houston, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "19160 Tony Drive",
       "city": "Houston",
       "state": "TX",
@@ -5905,7 +5905,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Topeka, KS",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "59163 Amoth Center",
       "city": "Topeka",
       "state": "KS",
@@ -5919,7 +5919,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Tempe, AZ",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "50106 Nancy Alley",
       "city": "Tempe",
       "state": "AZ",
@@ -5933,7 +5933,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Saint Petersburg, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9 Kenwood Junction",
       "city": "Saint Petersburg",
       "state": "FL",
@@ -5947,7 +5947,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Saint Paul, MN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "00381 Tomscot Road",
       "city": "Saint Paul",
       "state": "MN",
@@ -5961,7 +5961,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Irving, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "32 Warbler Hill",
       "city": "Irving",
       "state": "TX",
@@ -5975,7 +5975,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Flushing, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "71249 5th Point",
       "city": "Flushing",
       "state": "NY",
@@ -5989,7 +5989,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Kansas City, KS",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "795 Pepper Wood Center",
       "city": "Kansas City",
       "state": "KS",
@@ -6003,7 +6003,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in New York City, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5 Melby Place",
       "city": "New York City",
       "state": "NY",
@@ -6017,7 +6017,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Saint Paul, MN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5288 Emmet Point",
       "city": "Saint Paul",
       "state": "MN",
@@ -6031,7 +6031,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in New York City, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8891 Bellgrove Parkway",
       "city": "New York City",
       "state": "NY",
@@ -6045,7 +6045,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Newark, NJ",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "94 Cascade Trail",
       "city": "Newark",
       "state": "NJ",
@@ -6059,7 +6059,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Jamaica, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "390 Judy Center",
       "city": "Jamaica",
       "state": "NY",
@@ -6073,7 +6073,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Tampa, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "3 Kingsford Drive",
       "city": "Tampa",
       "state": "FL",
@@ -6087,7 +6087,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Cincinnati, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2585 David Terrace",
       "city": "Cincinnati",
       "state": "OH",
@@ -6101,7 +6101,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Oklahoma City, OK",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "3059 Brentwood Center",
       "city": "Oklahoma City",
       "state": "OK",
@@ -6115,7 +6115,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Philadelphia, PA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "55100 Grasskamp Parkway",
       "city": "Philadelphia",
       "state": "PA",
@@ -6129,7 +6129,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Louisville, KY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0 Russell Court",
       "city": "Louisville",
       "state": "KY",
@@ -6143,7 +6143,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Montgomery, AL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "73456 Victoria Center",
       "city": "Montgomery",
       "state": "AL",
@@ -6157,7 +6157,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Sacramento, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "975 Blaine Point",
       "city": "Sacramento",
       "state": "CA",
@@ -6171,7 +6171,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in El Paso, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7349 Forster Terrace",
       "city": "El Paso",
       "state": "TX",
@@ -6185,7 +6185,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Detroit, MI",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "84377 Hoard Trail",
       "city": "Detroit",
       "state": "MI",
@@ -6199,7 +6199,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Honolulu, HI",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5260 Warbler Trail",
       "city": "Honolulu",
       "state": "HI",
@@ -6213,7 +6213,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Loretto, MN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "39 Pond Avenue",
       "city": "Loretto",
       "state": "MN",
@@ -6227,7 +6227,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Antonio, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4 Paget Park",
       "city": "San Antonio",
       "state": "TX",
@@ -6241,7 +6241,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Chattanooga, TN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "445 Bunker Hill Park",
       "city": "Chattanooga",
       "state": "TN",
@@ -6255,7 +6255,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Moreno Valley, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "37 Truax Hill",
       "city": "Moreno Valley",
       "state": "CA",
@@ -6269,7 +6269,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in New York City, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "06334 Iowa Place",
       "city": "New York City",
       "state": "NY",
@@ -6283,7 +6283,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Spokane, WA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "555 Eagle Crest Road",
       "city": "Spokane",
       "state": "WA",
@@ -6297,7 +6297,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in El Paso, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2 Sunnyside Center",
       "city": "El Paso",
       "state": "TX",
@@ -6311,7 +6311,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Lancaster, PA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "55 Pierstorff Avenue",
       "city": "Lancaster",
       "state": "PA",
@@ -6325,7 +6325,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Boston, MA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "92 Gina Plaza",
       "city": "Boston",
       "state": "MA",
@@ -6339,7 +6339,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Fresno, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "484 Linden Trail",
       "city": "Fresno",
       "state": "CA",
@@ -6353,7 +6353,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Santa Clara, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "03330 Arizona Pass",
       "city": "Santa Clara",
       "state": "CA",
@@ -6367,7 +6367,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Arlington, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "90860 Golf Pass",
       "city": "Arlington",
       "state": "TX",
@@ -6381,7 +6381,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in El Paso, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8300 Heath Road",
       "city": "El Paso",
       "state": "TX",
@@ -6395,7 +6395,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Sioux Falls, SD",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0564 Service Parkway",
       "city": "Sioux Falls",
       "state": "SD",
@@ -6409,7 +6409,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Minneapolis, MN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "649 Maple Wood Junction",
       "city": "Minneapolis",
       "state": "MN",
@@ -6423,7 +6423,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Dallas, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0763 Harper Pass",
       "city": "Dallas",
       "state": "TX",
@@ -6437,7 +6437,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Albuquerque, NM",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8 Judy Crossing",
       "city": "Albuquerque",
       "state": "NM",
@@ -6451,7 +6451,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Fresno, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8 Ilene Road",
       "city": "Fresno",
       "state": "CA",
@@ -6465,7 +6465,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Augusta, GA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5316 Kennedy Road",
       "city": "Augusta",
       "state": "GA",
@@ -6479,7 +6479,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Rochester, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "57068 Talmadge Court",
       "city": "Rochester",
       "state": "NY",
@@ -6493,7 +6493,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Chicago, IL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "6 Monument Road",
       "city": "Chicago",
       "state": "IL",
@@ -6507,7 +6507,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Columbus, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "6550 Meadow Valley Trail",
       "city": "Columbus",
       "state": "OH",
@@ -6521,7 +6521,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Trenton, NJ",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "413 Macpherson Circle",
       "city": "Trenton",
       "state": "NJ",
@@ -6535,7 +6535,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Fresno, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5222 Amoth Court",
       "city": "Fresno",
       "state": "CA",
@@ -6549,7 +6549,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Louisville, KY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8 Goodland Circle",
       "city": "Louisville",
       "state": "KY",
@@ -6563,7 +6563,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Harrisburg, PA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0 Raven Hill",
       "city": "Harrisburg",
       "state": "PA",
@@ -6577,7 +6577,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Wilmington, NC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "65 Rusk Drive",
       "city": "Wilmington",
       "state": "NC",
@@ -6591,7 +6591,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Jacksonville, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8 Red Cloud Alley",
       "city": "Jacksonville",
       "state": "FL",
@@ -6605,7 +6605,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Chicago, IL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "837 Gale Center",
       "city": "Chicago",
       "state": "IL",
@@ -6619,7 +6619,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Jamaica, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7709 Carioca Lane",
       "city": "Jamaica",
       "state": "NY",
@@ -6633,7 +6633,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Oklahoma City, OK",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "396 Mallory Drive",
       "city": "Oklahoma City",
       "state": "OK",
@@ -6647,7 +6647,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Atlanta, GA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "69693 Killdeer Park",
       "city": "Atlanta",
       "state": "GA",
@@ -6661,7 +6661,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Santa Barbara, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1436 Thompson Way",
       "city": "Santa Barbara",
       "state": "CA",
@@ -6675,7 +6675,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Los Angeles, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9 Cardinal Road",
       "city": "Los Angeles",
       "state": "CA",
@@ -6689,7 +6689,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Aurora, CO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "318 Warrior Crossing",
       "city": "Aurora",
       "state": "CO",
@@ -6703,7 +6703,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Albany, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "6001 American Ash Parkway",
       "city": "Albany",
       "state": "NY",
@@ -6717,7 +6717,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Lexington, KY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8603 Thackeray Lane",
       "city": "Lexington",
       "state": "KY",
@@ -6731,7 +6731,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Bradenton, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "52072 Hermina Road",
       "city": "Bradenton",
       "state": "FL",
@@ -6745,7 +6745,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Atlanta, GA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "96 Mitchell Road",
       "city": "Atlanta",
       "state": "GA",
@@ -6759,7 +6759,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Buffalo, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "34 Mosinee Road",
       "city": "Buffalo",
       "state": "NY",
@@ -6773,7 +6773,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Gadsden, AL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "85012 Menomonie Avenue",
       "city": "Gadsden",
       "state": "AL",
@@ -6787,7 +6787,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Savannah, GA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "89394 Dunning Plaza",
       "city": "Savannah",
       "state": "GA",
@@ -6801,7 +6801,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Saint Louis, MO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9 Coleman Center",
       "city": "Saint Louis",
       "state": "MO",
@@ -6815,7 +6815,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Sacramento, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5 Nelson Crossing",
       "city": "Sacramento",
       "state": "CA",
@@ -6829,7 +6829,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Kansas City, MO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "594 Loftsgordon Lane",
       "city": "Kansas City",
       "state": "MO",
@@ -6843,7 +6843,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Indianapolis, IN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "251 Truax Alley",
       "city": "Indianapolis",
       "state": "IN",
@@ -6857,7 +6857,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Denton, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "023 Duke Pass",
       "city": "Denton",
       "state": "TX",
@@ -6871,7 +6871,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Portland, OR",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8 Ilene Point",
       "city": "Portland",
       "state": "OR",
@@ -6885,7 +6885,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Hollywood, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "87787 Express Point",
       "city": "Hollywood",
       "state": "FL",
@@ -6899,7 +6899,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Los Angeles, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "76 Pond Avenue",
       "city": "Los Angeles",
       "state": "CA",
@@ -6913,7 +6913,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Yakima, WA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "14259 Bartillon Center",
       "city": "Yakima",
       "state": "WA",
@@ -6927,7 +6927,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Ocala, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "293 Jackson Center",
       "city": "Ocala",
       "state": "FL",
@@ -6941,7 +6941,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Peoria, IL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "27 Elmside Place",
       "city": "Peoria",
       "state": "IL",
@@ -6955,7 +6955,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Fort Wayne, IN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "290 Magdeline Place",
       "city": "Fort Wayne",
       "state": "IN",
@@ -6969,7 +6969,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Saint Paul, MN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "21223 Manitowish Center",
       "city": "Saint Paul",
       "state": "MN",
@@ -6983,7 +6983,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Sacramento, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "854 Main Court",
       "city": "Sacramento",
       "state": "CA",
@@ -6997,7 +6997,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Greensboro, NC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "912 Cambridge Crossing",
       "city": "Greensboro",
       "state": "NC",
@@ -7011,7 +7011,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Portland, OR",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "6482 Jenna Place",
       "city": "Portland",
       "state": "OR",
@@ -7025,7 +7025,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Omaha, NE",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1 Dakota Plaza",
       "city": "Omaha",
       "state": "NE",
@@ -7039,7 +7039,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Atlanta, GA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "79 Hudson Court",
       "city": "Atlanta",
       "state": "GA",
@@ -7053,7 +7053,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Orlando, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "78 Clarendon Parkway",
       "city": "Orlando",
       "state": "FL",
@@ -7067,7 +7067,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Memphis, TN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4 Spaight Point",
       "city": "Memphis",
       "state": "TN",
@@ -7081,7 +7081,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Bismarck, ND",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "16940 Amoth Center",
       "city": "Bismarck",
       "state": "ND",
@@ -7095,7 +7095,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Louisville, KY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "77498 Valley Edge Junction",
       "city": "Louisville",
       "state": "KY",
@@ -7109,7 +7109,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Washington, DC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "33 Dexter Hill",
       "city": "Washington",
       "state": "DC",
@@ -7123,7 +7123,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Santa Rosa, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "638 Vermont Way",
       "city": "Santa Rosa",
       "state": "CA",
@@ -7137,7 +7137,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Albany, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2793 Sundown Terrace",
       "city": "Albany",
       "state": "NY",
@@ -7151,7 +7151,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in New York City, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8916 Lunder Avenue",
       "city": "New York City",
       "state": "NY",
@@ -7165,7 +7165,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Stockton, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0882 Elmside Drive",
       "city": "Stockton",
       "state": "CA",
@@ -7179,7 +7179,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Saint Louis, MO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "31442 Di Loreto Way",
       "city": "Saint Louis",
       "state": "MO",
@@ -7193,7 +7193,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Orange, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "11199 Upham Junction",
       "city": "Orange",
       "state": "CA",
@@ -7207,7 +7207,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Pueblo, CO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9 Kings Drive",
       "city": "Pueblo",
       "state": "CO",
@@ -7221,7 +7221,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Macon, GA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "95768 Charing Cross Point",
       "city": "Macon",
       "state": "GA",
@@ -7235,7 +7235,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Chicago, IL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "366 Dapin Parkway",
       "city": "Chicago",
       "state": "IL",
@@ -7249,7 +7249,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in El Paso, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2 Pond Road",
       "city": "El Paso",
       "state": "TX",
@@ -7263,7 +7263,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Milwaukee, WI",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "39894 Spaight Pass",
       "city": "Milwaukee",
       "state": "WI",
@@ -7277,7 +7277,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in El Paso, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4685 Northwestern Point",
       "city": "El Paso",
       "state": "TX",
@@ -7291,7 +7291,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Los Angeles, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0833 Mallard Drive",
       "city": "Los Angeles",
       "state": "CA",
@@ -7305,7 +7305,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Columbia, SC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "84490 Bonner Circle",
       "city": "Columbia",
       "state": "SC",
@@ -7319,7 +7319,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Port Charlotte, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "417 Heffernan Way",
       "city": "Port Charlotte",
       "state": "FL",
@@ -7333,7 +7333,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Lakeland, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2392 Golf Plaza",
       "city": "Lakeland",
       "state": "FL",
@@ -7347,7 +7347,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Independence, MO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "70 Mallard Junction",
       "city": "Independence",
       "state": "MO",
@@ -7361,7 +7361,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Littleton, CO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "6771 Bobwhite Plaza",
       "city": "Littleton",
       "state": "CO",
@@ -7375,7 +7375,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Washington, DC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7 Heffernan Pass",
       "city": "Washington",
       "state": "DC",
@@ -7389,7 +7389,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Amarillo, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2 Vera Court",
       "city": "Amarillo",
       "state": "TX",
@@ -7403,7 +7403,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Charlotte, NC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "284 Laurel Lane",
       "city": "Charlotte",
       "state": "NC",
@@ -7417,7 +7417,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Sacramento, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "65637 Vernon Street",
       "city": "Sacramento",
       "state": "CA",
@@ -7431,7 +7431,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Conroe, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1 Blue Bill Park Way",
       "city": "Conroe",
       "state": "TX",
@@ -7445,7 +7445,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Little Rock, AR",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4 Goodland Pass",
       "city": "Little Rock",
       "state": "AR",
@@ -7459,7 +7459,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Anchorage, AK",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "24258 Towne Court",
       "city": "Anchorage",
       "state": "AK",
@@ -7473,7 +7473,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Atlanta, GA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8911 Starling Center",
       "city": "Atlanta",
       "state": "GA",
@@ -7487,7 +7487,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Fayetteville, NC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7498 International Way",
       "city": "Fayetteville",
       "state": "NC",
@@ -7501,7 +7501,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Philadelphia, PA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "48 Reinke Court",
       "city": "Philadelphia",
       "state": "PA",
@@ -7515,7 +7515,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Pueblo, CO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "39408 Fieldstone Drive",
       "city": "Pueblo",
       "state": "CO",
@@ -7529,7 +7529,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Akron, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "52 Crowley Drive",
       "city": "Akron",
       "state": "OH",
@@ -7543,7 +7543,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Lexington, KY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1 High Crossing Circle",
       "city": "Lexington",
       "state": "KY",
@@ -7557,7 +7557,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Maple Plain, MN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "11 High Crossing Place",
       "city": "Maple Plain",
       "state": "MN",
@@ -7571,7 +7571,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in El Paso, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8372 Buell Alley",
       "city": "El Paso",
       "state": "TX",
@@ -7585,7 +7585,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Charlotte, NC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7 Derek Alley",
       "city": "Charlotte",
       "state": "NC",
@@ -7599,7 +7599,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Garland, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7239 Golden Leaf Plaza",
       "city": "Garland",
       "state": "TX",
@@ -7613,7 +7613,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Miami, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7427 Mifflin Avenue",
       "city": "Miami",
       "state": "FL",
@@ -7627,7 +7627,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Trenton, NJ",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "79 Victoria Park",
       "city": "Trenton",
       "state": "NJ",
@@ -7641,7 +7641,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Des Moines, IA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7 Holy Cross Road",
       "city": "Des Moines",
       "state": "IA",
@@ -7655,7 +7655,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Hollywood, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "71 Melby Circle",
       "city": "Hollywood",
       "state": "FL",
@@ -7669,7 +7669,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Newark, DE",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1081 Eagle Crest Plaza",
       "city": "Newark",
       "state": "DE",
@@ -7683,7 +7683,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Fort Worth, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5 Ridgeway Circle",
       "city": "Fort Worth",
       "state": "TX",
@@ -7697,7 +7697,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Alexandria, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "716 Hudson Park",
       "city": "Alexandria",
       "state": "VA",
@@ -7711,7 +7711,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in El Paso, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "92 Sloan Court",
       "city": "El Paso",
       "state": "TX",
@@ -7725,7 +7725,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in El Paso, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8429 Raven Circle",
       "city": "El Paso",
       "state": "TX",
@@ -7739,7 +7739,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Charleston, WV",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9 Stang Junction",
       "city": "Charleston",
       "state": "WV",
@@ -7753,7 +7753,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Austin, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "38 Fairfield Point",
       "city": "Austin",
       "state": "TX",
@@ -7767,7 +7767,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Jacksonville, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "99070 Vidon Parkway",
       "city": "Jacksonville",
       "state": "FL",
@@ -7781,7 +7781,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Manassas, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8 Larry Crossing",
       "city": "Manassas",
       "state": "VA",
@@ -7795,7 +7795,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Boston, MA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "54 Buell Circle",
       "city": "Boston",
       "state": "MA",
@@ -7809,7 +7809,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Jose, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "99888 Sheridan Drive",
       "city": "San Jose",
       "state": "CA",
@@ -7823,7 +7823,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Springfield, IL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "20523 Garrison Point",
       "city": "Springfield",
       "state": "IL",
@@ -7837,7 +7837,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in El Paso, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "26 Graceland Court",
       "city": "El Paso",
       "state": "TX",
@@ -7851,7 +7851,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Jamaica, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "87 Kenwood Street",
       "city": "Jamaica",
       "state": "NY",
@@ -7865,7 +7865,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Philadelphia, PA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "658 Autumn Leaf Place",
       "city": "Philadelphia",
       "state": "PA",
@@ -7879,7 +7879,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Salinas, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "3 Forster Road",
       "city": "Salinas",
       "state": "CA",
@@ -7893,7 +7893,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Lafayette, LA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "33 Acker Plaza",
       "city": "Lafayette",
       "state": "LA",
@@ -7907,7 +7907,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Brooklyn, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2856 Morningstar Junction",
       "city": "Brooklyn",
       "state": "NY",
@@ -7921,7 +7921,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Rochester, MN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "984 Union Avenue",
       "city": "Rochester",
       "state": "MN",
@@ -7935,7 +7935,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Indianapolis, IN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "02720 Lake View Pass",
       "city": "Indianapolis",
       "state": "IN",
@@ -7949,7 +7949,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Largo, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2854 Prentice Circle",
       "city": "Largo",
       "state": "FL",
@@ -7963,7 +7963,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Ogden, UT",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1387 Meadow Vale Parkway",
       "city": "Ogden",
       "state": "UT",
@@ -7977,7 +7977,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Newton, MA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "912 Meadow Ridge Plaza",
       "city": "Newton",
       "state": "MA",
@@ -7991,7 +7991,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Houston, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9167 Cherokee Trail",
       "city": "Houston",
       "state": "TX",
@@ -8005,7 +8005,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Norfolk, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "74 Waywood Terrace",
       "city": "Norfolk",
       "state": "VA",
@@ -8019,7 +8019,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Tallahassee, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "94659 Eggendart Hill",
       "city": "Tallahassee",
       "state": "FL",
@@ -8033,7 +8033,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Huntington, WV",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8732 Hoepker Pass",
       "city": "Huntington",
       "state": "WV",
@@ -8047,7 +8047,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Stockton, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "261 Starling Plaza",
       "city": "Stockton",
       "state": "CA",
@@ -8061,7 +8061,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Hagerstown, MD",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "3648 Grover Street",
       "city": "Hagerstown",
       "state": "MD",
@@ -8075,7 +8075,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Cleveland, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "69 Ruskin Pass",
       "city": "Cleveland",
       "state": "OH",
@@ -8089,7 +8089,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Scranton, PA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "053 Golf Course Alley",
       "city": "Scranton",
       "state": "PA",
@@ -8103,7 +8103,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Kansas City, MO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "47114 Helena Circle",
       "city": "Kansas City",
       "state": "MO",
@@ -8117,7 +8117,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Phoenix, AZ",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "66028 Toban Circle",
       "city": "Phoenix",
       "state": "AZ",
@@ -8131,7 +8131,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Fort Myers, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4365 Merchant Drive",
       "city": "Fort Myers",
       "state": "FL",
@@ -8145,7 +8145,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Saint Paul, MN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "12018 Spaight Place",
       "city": "Saint Paul",
       "state": "MN",
@@ -8159,7 +8159,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Sterling, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "98 Old Shore Crossing",
       "city": "Sterling",
       "state": "VA",
@@ -8173,7 +8173,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Shreveport, LA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "86 Northview Parkway",
       "city": "Shreveport",
       "state": "LA",
@@ -8187,7 +8187,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Pasadena, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "27 Maryland Point",
       "city": "Pasadena",
       "state": "CA",
@@ -8201,7 +8201,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Antonio, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "725 Monterey Road",
       "city": "San Antonio",
       "state": "TX",
@@ -8215,7 +8215,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Erie, PA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5787 Vahlen Junction",
       "city": "Erie",
       "state": "PA",
@@ -8229,7 +8229,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Scranton, PA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7691 Nobel Crossing",
       "city": "Scranton",
       "state": "PA",
@@ -8243,7 +8243,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Fort Wayne, IN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "53 Center Park",
       "city": "Fort Wayne",
       "state": "IN",
@@ -8257,7 +8257,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Escondido, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "60046 Mallard Place",
       "city": "Escondido",
       "state": "CA",
@@ -8271,7 +8271,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Tallahassee, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "61 Harbort Park",
       "city": "Tallahassee",
       "state": "FL",
@@ -8285,7 +8285,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Newark, DE",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5 Pennsylvania Place",
       "city": "Newark",
       "state": "DE",
@@ -8299,7 +8299,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Arlington, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9 Texas Hill",
       "city": "Arlington",
       "state": "VA",
@@ -8313,7 +8313,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Englewood, CO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "175 Waxwing Circle",
       "city": "Englewood",
       "state": "CO",
@@ -8327,7 +8327,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Fort Lauderdale, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "771 Hovde Hill",
       "city": "Fort Lauderdale",
       "state": "FL",
@@ -8341,7 +8341,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Montgomery, AL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4 Shelley Lane",
       "city": "Montgomery",
       "state": "AL",
@@ -8355,7 +8355,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Alexandria, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "32 Bashford Alley",
       "city": "Alexandria",
       "state": "VA",
@@ -8369,7 +8369,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Arlington, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0462 Sloan Terrace",
       "city": "Arlington",
       "state": "TX",
@@ -8383,7 +8383,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Mobile, AL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "3 4th Street",
       "city": "Mobile",
       "state": "AL",
@@ -8397,7 +8397,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Chattanooga, TN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "617 Meadow Valley Lane",
       "city": "Chattanooga",
       "state": "TN",
@@ -8411,7 +8411,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Austin, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "02 Burrows Plaza",
       "city": "Austin",
       "state": "TX",
@@ -8425,7 +8425,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Winter Haven, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8 Sutteridge Crossing",
       "city": "Winter Haven",
       "state": "FL",
@@ -8439,7 +8439,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Harrisburg, PA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2165 Prentice Court",
       "city": "Harrisburg",
       "state": "PA",
@@ -8453,7 +8453,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Richmond, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "755 Mayfield Avenue",
       "city": "Richmond",
       "state": "VA",
@@ -8467,7 +8467,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Waterloo, IA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2 Vernon Center",
       "city": "Waterloo",
       "state": "IA",
@@ -8481,7 +8481,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Orlando, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "31 Russell Street",
       "city": "Orlando",
       "state": "FL",
@@ -8495,7 +8495,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Norfolk, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "580 Memorial Alley",
       "city": "Norfolk",
       "state": "VA",
@@ -8509,7 +8509,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Wilmington, DE",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "67 Northview Place",
       "city": "Wilmington",
       "state": "DE",
@@ -8523,7 +8523,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Salt Lake City, UT",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "808 Londonderry Circle",
       "city": "Salt Lake City",
       "state": "UT",
@@ -8537,7 +8537,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Portland, OR",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "43235 Lindbergh Parkway",
       "city": "Portland",
       "state": "OR",
@@ -8551,7 +8551,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Tampa, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "620 Prairie Rose Hill",
       "city": "Tampa",
       "state": "FL",
@@ -8565,7 +8565,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Miami, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "129 Loftsgordon Terrace",
       "city": "Miami",
       "state": "FL",
@@ -8579,7 +8579,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Houston, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5078 Aberg Place",
       "city": "Houston",
       "state": "TX",
@@ -8593,7 +8593,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Fort Worth, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1 Sage Crossing",
       "city": "Fort Worth",
       "state": "TX",
@@ -8607,7 +8607,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Billings, MT",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "250 Montana Street",
       "city": "Billings",
       "state": "MT",
@@ -8621,7 +8621,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Monticello, MN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4 Fallview Circle",
       "city": "Monticello",
       "state": "MN",
@@ -8635,7 +8635,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Atlanta, GA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "6 Hazelcrest Crossing",
       "city": "Atlanta",
       "state": "GA",
@@ -8649,7 +8649,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Denver, CO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8 Loeprich Hill",
       "city": "Denver",
       "state": "CO",
@@ -8663,7 +8663,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Saint Louis, MO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5471 Village Green Road",
       "city": "Saint Louis",
       "state": "MO",
@@ -8677,7 +8677,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Pinellas Park, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "72665 Hauk Terrace",
       "city": "Pinellas Park",
       "state": "FL",
@@ -8691,7 +8691,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Bridgeport, CT",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "82679 Autumn Leaf Circle",
       "city": "Bridgeport",
       "state": "CT",
@@ -8705,7 +8705,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Savannah, GA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5452 Maryland Place",
       "city": "Savannah",
       "state": "GA",
@@ -8719,7 +8719,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Palm Bay, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1356 Rutledge Trail",
       "city": "Palm Bay",
       "state": "FL",
@@ -8733,7 +8733,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Birmingham, AL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "52 Jenna Plaza",
       "city": "Birmingham",
       "state": "AL",
@@ -8747,7 +8747,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Reston, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "63 Thompson Trail",
       "city": "Reston",
       "state": "VA",
@@ -8761,7 +8761,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Lawrenceville, GA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "922 Pearson Street",
       "city": "Lawrenceville",
       "state": "GA",
@@ -8775,7 +8775,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Jersey City, NJ",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "927 Del Mar Hill",
       "city": "Jersey City",
       "state": "NJ",
@@ -8789,7 +8789,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Greensboro, NC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5806 Redwing Drive",
       "city": "Greensboro",
       "state": "NC",
@@ -8803,7 +8803,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in El Paso, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9505 Erie Street",
       "city": "El Paso",
       "state": "TX",
@@ -8817,7 +8817,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Cedar Rapids, IA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "701 Kropf Center",
       "city": "Cedar Rapids",
       "state": "IA",
@@ -8831,7 +8831,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Philadelphia, PA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "38902 Oak Crossing",
       "city": "Philadelphia",
       "state": "PA",
@@ -8845,7 +8845,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Fort Lauderdale, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5022 Utah Pass",
       "city": "Fort Lauderdale",
       "state": "FL",
@@ -8859,7 +8859,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Syracuse, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "63 Ridgeway Drive",
       "city": "Syracuse",
       "state": "NY",
@@ -8873,7 +8873,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Baton Rouge, LA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "62218 Grim Center",
       "city": "Baton Rouge",
       "state": "LA",
@@ -8887,7 +8887,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Miami, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "92426 Kedzie Plaza",
       "city": "Miami",
       "state": "FL",
@@ -8901,7 +8901,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Philadelphia, PA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "76 Barnett Court",
       "city": "Philadelphia",
       "state": "PA",
@@ -8915,7 +8915,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Duluth, MN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "268 Prairie Rose Plaza",
       "city": "Duluth",
       "state": "MN",
@@ -8929,7 +8929,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Portland, OR",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "04400 Delladonna Road",
       "city": "Portland",
       "state": "OR",
@@ -8943,7 +8943,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Brooklyn, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "15 Barby Place",
       "city": "Brooklyn",
       "state": "NY",
@@ -8957,7 +8957,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Seattle, WA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "3569 Quincy Terrace",
       "city": "Seattle",
       "state": "WA",
@@ -8971,7 +8971,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Jose, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4504 Truax Street",
       "city": "San Jose",
       "state": "CA",
@@ -8985,7 +8985,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in New Orleans, LA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "53755 Columbus Pass",
       "city": "New Orleans",
       "state": "LA",
@@ -8999,7 +8999,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Washington, DC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7 Laurel Terrace",
       "city": "Washington",
       "state": "DC",
@@ -9013,7 +9013,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Washington, DC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "11 Sycamore Parkway",
       "city": "Washington",
       "state": "DC",
@@ -9027,7 +9027,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Apache Junction, AZ",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "231 Lukken Crossing",
       "city": "Apache Junction",
       "state": "AZ",
@@ -9041,7 +9041,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Irving, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "47251 Service Avenue",
       "city": "Irving",
       "state": "TX",
@@ -9055,7 +9055,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Seattle, WA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "489 Northridge Place",
       "city": "Seattle",
       "state": "WA",
@@ -9069,7 +9069,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Amarillo, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4 Dunning Terrace",
       "city": "Amarillo",
       "state": "TX",
@@ -9083,7 +9083,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Columbus, GA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0618 Sherman Circle",
       "city": "Columbus",
       "state": "GA",
@@ -9097,7 +9097,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Diego, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0257 Hallows Lane",
       "city": "San Diego",
       "state": "CA",
@@ -9111,7 +9111,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Irvine, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8917 Goodland Place",
       "city": "Irvine",
       "state": "CA",
@@ -9125,7 +9125,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Buffalo, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2318 Algoma Circle",
       "city": "Buffalo",
       "state": "NY",
@@ -9139,7 +9139,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Austin, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5297 Havey Pass",
       "city": "Austin",
       "state": "TX",
@@ -9153,7 +9153,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Canton, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1 Arrowood Drive",
       "city": "Canton",
       "state": "OH",
@@ -9167,7 +9167,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Brooklyn, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "07 Amoth Court",
       "city": "Brooklyn",
       "state": "NY",
@@ -9181,7 +9181,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Winston Salem, NC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "05558 Twin Pines Road",
       "city": "Winston Salem",
       "state": "NC",
@@ -9195,7 +9195,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Orlando, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "17868 Hoepker Trail",
       "city": "Orlando",
       "state": "FL",
@@ -9209,7 +9209,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Chicago, IL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "33783 Clemons Pass",
       "city": "Chicago",
       "state": "IL",
@@ -9223,7 +9223,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Boston, MA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8969 7th Place",
       "city": "Boston",
       "state": "MA",
@@ -9237,7 +9237,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Topeka, KS",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "342 Delaware Parkway",
       "city": "Topeka",
       "state": "KS",
@@ -9251,7 +9251,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Atlanta, GA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "632 Reindahl Place",
       "city": "Atlanta",
       "state": "GA",
@@ -9265,7 +9265,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Suffolk, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "17891 Bartillon Alley",
       "city": "Suffolk",
       "state": "VA",
@@ -9279,7 +9279,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Jersey City, NJ",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5455 1st Park",
       "city": "Jersey City",
       "state": "NJ",
@@ -9293,7 +9293,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Wichita, KS",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "6601 Vernon Court",
       "city": "Wichita",
       "state": "KS",
@@ -9307,7 +9307,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Diego, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8 Warbler Road",
       "city": "San Diego",
       "state": "CA",
@@ -9321,7 +9321,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Toledo, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "70567 Browning Lane",
       "city": "Toledo",
       "state": "OH",
@@ -9335,7 +9335,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Madison, WI",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "84428 Holmberg Court",
       "city": "Madison",
       "state": "WI",
@@ -9349,7 +9349,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Columbia, SC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4 Northport Drive",
       "city": "Columbia",
       "state": "SC",
@@ -9363,7 +9363,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Fresno, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "57247 Mayfield Parkway",
       "city": "Fresno",
       "state": "CA",
@@ -9377,7 +9377,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Chicago, IL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "60 Northfield Parkway",
       "city": "Chicago",
       "state": "IL",
@@ -9391,7 +9391,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Rochester, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "80 Beilfuss Alley",
       "city": "Rochester",
       "state": "NY",
@@ -9405,7 +9405,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Knoxville, TN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "565 Arapahoe Court",
       "city": "Knoxville",
       "state": "TN",
@@ -9419,7 +9419,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Irving, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "60 Dapin Alley",
       "city": "Irving",
       "state": "TX",
@@ -9433,7 +9433,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Frederick, MD",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "29509 Kropf Point",
       "city": "Frederick",
       "state": "MD",
@@ -9447,7 +9447,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Peoria, IL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5 Bowman Park",
       "city": "Peoria",
       "state": "IL",
@@ -9461,7 +9461,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Jeffersonville, IN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "6519 Maywood Center",
       "city": "Jeffersonville",
       "state": "IN",
@@ -9475,7 +9475,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Charlotte, NC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "19889 Arrowood Avenue",
       "city": "Charlotte",
       "state": "NC",
@@ -9489,7 +9489,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Ocala, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "82 Springs Way",
       "city": "Ocala",
       "state": "FL",
@@ -9503,7 +9503,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Louisville, KY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "96992 Hallows Circle",
       "city": "Louisville",
       "state": "KY",
@@ -9517,7 +9517,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Diego, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9 Golf Course Court",
       "city": "San Diego",
       "state": "CA",
@@ -9531,7 +9531,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Buffalo, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8185 Barnett Way",
       "city": "Buffalo",
       "state": "NY",
@@ -9545,7 +9545,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Richmond, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8 Thompson Crossing",
       "city": "Richmond",
       "state": "VA",
@@ -9559,7 +9559,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in North Hollywood, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5400 Loomis Center",
       "city": "North Hollywood",
       "state": "CA",
@@ -9573,7 +9573,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Chicago, IL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5 Melody Center",
       "city": "Chicago",
       "state": "IL",
@@ -9587,7 +9587,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Saint Louis, MO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9 Kenwood Avenue",
       "city": "Saint Louis",
       "state": "MO",
@@ -9601,7 +9601,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Winston Salem, NC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5069 Kenwood Junction",
       "city": "Winston Salem",
       "state": "NC",
@@ -9615,7 +9615,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Lima, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "60092 Surrey Avenue",
       "city": "Lima",
       "state": "OH",
@@ -9629,7 +9629,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Jamaica, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9 Carpenter Park",
       "city": "Jamaica",
       "state": "NY",
@@ -9643,7 +9643,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Amarillo, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "04 Hauk Place",
       "city": "Amarillo",
       "state": "TX",
@@ -9657,7 +9657,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Atlanta, GA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "53953 Rusk Terrace",
       "city": "Atlanta",
       "state": "GA",
@@ -9671,7 +9671,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Louisville, KY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "73 Randy Hill",
       "city": "Louisville",
       "state": "KY",
@@ -9685,7 +9685,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Chicago, IL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "728 Dahle Park",
       "city": "Chicago",
       "state": "IL",
@@ -9699,7 +9699,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Anderson, SC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "773 Dayton Drive",
       "city": "Anderson",
       "state": "SC",
@@ -9713,7 +9713,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Charlotte, NC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "78512 Grayhawk Trail",
       "city": "Charlotte",
       "state": "NC",
@@ -9727,7 +9727,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Pittsburgh, PA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "406 Trailsway Point",
       "city": "Pittsburgh",
       "state": "PA",
@@ -9741,7 +9741,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Memphis, TN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "85 Springs Alley",
       "city": "Memphis",
       "state": "TN",
@@ -9755,7 +9755,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Madison, WI",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "58958 Daystar Court",
       "city": "Madison",
       "state": "WI",
@@ -9769,7 +9769,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Albuquerque, NM",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "365 Barnett Place",
       "city": "Albuquerque",
       "state": "NM",
@@ -9783,7 +9783,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Shawnee Mission, KS",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "382 Mayfield Drive",
       "city": "Shawnee Mission",
       "state": "KS",
@@ -9797,7 +9797,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Erie, PA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "175 Gateway Circle",
       "city": "Erie",
       "state": "PA",
@@ -9811,7 +9811,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Fort Lauderdale, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "427 Little Fleur Alley",
       "city": "Fort Lauderdale",
       "state": "FL",
@@ -9825,7 +9825,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in New York City, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "96342 Dunning Point",
       "city": "New York City",
       "state": "NY",
@@ -9839,7 +9839,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Stamford, CT",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "92025 Hoffman Terrace",
       "city": "Stamford",
       "state": "CT",
@@ -9853,7 +9853,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Minneapolis, MN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "597 Ronald Regan Hill",
       "city": "Minneapolis",
       "state": "MN",
@@ -9867,7 +9867,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Houston, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "137 Lotheville Place",
       "city": "Houston",
       "state": "TX",
@@ -9881,7 +9881,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Dallas, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "38248 Clarendon Parkway",
       "city": "Dallas",
       "state": "TX",
@@ -9895,7 +9895,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Jose, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2422 Graceland Point",
       "city": "San Jose",
       "state": "CA",
@@ -9909,7 +9909,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Phoenix, AZ",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1342 Moose Street",
       "city": "Phoenix",
       "state": "AZ",
@@ -9923,7 +9923,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Charlotte, NC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "145 Texas Plaza",
       "city": "Charlotte",
       "state": "NC",
@@ -9937,7 +9937,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Salt Lake City, UT",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "6602 Monica Court",
       "city": "Salt Lake City",
       "state": "UT",
@@ -9951,7 +9951,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Portland, OR",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "54 Grim Avenue",
       "city": "Portland",
       "state": "OR",
@@ -9965,7 +9965,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Pittsburgh, PA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9 South Drive",
       "city": "Pittsburgh",
       "state": "PA",
@@ -9979,7 +9979,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Lubbock, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "88 Maple Crossing",
       "city": "Lubbock",
       "state": "TX",
@@ -9993,7 +9993,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Richmond, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "46 Vidon Parkway",
       "city": "Richmond",
       "state": "VA",
@@ -10007,7 +10007,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Hicksville, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "630 Welch Plaza",
       "city": "Hicksville",
       "state": "NY",
@@ -10021,7 +10021,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Memphis, TN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8475 Columbus Crossing",
       "city": "Memphis",
       "state": "TN",
@@ -10035,7 +10035,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Washington, DC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "51 Debra Center",
       "city": "Washington",
       "state": "DC",
@@ -10049,7 +10049,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Memphis, TN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4 Mandrake Way",
       "city": "Memphis",
       "state": "TN",
@@ -10063,7 +10063,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Orlando, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1245 Valley Edge Parkway",
       "city": "Orlando",
       "state": "FL",
@@ -10077,7 +10077,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Seminole, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "24 Maple Wood Hill",
       "city": "Seminole",
       "state": "FL",
@@ -10091,7 +10091,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Albuquerque, NM",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9469 Ilene Way",
       "city": "Albuquerque",
       "state": "NM",
@@ -10105,7 +10105,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Mobile, AL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7 Summerview Lane",
       "city": "Mobile",
       "state": "AL",
@@ -10119,7 +10119,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Topeka, KS",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "14172 Holmberg Street",
       "city": "Topeka",
       "state": "KS",
@@ -10133,7 +10133,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Springfield, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "09636 Cherokee Court",
       "city": "Springfield",
       "state": "VA",
@@ -10147,7 +10147,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Philadelphia, PA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "31907 Northridge Drive",
       "city": "Philadelphia",
       "state": "PA",
@@ -10161,7 +10161,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Pocatello, ID",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "68 Talisman Street",
       "city": "Pocatello",
       "state": "ID",
@@ -10175,7 +10175,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Washington, DC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "3 Pearson Junction",
       "city": "Washington",
       "state": "DC",
@@ -10189,7 +10189,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Milwaukee, WI",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "03331 Tennessee Street",
       "city": "Milwaukee",
       "state": "WI",
@@ -10203,7 +10203,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Minneapolis, MN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1552 Moland Court",
       "city": "Minneapolis",
       "state": "MN",
@@ -10217,7 +10217,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Colorado Springs, CO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "32 Manufacturers Court",
       "city": "Colorado Springs",
       "state": "CO",
@@ -10231,7 +10231,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Knoxville, TN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "585 Nobel Point",
       "city": "Knoxville",
       "state": "TN",
@@ -10245,7 +10245,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Brockton, MA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "6 Killdeer Lane",
       "city": "Brockton",
       "state": "MA",
@@ -10259,7 +10259,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Brea, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "313 Maple Junction",
       "city": "Brea",
       "state": "CA",
@@ -10273,7 +10273,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Dallas, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "67861 New Castle Way",
       "city": "Dallas",
       "state": "TX",
@@ -10287,7 +10287,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Fort Lauderdale, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "368 Rusk Court",
       "city": "Fort Lauderdale",
       "state": "FL",
@@ -10301,7 +10301,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Francisco, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "25 Forest Run Plaza",
       "city": "San Francisco",
       "state": "CA",
@@ -10315,7 +10315,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Portland, OR",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5037 Superior Hill",
       "city": "Portland",
       "state": "OR",
@@ -10329,7 +10329,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Staten Island, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8 Pierstorff Circle",
       "city": "Staten Island",
       "state": "NY",
@@ -10343,7 +10343,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Tampa, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "953 Pleasure Pass",
       "city": "Tampa",
       "state": "FL",
@@ -10357,7 +10357,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Anaheim, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8815 Randy Junction",
       "city": "Anaheim",
       "state": "CA",
@@ -10371,7 +10371,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Fort Wayne, IN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7531 Mayer Point",
       "city": "Fort Wayne",
       "state": "IN",
@@ -10385,7 +10385,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Saint Paul, MN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "497 International Way",
       "city": "Saint Paul",
       "state": "MN",
@@ -10399,7 +10399,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Washington, DC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "886 Division Drive",
       "city": "Washington",
       "state": "DC",
@@ -10413,7 +10413,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Sacramento, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "375 Claremont Avenue",
       "city": "Sacramento",
       "state": "CA",
@@ -10427,7 +10427,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Toledo, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9030 Shoshone Road",
       "city": "Toledo",
       "state": "OH",
@@ -10441,7 +10441,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Shreveport, LA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0330 Fieldstone Plaza",
       "city": "Shreveport",
       "state": "LA",
@@ -10455,7 +10455,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Dayton, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "3657 Brickson Park Avenue",
       "city": "Dayton",
       "state": "OH",
@@ -10469,7 +10469,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Antonio, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1372 Susan Trail",
       "city": "San Antonio",
       "state": "TX",
@@ -10483,7 +10483,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Sacramento, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8 Novick Hill",
       "city": "Sacramento",
       "state": "CA",
@@ -10497,7 +10497,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Los Angeles, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0794 Messerschmidt Drive",
       "city": "Los Angeles",
       "state": "CA",
@@ -10511,7 +10511,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Chicago, IL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "19 John Wall Crossing",
       "city": "Chicago",
       "state": "IL",
@@ -10525,7 +10525,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Zephyrhills, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "837 Everett Point",
       "city": "Zephyrhills",
       "state": "FL",
@@ -10539,7 +10539,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Buffalo, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "58 Forest Run Alley",
       "city": "Buffalo",
       "state": "NY",
@@ -10553,7 +10553,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Indianapolis, IN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "073 Warbler Crossing",
       "city": "Indianapolis",
       "state": "IN",
@@ -10567,7 +10567,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Dayton, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7228 Kings Crossing",
       "city": "Dayton",
       "state": "OH",
@@ -10581,7 +10581,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Los Angeles, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2 Moose Crossing",
       "city": "Los Angeles",
       "state": "CA",
@@ -10595,7 +10595,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Tulsa, OK",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "542 Graedel Park",
       "city": "Tulsa",
       "state": "OK",
@@ -10609,7 +10609,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Dallas, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5 Mendota Parkway",
       "city": "Dallas",
       "state": "TX",
@@ -10623,7 +10623,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Monticello, MN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9325 Victoria Terrace",
       "city": "Monticello",
       "state": "MN",
@@ -10637,7 +10637,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Paterson, NJ",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "21939 Cody Point",
       "city": "Paterson",
       "state": "NJ",
@@ -10651,7 +10651,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Richmond, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1 Thompson Plaza",
       "city": "Richmond",
       "state": "VA",
@@ -10665,7 +10665,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Scranton, PA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7674 Pennsylvania Circle",
       "city": "Scranton",
       "state": "PA",
@@ -10679,7 +10679,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Antonio, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "399 Elka Street",
       "city": "San Antonio",
       "state": "TX",
@@ -10693,7 +10693,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Huntington, WV",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "55313 Nobel Circle",
       "city": "Huntington",
       "state": "WV",
@@ -10707,7 +10707,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Eugene, OR",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "995 Harbort Alley",
       "city": "Eugene",
       "state": "OR",
@@ -10721,7 +10721,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Providence, RI",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "30270 Welch Avenue",
       "city": "Providence",
       "state": "RI",
@@ -10735,7 +10735,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Albany, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "02 Orin Center",
       "city": "Albany",
       "state": "NY",
@@ -10749,7 +10749,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Houston, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0514 Arizona Terrace",
       "city": "Houston",
       "state": "TX",
@@ -10763,7 +10763,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Washington, DC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "008 Norway Maple Lane",
       "city": "Washington",
       "state": "DC",
@@ -10777,7 +10777,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Chicago, IL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "061 Jay Trail",
       "city": "Chicago",
       "state": "IL",
@@ -10791,7 +10791,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Mobile, AL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1100 Twin Pines Plaza",
       "city": "Mobile",
       "state": "AL",
@@ -10805,7 +10805,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Pittsburgh, PA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5124 Mayfield Park",
       "city": "Pittsburgh",
       "state": "PA",
@@ -10819,7 +10819,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Raleigh, NC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "36 Steensland Circle",
       "city": "Raleigh",
       "state": "NC",
@@ -10833,7 +10833,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Columbia, SC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "44670 Mayer Junction",
       "city": "Columbia",
       "state": "SC",
@@ -10847,7 +10847,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Philadelphia, PA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "26367 Anhalt Place",
       "city": "Philadelphia",
       "state": "PA",
@@ -10861,7 +10861,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Las Vegas, NV",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "43 Russell Hill",
       "city": "Las Vegas",
       "state": "NV",
@@ -10875,7 +10875,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Hayward, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2384 Westerfield Lane",
       "city": "Hayward",
       "state": "CA",
@@ -10889,7 +10889,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Chicago, IL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9 Huxley Alley",
       "city": "Chicago",
       "state": "IL",
@@ -10903,7 +10903,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Philadelphia, PA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "17 Blue Bill Park Plaza",
       "city": "Philadelphia",
       "state": "PA",
@@ -10917,7 +10917,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Young America, MN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "416 Mcbride Crossing",
       "city": "Young America",
       "state": "MN",
@@ -10931,7 +10931,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Lynchburg, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0 Warner Junction",
       "city": "Lynchburg",
       "state": "VA",
@@ -10945,7 +10945,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Charlotte, NC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "587 Sutteridge Park",
       "city": "Charlotte",
       "state": "NC",
@@ -10959,7 +10959,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Francisco, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "186 Russell Circle",
       "city": "San Francisco",
       "state": "CA",
@@ -10973,7 +10973,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Albany, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "33630 Shasta Junction",
       "city": "Albany",
       "state": "NY",
@@ -10987,7 +10987,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Rockford, IL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "372 Rusk Crossing",
       "city": "Rockford",
       "state": "IL",
@@ -11001,7 +11001,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Albuquerque, NM",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5333 Forster Park",
       "city": "Albuquerque",
       "state": "NM",
@@ -11015,7 +11015,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Chicago, IL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "33459 Petterle Alley",
       "city": "Chicago",
       "state": "IL",
@@ -11029,7 +11029,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Worcester, MA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4 Waxwing Court",
       "city": "Worcester",
       "state": "MA",
@@ -11043,7 +11043,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Greenville, SC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "42457 Scott Alley",
       "city": "Greenville",
       "state": "SC",
@@ -11057,7 +11057,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Chico, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "86031 Transport Junction",
       "city": "Chico",
       "state": "CA",
@@ -11071,7 +11071,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Sacramento, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "06 Bultman Parkway",
       "city": "Sacramento",
       "state": "CA",
@@ -11085,7 +11085,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Houston, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4739 Schurz Avenue",
       "city": "Houston",
       "state": "TX",
@@ -11099,7 +11099,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Lincoln, NE",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1153 Bartillon Hill",
       "city": "Lincoln",
       "state": "NE",
@@ -11113,7 +11113,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Salt Lake City, UT",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0 Pennsylvania Plaza",
       "city": "Salt Lake City",
       "state": "UT",
@@ -11127,7 +11127,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Honolulu, HI",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "90 Barnett Road",
       "city": "Honolulu",
       "state": "HI",
@@ -11141,7 +11141,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Ogden, UT",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "50 Luster Hill",
       "city": "Ogden",
       "state": "UT",
@@ -11155,7 +11155,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Torrance, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "29 Ohio Road",
       "city": "Torrance",
       "state": "CA",
@@ -11169,7 +11169,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Sacramento, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7 Main Plaza",
       "city": "Sacramento",
       "state": "CA",
@@ -11183,7 +11183,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in New Orleans, LA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "3794 Parkside Junction",
       "city": "New Orleans",
       "state": "LA",
@@ -11197,7 +11197,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Baltimore, MD",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "895 Memorial Circle",
       "city": "Baltimore",
       "state": "MD",
@@ -11211,7 +11211,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Berkeley, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "463 Anderson Crossing",
       "city": "Berkeley",
       "state": "CA",
@@ -11225,7 +11225,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Tampa, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "3133 Lake View Trail",
       "city": "Tampa",
       "state": "FL",
@@ -11239,7 +11239,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Fort Worth, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "23 Muir Road",
       "city": "Fort Worth",
       "state": "TX",
@@ -11253,7 +11253,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Boston, MA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "80139 Bluestem Terrace",
       "city": "Boston",
       "state": "MA",
@@ -11267,7 +11267,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Farmington, MI",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4791 Old Gate Hill",
       "city": "Farmington",
       "state": "MI",
@@ -11281,7 +11281,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in North Little Rock, AR",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "576 Farmco Crossing",
       "city": "North Little Rock",
       "state": "AR",
@@ -11295,7 +11295,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Phoenix, AZ",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2129 Village Way",
       "city": "Phoenix",
       "state": "AZ",
@@ -11309,7 +11309,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Seattle, WA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "74 Bultman Circle",
       "city": "Seattle",
       "state": "WA",
@@ -11323,7 +11323,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Tacoma, WA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "138 Anthes Alley",
       "city": "Tacoma",
       "state": "WA",
@@ -11337,7 +11337,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Austin, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "56772 Gulseth Parkway",
       "city": "Austin",
       "state": "TX",
@@ -11351,7 +11351,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Austin, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "217 Melody Way",
       "city": "Austin",
       "state": "TX",
@@ -11365,7 +11365,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Jose, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "3857 Corscot Park",
       "city": "San Jose",
       "state": "CA",
@@ -11379,7 +11379,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Saint Petersburg, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "73 Schurz Hill",
       "city": "Saint Petersburg",
       "state": "FL",
@@ -11393,7 +11393,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Philadelphia, PA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "708 Dryden Way",
       "city": "Philadelphia",
       "state": "PA",
@@ -11407,7 +11407,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Richmond, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "269 Northridge Avenue",
       "city": "Richmond",
       "state": "VA",
@@ -11421,7 +11421,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Burbank, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "31929 Scott Trail",
       "city": "Burbank",
       "state": "CA",
@@ -11435,7 +11435,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Dayton, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "88394 Northfield Pass",
       "city": "Dayton",
       "state": "OH",
@@ -11449,7 +11449,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Dallas, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1 Dennis Lane",
       "city": "Dallas",
       "state": "TX",
@@ -11463,7 +11463,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Pasadena, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1 Luster Street",
       "city": "Pasadena",
       "state": "CA",
@@ -11477,7 +11477,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Cedar Rapids, IA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7500 North Hill",
       "city": "Cedar Rapids",
       "state": "IA",
@@ -11491,7 +11491,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Dayton, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0824 Oak Valley Alley",
       "city": "Dayton",
       "state": "OH",
@@ -11505,7 +11505,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Providence, RI",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "95 Little Fleur Terrace",
       "city": "Providence",
       "state": "RI",
@@ -11519,7 +11519,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Evansville, IN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0 Moose Center",
       "city": "Evansville",
       "state": "IN",
@@ -11533,7 +11533,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Raleigh, NC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9260 Summit Crossing",
       "city": "Raleigh",
       "state": "NC",
@@ -11547,7 +11547,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Roanoke, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "02474 Northwestern Parkway",
       "city": "Roanoke",
       "state": "VA",
@@ -11561,7 +11561,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Tampa, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "33636 Ludington Way",
       "city": "Tampa",
       "state": "FL",
@@ -11575,7 +11575,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Washington, DC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9348 Elgar Crossing",
       "city": "Washington",
       "state": "DC",
@@ -11589,7 +11589,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Charlotte, NC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "43868 Prairieview Junction",
       "city": "Charlotte",
       "state": "NC",
@@ -11603,7 +11603,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Tucson, AZ",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0 Maple Wood Court",
       "city": "Tucson",
       "state": "AZ",
@@ -11617,7 +11617,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Chicago, IL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "89 School Pass",
       "city": "Chicago",
       "state": "IL",
@@ -11631,7 +11631,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in New York City, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "3437 Upham Crossing",
       "city": "New York City",
       "state": "NY",
@@ -11645,7 +11645,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Pittsburgh, PA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "77204 Mallory Way",
       "city": "Pittsburgh",
       "state": "PA",
@@ -11659,7 +11659,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Francisco, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4842 Donald Alley",
       "city": "San Francisco",
       "state": "CA",
@@ -11673,7 +11673,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Cincinnati, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4770 Dennis Way",
       "city": "Cincinnati",
       "state": "OH",
@@ -11687,7 +11687,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Jose, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "581 Macpherson Park",
       "city": "San Jose",
       "state": "CA",
@@ -11701,7 +11701,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Cedar Rapids, IA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2 Warrior Alley",
       "city": "Cedar Rapids",
       "state": "IA",
@@ -11715,7 +11715,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Boston, MA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "41 Anhalt Road",
       "city": "Boston",
       "state": "MA",
@@ -11729,7 +11729,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Lawrenceville, GA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "56 Ronald Regan Court",
       "city": "Lawrenceville",
       "state": "GA",
@@ -11743,7 +11743,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Syracuse, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "65216 Del Sol Place",
       "city": "Syracuse",
       "state": "NY",
@@ -11757,7 +11757,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Boca Raton, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7468 Granby Circle",
       "city": "Boca Raton",
       "state": "FL",
@@ -11771,7 +11771,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Washington, DC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "494 Eliot Plaza",
       "city": "Washington",
       "state": "DC",
@@ -11785,7 +11785,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Los Angeles, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "297 Lawn Point",
       "city": "Los Angeles",
       "state": "CA",
@@ -11799,7 +11799,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Baton Rouge, LA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9 Brickson Park Terrace",
       "city": "Baton Rouge",
       "state": "LA",
@@ -11813,7 +11813,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Tampa, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "78 Dunning Street",
       "city": "Tampa",
       "state": "FL",
@@ -11827,7 +11827,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Jose, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "3899 Jackson Street",
       "city": "San Jose",
       "state": "CA",
@@ -11841,7 +11841,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Garden Grove, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "93 Clyde Gallagher Road",
       "city": "Garden Grove",
       "state": "CA",
@@ -11855,7 +11855,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Anniston, AL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4074 Rusk Avenue",
       "city": "Anniston",
       "state": "AL",
@@ -11869,7 +11869,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Mateo, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "30782 Dawn Junction",
       "city": "San Mateo",
       "state": "CA",
@@ -11883,7 +11883,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Plano, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "17 Service Hill",
       "city": "Plano",
       "state": "TX",
@@ -11897,7 +11897,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Seattle, WA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "40 Service Place",
       "city": "Seattle",
       "state": "WA",
@@ -11911,7 +11911,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Salt Lake City, UT",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1732 Dexter Circle",
       "city": "Salt Lake City",
       "state": "UT",
@@ -11925,7 +11925,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Norfolk, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0 Forest Road",
       "city": "Norfolk",
       "state": "VA",
@@ -11939,7 +11939,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in New York City, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "80 Independence Point",
       "city": "New York City",
       "state": "NY",
@@ -11953,7 +11953,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Columbia, SC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "70321 Hermina Court",
       "city": "Columbia",
       "state": "SC",
@@ -11967,7 +11967,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Oklahoma City, OK",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "128 Meadow Ridge Hill",
       "city": "Oklahoma City",
       "state": "OK",
@@ -11981,7 +11981,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Riverside, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "034 Eggendart Terrace",
       "city": "Riverside",
       "state": "CA",
@@ -11995,7 +11995,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Frankfort, KY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4 Talisman Plaza",
       "city": "Frankfort",
       "state": "KY",
@@ -12009,7 +12009,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Pomona, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "40 Delladonna Park",
       "city": "Pomona",
       "state": "CA",
@@ -12023,7 +12023,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Sioux City, IA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "44643 Mariners Cove Parkway",
       "city": "Sioux City",
       "state": "IA",
@@ -12037,7 +12037,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Las Vegas, NV",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "28478 Paget Junction",
       "city": "Las Vegas",
       "state": "NV",
@@ -12051,7 +12051,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Chattanooga, TN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "495 Glacier Hill Road",
       "city": "Chattanooga",
       "state": "TN",
@@ -12065,7 +12065,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Lake Charles, LA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2 Hermina Alley",
       "city": "Lake Charles",
       "state": "LA",
@@ -12079,7 +12079,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Virginia Beach, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "3238 Buena Vista Pass",
       "city": "Virginia Beach",
       "state": "VA",
@@ -12093,7 +12093,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Tallahassee, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "29009 Anzinger Center",
       "city": "Tallahassee",
       "state": "FL",
@@ -12107,7 +12107,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Oklahoma City, OK",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1350 Park Meadow Court",
       "city": "Oklahoma City",
       "state": "OK",
@@ -12121,7 +12121,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in New York City, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "79527 Center Pass",
       "city": "New York City",
       "state": "NY",
@@ -12135,7 +12135,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Oxnard, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "613 Stang Alley",
       "city": "Oxnard",
       "state": "CA",
@@ -12149,7 +12149,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Roanoke, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9512 Hermina Crossing",
       "city": "Roanoke",
       "state": "VA",
@@ -12163,7 +12163,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Boise, ID",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "3 Monterey Alley",
       "city": "Boise",
       "state": "ID",
@@ -12177,7 +12177,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Baltimore, MD",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "72986 Ridge Oak Trail",
       "city": "Baltimore",
       "state": "MD",
@@ -12191,7 +12191,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Wilmington, NC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4 Waubesa Pass",
       "city": "Wilmington",
       "state": "NC",
@@ -12205,7 +12205,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Greenville, SC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5 Annamark Avenue",
       "city": "Greenville",
       "state": "SC",
@@ -12219,7 +12219,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Toledo, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "11195 Anderson Parkway",
       "city": "Toledo",
       "state": "OH",
@@ -12233,7 +12233,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Peoria, IL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9 Pankratz Trail",
       "city": "Peoria",
       "state": "IL",
@@ -12247,7 +12247,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Columbus, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "3119 Arkansas Drive",
       "city": "Columbus",
       "state": "OH",
@@ -12261,7 +12261,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Sacramento, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7959 Porter Park",
       "city": "Sacramento",
       "state": "CA",
@@ -12275,7 +12275,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Delray Beach, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "6 Vermont Trail",
       "city": "Delray Beach",
       "state": "FL",
@@ -12289,7 +12289,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Arlington, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "137 Sunbrook Alley",
       "city": "Arlington",
       "state": "VA",
@@ -12303,7 +12303,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in El Paso, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "49 Ronald Regan Parkway",
       "city": "El Paso",
       "state": "TX",
@@ -12317,7 +12317,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Columbia, SC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2 Hovde Terrace",
       "city": "Columbia",
       "state": "SC",
@@ -12331,7 +12331,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Charlotte, NC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8825 Killdeer Pass",
       "city": "Charlotte",
       "state": "NC",
@@ -12345,7 +12345,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Corpus Christi, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4943 Briar Crest Terrace",
       "city": "Corpus Christi",
       "state": "TX",
@@ -12359,7 +12359,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Des Moines, IA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "50368 American Ash Pass",
       "city": "Des Moines",
       "state": "IA",
@@ -12373,7 +12373,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Salt Lake City, UT",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "23 Trailsway Pass",
       "city": "Salt Lake City",
       "state": "UT",
@@ -12387,7 +12387,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Greensboro, NC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "69632 Thackeray Hill",
       "city": "Greensboro",
       "state": "NC",
@@ -12401,7 +12401,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Hartford, CT",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4 Raven Junction",
       "city": "Hartford",
       "state": "CT",
@@ -12415,7 +12415,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Clearwater, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "66 Barby Point",
       "city": "Clearwater",
       "state": "FL",
@@ -12429,7 +12429,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Hollywood, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4512 Fuller Court",
       "city": "Hollywood",
       "state": "FL",
@@ -12443,7 +12443,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Tallahassee, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "954 Ridgeway Alley",
       "city": "Tallahassee",
       "state": "FL",
@@ -12457,7 +12457,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Nashville, TN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5731 Jackson Road",
       "city": "Nashville",
       "state": "TN",
@@ -12471,7 +12471,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Dearborn, MI",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "96254 Bay Court",
       "city": "Dearborn",
       "state": "MI",
@@ -12485,7 +12485,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Flushing, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9589 Thackeray Pass",
       "city": "Flushing",
       "state": "NY",
@@ -12499,7 +12499,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Louisville, KY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4984 Service Trail",
       "city": "Louisville",
       "state": "KY",
@@ -12513,7 +12513,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Flint, MI",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4045 Eastlawn Parkway",
       "city": "Flint",
       "state": "MI",
@@ -12527,7 +12527,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in West Palm Beach, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "3249 Old Shore Alley",
       "city": "West Palm Beach",
       "state": "FL",
@@ -12541,7 +12541,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Akron, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "272 Green Ridge Plaza",
       "city": "Akron",
       "state": "OH",
@@ -12555,7 +12555,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Rochester, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9825 Kennedy Court",
       "city": "Rochester",
       "state": "NY",
@@ -12569,7 +12569,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Glendale, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "52 Everett Place",
       "city": "Glendale",
       "state": "CA",
@@ -12583,7 +12583,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Virginia Beach, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "54 Mandrake Court",
       "city": "Virginia Beach",
       "state": "VA",
@@ -12597,7 +12597,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Long Beach, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "747 Oxford Pass",
       "city": "Long Beach",
       "state": "CA",
@@ -12611,7 +12611,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Columbia, MO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "70 Heath Parkway",
       "city": "Columbia",
       "state": "MO",
@@ -12625,7 +12625,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Denver, CO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "601 Ilene Parkway",
       "city": "Denver",
       "state": "CO",
@@ -12639,7 +12639,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Tulsa, OK",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5681 Dunning Crossing",
       "city": "Tulsa",
       "state": "OK",
@@ -12653,7 +12653,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Oklahoma City, OK",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0953 Messerschmidt Avenue",
       "city": "Oklahoma City",
       "state": "OK",
@@ -12667,7 +12667,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Fresno, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "60 Sugar Pass",
       "city": "Fresno",
       "state": "CA",
@@ -12681,7 +12681,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in El Paso, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "72 Mayer Parkway",
       "city": "El Paso",
       "state": "TX",
@@ -12695,7 +12695,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Minneapolis, MN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "94 Merrick Junction",
       "city": "Minneapolis",
       "state": "MN",
@@ -12709,7 +12709,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Odessa, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "89 Oneill Street",
       "city": "Odessa",
       "state": "TX",
@@ -12723,7 +12723,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Flint, MI",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "18443 Elgar Court",
       "city": "Flint",
       "state": "MI",
@@ -12737,7 +12737,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Dallas, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8582 Graedel Hill",
       "city": "Dallas",
       "state": "TX",
@@ -12751,7 +12751,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Cape Coral, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "6490 Hoard Avenue",
       "city": "Cape Coral",
       "state": "FL",
@@ -12765,7 +12765,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Fort Wayne, IN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "44 Crescent Oaks Trail",
       "city": "Fort Wayne",
       "state": "IN",
@@ -12779,7 +12779,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Denver, CO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0 Clemons Place",
       "city": "Denver",
       "state": "CO",
@@ -12793,7 +12793,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Fresno, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "19 Gale Lane",
       "city": "Fresno",
       "state": "CA",
@@ -12807,7 +12807,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Mountain View, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "035 Luster Plaza",
       "city": "Mountain View",
       "state": "CA",
@@ -12821,7 +12821,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Houston, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "454 Jenna Parkway",
       "city": "Houston",
       "state": "TX",
@@ -12835,7 +12835,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Kansas City, MO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "6 Lindbergh Center",
       "city": "Kansas City",
       "state": "MO",
@@ -12849,7 +12849,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Santa Monica, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "91 Bluestem Hill",
       "city": "Santa Monica",
       "state": "CA",
@@ -12863,7 +12863,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Denver, CO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7 Banding Place",
       "city": "Denver",
       "state": "CO",
@@ -12877,7 +12877,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Oklahoma City, OK",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "19601 Michigan Parkway",
       "city": "Oklahoma City",
       "state": "OK",
@@ -12891,7 +12891,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Norfolk, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "03 Waywood Hill",
       "city": "Norfolk",
       "state": "VA",
@@ -12905,7 +12905,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Omaha, NE",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2 Bellgrove Parkway",
       "city": "Omaha",
       "state": "NE",
@@ -12919,7 +12919,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Las Vegas, NV",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0708 Scofield Park",
       "city": "Las Vegas",
       "state": "NV",
@@ -12933,7 +12933,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Chicago, IL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "777 Center Hill",
       "city": "Chicago",
       "state": "IL",
@@ -12947,7 +12947,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in El Paso, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9 Talmadge Circle",
       "city": "El Paso",
       "state": "TX",
@@ -12961,7 +12961,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Peoria, IL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8757 Continental Way",
       "city": "Peoria",
       "state": "IL",
@@ -12975,7 +12975,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Tyler, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5345 Walton Crossing",
       "city": "Tyler",
       "state": "TX",
@@ -12989,7 +12989,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Dayton, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "1385 Superior Drive",
       "city": "Dayton",
       "state": "OH",
@@ -13003,7 +13003,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Dayton, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "151 Eastlawn Plaza",
       "city": "Dayton",
       "state": "OH",
@@ -13017,7 +13017,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Kalamazoo, MI",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2 Tennessee Court",
       "city": "Kalamazoo",
       "state": "MI",
@@ -13031,7 +13031,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Colorado Springs, CO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "620 Shelley Park",
       "city": "Colorado Springs",
       "state": "CO",
@@ -13045,7 +13045,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Trenton, NJ",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "839 West Terrace",
       "city": "Trenton",
       "state": "NJ",
@@ -13059,7 +13059,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Saint Louis, MO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "69109 Memorial Lane",
       "city": "Saint Louis",
       "state": "MO",
@@ -13073,7 +13073,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Kansas City, MO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "70 Pawling Plaza",
       "city": "Kansas City",
       "state": "MO",
@@ -13087,7 +13087,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Trenton, NJ",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "6 South Plaza",
       "city": "Trenton",
       "state": "NJ",
@@ -13101,7 +13101,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Spring Hill, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7 2nd Point",
       "city": "Spring Hill",
       "state": "FL",
@@ -13115,7 +13115,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Manchester, NH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "97 Cascade Street",
       "city": "Manchester",
       "state": "NH",
@@ -13129,7 +13129,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Jose, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8 Pennsylvania Lane",
       "city": "San Jose",
       "state": "CA",
@@ -13143,7 +13143,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Baton Rouge, LA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "941 Green Ridge Court",
       "city": "Baton Rouge",
       "state": "LA",
@@ -13157,7 +13157,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Cleveland, OH",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4 Talmadge Circle",
       "city": "Cleveland",
       "state": "OH",
@@ -13171,7 +13171,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Macon, GA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "88796 Longview Drive",
       "city": "Macon",
       "state": "GA",
@@ -13185,7 +13185,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Oklahoma City, OK",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "574 Eastlawn Avenue",
       "city": "Oklahoma City",
       "state": "OK",
@@ -13199,7 +13199,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Littleton, CO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "90146 Declaration Road",
       "city": "Littleton",
       "state": "CO",
@@ -13213,7 +13213,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Dallas, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9 Reindahl Junction",
       "city": "Dallas",
       "state": "TX",
@@ -13227,7 +13227,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Los Angeles, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4266 Westridge Place",
       "city": "Los Angeles",
       "state": "CA",
@@ -13241,7 +13241,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Wilmington, NC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "538 East Center",
       "city": "Wilmington",
       "state": "NC",
@@ -13255,7 +13255,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Pueblo, CO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "2786 Gina Avenue",
       "city": "Pueblo",
       "state": "CO",
@@ -13269,7 +13269,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Buffalo, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4251 Loomis Road",
       "city": "Buffalo",
       "state": "NY",
@@ -13283,7 +13283,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Corpus Christi, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5 Bartillon Street",
       "city": "Corpus Christi",
       "state": "TX",
@@ -13297,7 +13297,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Saint Paul, MN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "24 Cody Crossing",
       "city": "Saint Paul",
       "state": "MN",
@@ -13311,7 +13311,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Jefferson City, MO",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "48271 Manley Place",
       "city": "Jefferson City",
       "state": "MO",
@@ -13325,7 +13325,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Portland, OR",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "00 Chive Trail",
       "city": "Portland",
       "state": "OR",
@@ -13339,7 +13339,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Arlington, VA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "76948 Holy Cross Hill",
       "city": "Arlington",
       "state": "VA",
@@ -13353,7 +13353,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in El Paso, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "0262 Brown Lane",
       "city": "El Paso",
       "state": "TX",
@@ -13367,7 +13367,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Knoxville, TN",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "9110 Morningstar Circle",
       "city": "Knoxville",
       "state": "TN",
@@ -13381,7 +13381,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Antonio, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "5 Moland Parkway",
       "city": "San Antonio",
       "state": "TX",
@@ -13395,7 +13395,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Syracuse, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "54929 Caliangt Place",
       "city": "Syracuse",
       "state": "NY",
@@ -13409,7 +13409,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Port Charlotte, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "172 Longview Circle",
       "city": "Port Charlotte",
       "state": "FL",
@@ -13423,7 +13423,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Los Angeles, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "162 Lakewood Gardens Center",
       "city": "Los Angeles",
       "state": "CA",
@@ -13437,7 +13437,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in San Jose, CA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "3 Pleasure Lane",
       "city": "San Jose",
       "state": "CA",
@@ -13451,7 +13451,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Greenville, SC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "30 Vidon Point",
       "city": "Greenville",
       "state": "SC",
@@ -13465,7 +13465,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Idaho Falls, ID",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "34829 Kropf Lane",
       "city": "Idaho Falls",
       "state": "ID",
@@ -13479,7 +13479,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Washington, DC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "8698 Nova Street",
       "city": "Washington",
       "state": "DC",
@@ -13493,7 +13493,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Jamaica, NY",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "297 East Terrace",
       "city": "Jamaica",
       "state": "NY",
@@ -13507,7 +13507,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Orlando, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "4 Butterfield Junction",
       "city": "Orlando",
       "state": "FL",
@@ -13521,7 +13521,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Honolulu, HI",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7888 Marquette Point",
       "city": "Honolulu",
       "state": "HI",
@@ -13535,7 +13535,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Grand Forks, ND",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "77 Ryan Court",
       "city": "Grand Forks",
       "state": "ND",
@@ -13549,7 +13549,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Austin, TX",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "7630 Glacier Hill Park",
       "city": "Austin",
       "state": "TX",
@@ -13563,7 +13563,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Miami, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "753 Harbort Road",
       "city": "Miami",
       "state": "FL",
@@ -13577,7 +13577,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Phoenix, AZ",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "296 Sullivan Road",
       "city": "Phoenix",
       "state": "AZ",
@@ -13591,7 +13591,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Tampa, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "3342 Express Place",
       "city": "Tampa",
       "state": "FL",
@@ -13605,7 +13605,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Sioux City, IA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "6 Petterle Avenue",
       "city": "Sioux City",
       "state": "IA",
@@ -13619,7 +13619,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Charlotte, NC",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "688 Schiller Center",
       "city": "Charlotte",
       "state": "NC",
@@ -13633,7 +13633,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in New Orleans, LA",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "32 Prentice Center",
       "city": "New Orleans",
       "state": "LA",
@@ -13647,7 +13647,7 @@ const eventSeed = [
     {
       "eventName": "Volunteer in Pensacola, FL",
       "description": "This is an example event.",
-      "organizerID": "",
+      "organizerID": [],
       "street": "48148 Golf Course Pass",
       "city": "Pensacola",
       "state": "FL",
