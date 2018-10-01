@@ -54,7 +54,7 @@ export default class LeafletMap extends Component {
 
   render() {
     const position = [this.state.lat, this.state.lng]
-    //const eventMarkers = [] // GET CALL HERE
+    const url = "https://www.google.com/maps/dir/Current+Location/"
     return (
       <Map className='map' center={this.state.location} zoom={this.state.zoom}>
         <TileLayer
@@ -65,19 +65,22 @@ export default class LeafletMap extends Component {
       {console.log(this.state)}
       <Marker key={this.state.zoom} position={this.state.location} icon={locationIcon}></Marker>
 
-
-      {this.state.events.map(event => 
       
+      {this.state.events.map(event => 
+        
         <Marker key={event._id} position={[event.latitude, event.longitude]} icon={myIcon}>
         <Popup >
-          <div><h3><strong>{event.eventName}</strong></h3>
-          <p>{event.date}</p><hr/>
-          {event.description} <br />
-          Location: {event.street} <a>Get Directions</a> <br />
-          From {event.startTime} to {event.endTime} (local)<br />
-          Organizer: {}(Placeholder) <a>Contact</a> <br />
-          <button><strong>Sign Up</strong></button> <br/>
-          (class .mypopup.leaflet-popup-content-wrapper)
+
+          <div>
+            
+            <h3><strong>{event.eventName}</strong></h3>
+            <p>{event.date}</p><hr/>
+            {event.description} <br />
+            at {event.street} <br />
+            From {event.startTime} to {event.endTime} (local)<br />
+            Organizer: {}(Placeholder) <br />
+            <button><strong>Sign Up</strong></button> <span>  </span> <a href={url+event.latitude+","+event.longitude} target="_blank"><button><strong>Get Directions</strong></button></a> <span>  </span> <button><strong>Contact</strong></button>
+          
           </div>
         </Popup>
         </Marker>
