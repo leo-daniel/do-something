@@ -1,20 +1,13 @@
 # Do Something Better
-### The Language Interpretation and Recognition Interface
+### Placing volunteer opportunities within reach of volunteers
 
-LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a _Language_ Interpretation and Recognition Interface that takes in parameters, and gives a user back data based on selections for:  
-* Viewing tweets
-* Spotifying a song
-* Looking up a movie title
-* Executing a search based on the contents of a text file
+Do Something Better (DSB) aims to remove the obstacles that confront volunteers who have made the choice to lend their time, effort, and talent to opportunities in need.  Volunteer opportunity information is presented to the user for easy reference along with a map that provides a view of opportunities in the immediate area
 
 ## Motivation
-LIRI is a command line node app, which complies with the guidelines of:
-* Utilizing npm packages to access data
-* Establishing a package.json for npm package version info and install requirements
-* Establishing a `keys.js` file to save keys and tokens used with the various APIs.
-* Establishing a `.env` file to assist with keeping API key information private.
-* Reading / writing to a .txt file.
-* Deploying to GitHub pages.
+DSB is a React app that provides a user who has made the decision to volunteer their time:
+* Information on volunteer opportunities in their respective area (name, summary, date and time information) that would otherwise require research (possibly through multiple sources).
+* Geolocation data presented on a map showing distance from the user to the opportunity that would otherwise need to be researched via a mapping website or separate app.
+* The ability to sign up for a volunteer opportunity through the application.
 
 ## Project Usefulness
 This command line app is useful as a tool for quickly searching unique data based on interaction and input from a user.  It provides an example of how npm packages can be utilized to assist in API calls and user interaction.
