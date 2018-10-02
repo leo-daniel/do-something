@@ -13,12 +13,14 @@ DSB is a React app that provides a user who has made the decision to volunteer t
 This React app is useful as a 'one-stop' tool for quickly searching volunteer opportunities based on location data provided by the user (via agreement to providing their current location).  It provides an example of how React, Material-UI (front-end), passport (user authentication), and mongoose (database support) can be utilized to build a functional user experience.
 
 ## Getting Started
-Upon loading, LIRI presents the user with a checkbox dialogue of available actions to take.
+Upon loading, DSB presents the user with:
 
-1.  The user selects the action from the listing.
-2.  Once they've chosen their action, they may be asked for a follow up input based on their choice, and finally a request to confirm.
-3.  Results are displayed in the command line, and the user can scroll through the results.
-4.  The user can also open the log file, `log.txt`, to view a running log of the results of their choices.
+1.  The option to login via the 'User Login' dialogue box provided on the landing page.
+2.  If the user has not yet established a login, they can select the 'Sign Up' button located in the top right portion of the page.
+3.  The 'Sign Up' button takes the user to the 'User Registration' page where the user can provide their information to establish a logon and password.  When complete, the user selects the 'Submit' button.
+4.  Once the user has established their logon for the site, they can proceed to the 'Events' page where they will be asked to agree to provide their current location.
+5.  Based on the user's current location, volunteer opportunities are presented in text form as a scrollable listing, as well as in map form to get an idea of the distance between their location and the opportunity.
+6.  Once the user has decided on an oppotunity that they would like to volunteer for, they can select the 'Learn More' button to navigate to the event's site and sign up to participate.
 
 ## APIs / Libraries / Technology used
 In order to provide the user with this information, the following APIs, libraries, and technology are used:
@@ -38,4 +40,4 @@ In order to provide the user with this information, the following APIs, librarie
 * Constructors
 
 ## Credits
-LIRI was created by Scott Johnson.
+LIRI was created by Greg Bremble, Mick Burgess, Leo Daniel, Scott Johnson, and Rich Merino.
