@@ -8,4 +8,4 @@ export default props =>
         <Navbar />
         <Signup />
         <PageFooter />
-    </div>
+    </div>ƒ

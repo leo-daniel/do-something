@@ -2,8 +2,8 @@
 // that will prob need to have the old create method removed
 
 const router = require('express').Router();
-const authController = require('../../controllers/authController');
 const passport = require('passport');
+const authController = require('../../controllers/authController');
 
 // ==========================
 
@@ -58,7 +58,7 @@ router.route('/login').post(
       username: req.user.username,
     };
     res.send(userInfo);
-  }
+  },
 );
 // TODO: Not sure if need flash messaging or client-side handling
 // Logging in & authentication with passport
@@ -78,7 +78,7 @@ router.route('/login/external').post(
     };
     res.cookie('doSomethingID', req.user._id);
     res.send(userInfo);
-  }
+  },
 );
 // ==========================
 

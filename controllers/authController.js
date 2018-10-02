@@ -10,22 +10,22 @@ const passport = require('../config/passport');
 // ==================================
 // find all users
 module.exports = {
-  findAll: function(req, res) {
+  findAll(req, res) {
     db.User.find(req.query)
       .sort({ userCreated: -1 })
       .then(dbModel => res.json(dbModel))
-      // TODO: Add client-side error reporting
+    // TODO: Add client-side error reporting
       .catch(err => res.status(422).json(err));
   },
-  findById: function(req, res) {
+  findById(req, res) {
     db.User.findById(req.params.id)
       .then(dbModel => res.json(dbModel))
-      // TODO: Add client-side error reporting
+    // TODO: Add client-side error reporting
       .catch(err => res.status(422).json(err));
   },
 
   // user status is checked for setting the App.js state
-  status: function(req, res) {
+  status(req, res) {
     // create id and status variables
     let id;
     let status;
@@ -48,7 +48,7 @@ module.exports = {
     // TODO: Add client-side flash-messaging & redirect if not-authenticated
     res.json(statusObj);
   },
-  cookie: function(req, res) {
+  cookie(req, res) {
     // check if req.user exists and store the userId
     if (req.user) {
       // set cookie
@@ -60,7 +60,7 @@ module.exports = {
     } else {
       res.json({
         // TODO: Client-side flash messaging & redirect
-        error: `Sorry, something went wrong!`,
+        error: 'Sorry, something went wrong!',
       });
     }
   },
@@ -71,18 +71,18 @@ module.exports = {
   // ==================================
 
   // user logout process
-  logout: function(req, res) {
+  logout(req, res) {
     // TODO: Client-side logging out in process
     console.log('### Log out intiated ###');
     if (req.user) {
       // let userId = req.user._id;
       req.logout();
-      req.session.destry(function(err) {
+      req.session.destry((err) => {
         if (!err) {
           res
             .status(200)
             .clearCookie('connect.sid', { path: '/' })
-            // TODO: Log out success
+          // TODO: Log out success
             .json({ status: 'Success' });
         } else {
           res.send({ message: 'no session to destroy' });

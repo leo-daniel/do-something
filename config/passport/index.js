@@ -1,9 +1,9 @@
-const login = require("./login");
-const signup = require("./signup");
-const User = require("../../models/user");
+const login = require('./login');
+const signup = require('./signup');
+const User = require('../../models/user');
 
 // Passport Export
-module.exports = function(passport) {
+module.exports = function (passport) {
   passport.serializeUser((user, done) => {
     console.log(user);
     done(null, user._id);

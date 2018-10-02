@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+
 const Schema = mongoose.Schema;
 
 const userSchema = new Schema({
@@ -44,13 +45,12 @@ const userSchema = new Schema({
     type: String,
     required: false,
     validate: {
-      validator: function(v) {
+      validator(v) {
         const reg = /\d{3}-\d{3}-\d{4}/;
         if (v === '') {
           return true;
-        } else {
-          return reg.test(v);
         }
+        return reg.test(v);
       },
       message: props => `${props.value} is not a valid phone number!`,
     },

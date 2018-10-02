@@ -1,9 +1,9 @@
-const bCrypt = require("bcrypt-nodejs");
-const LocalStrategy = require("passport-local").Strategy;
-const User = require("../../models/user");
+const bCrypt = require('bcrypt-nodejs');
+const LocalStrategy = require('passport-local').Strategy;
+const User = require('../../models/user');
 
-module.exports = function(passport) {
-  const isValidPassword = function(user, password) {
+module.exports = function (passport) {
+  const isValidPassword = function (user, password) {
     return bCrypt.compareSync(password, user.password);
   };
 
@@ -17,7 +17,7 @@ module.exports = function(passport) {
         passReqToCallback: true,
       },
       (req, username, password, done) => {
-        User.findOne({ username: username }, (err, user) => {
+        User.findOne({ username }, (err, user) => {
           if (err) return done(err);
           if (!user) {
             // TODO: Client-side message
@@ -31,7 +31,7 @@ module.exports = function(passport) {
           }
           return done(null, user);
         });
-      }
-    )
+      },
+    ),
   );
 };

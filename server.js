@@ -1,13 +1,13 @@
-const express = require("express");
-const bodyParser = require("body-parser");
-const session = require("express-session");
-const passport = require("passport");
-const mongoStore = require("connect-mongo")(session);
-const dbConnection = require("./database");
-const routes = require("./routes");
-const cors = require("cors");
-const path = require("path");
-const flash = require("connect-flash")
+const express = require('express');
+const bodyParser = require('body-parser');
+const session = require('express-session');
+const passport = require('passport');
+const mongoStore = require('connect-mongo')(session);
+const cors = require('cors');
+const path = require('path');
+const flash = require('connect-flash');
+const routes = require('./routes');
+const dbConnection = require('./database');
 
 const app = express();
 // tell the server which port to listen on
@@ -29,16 +29,16 @@ app.use(
     store: new mongoStore({ mongooseConnection: dbConnection }),
     resave: true,
     saveUninitialized: true,
-  })
+  }),
 );
 app.use(flash());
 
-app.all('/', function (req, res) {
+app.all('/', (req, res) => {
   req.flash('test', 'it worked');
-  res.redirect('/test')
+  res.redirect('/test');
 });
 
-app.all('/test', function (req, res) {
+app.all('/test', (req, res) => {
   res.send(JSON.stringify(req.flash('test')));
 });
 
@@ -53,11 +53,11 @@ require('./config/passport')(passport);
 
 // Send every request to the React app
 // Define any API routes before this runs
-app.get('*', function(req, res) {
+app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, './client/build/index.html'));
 });
 
 // Start the API server
-app.listen(PORT, function() {
+app.listen(PORT, () => {
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
 });

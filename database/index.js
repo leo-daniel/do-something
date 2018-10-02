@@ -6,11 +6,11 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/dosomething');
 
 const dbConnect = mongoose.connection;
 
-dbConnect.on('error', function(err) {
+dbConnect.on('error', (err) => {
   console.log('Mongoose Error: ', err);
 });
 
-dbConnect.once('open', function() {
+dbConnect.once('open', () => {
   console.log('Mongoose connection successful.');
 });
 
