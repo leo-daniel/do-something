@@ -35,7 +35,7 @@ module.exports = {
   },
   register: function(req, res) {
     db.Event
-      .findOneAndUpdate({_id: req.body.eventId}, { $push: { registeredUsers: req.body.userId}}, {new: true})
+      .findByIdAndUpdate(req.params.id, { $push: { registeredUsers: req.body.userId}}, {new: true})
       .then(dbModel => { console.log("success")
         res.json(dbModel)})
       .catch(err => res.status(422).json(err));

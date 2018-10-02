@@ -7,7 +7,6 @@ mongoose.connect(
 );
 
 const eventSeed = [
-  [
     {
       "eventName": "Volunteer in Chicago, IL",
       "description": "This is an example event.",
@@ -13658,7 +13657,6 @@ const eventSeed = [
       "endTime": "6:00 AM",
       "registeredUsers": []
     }
-  ]
    ];
 
 db.Event

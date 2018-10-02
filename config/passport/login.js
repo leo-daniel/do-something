@@ -19,7 +19,9 @@ module.exports = function(passport) {
       },
       (req, username, password, done) => {
         User.findOne({ username: username }, (err, user) => {
-          if (err) return done(err);
+          if (err) {
+            return done(err);
+          }
           if (!user) {
             console.log(`User Not Found with username ${username}`);
             return done(null, false);

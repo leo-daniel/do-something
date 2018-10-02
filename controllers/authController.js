@@ -30,6 +30,8 @@ module.exports = {
     let id;
     let status;
 
+    console.log("This shit sucks", req.session);
+    
     // check if req.user exists and store the corresponding data
     if (!req.user) {
       id = "";

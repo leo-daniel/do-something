@@ -10,8 +10,8 @@ router.route("/:id")
   .get(eventsController.findById)
   .put(eventsController.update);
 
-// Endpoint for "api/events/:id/register"
-router.route('/:id/register')
+// Endpoint for "api/events/register/:id"
+router.route('/register/:id')
 .patch(eventsController.register);  
 
 // Endpoint for "api/events/:id/unregister"

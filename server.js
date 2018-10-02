@@ -25,8 +25,8 @@ app.use(
   session({
     secret: "gregnate",
     store: new mongoStore({ mongooseConnection: dbConnection }),
-    resave: true,
-    saveUninitialized: true
+    resave: false,
+    saveUninitialized: false
   })
 );
 

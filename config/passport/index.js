@@ -9,8 +9,8 @@ module.exports = function(passport) {
     done(null, user._id)
   });
 
-  passport.deserializeUser((id, done) => {
-    User.findById(id,
+  passport.deserializeUser((_id, done) => {
+    User.findById(_id,
       (err, user) => {
         console.log(user)
         done(err, user)
