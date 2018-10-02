@@ -22,22 +22,31 @@ Upon loading, DSB presents the user with:
 5.  Based on the user's current location, volunteer opportunities are presented in text form as a scrollable listing, as well as in map form to get an idea of the distance between their location and the opportunity.
 6.  Once the user has decided on an oppotunity that they would like to volunteer for, they can select the 'Learn More' button to navigate to the event's site and sign up to participate.
 
-## APIs / Libraries / Technology used
-In order to provide the user with this information, the following APIs, libraries, and technology are used:
+## Technology used
+In order to provide the user with this information, the following technology are used:
 
-### APIs
-* Twitter
-* Spotify
-* OMDB
+### Packages
+* axios
+* babel-eslint
+* bcrypt-nodejs
+* body-parser
+* concurrently
+* connect-mongo
+* cors
+* eslint
+* express
+* express-session
+* if-env
+* mongoose
+* nodemon
+* passport
+* passport-local
 
-### Libraries / Technology
-* npm - inquirer
-* npm - twitter
-* npm - node-spotify-api
-* npm - request
-* npm - fs
-* MomentJS
-* Constructors
+### Libraries / Database / Frameworks
+* React
+* MongoDB
+* Material-UI
+* PassportJS
 
 ## Credits
-LIRI was created by Greg Bremble, Mick Burgess, Leo Daniel, Scott Johnson, and Rich Merino.
+DSB was created by Greg Bremble, Mick Burgess, Leo Daniel, Scott Johnson, and Rich Merino.
