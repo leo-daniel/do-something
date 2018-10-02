@@ -10,7 +10,7 @@ DSB is a React app that provides a user who has made the decision to volunteer t
 * The ability to sign up for a volunteer opportunity through the application.
 
 ## Project Usefulness
-This command line app is useful as a tool for quickly searching unique data based on interaction and input from a user.  It provides an example of how npm packages can be utilized to assist in API calls and user interaction.
+This React app is useful as a 'one-stop' tool for quickly searching volunteer opportunities based on location data provided by the user (via agreement to providing their current location).  It provides an example of how React, Material-UI (front-end), passport (user authentication), and mongoose (database support) can be utilized to build a functional user experience.
 
 ## Getting Started
 Upon loading, LIRI presents the user with a checkbox dialogue of available actions to take.
