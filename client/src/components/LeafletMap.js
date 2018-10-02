@@ -78,7 +78,7 @@ export default class LeafletMap extends Component {
             {event.description} <br />
             at {event.street} <br />
             From {event.startTime} to {event.endTime} (local)<br />
-            Organizer: {}(Placeholder) <br />
+            Organizer: {}(Placeholder) <br /><br />
             <button><strong>Sign Up</strong></button> <span>  </span> <a href={url+event.latitude+","+event.longitude} target="_blank"><button><strong>Get Directions</strong></button></a> <span>  </span> <button><strong>Contact</strong></button>
           
           </div>
