@@ -11,38 +11,52 @@ import TextField from '@material-ui/core/TextField';
 import Paper from '@material-ui/core/Paper';
 
 const styles = theme => ({
-	media: {
-		// object-fit is not supported by IE11.
-		objectFit: 'cover',
-	},
-	submit: {
-		margin: 100,
-		padding: 250,
-	},
-	button: {
-		marginTop: theme.spacing.unit * 3,
-		marginLeft: theme.spacing.unit,
-	},
-	layout: {
-		width: 'auto',
-		marginLeft: theme.spacing.unit * 2,
-		marginRight: theme.spacing.unit * 2,
-		[theme.breakpoints.up(600 + theme.spacing.unit * 2 * 2)]: {
-			width: 600,
-			marginLeft: 'auto',
-			marginRight: 'auto',
-		},
-	},
-	paper: {
-		marginTop: theme.spacing.unit * 3,
-		marginBottom: theme.spacing.unit * 3,
-		padding: theme.spacing.unit * 2,
-		[theme.breakpoints.up(600 + theme.spacing.unit * 3 * 2)]: {
-			marginTop: theme.spacing.unit * 6,
-			marginBottom: theme.spacing.unit * 6,
-			padding: theme.spacing.unit * 3,
-		},
-	},
+  media: {
+    // ⚠️ object-fit is not supported by IE11.
+    objectFit: "cover"
+  },
+  submit: {
+    margin: 100,
+    padding: 250
+  },
+  button: {
+    marginTop: theme.spacing.unit * 3,
+    marginLeft: theme.spacing.unit
+  },
+  layout: {
+    width: "auto",
+    marginLeft: theme.spacing.unit * 2,
+    marginRight: theme.spacing.unit * 2,
+    [theme.breakpoints.up(600 + theme.spacing.unit * 2 * 2)]: {
+      width: 1100,
+      marginLeft: "auto",
+      marginRight: "auto"
+    }
+  },
+  paper: {
+    marginTop: theme.spacing.unit * 3,
+    marginBottom: theme.spacing.unit * 3,
+    padding: theme.spacing.unit * 2,
+    [theme.breakpoints.up(600 + theme.spacing.unit * 3 * 2)]: {
+      marginTop: theme.spacing.unit * 6,
+      marginBottom: theme.spacing.unit * 6,
+      padding: theme.spacing.unit * 3
+    }
+  },
+  paperAbout: {
+    marginTop: theme.spacing.unit * 3,
+    marginBottom: theme.spacing.unit * 3,
+    padding: theme.spacing.unit * 2,
+    [theme.breakpoints.up(600 + theme.spacing.unit * 3 * 2)]: {
+      marginTop: theme.spacing.unit * 6,
+      marginBottom: theme.spacing.unit * 6,
+      padding: theme.spacing.unit * 3
+    },
+    backgroundColor: theme.palette.grey[200]
+  },
+  mainGrid: {
+    marginTop: theme.spacing.unit * 3
+  }
 });
 
 class Login extends Component {
@@ -73,68 +87,88 @@ class Login extends Component {
 		}
 	};
 
-	render() {
-		const { classes } = this.props;
-		if (this.state.redirectTo) {
-			return <Redirect to={this.state.redirectTo} />;
-		} else {
-			return (
-				<main className={classes.layout}>
-					<Paper className={classes.paper}>
-						<form className={classes.container} noValidate autoComplete="off">
-							<Typography variant="title" gutterBottom>
-								User Login
-							</Typography>
-							<Grid container justify="center" spacing={16}>
-								<Grid item xs={12}>
-									<TextField
-										id="outlined-email-input"
-										label="Email"
-										className={classes.textField}
-										type="email"
-										name="username"
-										autoComplete="email"
-										margin="normal"
-										variant="outlined"
-										fullWidth
-										required
-										value={this.state.username}
-										onChange={this.handleInputChange}
-									/>
-								</Grid>
-								<Grid item xs={12}>
-									<TextField
-										id="outlined-password-input"
-										label="Password"
-										className={classes.textField}
-										type="password"
-										name="password"
-										autoComplete="current-password"
-										margin="normal"
-										variant="outlined"
-										fullWidth
-										required
-										value={this.state.password}
-										onChange={this.handleInputChange}
-									/>
-								</Grid>
-								<Grid item xs={12} sm={12}>
-									<Button
-										variant="contained"
-										color="primary"
-										className={classes.button}
-										disabled={!(this.state.username && this.state.password)}
-										onClick={this.handleFormSubmit}>
-										Sign in
-									</Button>
-								</Grid>
-							</Grid>
-						</form>
-					</Paper>
-				</main>
-			);
-		}
-	}
+  render() {
+    const { classes } = this.props;
+    if (this.state.redirectTo) {
+      return <Redirect to={this.state.redirectTo} />;
+    } else {
+      return (
+        <main className={classes.layout}>
+          <Grid container spacing={40} className={classes.mainGrid}>
+            <Grid item xs={12} md={6}>
+              <Paper className={classes.paperAbout}>
+                <Typography variant="display1" gutterBottom>
+                  Do Something Better removes obstacles between volunteers and opportunities in need.
+                </Typography>
+                <Typography variant="title" gutterBottom>
+                  Login with your email and password or hit the 'Sign Up' button located at the top right
+                  of the page to get started.
+                </Typography>
+              </Paper>
+            </Grid>
+            <Grid item xs={12} md={6}>
+              <Paper className={classes.paper}>
+                <form
+                  className={classes.container}
+                  noValidate
+                  autoComplete="off"
+                >
+                  <Typography variant="display1" gutterBottom>
+                    User Login
+                  </Typography>
+                  <Grid container justify="center" spacing={16}>
+                    <Grid item xs={12}>
+                      <TextField
+                        id="outlined-email-input"
+                        label="Email"
+                        className={classes.textField}
+                        type="email"
+                        name="username"
+                        autoComplete="email"
+                        margin="normal"
+                        variant="outlined"
+                        fullWidth
+                        required
+                        value={this.state.username}
+                        onChange={this.handleInputChange}
+                      />
+                    </Grid>
+                    <Grid item xs={12}>
+                      <TextField
+                        id="outlined-password-input"
+                        label="Password"
+                        className={classes.textField}
+                        type="password"
+                        name="password"
+                        autoComplete="current-password"
+                        margin="normal"
+                        variant="outlined"
+                        fullWidth
+                        required
+                        value={this.state.password}
+                        onChange={this.handleInputChange}
+                      />
+                    </Grid>
+                    <Grid item xs={12} sm={12}>
+                      <Button
+                        variant="contained"
+                        color="primary"
+                        className={classes.button}
+                        disabled={!(this.state.username && this.state.password)}
+                        onClick={this.handleFormSubmit}
+                      >
+                        Sign in
+                      </Button>
+                    </Grid>
+                  </Grid>
+                </form>
+              </Paper>
+            </Grid>
+          </Grid>
+        </main>
+      );
+    }
+  }
 }
 
 Login.propTypes = {
