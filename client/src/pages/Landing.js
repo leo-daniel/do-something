@@ -1,70 +1,70 @@
-import React, { Component } from "react";
-import { Redirect } from "react-router-dom";
-import { withStyles } from "@material-ui/core/styles";
-import API from "../utils/API";
-import Hero from "../components/Hero/Hero";
-import Login from "../components/Login";
-import Navbar from "../components/Navbar";
-import PageFooter from "../components/PageFooter";
+import React, { Component } from 'react';
+import { Redirect } from 'react-router-dom';
+import { withStyles } from '@material-ui/core/styles';
+import API from '../utils/API';
+import Hero from '../components/Hero/Hero';
+import Login from '../components/Login';
+import Navbar from '../components/Navbar';
+import PageFooter from '../components/PageFooter';
 
 const styles = theme => ({
-  layout: {
-    width: "auto",
-    marginLeft: theme.spacing.unit * 2,
-    marginRight: theme.spacing.unit * 2,
-    [theme.breakpoints.up(600 + theme.spacing.unit * 2 * 2)]: {
-      width: 600,
-      marginLeft: "auto",
-      marginRight: "auto"
-    }
-  },
-  paper: {
-    marginTop: theme.spacing.unit * 3,
-    marginBottom: theme.spacing.unit * 3,
-    padding: theme.spacing.unit * 2,
-    [theme.breakpoints.up(600 + theme.spacing.unit * 3 * 2)]: {
-      marginTop: theme.spacing.unit * 6,
-      marginBottom: theme.spacing.unit * 6,
-      padding: theme.spacing.unit * 3
-    }
-  }
+	layout: {
+		width: 'auto',
+		marginLeft: theme.spacing.unit * 2,
+		marginRight: theme.spacing.unit * 2,
+		[theme.breakpoints.up(600 + theme.spacing.unit * 2 * 2)]: {
+			width: 600,
+			marginLeft: 'auto',
+			marginRight: 'auto',
+		},
+	},
+	paper: {
+		marginTop: theme.spacing.unit * 3,
+		marginBottom: theme.spacing.unit * 3,
+		padding: theme.spacing.unit * 2,
+		[theme.breakpoints.up(600 + theme.spacing.unit * 3 * 2)]: {
+			marginTop: theme.spacing.unit * 6,
+			marginBottom: theme.spacing.unit * 6,
+			padding: theme.spacing.unit * 3,
+		},
+	},
 });
 
 class Landing extends Component {
-  state = {
-    loggedIn: null,
-    userId: null
-  };
+	state = {
+		loggedIn: null,
+		userId: null,
+	};
 
-  getUser = () => {
-    API.getUserStatus()
-      .then(res => {
-        console.log(res);
-        this.setState({
-          loggedIn: res.data.loggedIn,
-          userId: res.data.userId
-        });
-      })
-      .catch(err => console.log(err));
-  };
+	getUser = () => {
+		API.getUserStatus()
+			.then(res => {
+				console.log(res);
+				this.setState({
+					loggedIn: res.data.loggedIn,
+					userId: res.data.userId,
+				});
+			})
+			.catch(err => console.log(err));
+	};
 
-  render() {
-    const { classes } = this.props;
+	render() {
+		const { classes } = this.props;
 
-    if (this.state.loggedIn) {
-      return <Redirect to="/map" />;
-    }
+		if (this.state.loggedIn) {
+			return <Redirect to="/map" />;
+		}
 
-    return (
-      <div>
-        {/* <Nav /> */}
-        <Navbar />
-        <Hero />
-        <Login />
-        <PageFooter />
-      </div>
-    );
-  }
+		return (
+			<div>
+				{/* <Nav /> */}
+				<Navbar />
+				<Hero />
+				<Login />
+				<PageFooter />
+			</div>
+		);
+	}
 }
 
 export default withStyles(styles)(Landing);
