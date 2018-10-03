@@ -28,7 +28,7 @@ const styles = theme => ({
     marginLeft: theme.spacing.unit * 2,
     marginRight: theme.spacing.unit * 2,
     [theme.breakpoints.up(600 + theme.spacing.unit * 2 * 2)]: {
-      width: 600,
+      width: 1100,
       marginLeft: "auto",
       marginRight: "auto"
     }
@@ -42,7 +42,22 @@ const styles = theme => ({
       marginBottom: theme.spacing.unit * 6,
       padding: theme.spacing.unit * 3
     }
-  }
+  },
+  paperAbout: {
+    marginTop: theme.spacing.unit * 3,
+    marginBottom: theme.spacing.unit * 3,
+    padding: theme.spacing.unit * 2,
+    [theme.breakpoints.up(600 + theme.spacing.unit * 3 * 2)]: {
+      marginTop: theme.spacing.unit * 6,
+      marginBottom: theme.spacing.unit * 6,
+      padding: theme.spacing.unit * 3
+    },
+    backgroundColor: theme.palette.grey[200]
+  },
+  mainGrid: {
+    marginTop: theme.spacing.unit * 3
+  },
+  aboutBox: {}
 });
 
 class Login extends Component {
@@ -80,58 +95,81 @@ class Login extends Component {
     } else {
       return (
         <main className={classes.layout}>
-          <Paper className={classes.paper}>
-            <form className={classes.container} noValidate autoComplete="off">
-              <Typography variant="title" gutterBottom>
-                User Login
-              </Typography>
-              <Grid container justify="center" spacing={16}>
-                <Grid item xs={12}>
-                  <TextField
-                    id="outlined-email-input"
-                    label="Email"
-                    className={classes.textField}
-                    type="email"
-                    name="username"
-                    autoComplete="email"
-                    margin="normal"
-                    variant="outlined"
-                    fullWidth
-                    required
-                    value={this.state.username}
-                    onChange={this.handleInputChange}
-                  />
-                </Grid>
-                <Grid item xs={12}>
-                  <TextField
-                    id="outlined-password-input"
-                    label="Password"
-                    className={classes.textField}
-                    type="password"
-                    name="password"
-                    autoComplete="current-password"
-                    margin="normal"
-                    variant="outlined"
-                    fullWidth
-                    required
-                    value={this.state.password}
-                    onChange={this.handleInputChange}
-                  />
-                </Grid>
-                <Grid item xs={12} sm={12}>
-                  <Button
-                    variant="contained"
-                    color="primary"
-                    className={classes.button}
-                    disabled={!(this.state.username && this.state.password)}
-                    onClick={this.handleFormSubmit}
-                  >
-                    Sign in
-                  </Button>
-                </Grid>
-              </Grid>
-            </form>
-          </Paper>
+          <Grid container spacing={40} className={classes.mainGrid}>
+            <Grid item xs={12} md={6}>
+              <Paper className={classes.paperAbout}>
+                <Typography variant="display3" gutterBottom>
+                  Welcome
+                </Typography>
+                <Typography variant="display1" gutterBottom>
+                  Do Something Better removes the obstacles between volunteers and opportunities in need.
+                </Typography>
+                <Typography variant="title">
+                  Enter your email and password here to login. If you're not yet
+                  a user, select the 'Sign Up' button located at the top right
+                  portion of the page.
+                </Typography>
+              </Paper>
+            </Grid>
+            <Grid item xs={12} md={6}>
+              <Paper className={classes.paper}>
+                <form
+                  className={classes.container}
+                  noValidate
+                  autoComplete="off"
+                >
+                  <Typography variant="display3" gutterBottom>
+                    User Login
+                  </Typography>
+                  <Grid container justify="center" spacing={16}>
+                    <Grid item xs={12}>
+                      <TextField
+                        id="outlined-email-input"
+                        label="Email"
+                        className={classes.textField}
+                        type="email"
+                        name="username"
+                        autoComplete="email"
+                        margin="normal"
+                        variant="outlined"
+                        fullWidth
+                        required
+                        value={this.state.username}
+                        onChange={this.handleInputChange}
+                      />
+                    </Grid>
+                    <Grid item xs={12}>
+                      <TextField
+                        id="outlined-password-input"
+                        label="Password"
+                        className={classes.textField}
+                        type="password"
+                        name="password"
+                        autoComplete="current-password"
+                        margin="normal"
+                        variant="outlined"
+                        fullWidth
+                        required
+                        value={this.state.password}
+                        onChange={this.handleInputChange}
+                      />
+                    </Grid>
+                    <Grid item xs={12} sm={12}>
+                      <Button
+                        variant="contained"
+                        color="primary"
+                        className={classes.button}
+                        disabled={!(this.state.username && this.state.password)}
+                        onClick={this.handleFormSubmit}
+                      >
+                        Sign in
+                      </Button>
+                    </Grid>
+                  </Grid>
+                </form>
+              </Paper>
+            </Grid>
+          </Grid>
         </main>
       );
     }
