@@ -50,7 +50,8 @@ function PageFooter(props) {
 					</Typography>
 					<Typography variant="subheading" align="center" color="textSecondary" component="p">
 						&copy; 2018 - <a href="https://github.com/gbremble">Bremble</a> |{' '}
-						<a href="https://github.com/mickburgess">Burgess</a> | <a href="url">Daniel</a> |{' '}
+						<a href="https://github.com/mickburgess">Burgess</a> |{' '}
+						<a href="https://github.com/leo-daniel">Daniel</a> |{' '}
 						<a href="https://github.com/rscottjohnson">Johnson</a> |{' '}
 						<a href="https://github.com/merinogeospatial">Merino</a>
 					</Typography>
