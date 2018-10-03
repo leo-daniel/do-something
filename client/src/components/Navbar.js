@@ -55,7 +55,7 @@ function Navbar(props) {
 						noWrap
 						className={classes.toolbarTitle}>
 						<a href={'/'} className={classes.home}>
-							<img src={logo} height="50%" width ="50%" />
+							<img src={logo} height="60%" width ="60%" />
 						</a>
 					</Typography>
 					{/* <IconButton> */}
