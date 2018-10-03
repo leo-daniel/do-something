@@ -16,9 +16,9 @@ class App extends Component {
 		userId: null,
 	};
 
-	componentDidMount = () => {
-		// this.getUser();
-	};
+  componentDidMount = () => {
+    this.getUser();
+  };
 
 	updateUser = userObject => {
 		console.log(userObject);
