@@ -56,8 +56,7 @@ const styles = theme => ({
   },
   mainGrid: {
     marginTop: theme.spacing.unit * 3
-  },
-  aboutBox: {}
+  }
 });
 
 class Login extends Component {
