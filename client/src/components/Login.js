@@ -102,12 +102,11 @@ class Login extends Component {
                   Welcome
                 </Typography>
                 <Typography variant="display1" gutterBottom>
-                  Do Something Better removes the obstacles between volunteers and opportunities in need.
+                  Do Something Better removes obstacles between volunteers and opportunities in need.
                 </Typography>
                 <Typography variant="title">
-                  Enter your email and password here to login. If you're not yet
-                  a user, select the 'Sign Up' button located at the top right
-                  portion of the page.
+                  Login with your email and password or hit the 'Sign Up' button located at the top right
+                  of the page to get started.
                 </Typography>
               </Paper>
             </Grid>
