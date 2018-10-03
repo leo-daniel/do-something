@@ -98,13 +98,10 @@ class Login extends Component {
           <Grid container spacing={40} className={classes.mainGrid}>
             <Grid item xs={12} md={6}>
               <Paper className={classes.paperAbout}>
-                <Typography variant="display3" gutterBottom>
-                  Welcome
-                </Typography>
                 <Typography variant="display1" gutterBottom>
                   Do Something Better removes obstacles between volunteers and opportunities in need.
                 </Typography>
-                <Typography variant="title">
+                <Typography variant="title" gutterBottom>
                   Login with your email and password or hit the 'Sign Up' button located at the top right
                   of the page to get started.
                 </Typography>
@@ -117,7 +114,7 @@ class Login extends Component {
                   noValidate
                   autoComplete="off"
                 >
-                  <Typography variant="display3" gutterBottom>
+                  <Typography variant="display1" gutterBottom>
                     User Login
                   </Typography>
                   <Grid container justify="center" spacing={16}>
