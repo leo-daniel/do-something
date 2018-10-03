@@ -18,7 +18,7 @@ router.route('/signup').post(passport.authenticate('signup'), (req, res) => {
 });
 
 // Endpoints for 'api/users/:id' aka Get User ID
-router.route('/:id').get(authController.findById);
+// router.route('/:id').get(authController.findById);
 
 // Endpoints for  '/api/users/login' aka Sign-In
 router.route('/login').post(
@@ -64,7 +64,7 @@ router.route('/logout').get(authController.logout);
 router.route('/status').get(authController.status);
 
 // Endpoint for UserID -- '/api/users/:id'
-router.route('/users/:id').get(authController.findById);
+// router.route('/users/:id').get(authController.findById);
 
 // Endpoint for Session Cookie -- '/api/users/cookie'
 router.route('/cookie').get(authController.cookie);
