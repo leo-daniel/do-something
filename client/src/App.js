@@ -1,71 +1,59 @@
-import React, { Component } from "react";
-import "./App.css";
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  Redirect
-} from "react-router-dom";
-import Registration from "./pages/Registration";
-import Profile from "./pages/Profile";
-import NoMatch from "./pages/NoMatch";
+import React, { Component } from 'react';
+import './App.css';
+import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
+import Registration from './pages/Registration';
+import Profile from './pages/Profile';
+import NoMatch from './pages/NoMatch';
 // To access map for now use localhost:3000/map
-import Map from "./pages/Map";
-import API from "./utils/API";
-import Landing from "./pages/Landing";
-import Events from "./pages/Events";
+import Map from './pages/Map';
+import API from './utils/API';
+import Landing from './pages/Landing';
+import Events from './pages/Events';
 
 class App extends Component {
-  state = {
-    loggedIn: null,
-    userId: null
-  };
+	state = {
+		loggedIn: null,
+		userId: null,
+	};
 
   componentDidMount = () => {
     this.getUser();
   };
 
-  updateUser = userObject => {
-    console.log(userObject);
-    this.setState(userObject);
-  };
+	updateUser = userObject => {
+		console.log(userObject);
+		this.setState(userObject);
+	};
 
-  getUser = () => {
-    API.getUserStatus()
-      .then(res => {
-        console.log(res);
-        this.setState({
-          loggedIn: res.data.loggedIn,
-          userId: res.data.userId
-        });
-      })
-      .catch(err => console.log(err));
-  };
+	getUser = () => {
+		API.getUserStatus()
+			.then(res => {
+				console.log(res);
+				this.setState({
+					loggedIn: res.data.loggedIn,
+					userId: res.data.userId,
+				});
+			})
+			.catch(err => console.log(err));
+	};
 
-  render() {
-    return (
-      <Router>
-        <div>
-          <Switch>
-            <Route
-              exact
-              path="/"
-              render={() => <Landing updateUser={this.updateUser} />}
-            />
-            <Route
-              exact
-              path="/signup"
-              render={() => <Registration updateUser={this.updateUser} />}
-            />
-            <Route exact path="/user/:id" component={Profile} />
-            {/* Route to test map */}
-            <Route exact path="/map" component={Map} />
-            <Route exact path="/events" component={Events} />
-            <Route component={NoMatch} />
-          </Switch>
-        </div>
-      </Router>
-    );
-  }
+	render() {
+		return (
+			<Router>
+				<div>
+					<Switch>
+						<Route exact path="/" render={() => <Landing updateUser={this.updateUser} />} />
+						<Route exact path="/signup" render={() => <Registration updateUser={this.updateUser} />} />
+						<Route exact path="/user/:id" component={Profile} />
+						{/* TODO: Route to test map */}
+						<Route exact path="/map" component={Map} />
+						<Route exact path="/events" component={Events} />
+						// TODO: Not sure if this needs an exact path?
+						<Route component={NoMatch} />
+					</Switch>
+				</div>
+			</Router>
+		);
+	}
 }
 export default App;
