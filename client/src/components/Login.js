@@ -102,10 +102,10 @@ class Login extends Component {
                 </Typography>
                 <Typography variant="headline" color="inherit" paragraph>
                   Removing obstacles between volunteers and opportunities in
-                  need
+                  need.
                 </Typography>
                 <Typography variant="subheading" color="inherit">
-                  Login or hit the 'Sign Up' button to get started
+                  Login or hit the 'Sign Up' button to get started.
                 </Typography>
               </Paper>
             </Grid>
