@@ -1,13 +1,12 @@
 import React from 'react';
-import LeafletMap from '../components/LeafletMap';
 import Navbar from '../components/Navbar';
-import PageFooter from '../components/PageFooter';
+import LeafletMap from '../components/LeafletMap';
+import EventFeed from '../components/EventFeed';
 
 export default props => (
 	<div>
-		{/* <Navbar /> */}
 		<Navbar />
 		<LeafletMap />
-		<PageFooter />
+		<EventFeed />
 	</div>
 );

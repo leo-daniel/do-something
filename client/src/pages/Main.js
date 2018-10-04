@@ -4,8 +4,9 @@ import Navbar from '../components/Navbar';
 import Login from './Landing';
 import Landing from './Landing';
 
-export default props =>
-    <div>
-        <Navbar />
-        <Landing />
-    </div>
+export default props => (
+	<div>
+		<Navbar />
+		<Landing />
+	</div>
+);

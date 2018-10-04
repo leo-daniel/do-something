@@ -1,4 +1,4 @@
-import axios from "axios";
+import axios from 'axios';
 
 export default {
   // Create a new user
@@ -30,9 +30,9 @@ export default {
     return axios.get("/api/users");
   },
   // Gets the user with the given id
-  getUser: function (id) {
-    return axios.get("/api/users" + id);
-  },
+  // getUser: function (id) {
+  //   // return axios.get("/api/users" + id);
+  // },
   setCookie: function() {
     return axios.get("/api/users/cookie")
   },
