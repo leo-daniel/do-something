@@ -81,7 +81,7 @@ class Login extends Component {
         password: this.state.password
       })
         .then(res => {
-          this.setState({ redirectTo: "/map" });
+          this.setState({ redirectTo: "/events" });
         })
         .catch(err => console.log(err));
     }
