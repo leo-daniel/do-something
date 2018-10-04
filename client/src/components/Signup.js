@@ -80,7 +80,7 @@ class Registered extends Component {
 				phoneNumber: this.state.phone,
 			})
 				.then(res => {
-					this.setState({ redirectTo: '/map' });
+					this.setState({ redirectTo: '/events' });
 				})
 				.catch(err => console.log(err));
 		}

@@ -52,7 +52,7 @@ class Landing extends Component {
 		const { classes } = this.props;
 
 		if (this.state.loggedIn) {
-			return <Redirect to="/map" />;
+			return <Redirect to="/events" />;
 		}
 
 		return (
