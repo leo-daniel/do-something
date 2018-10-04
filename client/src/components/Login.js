@@ -105,7 +105,7 @@ class Login extends Component {
                   need.
                 </Typography>
                 <Typography variant="subheading" color="inherit">
-                  Login or hit the 'Sign Up' button to get started.
+                  Login or hit the 'Sign Up' button at the top right of the page to get started.
                 </Typography>
               </Paper>
             </Grid>
