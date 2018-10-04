@@ -41,7 +41,7 @@ function PageFooter(props) {
 			<div className={classes.layout}>
 				<footer className={classes.footer}>
 					<Typography variant="title" align="center">
-						Do Something
+						Do Something Better
 					</Typography>
 					<Typography align="center">
 						<Email className={classes.icon} />
