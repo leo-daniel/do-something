@@ -1,14 +1,14 @@
 // stateful login component
-import React, { Component } from 'react';
-import { Redirect } from 'react-router-dom';
-import API from '../utils/API';
-import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
-import { withStyles } from '@material-ui/core/styles';
-import PropTypes from 'prop-types';
-import Grid from '@material-ui/core/Grid';
-import TextField from '@material-ui/core/TextField';
-import Paper from '@material-ui/core/Paper';
+import React, { Component } from "react";
+import { Redirect } from "react-router-dom";
+import API from "../utils/API";
+import Typography from "@material-ui/core/Typography";
+import Button from "@material-ui/core/Button";
+import { withStyles } from "@material-ui/core/styles";
+import PropTypes from "prop-types";
+import Grid from "@material-ui/core/Grid";
+import TextField from "@material-ui/core/TextField";
+import Paper from "@material-ui/core/Paper";
 
 const styles = theme => ({
   media: {
@@ -60,32 +60,32 @@ const styles = theme => ({
 });
 
 class Login extends Component {
-	state = {
-		username: '',
-		password: '',
-		redirectTo: null,
-	};
+  state = {
+    username: "",
+    password: "",
+    redirectTo: null
+  };
 
-	handleInputChange = event => {
-		const { name, value } = event.target;
-		this.setState({
-			[name]: value,
-		});
-	};
+  handleInputChange = event => {
+    const { name, value } = event.target;
+    this.setState({
+      [name]: value
+    });
+  };
 
-	handleFormSubmit = event => {
-		event.preventDefault();
-		if (this.state.username && this.state.password) {
-			API.loginUser({
-				username: this.state.username,
-				password: this.state.password,
-			})
-				.then(res => {
-					this.setState({ redirectTo: '/map' });
-				})
-				.catch(err => console.log(err));
-		}
-	};
+  handleFormSubmit = event => {
+    event.preventDefault();
+    if (this.state.username && this.state.password) {
+      API.loginUser({
+        username: this.state.username,
+        password: this.state.password
+      })
+        .then(res => {
+          this.setState({ redirectTo: "/map" });
+        })
+        .catch(err => console.log(err));
+    }
+  };
 
   render() {
     const { classes } = this.props;
@@ -97,12 +97,15 @@ class Login extends Component {
           <Grid container spacing={40} className={classes.mainGrid}>
             <Grid item xs={12} md={6}>
               <Paper className={classes.paperAbout}>
-                <Typography variant="display1" gutterBottom>
-                  Do Something Better removes obstacles between volunteers and opportunities in need.
+                <Typography variant="display2" color="inherit" gutterBottom>
+                  Do Something Better
                 </Typography>
-                <Typography variant="title" gutterBottom>
-                  Login with your email and password or hit the 'Sign Up' button located at the top right
-                  of the page to get started.
+                <Typography variant="headline" color="inherit" paragraph>
+                  Removing obstacles between volunteers and opportunities in
+                  need.
+                </Typography>
+                <Typography variant="subheading" color="inherit">
+                  Login or hit the 'Sign Up' button at the top right of the page to get started.
                 </Typography>
               </Paper>
             </Grid>
@@ -172,7 +175,7 @@ class Login extends Component {
 }
 
 Login.propTypes = {
-	classes: PropTypes.object.isRequired,
+  classes: PropTypes.object.isRequired
 };
 
 export default withStyles(styles)(Login);
