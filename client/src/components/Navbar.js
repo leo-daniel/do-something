@@ -34,7 +34,7 @@ const styles = theme => ({
 });
 
 // TODD: turn these into links to other routes/pages
-const sections = ['Resources', 'Get Involved', 'Opportunities', 'About', 'Blog'];
+const sections = [<a href="https://github.com/leo-daniel/do-something#do-something-better" style={{ textDecoration: 'none', color: '#000' }}>About</a>, <a href="https://github.com/leo-daniel/do-something#motivation" style={{ textDecoration: 'none', color: '#000' }}>Motivation</a>, <a href="https://github.com/leo-daniel/do-something#project-usefulness" style={{ textDecoration: 'none', color: '#000' }}>Usefulness</a>, <a href="https://github.com/leo-daniel/do-something#getting-started" style={{ textDecoration: 'none', color: '#000' }}>Get Started</a>, <a href="https://github.com/leo-daniel/do-something#technology-used" style={{ textDecoration: 'none', color: '#000' }}>Technology</a>];
 
 function Navbar(props) {
 	const { classes } = props;
