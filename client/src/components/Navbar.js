@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import { Button, CssBaseline, Toolbar, Typography } from '@material-ui/core';
-import logo from './logo.png'
+import logo from './dsb_full.png'
 
 // Items not currently being used
 // import IconButton from '@material-ui/core/IconButton';
@@ -55,7 +55,7 @@ function Navbar(props) {
 						noWrap
 						className={classes.toolbarTitle}>
 						<a href={'/'} className={classes.home}>
-							<img src={logo} height="60%" width ="60%" />
+							<img src={logo} width="25%" padding="500px" />
 						</a>
 					</Typography>
 					{/* <IconButton> */}
