@@ -44,7 +44,7 @@ function Navbar(props) {
 			<CssBaseline />
 			<div className={classes.layout}>
 				<Toolbar className={classes.toolbarMain}>
-					<Button variant="outlined" size="small" href="/">
+					<Button variant="outlined" size="small" href="https://github.com/leo-daniel/do-something#do-something-better">
 						FAQs
 					</Button>
 					<Typography
