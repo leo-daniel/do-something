@@ -43,8 +43,8 @@ const styles = theme => ({
       marginBottom: theme.spacing.unit * 6,
       padding: theme.spacing.unit * 3
     }
-	},
-	paperAbout: {
+  },
+  paperAbout: {
     marginTop: theme.spacing.unit * 3,
     marginBottom: theme.spacing.unit * 3,
     padding: theme.spacing.unit * 2,
@@ -113,147 +113,152 @@ class Registered extends Component {
                 <Typography variant="display2" color="inherit" gutterBottom>
                   Join up and Do Something Better
                 </Typography>
-								<Typography variant="headline" color="inherit" paragraph>
-                  Take the first step toward doing something better by signing up as a new user.
+                <Typography variant="headline" color="inherit" paragraph>
+                  Take the first step toward doing something better by signing
+                  up as a new user.
                 </Typography>
                 <Typography variant="subheading" color="inherit">
                   Once you've joined, you'll see opportunities in your area.
                 </Typography>
               </Paper>
             </Grid>
+            <Grid item xs={12} md={6}>
+              <Paper className={classes.paper}>
+                <form
+                  className={classes.container}
+                  noValidate
+                  autoComplete="off"
+                >
+                  <Typography variant="display1" gutterBottom>
+                    New User Signup
+                  </Typography>
+                  <Grid container justify="center" spacing={16}>
+                    <Grid item xs={12}>
+                      <TextField
+                        id="outlined-email-input"
+                        label="Email"
+                        className={classes.textField}
+                        type="email"
+                        name="username"
+                        autoComplete="email"
+                        margin="normal"
+                        variant="outlined"
+                        fullWidth
+                        required
+                        value={this.state.username}
+                        onChange={this.handleInputChange}
+                      />
+                    </Grid>
+                    <Grid item xs={12}>
+                      <TextField
+                        id="outlined-password-input"
+                        label="Password"
+                        className={classes.textField}
+                        type="password"
+                        name="password"
+                        autoComplete="current-password"
+                        margin="normal"
+                        variant="outlined"
+                        fullWidth
+                        required
+                        value={this.state.password}
+                        onChange={this.handleInputChange}
+                      />
+                    </Grid>
+                    <Grid item xs={12} sm={6}>
+                      <TextField
+                        id="outlined-fname"
+                        label="First Name"
+                        className={classes.textField}
+                        name="fname"
+                        value={this.state.fname}
+                        onChange={this.handleInputChange}
+                        margin="normal"
+                        variant="outlined"
+                        fullWidth
+                      />
+                    </Grid>
+                    <Grid item xs={12} sm={6}>
+                      <TextField
+                        id="outlined-lname"
+                        label="Last Name"
+                        className={classes.textField}
+                        name="lname"
+                        value={this.state.lname}
+                        onChange={this.handleInputChange}
+                        margin="normal"
+                        variant="outlined"
+                        fullWidth
+                      />
+                    </Grid>
+                    <Grid item xs={12} sm={12}>
+                      <TextField
+                        id="outlined-address"
+                        label="Street Address"
+                        className={classes.textField}
+                        name="address"
+                        value={this.state.address}
+                        onChange={this.handleInputChange}
+                        margin="normal"
+                        variant="outlined"
+                        fullWidth
+                      />
+                    </Grid>
+                    <Grid item xs={12} sm={8}>
+                      <TextField
+                        id="outlined-city"
+                        label="City"
+                        className={classes.textField}
+                        name="city"
+                        value={this.state.city}
+                        onChange={this.handleInputChange}
+                        margin="normal"
+                        variant="outlined"
+                        fullWidth
+                      />
+                    </Grid>
+                    <Grid item xs={12} sm={4}>
+                      <TextField
+                        id="outlined-state"
+                        label="State"
+                        className={classes.textField}
+                        name="state"
+                        value={this.state.state}
+                        onChange={this.handleInputChange}
+                        margin="normal"
+                        variant="outlined"
+                        fullWidth
+                      />
+                    </Grid>
+                    <Grid item xs={12} sm={12}>
+                      <TextField
+                        id="outlined-phone"
+                        label="Phone"
+                        className={classes.textField}
+                        name="phone"
+                        value={this.state.phone}
+                        onChange={this.handleInputChange}
+                        margin="normal"
+                        variant="outlined"
+                        fullWidth
+                      />
+                    </Grid>
+                    <Grid item xs={12} sm={12}>
+                      <Button
+                        variant="contained"
+                        color="primary"
+                        disabled={!(this.state.username && this.state.password)}
+                        onClick={this.handleFormSubmit}
+                        className={classes.button}
+                      >
+                        Submit
+                      </Button>
+                    </Grid>
+                  </Grid>
+                </form>
+              </Paper>
+            </Grid>
           </Grid>
-					<Grid item xs={12} md={6}>
-          <Paper className={classes.paper}>
-            <form className={classes.container} noValidate autoComplete="off">
-              <Typography variant="display1" gutterBottom>
-                New User Signup
-              </Typography>
-              <Grid container justify="center" spacing={16}>
-                <Grid item xs={12}>
-                  <TextField
-                    id="outlined-email-input"
-                    label="Email"
-                    className={classes.textField}
-                    type="email"
-                    name="username"
-                    autoComplete="email"
-                    margin="normal"
-                    variant="outlined"
-                    fullWidth
-                    required
-                    value={this.state.username}
-                    onChange={this.handleInputChange}
-                  />
-                </Grid>
-                <Grid item xs={12}>
-                  <TextField
-                    id="outlined-password-input"
-                    label="Password"
-                    className={classes.textField}
-                    type="password"
-                    name="password"
-                    autoComplete="current-password"
-                    margin="normal"
-                    variant="outlined"
-                    fullWidth
-                    required
-                    value={this.state.password}
-                    onChange={this.handleInputChange}
-                  />
-                </Grid>
-                <Grid item xs={12} sm={6}>
-                  <TextField
-                    id="outlined-fname"
-                    label="First Name"
-                    className={classes.textField}
-                    name="fname"
-                    value={this.state.fname}
-                    onChange={this.handleInputChange}
-                    margin="normal"
-                    variant="outlined"
-                    fullWidth
-                  />
-                </Grid>
-                <Grid item xs={12} sm={6}>
-                  <TextField
-                    id="outlined-lname"
-                    label="Last Name"
-                    className={classes.textField}
-                    name="lname"
-                    value={this.state.lname}
-                    onChange={this.handleInputChange}
-                    margin="normal"
-                    variant="outlined"
-                    fullWidth
-                  />
-                </Grid>
-                <Grid item xs={12} sm={12}>
-                  <TextField
-                    id="outlined-address"
-                    label="Street Address"
-                    className={classes.textField}
-                    name="address"
-                    value={this.state.address}
-                    onChange={this.handleInputChange}
-                    margin="normal"
-                    variant="outlined"
-                    fullWidth
-                  />
-                </Grid>
-                <Grid item xs={12} sm={8}>
-                  <TextField
-                    id="outlined-city"
-                    label="City"
-                    className={classes.textField}
-                    name="city"
-                    value={this.state.city}
-                    onChange={this.handleInputChange}
-                    margin="normal"
-                    variant="outlined"
-                    fullWidth
-                  />
-                </Grid>
-                <Grid item xs={12} sm={4}>
-                  <TextField
-                    id="outlined-state"
-                    label="State"
-                    className={classes.textField}
-                    name="state"
-                    value={this.state.state}
-                    onChange={this.handleInputChange}
-                    margin="normal"
-                    variant="outlined"
-                    fullWidth
-                  />
-                </Grid>
-                <Grid item xs={12} sm={12}>
-                  <TextField
-                    id="outlined-phone"
-                    label="Phone"
-                    className={classes.textField}
-                    name="phone"
-                    value={this.state.phone}
-                    onChange={this.handleInputChange}
-                    margin="normal"
-                    variant="outlined"
-                    fullWidth
-                  />
-                </Grid>
-                <Grid item xs={12} sm={12}>
-                  <Button
-                    variant="contained"
-                    color="primary"
-                    disabled={!(this.state.username && this.state.password)}
-                    onClick={this.handleFormSubmit}
-                    className={classes.button}
-                  >
-                    Submit
-                  </Button>
-                </Grid>
-              </Grid>
-            </form>
-          </Paper>
-					</Grid>
         </main>
       );
     }
