@@ -10,7 +10,14 @@ import Paper from "@material-ui/core/Paper";
 import API from "../utils/API";
 
 const styles = theme => ({
-  container: {
+  media: {
+		objectFit: "cover"
+	},
+	submit: {
+    margin: 100,
+    padding: 250
+  },
+	container: {
     display: "flex",
     flexWrap: "wrap"
   },
@@ -21,7 +28,7 @@ const styles = theme => ({
     marginBottom: 3
   },
   button: {
-    marginTop: theme.spacing.unit * 2,
+    marginTop: theme.spacing.unit * 3,
     marginLeft: theme.spacing.unit
   },
   layout: {
@@ -107,15 +114,15 @@ class Registered extends Component {
     } else {
       return (
         <main className={classes.layout}>
-          <Grid container spacting={40} className={classes.mainGrid}>
+          <Grid container spacing={40} className={classes.mainGrid}>
             <Grid item xs={12} md={6}>
               <Paper className={classes.paperAbout}>
                 <Typography variant="display2" color="inherit" gutterBottom>
-                  Join up and Do Something Better
+                  Join up
                 </Typography>
                 <Typography variant="headline" color="inherit" paragraph>
-                  Take the first step toward doing something better by signing
-                  up as a new user.
+                  Take the first step toward doing something 
+									better by signing up as a new user.
                 </Typography>
                 <Typography variant="subheading" color="inherit">
                   Once you've joined, you'll see opportunities in your area.
