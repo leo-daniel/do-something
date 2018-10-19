@@ -29,7 +29,7 @@ const styles = theme => ({
     marginLeft: theme.spacing.unit * 2,
     marginRight: theme.spacing.unit * 2,
     [theme.breakpoints.up(600 + theme.spacing.unit * 2 * 2)]: {
-      width: 600,
+      width: 1100,
       marginLeft: "auto",
       marginRight: "auto"
     }
