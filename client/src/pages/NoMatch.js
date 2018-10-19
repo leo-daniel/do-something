@@ -25,7 +25,7 @@ export default props => (
     <div style={containerStyle}>
     <img src={fourohfour} style={imageStyle} />
       <p>
-        404: We can’t find the page your’re looking for on this server.<br />
+        404: We can’t find the page you’re looking for on this server.<br />
         Try heading to the <a href="/">homepage</a>?
       </p>
     </div>
