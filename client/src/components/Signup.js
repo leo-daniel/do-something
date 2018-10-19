@@ -258,7 +258,7 @@ class Registered extends Component {
                         onClick={this.handleFormSubmit}
                         className={classes.button}
                       >
-                        Submit
+                        Signup
                       </Button>
                     </Grid>
                   </Grid>
