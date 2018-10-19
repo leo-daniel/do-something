@@ -160,7 +160,7 @@ class Login extends Component {
                         disabled={!(this.state.username && this.state.password)}
                         onClick={this.handleFormSubmit}
                       >
-                        Sign in
+                        Login
                       </Button>
                     </Grid>
                   </Grid>
