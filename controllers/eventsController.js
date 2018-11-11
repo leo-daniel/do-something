@@ -8,7 +8,7 @@ module.exports = {
       .catch(err => res.status(422).json(err));
   },
   findById(req, res) {
-    db.Event.findById(req.params.id)
+    db.Event.findOne({ _id: req.params.id })
       .then(dbModel => res.json(dbModel))
       .catch(err => res.status(422).json(err));
   },
@@ -19,6 +19,13 @@ module.exports = {
   },
   update(req, res) {
     db.Event.findOneAndUpdate({ _id: req.params.id }, req.body)
+      .then(dbModel => res.json(dbModel))
+      .catch(err => res.status(422).json(err));
+  },
+  register(req, res) {
+    db.Event.findOneAndUpdate({ _id: req.params.id },
+      { $push: { registeredUsers: req.body.registeredUsers } },
+      { new: true, upsert: true })
       .then(dbModel => res.json(dbModel))
       .catch(err => res.status(422).json(err));
   },
